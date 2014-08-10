@@ -1,0 +1,98 @@
+Como Instalar CUnit no Linux ou no Mac OS
+Em sistema Linux, você deve estar apto a instalar os pacotes libcunitl, libcunitl-doc e libcunitl-dev de seu repositório de pacote.
+No Mac OS ou no Linux, se os pacotes libcunitl* não estiverem disponíveis, é possível fazer download da origem de CUnit e criá-la, conforme descrito aqui.
+As instruções abaixo consideram que você fez download do arquivo CUnit-2.1-2-src.tar.bz2 no diretório /tmp. Se seu arquivo de download tiver um nome diferente, certifique-se de especificar seu arquivo de download de CUnit e o diretório real no qual você o salvou.
+Faça download da origem CUnit-2.1-2-src.tar.bz2 da página de arquivos de CUnit e salve no diretório temporário, com /tmp, por exemplo.
+Em uma janela do terminal, descompacte o arquivo CUnit-2.1-2-src.tar.bz2 como segue:
+
+$ cd /tmp
+$ bunzip2 CUnit-2.1-2-src.tar.bz2
+$ tar -xvf CUnit-2.1-2-src.tar
+Configure, crie e instale CUinit de /tmp, como segue:
+$ cd CUnit-2.1-2
+$ ./configure --prefix=/usr
+$ make
+$ sudo make install
+Quando 'make install' termina, o framework de teste CUnit está pronto para uso no IDE e você pode continuar a Criar o Projeto para o Tutorial.
+
+
+Como Instalar CUnit no Oracle Solaris 11
+Você deve criar CUnit com o sistema de build de GNU antes de usar os testes de CUnit. Nos sistemas Oracle Solaris 11, o sistema de build de GNU geralmente não é instalado por default. Você pode obter os componentes do sistema build de GNU do repositório de pacotes do Oracle Solaris 11 com os seguintes comandos:
+pkg install pkg://solaris/developer/build/gnu-make
+pkg install pkg://solaris/developer/build/make
+pkg install pkg://solaris/developer/gcc-45
+pkg install pkg://solaris/system/header
+pkg install pkg://solaris/developer/build/autoconf
+pkg install pkg://solaris/developer/build/automake-110
+As instruções abaixo consideram que você fez download do arquivo CUnit-2.1-2-src.tar.bz2 no diretório /tmp. Se seu arquivo de download tiver um nome diferente, certifique-se de especificar seu arquivo de download de CUnit e o diretório real no qual você o salvou.
+Faça download da origem CUnit-2.1-2-src.tar.bz2 da página de arquivos de CUnit e salve no diretório temporário, com /tmp, por exemplo.
+Em uma janela do terminal, descompacte o arquivo CUnit-2.1-2-src.tar.bz2 como segue:
+$ cd /tmp
+$ bunzip2 CUnit-2.1-2-src.tar.bz2
+$ tar -xvf CUnit-2.1-2-src.tar
+Configure, crie e instale CUinit de /tmp, como segue:
+$ cd CUnit-2.1-2
+$ ./configure --prefix=/usr
+$ make
+$ make install
+Quando 'make install' termina, o framework de teste CUnit está pronto para uso no IDE e você pode continuar a Criar o Projeto para o Tutorial.
+Como Instalar CUnit no Windows e no MinGW
+Estas instruções consideram que você fez download do arquivo CUnit-2.1-2-src.tar.bz2 para o diretório C:/distr. Se seu arquivo de download tiver um nome diferente, certifique-se de especificar seu arquivo de download de CUnit e o diretório real no qual você o salvou.
+Faça download da origem CUnit-2.1-2-src.tar.bz2 da página de arquivos de CUnit e salve no diretório temporário, como o C:/distr, por exemplo.
+Inicie a aplicação MinGW shell no Windows, escolhendo Iniciar > Todos os Programas > MinGW > MinGW Shell.
+Em uma janela do MinGW Shell, descompacte o arquivo CUnit-2.1-2-src.tar.bz2 como segue:
+$ cd c:/distr
+$ bunzip2.exe CUnit-2.1-2-src.tar.bz2
+$ tar xvf CUnit-2.1-2-src.tar
+$ cd ./CUnit-2.1-2
+Localize o caminho do Unix para MinGW usando o comando mount.
+$ mount
+Você verá uma saída semelhante à seguinte:
+C:\Users\username\AppData\Local\Temp on /tmp type user (binmode,noumount)
+C:\MinGW\msys\1.0 on /usr type user (binmode,noumount)
+C:\MinGW\msys\1.0 on / type user (binmode,noumount)
+C:\MinGW on /mingw type user (binmode)
+A última linha em negrito acima mostra que o caminho UNIX é /mingw. Seu sistema pode reportar algo diferente, então anote porque talvez você precise especificar o caminho no próximo comando.
+Configure o Makefile com o seguinte comando. 
+Se seu MinGW não estiver em /mingw, certifique-se de especificar a localização de Unix apropriada de seu MinGW com a opção --prefix=.
+$ ./configure --prefix=/mingw
+(lots of output about checking and configuring)
+
+...
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Crie a biblioteca para CUnit:
+$ make
+make all-recursive
+make[1]: Entering directory 'c/distr/CUnit-2.1-2'
+Making all in CUnit
+...
+(lots of other output)
+make[1]: Leaving directory 'c/distr/CUnit-2.1-2'
+$
+Instale a biblioteca CUnit em C:/MinGW/include/CUnit, C:/MinGW/share/CUnit e C:/MinGW/doc/CUnit executando make install:
+$ make install
+Making install in CUnit
+make[1]: Entering directory 'c/distr/CUnit-2.1-2/CUnit'
+Making install in Sources
+make[1]: Entering directory 'c/distr/CUnit-2.1-2/Cunit/Sources'
+...
+ (lots of other output)
+make[1]: Leaving directory 'c/distr/CUnit-2.1-2'
+$
+Se usar a atualização 21, 25 ou 40 de Java execute a seguinte solução em decorrência do problema 236867 para obter CUnit e este tuturial funcionar.
+
+Vá para Ferramentas > Opções > C/C++ > Ferramentas de Construção e selecione o conjunto de ferramentas MinGW.
+Altere a entrada do Comando Make para make.exe sem um caminho completo.
+Saia do IDE.
+No Windows 7 e superior, digite var na caixa de pesquisa do menu Iniciar para localizar rapidamente um link para Editar as variáveis do ambiente do sistema.
+Selecione a guia Avançado e clique em Variáveis de Ambiente.
+No painel Variáveis do Sistema da caixa de diálogo Variáveis do Ambiente, clique em Novo.
+Defina o Nome da Variável para MAKE e o Valor da Variável para make.exe.
+Clique em OK em cada caixa de diálogo para salvar a alteração.
+Inicie o IDE e continue na próxima seção.
+Quando 'make install' termina, seu CUnit está pronto para uso no IDE e você pode continuar a Criar o Projeto para o Tutorial.
+Como Instalar CUnit no Windows e no Cygwin
+No Cygwin você pode instalar o CUnit usando o instalador Cygwin padrão, setup-x86.exe ou setup-x86_64.exe, disponível em http://cygwin.com/install.html. O pacote CUnit está localizado na categoria "Libs" e você pode instalá-lo da mesma forma que instala os outros pacotes.
+Certifique-se de usar a versão correta. Use Cygwin e CUnit de 64 bits se estiver executando o NetBeans IDE de 64 bits.
+Se você ainda não instalou o Cygwin, consulte as informações gerais de instalação dele em Configurando o NetBeans IDE 7.4 para C/C++/Fortran. Você pode instalar CUnit, selecionando-o na categoria Libs no programa de instalação.
