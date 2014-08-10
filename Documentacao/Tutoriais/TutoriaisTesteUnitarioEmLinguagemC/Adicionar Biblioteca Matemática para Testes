@@ -1,0 +1,22 @@
+Caso você instalou a IDE NetBeans no Linux ou no windows, e quando vai compilar um pow(x,y) da vida e não está compilando, está dando erro, é porque infelizmente o NetBeans, por mais que você deu #include <math.h>, o programa não ativou a execução da mesma.
+
+Nota : Acredito que os devels desabilitaram isso para poupar alguns recursos que talvez fossem desnecessários durante a execução de outros recursos. Mas vai saber... Undecided
+
+ 
+
+Vamos direto ao assunto ! Laughing
+
+
+Na árvore de projetos, escolha o projeto que necessita da biblioteca math.h
+Clique com o botão oposto ao do seu padrão do mouse (direito), para canhotos (esquerdo).
+Na árvore de menu, vá em "Definir configuração". Vai abrir um pequeno menu com as opções "Debug, Release, Personalizar", escolha "Personalizar".
+Vai abrir uma nova janela.
+Na árvore de opções, vá em Construir, clique. Vão aparecer diversas opções. Vá em "Vinculador".
+Em "Vinculador", observe mais abaixo "Bibliotecas". Clique no quadrado de pontinhos ao fim da linha, algo desse tipo : [...]
+Vai abrir a janela "Debug - Bibliotecas". Observe os botões. Clique em "Adicionar biblioteca padrão".
+Vai abrir a janela "Selecionar Biblioteca Padrão". Selecione a biblioteca desejada, na caso é a "Matemática".
+Clique no botão "Ok", e nos outros "Ok"s das outras janelas.
+Pronto !
+Compile e cabum !!!
+
+Fonte: http://internetpensante.com/121-como-configurar-a-biblioteca-math-no-netbeans
