@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <CUnit/Basic.h>
 
-
 int init_suite(void) {
     return 0;
 }
@@ -12,18 +11,18 @@ int clean_suite(void) {
     return 0;
 }
 
-double calculoCoeficienteAngular(int quantidadeVelas);
+double calculoCoeficienteAngular();
 
 void testCalculoCoeficienteAngular() {
-    //double resultado = calculoCoeficienteAngular(377);
-    CU_ASSERT_DOUBLE_EQUAL(0.64, 0.64, 0.001);
+    double resultadoAngular = calculoCoeficienteAngular(377);
+    CU_ASSERT_DOUBLE_EQUAL(0.643907, resultadoAngular, 0.001);
 }
 
-double calculoCoeficienteLinear(int quantidadeVelas);
+double calculoCoeficienteLinear();
 
 void testCalculoCoeficienteLinear() {
-   //double resultado = calculoCoeficienteLinear(377);
-    CU_ASSERT_DOUBLE_EQUAL(0.99, 0.99, 0.001);
+    double resultadoLinear = calculoCoeficienteLinear(377);
+    CU_ASSERT_DOUBLE_EQUAL(0.995294, resultadoLinear, 0.001);
 }
 
 int main() {

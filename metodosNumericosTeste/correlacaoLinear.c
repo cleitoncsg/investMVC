@@ -17,11 +17,13 @@ char nomeRobo[50],nomeTipoGrafico[2];
 double metodoCorrelacao(int tempoCorrelacao);
 void detectaRoboETipoDeGrafico();
 
+
 int main(){
    metodoCorrelacao(21);
    printf("%f\n",metodoCorrelacao(21));
    return 0;	
 }
+
 
 double metodoCorrelacao(int tempoCorrelacao){
 
