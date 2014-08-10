@@ -1,5 +1,5 @@
 //+------------------------------------------------------------------+
-//|                                     Método de Mínimos Quadrados  |
+//|                                     Método de Correlacão Linear  |
 //|                 Copyright © 2014, Cleiton Gomes; Vanessa Barbosa |
 //|                                   http://www.softwarecsg.com.br  |
 //+------------------------------------------------------------------+
