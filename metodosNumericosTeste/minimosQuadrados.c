@@ -8,11 +8,25 @@
 #include <stdlib.h>
 #define LACOS 700
 
+double variacaoLinear;
+double calculoCoeficienteLinear();
+double calculoCoeficienteAngular();
+
 int main(){
+    printf("\t\t_-___-__-__-__-__-__-__-__-__-_-__-_-__-_-__-_\n");
+    printf("\t\t\tEquacao geral pelo metodo de minimos quadrados\n");
+    printf(" \t\t\tY = %lf X + (%lf)\n", calculoCoeficienteAngular(), variacaoLinear);
+    printf("\t\t_-___-__-__-__-__-__-__-__-__-_-__-_-__-_-__-_\n");
+    
+    return 0;
+}
+
+double calculoCoeficienteAngular(){
     FILE *arquivo;
     double x[LACOS], y[LACOS];
     double soma_x = 0, soma_y = 0;
     double numerador, denominador;
+    double variacaoAngular;
     int i;
     
     arquivo = fopen("dadosMinimosQuadrados.txt","rt");
@@ -20,9 +34,6 @@ int main(){
     for(i = 1; i < LACOS; i++){
         fscanf(arquivo, "%lf",&x[i]);
         fscanf(arquivo, "%lf",&y[i]);
-          
-        printf("%lf\n\n",x[i]);
-    
         soma_x = soma_x + x[i];
         soma_y = soma_y + y[i];     
     }
@@ -32,14 +43,14 @@ int main(){
         denominador = y[i]*(x[i] - soma_y/LACOS);    
     }
     
-    double variacaoLinear = numerador/denominador;
-    double variacaoAngular = soma_y/LACOS - (b*soma_x/LACOS);
+    variacaoLinear = numerador/denominador;
+    variacaoAngular = soma_y/LACOS - (variacaoLinear*soma_x/LACOS);
     
-    printf("\t\t_-___-__-__-__-__-__-__-__-__-_-__-_-__-_-__-_\n");
-    printf("\t\t\tEquacao geral pelo metodo de minimos quadrados\n");
-    printf(" \t\t\tY = %lf X + (%lf)\n", variacaoAngular, variacaoLinear);
-    printf("\t\t_-___-__-__-__-__-__-__-__-__-_-__-_-__-_-__-_\n");
+    return variacaoAngular;
     
-    return 0;
+}
+
+double calculoCoeficienteLinear(){ 
+    return variacaoLinear;
 }
 

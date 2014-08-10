@@ -1,3 +1,9 @@
+//+------------------------------------------------------------------+
+//|                                     Método de Mínimos Quadrados  |
+//|                 Copyright © 2014, Cleiton Gomes; Vanessa Barbosa |
+//|                                   http://www.softwarecsg.com.br  |
+//+------------------------------------------------------------------+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
