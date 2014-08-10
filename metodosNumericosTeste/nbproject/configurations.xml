@@ -9,6 +9,7 @@
                    displayName="Arquivos de Código-Fonte"
                    projectFiles="true">
       <itemPath>correlacaoLinear.c</itemPath>
+      <itemPath>minimosQuadrados.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Arquivos de Recurso"
@@ -58,6 +59,8 @@
           </linkerLibItems>
         </linkerTool>
       </folder>
+      <item path="minimosQuadrados.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="tests/correlacaoLinearTeste.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -91,6 +94,8 @@
           </linkerLibItems>
         </linkerTool>
       </folder>
+      <item path="minimosQuadrados.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="tests/correlacaoLinearTeste.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>

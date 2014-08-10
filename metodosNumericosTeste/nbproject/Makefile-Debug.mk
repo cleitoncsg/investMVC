@@ -35,7 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/correlacaoLinear.o
+	${OBJECTDIR}/correlacaoLinear.o \
+	${OBJECTDIR}/minimosQuadrados.o
 
 # Test Directory
 TESTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tests
@@ -73,6 +74,11 @@ ${OBJECTDIR}/correlacaoLinear.o: correlacaoLinear.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/correlacaoLinear.o correlacaoLinear.c
 
+${OBJECTDIR}/minimosQuadrados.o: minimosQuadrados.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/minimosQuadrados.o minimosQuadrados.c
+
 # Subprojects
 .build-subprojects:
 
@@ -100,6 +106,19 @@ ${OBJECTDIR}/correlacaoLinear_nomain.o: ${OBJECTDIR}/correlacaoLinear.o correlac
 	    $(COMPILE.c) -g -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/correlacaoLinear_nomain.o correlacaoLinear.c;\
 	else  \
 	    ${CP} ${OBJECTDIR}/correlacaoLinear.o ${OBJECTDIR}/correlacaoLinear_nomain.o;\
+	fi
+
+${OBJECTDIR}/minimosQuadrados_nomain.o: ${OBJECTDIR}/minimosQuadrados.o minimosQuadrados.c 
+	${MKDIR} -p ${OBJECTDIR}
+	@NMOUTPUT=`${NM} ${OBJECTDIR}/minimosQuadrados.o`; \
+	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
+	then  \
+	    ${RM} "$@.d";\
+	    $(COMPILE.c) -g -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/minimosQuadrados_nomain.o minimosQuadrados.c;\
+	else  \
+	    ${CP} ${OBJECTDIR}/minimosQuadrados.o ${OBJECTDIR}/minimosQuadrados_nomain.o;\
 	fi
 
 # Run Test Targets
