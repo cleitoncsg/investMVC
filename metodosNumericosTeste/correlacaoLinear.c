@@ -57,8 +57,7 @@ double metodoCorrelacao(int tempoCorrelacao){
     denominador_1 =((tempoCorrelacao*somaAbcissasQuadrado)-(somaAbcissas*somaAbcissas))*
     ((tempoCorrelacao*somaOrdenadasQuadrado)-(somaOrdenadas*somaOrdenadas));	
 
-    denominador = pow(denominador_1, 1.0/2.0); 
-
+    denominador = sqrt(denominador_1); 
     correlacao = numerador/denominador;
 
     return correlacao;
