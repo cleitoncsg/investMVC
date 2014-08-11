@@ -6,6 +6,10 @@
     </data>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/cleiton/TCC/metodosNumericosParadigmasDeProgramacaoTCCUnB/metodosNumericosTeste/correlacaoLinear.c</file>
+            <file>file:/home/cleiton/TCC/metodosNumericosParadigmasDeProgramacaoTCCUnB/metodosNumericosTeste/minimosQuadrados.c</file>
+            <file>file:/home/cleiton/TCC/metodosNumericosParadigmasDeProgramacaoTCCUnB/metodosNumericosTeste/tests/minimosQuadradosTeste.c</file>
+        </group>
     </open-files>
 </project-private>

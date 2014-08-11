@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/correlacaoLinear.o \
+	${OBJECTDIR}/fibonacci.o \
 	${OBJECTDIR}/minimosQuadrados.o
 
 # Test Directory
@@ -74,6 +75,11 @@ ${OBJECTDIR}/correlacaoLinear.o: correlacaoLinear.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/correlacaoLinear.o correlacaoLinear.c
+
+${OBJECTDIR}/fibonacci.o: fibonacci.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/fibonacci.o fibonacci.c
 
 ${OBJECTDIR}/minimosQuadrados.o: minimosQuadrados.c 
 	${MKDIR} -p ${OBJECTDIR}
@@ -117,6 +123,19 @@ ${OBJECTDIR}/correlacaoLinear_nomain.o: ${OBJECTDIR}/correlacaoLinear.o correlac
 	    $(COMPILE.c) -O2 -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/correlacaoLinear_nomain.o correlacaoLinear.c;\
 	else  \
 	    ${CP} ${OBJECTDIR}/correlacaoLinear.o ${OBJECTDIR}/correlacaoLinear_nomain.o;\
+	fi
+
+${OBJECTDIR}/fibonacci_nomain.o: ${OBJECTDIR}/fibonacci.o fibonacci.c 
+	${MKDIR} -p ${OBJECTDIR}
+	@NMOUTPUT=`${NM} ${OBJECTDIR}/fibonacci.o`; \
+	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
+	then  \
+	    ${RM} "$@.d";\
+	    $(COMPILE.c) -O2 -Dmain=__nomain -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/fibonacci_nomain.o fibonacci.c;\
+	else  \
+	    ${CP} ${OBJECTDIR}/fibonacci.o ${OBJECTDIR}/fibonacci_nomain.o;\
 	fi
 
 ${OBJECTDIR}/minimosQuadrados_nomain.o: ${OBJECTDIR}/minimosQuadrados.o minimosQuadrados.c 
