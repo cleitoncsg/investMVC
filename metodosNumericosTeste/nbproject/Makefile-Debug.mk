@@ -45,6 +45,7 @@ TESTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tests
 # Test Files
 TESTFILES= \
 	${TESTDIR}/TestFiles/f1 \
+	${TESTDIR}/TestFiles/f3 \
 	${TESTDIR}/TestFiles/f2
 
 # C Compiler Flags
@@ -95,6 +96,10 @@ ${TESTDIR}/TestFiles/f1: ${TESTDIR}/tests/correlacaoLinearTeste.o ${OBJECTFILES:
 	${MKDIR} -p ${TESTDIR}/TestFiles
 	${LINK.c}   -o ${TESTDIR}/TestFiles/f1 $^ ${LDLIBSOPTIONS} -lcunit 
 
+${TESTDIR}/TestFiles/f3: ${TESTDIR}/tests/fibonacciTeste.o ${OBJECTFILES:%.o=%_nomain.o}
+	${MKDIR} -p ${TESTDIR}/TestFiles
+	${LINK.c}   -o ${TESTDIR}/TestFiles/f3 $^ ${LDLIBSOPTIONS} -lcunit 
+
 ${TESTDIR}/TestFiles/f2: ${TESTDIR}/tests/minimosQuadradosTeste.o ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${TESTDIR}/TestFiles
 	${LINK.c}   -o ${TESTDIR}/TestFiles/f2 $^ ${LDLIBSOPTIONS} -lcunit 
@@ -104,6 +109,12 @@ ${TESTDIR}/tests/correlacaoLinearTeste.o: tests/correlacaoLinearTeste.c
 	${MKDIR} -p ${TESTDIR}/tests
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${TESTDIR}/tests/correlacaoLinearTeste.o tests/correlacaoLinearTeste.c
+
+
+${TESTDIR}/tests/fibonacciTeste.o: tests/fibonacciTeste.c 
+	${MKDIR} -p ${TESTDIR}/tests
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${TESTDIR}/tests/fibonacciTeste.o tests/fibonacciTeste.c
 
 
 ${TESTDIR}/tests/minimosQuadradosTeste.o: tests/minimosQuadradosTeste.c 
@@ -156,6 +167,7 @@ ${OBJECTDIR}/minimosQuadrados_nomain.o: ${OBJECTDIR}/minimosQuadrados.o minimosQ
 	@if [ "${TEST}" = "" ]; \
 	then  \
 	    ${TESTDIR}/TestFiles/f1 || true; \
+	    ${TESTDIR}/TestFiles/f3 || true; \
 	    ${TESTDIR}/TestFiles/f2 || true; \
 	else  \
 	    ./${TEST} || true; \

@@ -26,6 +26,12 @@
                      kind="TEST">
         <itemPath>tests/correlacaoLinearTeste.c</itemPath>
       </logicalFolder>
+      <logicalFolder name="f3"
+                     displayName="fibonacciTeste"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/fibonacciTeste.c</itemPath>
+      </logicalFolder>
       <logicalFolder name="f2"
                      displayName="minimosQuadradosTeste"
                      projectFiles="true"
@@ -74,11 +80,21 @@
           </linkerLibItems>
         </linkerTool>
       </folder>
+      <folder path="TestFiles/f3">
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+          <linkerLibItems>
+            <linkerOptionItem>-lcunit</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
       <item path="fibonacci.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="minimosQuadrados.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tests/correlacaoLinearTeste.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests/fibonacciTeste.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tests/minimosQuadradosTeste.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -121,11 +137,21 @@
           </linkerLibItems>
         </linkerTool>
       </folder>
+      <folder path="TestFiles/f3">
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+          <linkerLibItems>
+            <linkerOptionItem>-lcunit</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
       <item path="fibonacci.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="minimosQuadrados.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tests/correlacaoLinearTeste.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests/fibonacciTeste.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tests/minimosQuadradosTeste.c" ex="false" tool="0" flavor2="0">
       </item>

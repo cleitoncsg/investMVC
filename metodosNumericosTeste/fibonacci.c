@@ -13,13 +13,14 @@ double calculoSuporte(int quantidadeVelas);
 double calculoResistencia(int quantidadeVelas);
 double calculoRegressaoFibonacci(double fatorDeRegressao, int quantidadeVelas);
 
+/*
 int main(){
     
     printf("Suporte = %lf, resistencia = %lf\n",calculoSuporte(13),calculoResistencia(13));
     printf("Regressao De Fibonacci = %lf\n",calculoRegressaoFibonacci(0.23, 13));
     return 0;
 }
- 
+*/ 
 
 double calculoSuporte(int quantidadeVelas){
     FILE *arquivo;
