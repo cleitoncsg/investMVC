@@ -89,7 +89,7 @@ grails.hibernate.pass.readonly = false
 // configure passing read-only to OSIV session by default, requires "singleSession = false" OSIV mode
 grails.hibernate.osiv.readonly = false
 
-grails.plugin.springsecurity.layout.postOnly = false
+grails.plugin.springsecurity.logout.postOnly = false
 
 environments {
     development {

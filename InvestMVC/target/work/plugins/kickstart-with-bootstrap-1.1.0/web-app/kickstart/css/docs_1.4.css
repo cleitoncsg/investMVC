@@ -24,6 +24,7 @@ section > .row {
 .jumbotron {
   min-width: 940px;
   padding-top: 40px;
+  background-color: #ffffff;
 }
 .jumbotron .inner {
   background: transparent url(../img/grid-18px.png) top center;

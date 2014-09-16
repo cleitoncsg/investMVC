@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
     	//createAdmin()
-    	//createUser()
+    	//createUser()   
     }
 
     def destroy = {
