@@ -129,16 +129,6 @@ grails.plugin.springsecurity.userLookup.userDomainClassName = 'investmvc.securit
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'investmvc.security.UserRole'
 grails.plugin.springsecurity.authority.className = 'investmvc.security.Role'
 
-//grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-//	'/':                              ['permitAll'],
-//	'/index':                         ['permitAll'],
-//	'/index.gsp':                     ['permitAll'],
-//	'/assets/**':                     ['permitAll'],
-//	'/**/js/**':                      ['permitAll'],
-//	'/**/css/**':                     ['permitAll'],
-//	'/**/images/**':                  ['permitAll'],
-//	'/**/favicon.ico':                ['permitAll']
-//]
 grails.plugin.springsecurity.rejectIfNoRule = false
 grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 
@@ -147,7 +137,9 @@ grails.plugin.springsecurity.interceptUrlMap = [
     '/':                              ['permitAll'],
     '/index':                         ['permitAll'],
     '/index.gsp':                     ['permitAll'],
-    '/expert/**':                     ['ROLE_ADMIN'],
+    '/user/create':                   ['permitAll'],
+    '/user/**':                       ['ROLE_ADMIN'],
+    '/expert/**':                     ['ROLE_USER'],
     '/**/js/**':                      ['permitAll'],
     '/**/css/**':                     ['permitAll'],
     '/**/images/**':                  ['permitAll'],
