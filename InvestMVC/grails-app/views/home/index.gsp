@@ -6,16 +6,6 @@
 </head>
 
 <body>
-
-	<section id="intro" class="first">
-		<p>
-			Congratulations, you have successfully started your first
-			Grails application with the Kickstart extension! At the moment this
-			is the default page, feel free to modify it to either redirect to a
-			controller or display whatever content you may choose.
-		</p>
-	</section>
-
 	<section id="info">
 		<div class="row">
 	    	<div class="col-md-4">
