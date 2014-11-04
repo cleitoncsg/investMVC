@@ -1,0 +1,14 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[CVM 2009]{cvm2009}
+\abntrefinfo{CVM}{CVM}{2009}
+{CVM. Mercado forex: Série alertas.
+2009.
+Dispon{\'\i}vel em: \url{http://www.cvm.gov.br/port/Alertas/mercadoForex.pdf}.}
+
+\end{thebibliography}
