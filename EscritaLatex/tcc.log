@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  5 NOV 2014 17:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  5 NOV 2014 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,7 +1172,7 @@ nverted-to.pdf figuras/retaSuporte.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaSuporte-eps-converted-to.pdf, id=255, 517.935pt x 285.065pt>
+<figuras/retaSuporte-eps-converted-to.pdf, id=267, 517.935pt x 285.065pt>
 File: figuras/retaSuporte-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/retaSuporte-eps-converted-to.pdf>
@@ -1180,10 +1180,6 @@ Package pdftex.def Info: figuras/retaSuporte-eps-converted-to.pdf used on input
  line 36.
 (pdftex.def)             Requested size: 409.49722pt x 225.39026pt.
  [30]
-
-LaTeX Warning: Reference `retaResistencia' on page 31 undefined on input line 4
-9.
-
 Package epstopdf Info: Source file: <figuras/retaResistencia.eps>
 (epstopdf)                    date: 2014-11-05 17:38:25
 (epstopdf)                    size: 42430 bytes
@@ -1193,31 +1189,128 @@ df>
 (epstopdf)                    size: 11040 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/retaResistencia-ep
 s-converted-to.pdf figuras/retaResistencia.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaResistencia-eps-converted-to.pdf, id=278, 508.90125pt x 286.06876p
+<figuras/retaResistencia-eps-converted-to.pdf, id=291, 508.90125pt x 286.06876p
 t>
 File: figuras/retaResistencia-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/retaResistencia-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/retaResistencia-eps-converted-to.pdf used on i
-nput line 54.
-(pdftex.def)             Requested size: 409.49722pt x 230.19974pt.
-) (./tcc.bbl (./tcc.brf)
+nput line 53.
+(pdftex.def)             Requested size: 227.5pt x 127.88292pt.
+ [31 <./figuras/retaSuporte-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figuras/equacaoMinimosQuadrados.eps>
+(epstopdf)                    date: 2014-11-05 17:47:45
+(epstopdf)                    size: 70599 bytes
+(epstopdf)             Output file: <figuras/equacaoMinimosQuadrados-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2014-11-05 18:43:04
+(epstopdf)                    size: 23996 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/equacaoMinimosQuad
+rados-eps-converted-to.pdf figuras/equacaoMinimosQuadrados.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=319, 676.5275pt x 402
+.50375pt>
+File: figuras/equacaoMinimosQuadrados-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figuras/equacaoMinimosQuadrados-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/equacaoMinimosQuadrados-eps-converted-to.pdf u
+sed on input line 110.
+(pdftex.def)             Requested size: 409.49722pt x 243.64142pt.
+ [32]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 124.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 124.
+Package epstopdf Info: Source file: <figuras/classificacaoCorrelacaoLinear.eps>
+
+(epstopdf)                    date: 2014-11-05 17:43:08
+(epstopdf)                    size: 43192 bytes
+(epstopdf)             Output file: <figuras/classificacaoCorrelacaoLinear-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2014-11-05 19:34:13
+(epstopdf)                    size: 13722 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/classificacaoCorre
+lacaoLinear-eps-converted-to.pdf figuras/classificacaoCorrelacaoLinear.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
+
+<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=345, 461.725pt 
+x 173.64874pt>
+File: figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf Graphic file (
+type pdf)
+
+<use figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/classificacaoCorrelacaoLinear-eps-converted-to
+.pdf used on input line 132.
+(pdftex.def)             Requested size: 409.49722pt x 154.00636pt.
+Package epstopdf Info: Source file: <figuras/determinacaoCorrelacao1.eps>
+(epstopdf)                    date: 2014-11-05 17:44:00
+(epstopdf)                    size: 7096 bytes
+(epstopdf)             Output file: <figuras/determinacaoCorrelacao1-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2014-11-05 19:52:56
+(epstopdf)                    size: 5713 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/determinacaoCorrel
+acao1-eps-converted-to.pdf figuras/determinacaoCorrelacao1.eps>
+(epstopdf)             \includegraphics on input line 142.
+Package epstopdf Info: Output file is already uptodate.
+
+<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=351, 175.65625pt x 83
+.31125pt>
+File: figuras/determinacaoCorrelacao1-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figuras/determinacaoCorrelacao1-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/determinacaoCorrelacao1-eps-converted-to.pdf u
+sed on input line 142.
+(pdftex.def)             Requested size: 409.49722pt x 194.25215pt.
+Package epstopdf Info: Source file: <figuras/determinacaoCorrelacao2.eps>
+(epstopdf)                    date: 2014-11-05 17:44:14
+(epstopdf)                    size: 23806 bytes
+(epstopdf)             Output file: <figuras/determinacaoCorrelacao2-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2014-11-05 19:52:57
+(epstopdf)                    size: 12222 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/determinacaoCorrel
+acao2-eps-converted-to.pdf figuras/determinacaoCorrelacao2.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+
+<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=352, 340.27126pt x 14
+5.54375pt>
+File: figuras/determinacaoCorrelacao2-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figuras/determinacaoCorrelacao2-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/determinacaoCorrelacao2-eps-converted-to.pdf u
+sed on input line 143.
+(pdftex.def)             Requested size: 409.49722pt x 175.1624pt.
+
+
+LaTeX Warning: Citation `viale2009' on page 33 undefined on input line 148.
+
+) [33] (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
-
-[31 <./figuras/retaSuporte-eps-converted-to.pdf>] [32 <./figuras/retaResistenci
-a-eps-converted-to.pdf>]
+ [34] [35 <./figuras/retaResistencia-eps-converted-to.pdf> <./figuras/equacaoMi
+nimosQuadrados-eps-converted-to.pdf> <./figuras/classificacaoCorrelacaoLinear-e
+ps-converted-to.pdf>] [36 <./figuras/determinacaoCorrelacao1-eps-converted-to.p
+df> <./figuras/determinacaoCorrelacao2-eps-converted-to.pdf>]
 bibitemlist
-)
+[37
+
+])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[33
-
-]
+[38]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1233,7 +1326,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: F5C084C0D400FD307EA78BC716260AC9;926.
+(rerunfilecheck)             Checksum: 81E4F74FA5C7947B456E27E3D6966C28;1657.
 
 
 LaTeX Warning: There were undefined references.
@@ -1244,30 +1337,32 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 12389 strings out of 493304
- 180341 string characters out of 6139870
- 303032 words of memory out of 5000000
- 15431 multiletter control sequences out of 15000+600000
+ 12577 strings out of 493304
+ 183801 string characters out of 6139870
+ 306860 words of memory out of 5000000
+ 15578 multiletter control sequences out of 15000+600000
  85355 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,13n,38p,886b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
-bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (35 pages, 456706 bytes).
+ 41i,13n,38p,886b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
+pfb>
+Output written on tcc.pdf (40 pages, 530342 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 95 named destinations out of 1000 (max. 500000)
- 252 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 635 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

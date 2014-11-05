@@ -49,17 +49,58 @@ Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rcf/v17n41/v17n41a06.pdf}.}
   oportunidades de compra e venda}.
 1. ed. [S.l.], 2008.}
 
+\bibitem[Devore 2006]{devore2006}
+\abntrefinfo{Devore}{DEVORE}{2006}
+{DEVORE, J.~L. \emph{Probabilidade e Estatística para Engenharia e Ciências}.
+6. ed. [S.l.], 2006.}
+
+\bibitem[Dias 1985]{dias1985}
+\abntrefinfo{Dias}{DIAS}{1985}
+{DIAS, M. A.~P. \emph{Administração de materiais: uma abordagem logística}.
+2. ed. [S.l.], 1985.}
+
 \bibitem[EasyForex 2014]{easyforex2014}
 \abntrefinfo{EasyForex}{EASYFOREX}{2014}
 {EASYFOREX. Leveraged forex trading: What is leverage in forex trading?
 2014.
 Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
 
+\bibitem[Ferreira 2009]{ferreira2009}
+\abntrefinfo{Ferreira}{FERREIRA}{2009}
+{FERREIRA, D.~F. \emph{Estatística básica}.
+2. ed. [S.l.], 2009.}
+
 \bibitem[FXCM 2011]{fxcm2011}
 \abntrefinfo{FXCM}{FXCM}{2011}
 {FXCM. Forex basic.
 2011.
 Dispon{\'\i}vel em: \url{http://www.fxcm.com/forex-basics/}.}
+
+\bibitem[INÁCIO 2010]{inacio2010}
+\abntrefinfo{INÁCIO}{INÁCIO}{2010}
+{INÁCIO, J. F.~S.
+\emph{Análise do Estimador de Estado por Mínimos Quadrados Ponderados}.
+Monografia (Monografia) --- Universidade Federal do Rio Grande do Sul, Rio
+  Grande do Sul, 2010.}
+
+\bibitem[Konis 2014]{konis2014}
+\abntrefinfo{Konis}{KONIS}{2014}
+{KONIS, K. Mathematical methods for quantitative finance.
+2014.
+Dispon{\'\i}vel em: \url{https://www.coursera.org/course/mathematicalmethods}.}
+
+\bibitem[Lira 2004]{lira2004}
+\abntrefinfo{Lira}{LIRA}{2004}
+{LIRA, S.~A.
+\emph{Análise Correlação: Abordagem Teórica e de Construção dos
+  Coeficientes com Aplicações}.
+Monografia (Dissertação Pós-Graduação) --- Universidade Federal do
+  Paraná, Paraná, 2004.}
+
+\bibitem[Lopes 2005]{lopes2005}
+\abntrefinfo{Lopes}{LOPES}{2005}
+{LOPES, F.~D. \emph{Caderno didático: estatística geral}.
+[S.l.], 2005.}
 
 \bibitem[Market 2011]{market2011}
 \abntrefinfo{Market}{MARKET}{2011}
@@ -73,5 +114,22 @@ Dispon{\'\i}vel em:
 {MATSURA, E. \emph{Comprar ou Vender? Como investir na Bolsa Utilizando
   Análise Gráfica}.
 7. ed. [S.l.], 2006.}
+
+\bibitem[Regra 2010]{regra2010}
+\abntrefinfo{Regra}{REGRA}{2010}
+{REGRA, C.~M.
+\emph{Tese de Mestrado em Estatística Computacional}.
+Monografia (Monografia) --- Universidade Aberta, 2010.}
+
+\bibitem[Riley, Hobson e Bence 2011]{riley2011}
+\abntrefinfo{Riley, Hobson e Bence}{RILEY; HOBSON; BENCE}{2011}
+{RILEY, F.; HOBSON, M.~P.; BENCE, S.~J. \emph{Mathematical Methods for Physics
+  and Engineering: A Comprehensive Guide.}
+[S.l.], 2011.}
+
+\bibitem[VUOLO 1996]{vuolo1996}
+\abntrefinfo{VUOLO}{VUOLO}{1996}
+{VUOLO, J.~H. \emph{Fundamentos da Teoria de Erros}.
+2. ed. [S.l.], 1996.}
 
 \end{thebibliography}
