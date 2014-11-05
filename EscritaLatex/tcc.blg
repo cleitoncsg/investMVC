@@ -13,8 +13,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
-Warning--I didn't find a database entry for "market2011"
-Warning--I didn't find a database entry for "fxcm2011"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -24,45 +22,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 3 entries,
+You've used 11 entries,
             6711 wiz_defined-function locations,
-            1209 strings with 9563 characters,
-and the built_in function-call counts, 2925 in all, are:
-= -- 414
-> -- 30
-< -- 52
-+ -- 108
-- -- 10
-* -- 153
-:= -- 446
-add.period$ -- 7
-call.type$ -- 3
-change.case$ -- 16
-chr.to.int$ -- 3
-cite$ -- 2
-duplicate$ -- 211
-empty$ -- 134
-format.name$ -- 46
-if$ -- 600
+            1246 strings with 10530 characters,
+and the built_in function-call counts, 11119 in all, are:
+= -- 1338
+> -- 145
+< -- 257
++ -- 352
+- -- 45
+* -- 644
+:= -- 1410
+add.period$ -- 37
+call.type$ -- 11
+change.case$ -- 78
+chr.to.int$ -- 17
+cite$ -- 10
+duplicate$ -- 1045
+empty$ -- 539
+format.name$ -- 209
+if$ -- 2293
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 19
-num.names$ -- 10
-pop$ -- 63
+missing$ -- 167
+newline$ -- 64
+num.names$ -- 30
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 36
 quote$ -- 0
-skip$ -- 293
+skip$ -- 1139
 stack$ -- 1
-substring$ -- 135
-swap$ -- 67
-text.length$ -- 1
+substring$ -- 476
+swap$ -- 346
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 4
 warning$ -- 0
-while$ -- 15
+while$ -- 47
 width$ -- 0
-write$ -- 36
-(There were 2 warnings)
+write$ -- 152

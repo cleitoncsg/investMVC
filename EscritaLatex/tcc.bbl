@@ -5,16 +5,66 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[ALBUQUERQUE 2013]{albuquerque2013}
+\abntrefinfo{ALBUQUERQUE}{ALBUQUERQUE}{2013}
+{ALBUQUERQUE, A.~A.
+\emph{Alavancagem Financeira e Investimento}.
+Monografia (Especializa{\c c}\~ao) --- Faculdade de Administração,
+  Universidade de São Paulo, S\~ao Paulo, 2013.}
+
 \bibitem[Belchior 2012]{belchior2012}
 \abntrefinfo{Belchior}{BELCHIOR}{2012}
 {BELCHIOR, G.~P. \emph{Oficina de Metodologia Científica: Elaboração de
   Projetos de Pesquisa}.
 [S.l.], 2012.}
 
+\bibitem[BRUNI e FAMÁ 2011]{bruni2011}
+\abntrefinfo{BRUNI e FAMÁ}{BRUNI; FAMÁ}{2011}
+{BRUNI, A.~L.; FAMÁ, R. \emph{Gestão de custos e formação de preços}.
+São Paulo, 2011.}
+
 \bibitem[CVM 2009]{cvm2009}
 \abntrefinfo{CVM}{CVM}{2009}
 {CVM. Mercado forex: Série alertas.
 2009.
 Dispon{\'\i}vel em: \url{http://www.cvm.gov.br/port/Alertas/mercadoForex.pdf}.}
+
+\bibitem[Dantas, Medeiros e Lustosa 2006]{dantas2006}
+\abntrefinfo{Dantas, Medeiros e Lustosa}{DANTAS; MEDEIROS; LUSTOSA}{2006}
+{DANTAS, J.~A.; MEDEIROS, O.~R.; LUSTOSA, P. R.~B. Reação do mercado à
+  alavancagem operacional.
+2006.
+Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rcf/v17n41/v17n41a06.pdf}.}
+
+\bibitem[debastini 2008]{debastini2008}
+\abntrefinfo{debastini}{DEBASTINI}{2008}
+{DEBASTINI, C.~A. \emph{Análise técnica de ações: identificando
+  oportunidades de compra e venda}.
+1. ed. [S.l.], 2008.}
+
+\bibitem[EasyForex 2014]{easyforex2014}
+\abntrefinfo{EasyForex}{EASYFOREX}{2014}
+{EASYFOREX. Leveraged forex trading: What is leverage in forex trading?
+2014.
+Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
+
+\bibitem[FXCM 2011]{fxcm2011}
+\abntrefinfo{FXCM}{FXCM}{2011}
+{FXCM. Forex basic.
+2011.
+Dispon{\'\i}vel em: \url{http://www.fxcm.com/forex-basics/}.}
+
+\bibitem[Market 2011]{market2011}
+\abntrefinfo{Market}{MARKET}{2011}
+{MARKET. About what is forex.
+2011.
+Dispon{\'\i}vel em:
+  \url{http://www.markets.com/pt/education/forex-education/what-is-forex.html}.}
+
+\bibitem[MATSURA 2006]{matsura2006}
+\abntrefinfo{MATSURA}{MATSURA}{2006}
+{MATSURA, E. \emph{Comprar ou Vender? Como investir na Bolsa Utilizando
+  Análise Gráfica}.
+7. ed. [S.l.], 2006.}
 
 \end{thebibliography}
