@@ -15,6 +15,11 @@
 \contentsline {subsection}{\numberline {1.4.1}Objetivo Geral}{26}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Objetivos Espec\IeC {\'\i }ficos}{26}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{27}{section.1.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial te\IeC {\'o}rico}}{29}{chapter.2}
+\contentsline {section}{\numberline {2.1}Contexto Financeiro}{29}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Mercado de Moedas}{29}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Alavancagem}{30}{subsection.2.1.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{29}{section*.15}
+\contentsline {chapter}{Refer\^encias}{31}{section*.15}

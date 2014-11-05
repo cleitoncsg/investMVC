@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  4 NOV 2014 15:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  5 NOV 2014 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1158,19 +1158,28 @@ Overfull \hbox (16.70555pt too wide) in paragraph at lines 28--29
 e forma semi-automatizada
  []
 
-[26]) (./tcc.bbl (./tcc.brf)
+[26]) (./capitulos/2-referencial-teorico.tex [27] [28
+
+]
+
+LaTeX Warning: Citation `market2011' on page 29 undefined on input line 11.
+
+
+LaTeX Warning: Citation `fxcm2011' on page 29 undefined on input line 15.
+
+[29]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [27] [28
-
-]
+ [30]
 bibitemlist
 )
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[29]
+[31
+
+]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1186,7 +1195,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 9C41CA03E4493ECB1EE6B0F8EC076890;44.
+(rerunfilecheck)             Checksum: B3B1FA1538BB15CB99C276985FFB0BC5;297.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1194,29 +1206,30 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 12220 strings out of 493304
- 177507 string characters out of 6139870
- 300231 words of memory out of 5000000
- 15304 multiletter control sequences out of 15000+600000
- 82363 words of font info for 56 fonts, out of 8000000 for 9000
+ 12264 strings out of 493304
+ 178205 string characters out of 6139870
+ 300392 words of memory out of 5000000
+ 15335 multiletter control sequences out of 15000+600000
+ 85355 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  41i,13n,38p,886b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
 /lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi1
-2.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (31 pages, 392354 bytes).
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
+bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (33 pages, 427799 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,7 +2,7 @@
 Este capítulo aborda o contexto, o problema de pesquisa, a justificativa, os objetivos e como o trabalho está organizado.
 
 \section{Contextualização}
-O Mercado de Moedas é constituído por transações entre as corretoras que operam no mesmo e são negociados, diariamente, contratos representando volume total entre 1 e 3 trilhões de dólares. É possível operar nesse mercado de forma manual ou automatizada \citeonline{cvm2009}.
+O Mercado de Moedas é constituído por transações entre as corretoras que operam no mesmo e são negociados, diariamente, contratos representando volume total entre 1 e 3 trilhões de dólares. É possível operar nesse mercado de forma manual ou automatizada \cite{cvm2009}.
 
 No contexto de operações automatizadas, no Mercado de Moedas estão inseridos os produtos de software conhecidos como Experts, que processam métodos numéricos para gerar critérios de entrada e saída para comprar ou vender nesse mercado.
 
@@ -11,7 +11,7 @@ Este TCC procurará responder a seguinte questão: é possível desenvolver uma 
 
 \section{Justificativa}
 
-Operar no Mercado de Moedas de forma manual é muito arriscado e, portanto, não recomendado, uma vez que esse mercado é não previsível, o que pode provocar a perda do capital de um investidor em apenas alguns minutos. Em diversas situações, o mercado varia as cotações em apenas um minuto, sendo que a mesma variação pode ser feita durante horas. Para contornar esse problema, a plataforma MetaTrader oferece as linguagens MQL4 (Paradigma Estruturado) e MQL5 (Paradigma Orientado a Objetos) para construir Experts que operem de forma automatizada. 
+Operar no Mercado de Moedas de forma manual é muito arriscado e, portanto, não recomendado, uma vez que esse mercado é não previsível, o que pode provocar a perda do capital de um investidor em apenas alguns minutos. Em diversas situações, o mercado varia as cotações em apenas um minuto, sendo que a mesma variação pode ser feita durante horas. Para contornar esse problema, a plataforma MetaTrader\footnote{$ http://www.metatrader4.com/$} oferece as linguagens MQL4 (Paradigma Estruturado) e MQL5 (Paradigma Orientado a Objetos) para construir Experts que operem de forma automatizada. 
 
 A plataforma MetaTrader não oferece suporte de ferramentas de teste unitário para as linguagens MQL4 e MQL5. Após implementar um Expert, não é possível implementar testes de unidade para verificar se as instruções programadas estão de acordo com o esperado. A única forma de verificar se o Expert está seguindo as estratégias programadas é usar uma conta real ou demo na plataforma e operar durante um período específico de tempo.
 
