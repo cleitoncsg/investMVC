@@ -21,6 +21,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Mercado de Moedas}{29}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Alavancagem}{30}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Suporte}{30}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Resist\IeC {\^e}ncia}{31}{subsection.2.1.4}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Refer\^encias}{33}{section*.15}
