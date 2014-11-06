@@ -1,6 +1,10 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tcc.aux
+White space in argument---line 240 of file tcc.aux
+ : \citation{thom[p.\unhbox
+ :                          \voidb@x \penalty \@M \ 16]pson1999}
+I'm skipping whatever remains of this command
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -13,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
-Warning--I didn't find a database entry for "viale2009"
+Warning--I didn't find a database entry for "ferreira1986"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -23,45 +27,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 22 entries,
+You've used 53 entries,
             6711 wiz_defined-function locations,
-            1297 strings with 11763 characters,
-and the built_in function-call counts, 20026 in all, are:
-= -- 2174
-> -- 367
-< -- 392
-+ -- 559
-- -- 115
-* -- 1217
-:= -- 2646
-add.period$ -- 76
-call.type$ -- 22
-change.case$ -- 162
-chr.to.int$ -- 40
-cite$ -- 21
-duplicate$ -- 1745
-empty$ -- 1057
-format.name$ -- 533
-if$ -- 4166
-int.to.chr$ -- 0
+            1429 strings with 15289 characters,
+and the built_in function-call counts, 50112 in all, are:
+= -- 5319
+> -- 965
+< -- 1021
++ -- 1390
+- -- 305
+* -- 3092
+:= -- 6632
+add.period$ -- 186
+call.type$ -- 53
+change.case$ -- 396
+chr.to.int$ -- 94
+cite$ -- 52
+duplicate$ -- 4461
+empty$ -- 2582
+format.name$ -- 1413
+if$ -- 10265
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 338
-newline$ -- 124
-num.names$ -- 85
-pop$ -- 397
+missing$ -- 816
+newline$ -- 293
+num.names$ -- 235
+pop$ -- 929
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 173
 quote$ -- 0
-skip$ -- 1865
+skip$ -- 4656
 stack$ -- 1
-substring$ -- 799
-swap$ -- 599
-text.length$ -- 7
+substring$ -- 2127
+swap$ -- 1531
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
+type$ -- 36
 warning$ -- 0
-while$ -- 115
+while$ -- 305
 width$ -- 0
-write$ -- 315
-(There was 1 warning)
+write$ -- 766
+(There was 1 error message)

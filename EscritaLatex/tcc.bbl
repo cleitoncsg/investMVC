@@ -12,16 +12,56 @@
 Monografia (Especializa{\c c}\~ao) --- Faculdade de Administração,
   Universidade de São Paulo, S\~ao Paulo, 2013.}
 
+\bibitem[Alves. 2012]{sousa2012}
+\abntrefinfo{Alves.}{ALVES.}{2012}
+{ALVES., T.
+\emph{Um Passeio na Sequência de Fibonacci}.
+Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
+  Estadual da Paraíba, Paraíba, 2012.}
+
+\bibitem[Ambler 1998]{ambler1998}
+\abntrefinfo{Ambler}{AMBLER}{1998}
+{AMBLER, S. \emph{Uma Visão Realística da Reutilização em Orientação a
+  Objetos}.
+[S.l.], 1998.}
+
+\bibitem[Apt 1996]{apt1996}
+\abntrefinfo{Apt}{APT}{1996}
+{APT, K.~R. \emph{From Logic programming to Prolog}.
+1. ed. [S.l.], 1996.}
+
 \bibitem[Belchior 2012]{belchior2012}
 \abntrefinfo{Belchior}{BELCHIOR}{2012}
 {BELCHIOR, G.~P. \emph{Oficina de Metodologia Científica: Elaboração de
   Projetos de Pesquisa}.
 [S.l.], 2012.}
 
+\bibitem[BRADSHAW 1997]{bradshaw1997}
+\abntrefinfo{BRADSHAW}{BRADSHAW}{1997}
+{BRADSHAW, J.~M. \emph{Software Agents}.
+[S.l.], 1997.}
+
+\bibitem[BROOKSHEAR 2003]{brookshear}
+\abntrefinfo{BROOKSHEAR}{BROOKSHEAR}{2003}
+{BROOKSHEAR, J.~G. \emph{Ciência da Computação: Uma Visão Abrangente}.
+3. ed. [S.l.], 2003.}
+
 \bibitem[BRUNI e FAMÁ 2011]{bruni2011}
 \abntrefinfo{BRUNI e FAMÁ}{BRUNI; FAMÁ}{2011}
 {BRUNI, A.~L.; FAMÁ, R. \emph{Gestão de custos e formação de preços}.
 São Paulo, 2011.}
+
+\bibitem[CAPRETZ 2003]{capretz2003}
+\abntrefinfo{CAPRETZ}{CAPRETZ}{2003}
+{CAPRETZ, L.~F. \emph{A Brief History of the Object-Oriented Approach}.
+[S.l.], 2003.}
+
+\bibitem[COENEN 1999]{coenen}
+\abntrefinfo{COENEN}{COENEN}{1999}
+{COENEN, F. Tópicos de tratamento de informação: Linguagens declarativas.
+1999.
+Dispon{\'\i}vel em:
+  \url{http://cgi.csc.liv.ac.uk/~frans/OldLectures/2CS24/declarative.html\#detail}.}
 
 \bibitem[COLLINS et al. 2012]{collins2012}
 \abntrefinfo{COLLINS et al.}{COLLINS et al.}{2012}
@@ -29,6 +69,14 @@ São Paulo, 2011.}
 2012.
 Dispon{\'\i}vel em:
   \url{http://www.markets.com/pt/education/technical-analysis/support-resistance.html}.}
+
+\bibitem[Costa 2004]{ferreira2004}
+\abntrefinfo{Costa}{COSTA}{2004}
+{COSTA, S.~L.
+\emph{Uma Ferramenta e Técnica para o Projeto Global e Detalhado de Sistemas
+  Multiagente}.
+Monografia (Mestrado em Engenharia de Eletricidade) --- Departamento de
+  Engenharia Elétrica, Universidade Federal do Maranhão, Maranhão, 2004.}
 
 \bibitem[CVM 2009]{cvm2009}
 \abntrefinfo{CVM}{CVM}{2009}
@@ -76,6 +124,25 @@ Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
 2011.
 Dispon{\'\i}vel em: \url{http://www.fxcm.com/forex-basics/}.}
 
+\bibitem[Gagliardi 2013]{gagliardi2013}
+\abntrefinfo{Gagliardi}{GAGLIARDI}{2013}
+{GAGLIARDI, J.~D.
+\emph{Fundamentos de Matemática}.
+Monografia (Monografia) --- Universidade Federal de Campinas:, São Paulo,
+  2013.}
+
+\bibitem[Girardi 2004]{girardi2004}
+\abntrefinfo{Girardi}{GIRARDI}{2004}
+{GIRARDI, R. \emph{Engenharia de Software baseada em Agentes}.
+[S.l.], 2004.}
+
+\bibitem[Hoogle
+  http://www.haskell.org/haskellwiki/Functional_programming]{hoogle2013}
+\abntrefinfo{Hoogle}{HOOGLE}{http://www.haskell.org/haskellwiki/Functional_programming}
+{HOOGLE. Functional programming.
+http://www.haskell.org/haskellwiki/Functional_programming.
+Dispon{\'\i}vel em: \url{2013}.}
+
 \bibitem[INÁCIO 2010]{inacio2010}
 \abntrefinfo{INÁCIO}{INÁCIO}{2010}
 {INÁCIO, J. F.~S.
@@ -83,11 +150,30 @@ Dispon{\'\i}vel em: \url{http://www.fxcm.com/forex-basics/}.}
 Monografia (Monografia) --- Universidade Federal do Rio Grande do Sul, Rio
   Grande do Sul, 2010.}
 
+\bibitem[JENNINGS, Sycara e WOOLDRIDGE 1998]{jennings1998}
+\abntrefinfo{JENNINGS, Sycara e WOOLDRIDGE}{JENNINGS; SYCARA; WOOLDRIDGE}{1998}
+{JENNINGS, N.~R.; SYCARA, K.; WOOLDRIDGE, M. \emph{A Roadmap of Agent Research
+  and Development}.
+[S.l.], 1998.}
+
+\bibitem[JENNINGS e WOOLDRIDGE 1995]{jennings1995}
+\abntrefinfo{JENNINGS e WOOLDRIDGE}{JENNINGS; WOOLDRIDGE}{1995}
+{JENNINGS, N.~R.; WOOLDRIDGE, M. \emph{Intelligent agents: theory and
+  practice}.
+[S.l.], 1995.}
+
 \bibitem[Konis 2014]{konis2014}
 \abntrefinfo{Konis}{KONIS}{2014}
 {KONIS, K. Mathematical methods for quantitative finance.
 2014.
 Dispon{\'\i}vel em: \url{https://www.coursera.org/course/mathematicalmethods}.}
+
+\bibitem[Leavens 2014]{leavens2014}
+\abntrefinfo{Leavens}{LEAVENS}{2014}
+{LEAVENS, G.~T. Major programming paradigms.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.eecs.ucf.edu/~leavens/ComS541Fall97/hw-pages/paradigms/major.html\#object}.}
 
 \bibitem[Lira 2004]{lira2004}
 \abntrefinfo{Lira}{LIRA}{2004}
@@ -115,6 +201,31 @@ Dispon{\'\i}vel em:
   Análise Gráfica}.
 7. ed. [S.l.], 2006.}
 
+\bibitem[Normak 2013]{normak2013}
+\abntrefinfo{Normak}{NORMAK}{2013}
+{NORMAK, K. Programming paradigms.
+2013.
+Dispon{\'\i}vel em:
+  \url{http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms\_themes-paradigms.html\#paradigms\_the-word\_title\_1}.}
+
+\bibitem[Odell, GIORGINI e MÜLLER 2005]{odell2005}
+\abntrefinfo{Odell, GIORGINI e MÜLLER}{ODELL; GIORGINI; MÜLLER}{2005}
+{ODELL, J.; GIORGINI, P.; MÜLLER, J.~P. \emph{Agent-Oriented Software
+  Engineering V}.
+[S.l.], 2005.}
+
+\bibitem[Paquet e MOKHOV 2010]{paquet2010}
+\abntrefinfo{Paquet e MOKHOV}{PAQUET; MOKHOV}{2010}
+{PAQUET, J.; MOKHOV, S. \emph{Comparative Studies of Programming Languages}.
+[S.l.], 2010.}
+
+\bibitem[Piponi 2006]{piponi2006}
+\abntrefinfo{Piponi}{PIPONI}{2006}
+{PIPONI, D. Eleven reasons to use haskell as a mathematician.
+2006.
+Dispon{\'\i}vel em:
+  \url{http://blog.sigfpe.com/2006/01/eleven-reasons-to-use-haskell-as.html}.}
+
 \bibitem[Regra 2010]{regra2010}
 \abntrefinfo{Regra}{REGRA}{2010}
 {REGRA, C.~M.
@@ -127,9 +238,88 @@ Monografia (Monografia) --- Universidade Aberta, 2010.}
   and Engineering: A Comprehensive Guide.}
 [S.l.], 2011.}
 
+\bibitem[Ritchie 1996]{ritchie1996}
+\abntrefinfo{Ritchie}{RITCHIE}{1996}
+{RITCHIE, D.~M. O desenvolvimento da linguagem c.
+1996.
+Dispon{\'\i}vel em: \url{http://cm.bell-labs.com/cm/cs/who/dmr/chistPT.html}.}
+
+\bibitem[Rocha 2008]{rocha2008}
+\abntrefinfo{Rocha}{ROCHA}{2008}
+{ROCHA, R.~A.
+\emph{Algumas Evidências Computacionais da Infinitude dos Números Primos de
+  Fibonacci}.
+Monografia (Trabalho de Conclusão de Curso em Ciência da Computação) ---
+  Universidade Federal do Rio Grande do Norte, Natal, 2008.}
+
+\bibitem[Russel e NORVIG 1995]{russel1995}
+\abntrefinfo{Russel e NORVIG}{RUSSEL; NORVIG}{1995}
+{RUSSEL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}.
+3. ed. [S.l.], 1995.}
+
+\bibitem[SCHUMACHER 2001]{schumacher2001}
+\abntrefinfo{SCHUMACHER}{SCHUMACHER}{2001}
+{SCHUMACHER, M. \emph{Objective Coordination in Multi-Agent System Engineering:
+  design and implementation}.
+1. ed. [S.l.], 2001.}
+
+\bibitem[SEBESTA 2012]{sebesta2012}
+\abntrefinfo{SEBESTA}{SEBESTA}{2012}
+{SEBESTA, R.~W. \emph{Concepts of programming languages}.
+10. ed. [S.l.], 2012.}
+
+\bibitem[Singh 2014]{singhDifference}
+\abntrefinfo{Singh}{SINGH}{2014a}
+{SINGH, C. Difference between method overloading and overriding in java.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://beginnersbook.com/2014/01/difference-between-method-overloading-and-overriding-in-java/}.}
+
+\bibitem[Singh 2014]{singhOverload}
+\abntrefinfo{Singh}{SINGH}{2014b}
+{SINGH, C. Method overloading in java with examples.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://beginnersbook.com/2013/05/method-overloading/}.}
+
+\bibitem[STEFANOV 2008]{stefanov2008}
+\abntrefinfo{STEFANOV}{STEFANOV}{2008}
+{STEFANOV, S. \emph{Object-Oriented JavaScript}.
+[S.l.], 2008.}
+
+\bibitem[TUCKER e NOONAN 2009]{tucker2009}
+\abntrefinfo{TUCKER e NOONAN}{TUCKER; NOONAN}{2009}
+{TUCKER, A.~B.; NOONAN, R.~E. \emph{Linguagens de programação : Princípios e
+  paradigmas}.
+2. ed. [S.l.], 2009.}
+
+\bibitem[VENNERS 1996]{venners1996}
+\abntrefinfo{VENNERS}{VENNERS}{1996}
+{VENNERS, B. Polymorphism and interfaces.
+1996.
+Dispon{\'\i}vel em:
+  \url{<http://www.artima.com/objectsandjava/webuscript/PolymorphismInterfaces1.html}.}
+
+\bibitem[VIALI 2009]{viali2009}
+\abntrefinfo{VIALI}{VIALI}{2009}
+{VIALI, L.~M.
+\emph{Estatística Básica}.
+Monografia (Monogrfia) --- Instituto de Matemática da Universidade Federal do
+  Rio Grande do Sul, 2009.}
+
 \bibitem[VUOLO 1996]{vuolo1996}
 \abntrefinfo{VUOLO}{VUOLO}{1996}
 {VUOLO, J.~H. \emph{Fundamentos da Teoria de Erros}.
 2. ed. [S.l.], 1996.}
+
+\bibitem[WEISFELD 2009]{weisfeld2009}
+\abntrefinfo{WEISFELD}{WEISFELD}{2009}
+{WEISFELD, M.~A. \emph{The Object-Oriented Thought Process}.
+3. ed. [S.l.], 2009.}
+
+\bibitem[WOOLDRIDGE 2010]{woodridge2010}
+\abntrefinfo{WOOLDRIDGE}{WOOLDRIDGE}{2010}
+{WOOLDRIDGE, M. \emph{Teamwork in Multi-agent systems: A Formal Approach}.
+1. ed. [S.l.], 2010.}
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  5 NOV 2014 20:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.10.20)  5 NOV 2014 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,7 +22,7 @@ ment class
 \c@@memmarkcntra=\count80
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
 Package: ifetex 2011/12/15 v1.2 ifetex
@@ -380,7 +380,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -457,12 +457,20 @@ ass
 \c@Hpagenote=\count147
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (default): hdvips.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count148
-\c@bookmark@seq@number=\count149
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks23
+\pdf@box=\box29
+\pdf@toks=\toks24
+\pdf@defaulttoks=\toks25
+\HyField@AnnotCount=\count148
+\Fld@listcount=\count149
+\c@bookmark@seq@number=\count150
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -470,13 +478,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip185
-)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
-File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
-\BKM@id=\count150
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
+File: bkm-dvips.def 2011/12/02 v1.24 bookmark driver for dvips (HO)
+\BKM@id=\count151
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2013/12/03 3.9h The Babel package
@@ -486,7 +494,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
-\babel@savecnt=\count151
+\babel@savecnt=\count152
 \U@D=\dimen151
 )
 \l@canadian = a dialect from \language\l@american 
@@ -495,14 +503,14 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/frenchb.ldf
 Language: frenchb 2013/12/30 v2.6g French support from the babel system
-\FB@interchartokenstateORI=\count152
+\FB@interchartokenstateORI=\count153
 Package babel Info: Making : an active character on input line 244.
 Package babel Info: Making ; an active character on input line 245.
 Package babel Info: Making ! an active character on input line 246.
 Package babel Info: Making ? an active character on input line 247.
 \FB@Mht=\dimen152
-\std@mcc=\count153
-\dec@mcc=\count154
+\std@mcc=\count154
+\dec@mcc=\count155
 \listindentFB=\skip186
 \labelwidthFB=\skip187
 \leftmarginFB=\skip188
@@ -510,9 +518,9 @@ Package babel Info: Making ? an active character on input line 247.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2014/01/29 v5.0m Spanish support from the babel system
-\es@datefmt=\count155
-\es@quottoks=\toks23
-\es@quotdepth=\count156
+\es@datefmt=\count156
+\es@quottoks=\toks26
+\es@quotdepth=\count157
 Package babel Info: Making " an active character on input line 496.
 Package babel Info: Making . an active character on input line 599.
 Package babel Info: Making < an active character on input line 644.
@@ -527,21 +535,21 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip189
 \enit@outerparindent=\dimen154
-\enit@toks=\toks24
-\enit@inbox=\box29
-\enitdp@description=\count157
+\enit@toks=\toks27
+\enit@inbox=\box30
+\enitdp@description=\count158
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count158
-\calc@Bcount=\count159
+\calc@Acount=\count159
+\calc@Bcount=\count160
 \calc@Adimen=\dimen155
 \calc@Bdimen=\dimen156
 \calc@Askip=\skip190
 \calc@Bskip=\skip191
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count160
+\calc@Ccount=\count161
 \calc@Cskip=\skip192
 )
 
@@ -564,24 +572,27 @@ Sidefoothsep and sidefootwidth: 7pt and 92pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count161
+\c@abntex@bookmarkcounter=\count162
 \cftlastnumwidth=\skip193
 \chapternamenumlength=\skip194
 \ABNTEXcitacaorecuo=\skip195
-\c@alineasi=\count162
-\c@alineasii=\count163
-\enitdp@alineas=\count164
-\c@subalineasi=\count165
-\enitdp@subalineas=\count166
-\c@incisosi=\count167
-\enitdp@incisos=\count168
+\c@alineasi=\count163
+\c@alineasii=\count164
+\enitdp@alineas=\count165
+\c@subalineasi=\count166
+\enitdp@subalineas=\count167
+\c@incisosi=\count168
+\enitdp@incisos=\count169
 \ABNTEXsignwidth=\skip196
 \ABNTEXsignthickness=\skip197
 \ABNTEXsignskip=\skip198
 ) (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-)
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
+
+
+Package cmap Warning: pdftex in DVI mode - exiting.
+
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -622,11 +633,11 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)<<t1.cmap>>)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks25
-\inpenc@posthook=\toks26
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -854,11 +865,13 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: dvips.def on input line 130.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count169
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -872,7 +885,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 )
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
@@ -898,13 +911,27 @@ Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
 \c@ABCIaux=\count170
 \c@ABCImax=\count171
 
+(/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+\XKV@depth=\count172
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+\burl@toks=\toks32
+)
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip204
 LaTeX Info: Redefining \newblock on input line 675.
 LaTeX Info: Redefining \cite on input line 702.
-\ABCItoken=\toks27
+\ABCItoken=\toks33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bold-extra/bold-extra.sty
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
@@ -943,7 +970,7 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 9.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\AtBeginShipoutBox=\box30
+\AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring ON on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -952,7 +979,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count173
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -968,7 +995,7 @@ Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 
 LaTeX Info: Redefining \dots on input line 9.
 LaTeX Info: Redefining \up on input line 9.
-\myptabbox=\box31
+\myptabbox=\box32
 \myptabboxwidth=\skip205
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -977,36 +1004,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 9.
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count173
-\scratchdimen=\dimen159
-\scratchbox=\box32
-\nofMPsegments=\count174
-\nofMParguments=\count175
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count176
-\MPscratchDim=\dimen160
-\MPnumerator=\count177
-\makeMPintoPDFobject=\count178
-\everyMPtoPDFconversion=\toks29
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 12.
-
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1014,18 +1012,18 @@ LaTeX Font Info:    Try loading font information for OT1+lmr on input line 12.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<ot1.cmap>>
+)
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 12.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oml.cmap>>
+)
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 12.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oms.cmap>>
+)
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 12.
 
 
@@ -1034,33 +1032,14 @@ File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 12.
-<<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 12.
-Package epstopdf Info: Source file: <figuras/capa.eps>
-(epstopdf)                    date: 2013-04-15 09:15:43
-(epstopdf)                    size: 649636 bytes
-(epstopdf)             Output file: <figuras/capa-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-03 17:46:23
-(epstopdf)                    size: 105943 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/capa-eps-converted
--to.pdf figuras/capa.eps>
-(epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
+File: figuras/capa.eps Graphic file (type eps)
+ <figuras/capa.eps> [1
 
-<figuras/capa-eps-converted-to.pdf, id=9, 814.04124pt x 1150.2975pt>
-File: figuras/capa-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/capa-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/capa-eps-converted-to.pdf used on input line 1
-2.
-(pdftex.def)             Requested size: 597.52437pt x 844.34396pt.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figuras/capa-eps-convert
-ed-to.pdf>] [2
+] [2
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1069,15 +1048,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 14.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.14 
-      [1
+ [1
 
 
-] (./fixos/fichaCatalografica.tex
+]
+(./fixos/fichaCatalografica.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -1109,43 +1084,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-) (./fixos/folhaDeAprovacao.texpdfTeX warning (ext4): destination with the same
- identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 
-     [2] [3
+) (./fixos/folhaDeAprovacao.tex [2] [3
 
 ] [4
 
-]) (./editaveis/dedicatoria.tex [5] [6
+]) (./editaveis/dedicatoria.tex
+[5] [6
 
-])
-(./editaveis/agradecimentos.tex [7
+]) (./editaveis/agradecimentos.tex [7
 
 ] [8
 
-]) (./editaveis/epigrafe.tex [9] [10
+]) (./editaveis/epigrafe.tex
+[9] [10
 
-])
-(./editaveis/resumo.tex [11] [12
+]) (./editaveis/resumo.tex [11] [12
 
-]) (./editaveis/abstract.tex [13] [14
+]) (./editaveis/abstract.tex [13]
+[14
 
-])
-(./fixos/listasAutomaticas.tex (./tcc.lof) [15] [16
+]) (./fixos/listasAutomaticas.tex (./tcc.lof) [15] [16
 
-] (./tcc.lot) [17] [18
+] (./tcc.lot) [17]
+[18
 
-])
-(./editaveis/abreviaturas.tex [19
+]) (./editaveis/abreviaturas.tex [19
 
 ] [20
 
-]) (./editaveis/simbolos.tex [21
+]) (./editaveis/simbolos.tex
+[21
 
-]
-[22
+] [22
 
 ]) (./fixos/indiceAutomatico.tex (./tcc.toc) [23] [24
 
@@ -1161,66 +1131,18 @@ e forma semi-automatizada
 [26]) (./capitulos/2-referencial-teorico.tex [27] [28
 
 ] [29]
-Package epstopdf Info: Source file: <figuras/retaSuporte.eps>
-(epstopdf)                    date: 2014-11-05 14:20:57
-(epstopdf)                    size: 41313 bytes
-(epstopdf)             Output file: <figuras/retaSuporte-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-05 14:23:57
-(epstopdf)                    size: 10764 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/retaSuporte-eps-co
-nverted-to.pdf figuras/retaSuporte.eps>
-(epstopdf)             \includegraphics on input line 36.
-Package epstopdf Info: Output file is already uptodate.
+Overfull \hbox (9.19576pt too wide) in paragraph at lines 26--27
+\T1/lmr/m/n/12 pre-sas que pos-suem in-dis-po-ni-bi-li-dade de re-cur-sos in-te
+r-nos e/ou pr�-prios ([][][][][][],
+ []
 
-<figuras/retaSuporte-eps-converted-to.pdf, id=267, 517.935pt x 285.065pt>
-File: figuras/retaSuporte-eps-converted-to.pdf Graphic file (type pdf)
+File: figuras/retaSuporte.eps Graphic file (type eps)
+<figuras/retaSuporte.eps> [30]
+File: figuras/retaResistencia.eps Graphic file (type eps)
+ <figuras/retaResistencia.eps> [31]
+File: figuras/equacaoMinimosQuadrados.eps Graphic file (type eps)
 
-<use figuras/retaSuporte-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/retaSuporte-eps-converted-to.pdf used on input
- line 36.
-(pdftex.def)             Requested size: 409.49722pt x 225.39026pt.
- [30]
-Package epstopdf Info: Source file: <figuras/retaResistencia.eps>
-(epstopdf)                    date: 2014-11-05 17:38:25
-(epstopdf)                    size: 42430 bytes
-(epstopdf)             Output file: <figuras/retaResistencia-eps-converted-to.p
-df>
-(epstopdf)                    date: 2014-11-05 17:38:52
-(epstopdf)                    size: 11040 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/retaResistencia-ep
-s-converted-to.pdf figuras/retaResistencia.eps>
-(epstopdf)             \includegraphics on input line 53.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/retaResistencia-eps-converted-to.pdf, id=291, 508.90125pt x 286.06876p
-t>
-File: figuras/retaResistencia-eps-converted-to.pdf Graphic file (type pdf)
- <use figuras/retaResistencia-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/retaResistencia-eps-converted-to.pdf used on i
-nput line 53.
-(pdftex.def)             Requested size: 227.5pt x 127.88292pt.
- [31 <./figuras/retaSuporte-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/equacaoMinimosQuadrados.eps>
-(epstopdf)                    date: 2014-11-05 17:47:45
-(epstopdf)                    size: 70599 bytes
-(epstopdf)             Output file: <figuras/equacaoMinimosQuadrados-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2014-11-05 18:43:04
-(epstopdf)                    size: 23996 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/equacaoMinimosQuad
-rados-eps-converted-to.pdf figuras/equacaoMinimosQuadrados.eps>
-(epstopdf)             \includegraphics on input line 110.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=319, 676.5275pt x 402
-.50375pt>
-File: figuras/equacaoMinimosQuadrados-eps-converted-to.pdf Graphic file (type p
-df)
- <use figuras/equacaoMinimosQuadrados-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/equacaoMinimosQuadrados-eps-converted-to.pdf u
-sed on input line 110.
-(pdftex.def)             Requested size: 409.49722pt x 243.64142pt.
- [32]
+<figuras/equacaoMinimosQuadrados.eps> [32]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 124.
 
 
@@ -1229,88 +1151,318 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 124.
-Package epstopdf Info: Source file: <figuras/classificacaoCorrelacaoLinear.eps>
+File: figuras/classificacaoCorrelacaoLinear.eps Graphic file (type eps)
 
-(epstopdf)                    date: 2014-11-05 17:43:08
-(epstopdf)                    size: 43192 bytes
-(epstopdf)             Output file: <figuras/classificacaoCorrelacaoLinear-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2014-11-05 19:34:13
-(epstopdf)                    size: 13722 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/classificacaoCorre
-lacaoLinear-eps-converted-to.pdf figuras/classificacaoCorrelacaoLinear.eps>
-(epstopdf)             \includegraphics on input line 132.
-Package epstopdf Info: Output file is already uptodate.
+<figuras/classificacaoCorrelacaoLinear.eps>
+File: figuras/determinacaoCorrelacao1.eps Graphic file (type eps)
 
-<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=345, 461.725pt 
-x 173.64874pt>
-File: figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf Graphic file (
-type pdf)
+<figuras/determinacaoCorrelacao1.eps>
+File: figuras/determinacaoCorrelacao2.eps Graphic file (type eps)
+ <figuras/determinacaoCorrelacao2.eps>
+[33]
+File: figuras/formulaFibonacci.eps Graphic file (type eps)
+ <figuras/formulaFibonacci.eps>
 
-<use figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/classificacaoCorrelacaoLinear-eps-converted-to
-.pdf used on input line 132.
-(pdftex.def)             Requested size: 409.49722pt x 154.00636pt.
-Package epstopdf Info: Source file: <figuras/determinacaoCorrelacao1.eps>
-(epstopdf)                    date: 2014-11-05 17:44:00
-(epstopdf)                    size: 7096 bytes
-(epstopdf)             Output file: <figuras/determinacaoCorrelacao1-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2014-11-05 19:52:56
-(epstopdf)                    size: 5713 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/determinacaoCorrel
-acao1-eps-converted-to.pdf figuras/determinacaoCorrelacao1.eps>
-(epstopdf)             \includegraphics on input line 142.
-Package epstopdf Info: Output file is already uptodate.
+LaTeX Warning: Citation `ferreira1986' on page 34 undefined on input line 177.
 
-<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=351, 175.65625pt x 83
-.31125pt>
-File: figuras/determinacaoCorrelacao1-eps-converted-to.pdf Graphic file (type p
-df)
- <use figuras/determinacaoCorrelacao1-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/determinacaoCorrelacao1-eps-converted-to.pdf u
-sed on input line 142.
-(pdftex.def)             Requested size: 409.49722pt x 194.25215pt.
-Package epstopdf Info: Source file: <figuras/determinacaoCorrelacao2.eps>
-(epstopdf)                    date: 2014-11-05 17:44:14
-(epstopdf)                    size: 23806 bytes
-(epstopdf)             Output file: <figuras/determinacaoCorrelacao2-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2014-11-05 19:52:57
-(epstopdf)                    size: 12222 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/determinacaoCorrel
-acao2-eps-converted-to.pdf figuras/determinacaoCorrelacao2.eps>
-(epstopdf)             \includegraphics on input line 143.
-Package epstopdf Info: Output file is already uptodate.
+[34]
+File: figuras/arquiteturaVon.eps Graphic file (type eps)
+ <figuras/arquiteturaVon.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=352, 340.27126pt x 14
-5.54375pt>
-File: figuras/determinacaoCorrelacao2-eps-converted-to.pdf Graphic file (type p
-df)
- <use figuras/determinacaoCorrelacao2-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/determinacaoCorrelacao2-eps-converted-to.pdf u
-sed on input line 143.
-(pdftex.def)             Requested size: 409.49722pt x 175.1624pt.
+ [35]
+File: figuras/essenciaOO.eps Graphic file (type eps)
+
+<figuras/essenciaOO.eps> [36]
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 ...e conter estado adicional (variáveis ​
+                                                  ​de instância), e pode ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation `viale2009' on page 33 undefined on input line 148.
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
 
-) [33] (./tcc.bbl (./tcc.brf)
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 ...onter estado adicional (variáveis ​​
+                                                  de instância), e pode apr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (13.21158pt too wide) in paragraph at lines 234--235
+[]\T1/lmr/m/n/12 Se tra-tando de m�-to-dos po-li-m�r-fi-cos pode-se ter so-bre-
+carga e a so-bres-crita.Sobrecarga
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+[38]
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 ...software. Agentes estão sendo usados ​
+                                                  ​em uma ampla variedade ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 ...tware. Agentes estão sendo usados ​​
+                                                  em uma ampla variedade de ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+! Undefined control sequence.
+l.268 ...ações e automação de processos \citep
+                                                  {agentBuilderWhy}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 ...strou que os agentes podem ser usados ​
+                                                  ​para implementar mercad...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 ...ou que os agentes podem ser usados ​​
+                                                  para implementar mercados ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.270 ...s e intenções de seu stakeholder \citep
+                                                  {agentBuilder}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 ...es associados aos nomes de variáveis ​
+                                                  ​não podem ser alterado...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 ...associados aos nomes de variáveis ​​
+                                                  não podem ser alterados. ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 ...escrever especificações executáveis​
+                                                  ​. Entretanto, na práti...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 ...rever especificações executáveis​​
+                                                  . Entretanto, na prática,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `thompson1999' on page 40 undefined on input line 279.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.283 ...r outros valores e podem ser passadas ​
+                                                  ​como argumentos para ou...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.283 ...utros valores e podem ser passadas ​​
+                                                  como argumentos para outra...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.283 ...tro de outras funções \cite{hoogle2013}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.283 ...tro de outras funções \cite{hoogle2013}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (93.94293pt too wide) in paragraph at lines 283--284
+\T1/lmr/m/n/12 fun-��es den-tro de ou-tras fun-��es ([][][][][][], [][][][][][]
+[]). 
+ []
+
+[40]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [34] [35 <./figuras/retaResistencia-eps-converted-to.pdf> <./figuras/equacaoMi
-nimosQuadrados-eps-converted-to.pdf> <./figuras/classificacaoCorrelacaoLinear-e
-ps-converted-to.pdf>] [36 <./figuras/determinacaoCorrelacao1-eps-converted-to.p
-df> <./figuras/determinacaoCorrelacao2-eps-converted-to.pdf>]
+ [41] [42] [43] [44]
 bibitemlist
-[37
+[45
 
-])
+]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.145 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 145.
+
+! Extra }, or forgotten $.
+<argument> .... Dispon{\'\i }vel em: \url {2013}.}
+                                                   
+l.145 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 145.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.145 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.145 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]\T1/lmr/m/n/12 HOOGLE. Func-ti-o-nal pro-gram-ming. 
+ []
+
+[46] [47])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[38]
+[48]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1321,13 +1473,21 @@ AED: lastpage setting LastPage
 \openout8 = `tcc.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
- (./tcc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
-Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 81E4F74FA5C7947B456E27E3D6966C28;1657.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 39.
+\BKM@file=\write9
+\openout9 = `tcc.out.ps'.
 
+ (./tcc.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+
+
+Package rerunfilecheck Warning: File `tcc.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `tcc.brf':
+(rerunfilecheck)             Before: 1279E2F286AF5775DBB95D3A85EFF639;4006
+(rerunfilecheck)             After:  D7395BA60AE7D5F310ACC5F05AD162A5;3958.
 
 LaTeX Warning: There were undefined references.
 
@@ -1337,32 +1497,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 12577 strings out of 493304
- 183801 string characters out of 6139870
- 306860 words of memory out of 5000000
- 15578 multiletter control sequences out of 15000+600000
+ 12620 strings out of 493305
+ 185143 string characters out of 6139896
+ 333462 words of memory out of 5000000
+ 15811 multiletter control sequences out of 15000+600000
  85355 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,13n,38p,886b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
-12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
-pfb>
-Output written on tcc.pdf (40 pages, 530342 bytes).
-PDF statistics:
- 635 PDF objects out of 1000 (max. 8388607)
- 551 compressed objects within 6 object streams
- 128 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 45i,13n,51p,1045b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on tcc.dvi (50 pages, 247248 bytes).

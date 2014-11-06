@@ -108,7 +108,7 @@ Como mostrado na figura \ref{equacaoMinimos}\cite[p.~441]{devore2006}.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{equacaoMinimosQuadrados}
-\caption{Equação da reta Mínimos Quadrados.}{Fonte: \citeonline[p.~443]{devore2006}} 
+\caption{Equação da reta Mínimos Quadrados.}{Fonte: \citeonline[p.~443]{devore2006}.} 
 \label{equacaoMinimos}
 \end{figure}
 
@@ -130,7 +130,7 @@ Segundo \cite[p.~134]{lopes2005}, a Correlação Linear indica a relação entre
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{classificacaoCorrelacaoLinear}
-\caption{Classificação da Correlação Linear.}{Fonte: \citeonline[p.~134]{lopes2005}} 
+\caption{Classificação da Correlação Linear.}{Fonte: \citeonline[p.~134]{lopes2005}.} 
 \label{classificacaoCorrelacaoLinear}
 \end{figure}
 
@@ -141,11 +141,11 @@ Segundo \citeonline[p.~47]{regra2010} a Correlação Linear revela o grau de ass
 \centering
 \includegraphics[width=0.5\textwidth]{determinacaoCorrelacao1}
 \includegraphics[width=0.5\textwidth]{determinacaoCorrelacao2}
-\caption{Determinação da Correlação Linear.}{Fonte:  \citeonline{regra2010}} 
+\caption{Determinação da Correlação Linear.}{Fonte: \citeonline{regra2010}.} 
 \label{determinacaoCorrelacao}
 \end{figure}
 
-Segundo \citeonline[p.~8]{viale2009} as propriedades mais importantes do Coeficiente de Correlação são:
+Segundo \citeonline[p.~8]{viali2009} as propriedades mais importantes do Coeficiente de Correlação são:
 
 \begin{enumerate}
 \item O intervalo de variação vai de -1 a +1.
@@ -155,7 +155,6 @@ Segundo \citeonline[p.~8]{viale2009} as propriedades mais importantes do Coefici
 \item Quanto mais próximo de zero estiver “r”, menor será o relacionamento linear entre X e Y. Um valor igual a zero indicará ausência apenas de relacionamento linear.
 \end{enumerate}
 
-
 A análise da Correlação Linear fornece um número, indicando como duas variáveis variam conjuntamente e mede a intensidade e a direção da relação linear ou não-linear entre duas variáveis. Essa análise também é um indicador que atende à necessidade de estabelecer a existência ou não de uma relação entre essas variáveis sem que, para isso, seja preciso o ajuste de uma função matemática. Em suma, o grau de variação conjunta entre X e Y é igual ao de Y e X \cite[p.~65]{lira2004}.
 
 \subsection{Método de Fibonacci}
@@ -164,4 +163,126 @@ A sucessão ou sequência de Fibonacci é uma sequência de números naturais, n
 
 Devido a sequência de Fibonacci ser recursiva, é possível determinar uma fórmula capaz de encontrar o valor de qualquer número de Fibonacci, Fn, se seu lugar na sequência, n, for conhecido. Esta propriedade garante que para obter todas as soluções da equação recursiva de Fibonacci: Fn+1 = Fn-1 + Fn, para qualquer n > 1 \cite[p.~12]{sousa2012}.
 
-Segundo \citeonline[p.~32]{rocha2008}, a fórmula de Fibonacci, sem uso da recorrência, é dada de acordo com a figura 5. Essa fórmula também é conhecida como fórmula de Binet.
+Segundo \citeonline[p.~32]{rocha2008}, a fórmula de Fibonacci, sem uso da recorrência, é dada de acordo com a figura \ref{formulaFibonacci}. Essa fórmula também é conhecida como fórmula de Binet.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{figuras/formulaFibonacci}
+\caption{Fórmula de Fibonacci sem uso de recorrência.}{Fonte: \citeonline[p.~32]{rocha2008}.} 
+\label{formulaFibonacci}
+\end{figure}
+
+\section{Paradigmas de Programação}
+
+A palavra paradigma significa aquilo que pode ser utilizado como padrão, de forma que é um modelo a ser seguido \cite{ferreira1986}. Segundo \citeonline{normak2013} Kurt Normark (2013), professor da Universidade de Aalborg na Dinamarca, paradigma de programação é um padrão que serve como uma escola de pensamentos para a programação de computadores.
+
+
+
+Uma linguagem de programação multiparadigma é uma linguagem de programação que suporta mais de um paradigma de programação. O objetivo de tais linguagens é permitir que programadores usem a melhor ferramenta para o trabalho, admitindo que nenhum paradigma  resolve todos os problemas da maneira mais fácil ou mais eficiente \cite[p.~21]{paquet2010}. Seguem noções preliminares sobre cada paradigma, os quais serão investigados ao longo desse TCC.
+
+\subsection{Paradigma Procedural}
+
+Programação procedural é um paradigma de programação, derivado da programação estruturada, com base no conceito da chamada de procedimento. Procedimentos, também conhecidos como rotinas, sub-rotinas, métodos ou funções, contêm uma série de passos computacionais a serem realizados. Qualquer procedimento pode ser chamado a qualquer momento durante a execução de um programa, inclusive por outros procedimentos ou a si mesmo \cite[p.~22]{paquet2010}.
+
+A linguagem de programação procedural fornece ao programador  um meio de definir com precisão cada passo na execução de uma tarefa e é muitas vezes uma escolha melhor em situações que envolvem complexidade moderada ou que requerem significativa facilidade de manutenção \cite[p.~22]{paquet2010}.
+
+As linguagens procedurais foram desenvolvidas em torno da arquitetura de computadores prevalentes na época, chamada de  arquitetura von Neumann, criada pelo matemático húngaro John von Neumann \cite[p.~18]{sebesta2012}.
+
+Em um computador de von Neumann, ambos os dados e programas são armazenados na mesma memória. A unidade central de processamento (CPU), que executa as instruções, é separada da memória. Portanto, as instruções e os dados devem ser transmitidos da memória para a CPU. Os resultados das operações na CPU devem ser devolvidos à memória, conforme ilustra a figura \ref{arquiteturaVon}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{figuras/arquiteturaVon}
+\caption{Arquitetura de von Neumann.}{Fonte: \cite[p.~19]{sebesta2012}.}
+\label{arquiteturaVon}
+\end{figure}
+
+Devido ao uso da arquitetura de von Neumann, os recursos centrais das linguagens imperativas são as variáveis, as quais modelam as células de memória, as instruções de atribuição, baseadas na operação de canalização (piping) e na forma interativa de repetição, o método mais eficiente dessa arquitetura. A iteração é rápida nos computadores de von Neumann uma vez que as instruções são armazenadas em células adjacentes da memória. Esta eficiência desencoraja o uso de recursão para repetição, embora a recursão seja frequentemente mais natural \cite[p.~18]{sebesta2012}.
+
+Linguagens imperativas contêm variáveis e valores inteiros, operações aritiméticas básicas, comandos de atribuição, sequenciamentos de comandos baseados em memórias, condições e comandos de ramificação. Essas linguagens suportam determinadas características comuns, que surgiram com a evolução do paradigma, tais como: estruturas de controle, entrada/saídas, manipulação de exceções e erros, abstração procedural, expressões e atribuição, e suporte de biblioteca para estruturas de dados \cite[p.~278-279]{tucker2009}.
+
+Fortran (FORmula TRANslation) foi a primeira linguagem de alto nível a ganhar ampla aceitação, sendo esta uma linguagem imperativa. Projetada para aplicações científicas, essa linguagem conta com notação algébrica, tipos, subprogramas e entrada/saída formatada. Foi implementada em 1956 por John Backus na IBM especificamente para a máquina IBM 704. A execução eficiente foi uma grande preocupação, consequentemente, sua estrutura e comandos têm muito em comum com linguagens de montagem \cite[p.~458]{brookshear}.
+
+Outra linguagem de programação é o C \citeonline{ritchie1996}, um dos criadores da linguagem, ela se tornou uma linguagem dominante na década de 90. Seu sucesso deve-se ao sucesso do Unix, um sistema operacional implementado em C.
+
+\begin{citacao}
+Apesar de alguns aspectos misteriosos para o iniciante e ocasionalmente até mesmo para o adepto, a linguagem C permanece uma simples e pequena linguagem, traduzível com simples e pequenos compiladores. Seus tipos e operações são bem fundamentados naquelas fornecidas por máquinas reais, e para pessoas que usam o OO computador para trabalhar, aprender a linguagem para gerar programas em tempo – e espaço – eficientes não é difícil. Ao mesmo tempo a linguagem é suficientemente abstrata dos detalhes da máquina de modo que a portabilidade de programa pode ser alcançada \cite{ritchie1996}.
+\end{citacao}
+
+\subsection{Paradigma Orientado a Objetos}
+
+Um objeto é a abstração de uma "coisa" (alguém ou algo), e esta abstração é expressa com a ajuda de uma linguagem de programação. A coisa pode ser um objeto real, ou algum conceito mais complicado. Tomando um objeto comum, como um gato, por exemplo, você pode ver que ele tem certas características (cor, nome, peso) e pode executar algumas ações (miar, dormir, esconder, fugir). As características do objeto são chamados de propriedades em Orientação a Objetos (OO) e as ações são chamadas de métodos \cite[p.~13]{stefanov2008}.
+
+O conceito de objeto não surgiu do paradigma orientado a objetos. Pode-se dizer ainda que OO foi uma evolução das práticas já existentes da época. O termo objetos surgiu quase simultaneamente em 1970 em vários ramos da ciência da computação, algumas áreas que influenciaram o paradigma OO foram: sistemas de simulação, sistemas operacionais, abstração de dados e inteligência artificial, como ilustra a figura \ref{essenciaOO} \cite[p.~1]{capretz2003}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{figuras/essenciaOO}
+\caption{A essência do Paradigma Orientado a Objetos.}{Fonte: [p.~1]{capretz2003}.} 
+\label{essenciaOO}
+\end{figure}
+
+A programação orientada a objetos fornece um modelo no qual um programa é uma coleção de objetos que interagem entre si, passando mensagens que transformam seu estado. Neste sentido, a passagem de mensagens permite que os objetos dados se tornem ativos em vez de passivos \cite[p.~310]{tucker2009}.
+
+Classes servem como modelos a partir dos quais os objetos podem ser criados. Elas tem precisamente as mesmas variáveis ​​e operações de instâncias dos objeto, mas sua interpretação é diferente: onde um objeto representa variáveis ​​reais, variáveis ​​de classe são, em potencial, instanciadas apenas quando um objeto é criado \cite[p.~10]{wegner1990}.
+
+Uma das principais vantagens do uso de orientação a objetos é que o objeto não precisa revelar todos os seus atributos e comportamentos (métodos). Em um bom design OO um objeto só deve revelar as interfaces necessárias para interagir com outros objetos. Os detalhes não pertinentes para a utilização do objeto deve ser ocultado de todos os outros objetos. Por exemplo, um objeto que calcula o quadrado de um número deve fornecer uma interface para obter o resultado. No entanto, as propriedades internas e algoritmos utilizados para calcular o quadrado não têm de ser disponibilizados ao objeto solicitante. O encapsulamento  é definido pelo fato de que os objetos envolvem (quase que como uma cápsula) atributos e métodos, e a ocultação de dados é uma das partes mais importantes do encapsulamento \cite[p.~19]{weisfeld2009}.
+
+Uma nova classe (designada por subclasse derivada) pode ser derivada de outra classe (designada por superclasse) por um mecanismo chamado de herança. A classe derivada herda todas as características da classe base: a sua estrutura e comportamento (resposta a mensagens). Além disso, a classe derivada pode conter estado adicional (variáveis ​​de instância), e pode apresentar um comportamento adicional (novos métodos para responder novas mensagens). Significativamente, a classe de derivados também podem substituir o comportamento correspondente a alguns dos métodos da classe base: não seria um método diferente para responder à mesma mensagem. Além disso, o mecanismo de herança é permitido mesmo sem acesso ao código-fonte da classe base. Herança dá a OO seu benefício chefe sobre outros paradigmas de programação - a reutilização de código relativamente fácil sem a necessidade de alterar o código fonte existente \cite{leavens2014}.
+
+Tendo em vista o conceito de Herança, é possível entender o Polimorfismo , que etimologicamente significa "muitas formas", sendo a capacidade de tratar um objeto de qualquer subclasse de uma classe base, como se fosse um objeto da própria classe base. A classe base, portanto, tem muitas formas: a própria classe base, e qualquer uma de suas subclasses. Se você precisa escrever um código que lida com uma família de tipos, o código pode ignorar detalhes específicos do tipo e apenas interagir com o tipo base da família. Mesmo que o código esteja estruturado para enviar mensagens para um objeto da classe base, a classe do objeto poderia realmente ser a classe base ou qualquer uma de suas subclasses. Isso torna o  código extensível, porque outras subclasses podem ser adicionadas mais tarde para a hierarquias de classes \cite{venners1996}.
+
+Se tratando de métodos polimórficos pode-se ter sobrecarga e a sobrescrita.Sobrecarga de método é um recurso que permite que uma classe tem dois ou mais métodos com mesmo nome, se suas listas de parâmetros se diferentes com: números de parâmetros passados, tipo de dados dos parâmetros e sequência dos dados passados como parâmetro. Já a sobrescrita é a declaração de um método na subclasse, que já está na classe mãe \cite{singhOverload}.
+
+Os conceitos de sobrecarga e sobrescrita são constantemente confundidos. A sobrecarga acontece em tempo de compilação, enquanto a sobrescrita  ocorre em tempo de execução. A sobrecarga  feita na mesma classe, enquanto são necessárias classes mães e suas filhas para o uso sobrescrita, métodos privados sobrecarregados, mas eles não podem ser sobrescritos. Isso significa que uma classe pode ter mais de um método privado mesmo nome, mas uma classe filha não pode substituir os métodos privados sua classe mãe \cite{singhDifference}.
+
+Reusabilidade é uma das grandes promessas da tecnologia orientada a objetos. Reutilização de código, o tipo mais comum de reuso, refere-se à reutilização de código-fonte dentro de seções de uma aplicação e potencialmente através de múltiplas aplicações. Em alguns casos, reutilização de código é alcançada compartilhando-se classes, coleções de funções e rotinas comuns. A vantagem do reuso de código é que ela reduz a quantidade real de código que você precisa escrever. Há ainda a reutilização de herança, que refere-se ao uso de herança em sua aplicação para tirar vantagem de comportamento implementado em classes existentes \cite{ambler1998}.
+
+\subsection{Paradigma Orientado a Agentes}
+
+Um agente é qualquer coisa que pode perceber seu ambiente através de sensores e agir sobre esse ambiente através de atuadores. Um agente humano tem olhos, ouvidos e outros órgãos para sensores e como atuadores possui mãos, pernas, tato, voz, e assim por diante. Um agente robótico pode ter câmeras e localizadores, faixa do infravermelho como sensores e vários motores para atuadores. Um agente de software recebe as teclas digitadas, conteúdo de arquivos e pacotes de rede como entradas sensoriais e age sobre o meio ambiente por meio da exibição na tela, gravação de arquivos e envio de pacotes de rede \cite[p.~34]{russel1995}.
+
+A exigência de continuidade e autonomia deriva nosso desejo de que um agente seja capaz de realizar atividades de uma forma flexível e inteligente, que é sensível a alterações no ambiente sem a necessidade de orientação constante humana ou de intervenção. Idealmente, um agente que funciona de forma contínua, num ambiente ao longo de um período de tempo seria capaz de aprender com sua experiência. Além  disso, espera-se um agente que habita um ambiente com outros agentes e processos pode ser capaz de se comunicar e cooperar com eles \cite[p.~8]{bradshaw1997}.
+
+O autor \citeonline[p.~42]{woodridge2010} considera quatro tipos de arquitetura de  agentes: baseados em lógica, reativos, em camadas e de crença-desejo-intenção.
+
+\begin{citacao}
+Nas arquiteturas baseadas em lógica os agentes contêm um modelo simbólico do ambiente do agente, explicitamente representado em uma base de conhecimento e a decisão da ação a executar é tomada a através de raciocínio lógico \cite[p.~3]{girardi2004}.
+\end{citacao}
+
+Arquiteturas reativas deixam o raciocínio abstrato de lado e destinam-se a lidar com comportamentos básicos. Os agentes reagem às mudanças no ambiente como uma forma de resposta ao estímulo, executando as rotinas simples que corresponde a um estímulo específico \cite[p.~13]{schumacher2001}.
+
+A arquiteturas em camadas, também conhecido como arquitetura híbrida, híbrida combina componentes da arquitetura baseada em lógica e da reativa. Esta arquitetura propõe um subsistema deliberativo que planeja e toma decisões da maneira proposta pela Inteligência Artificial Simbólica e um reativo capaz de reagir a eventos que ocorrem no ambiente sem se ocupar de raciocínios complexos \cite[p.~44]{ferreira2004}.
+
+Na arquitetura BDI o esta do agente é representado por três estruturas: suas crenças (beliefs), que são o conhecimento do agente sobre seu ambiente; seus desejos (desires), representam objetivos ou situações que o agente gostaria de realizar ou trazer; por fim tem-se suas intenções (intentions), são suas ações que têm decidido realizar\cite[p.~3]{girardi2004}.
+
+Um sistema multiagente (SMA) pode ser caracterizado como um grupo de agentes que atuam em conjunto no sentido de resolver problemas que estão além das suas habilidades individuais. Os agentes realizam interações entre eles de modo cooperativo para atingir uma meta \cite[p.~6]{girardi2004}. 
+
+Para \cite[p.~3]{woodridge2010} o uso de SMA se justifica uma vez que muitas tarefas não podem ser feitas por um único agente, e há ainda tarefas que são feitas de forma mais eficaz quando realizada por vários agentes. Para tal é essencial que o SMA seja capaz de:  trabalhar em conjunto para alcançar um objetivo comum, monitorar constantemente o progresso do esforço da equipe como um todo, ajudar um ao outro quando necessário, coordenação das ações individuais de modo que eles não interfiram um com o outro, comunicar sucessos e fracassos, se necessário para a equipe para ter sucesso parcial. 
+
+SMA muitas vezes baseia-se em conceitos de outras disciplinas, como a psicologia, a ciência econômica, cognitiva, lingüística, inteligência artificial, etc. Por exemplo, analisar protocolos de interação e ações de comunicação entre os agentes com base na teoria dos atos de fala, vem da filosofia e da lingüística. A abstração da postura intencional foi emprestado da ciência cognitiva para analisar e raciocinar sobre os comportamentos autônomos de agentes. Recentemente, muitas metodologias e modelos de abstrações e conceitos de organização e sociologia foram propostas para modelar, analisar e projetar SMA \cite[p.~1]{odell2005}.
+
+Agentes autônomos e SMA representam uma nova forma de analisar, projetar e implementar sistemas de software complexos. A visão orientada a agentes oferece um repertório poderoso de ferramentas, técnicas e metáforas que têm o potencial de melhorar consideravelmente a maneira como as pessoas conceituam e implementam muitos tipos de software. Agentes estão sendo usados ​​em uma ampla variedade de aplicações, desde de pequenos sistemas, tais como filtros de e-mail personalizados, a  sistemas grandes e complexos de missão crítica, como controle de tráfego aéreo. À primeira vista, pode parecer que tais tipos de sistema tem pouco em comum. E, no entanto este não é o caso: em ambos, a abstração chave usada é a de um agente \cite{jennings1998}.
+
+Segundo \cite{jennings1995} os agentes de software tem as seguintes propriedades: autonomia, competência social, reatividade e  pró-atividade.
+
+Os agentes mantêm uma descrição do seu próprio estado de processamento e o estado do mundo em torno deles, logo eles são ideais para aplicações de automação. Agentes autônomos são capazes de operar sem entrada ou intervenção do usuário. Podendo ser utilizados em como instalações e automação de processos \citep{agentBuilderWhy}.
+
+A empresa Acronymics e a Alternative Energy Systems Consultants (AESC) realizaram uma pesquisa afim de criar agentes de softwares capazes de comprar e vender energia eletricidade participando do mercado eletrônico. Cada agente apresentava um comportamento único e individual determinado pelo seu próprio modelo econômico, esta pesquisa mostrou que os agentes podem ser usados ​​para implementar mercados e leilões electrônico e que um agente pode adotar os objetivos e intenções de seu stakeholder \citep{agentBuilder}.
+
+\subsection{Programação Declarativa}
+
+Linguagens declarativas permitem ao programador se concentrar na lógica de um algoritmo, diferentemente de linguagens imperativas que requerem do programador se concentrar tanto na lógica quanto no controle de um algoritmo, para tal se dá o nome de atribuição não-destrutiva. Nos programas declarativos, os valores associados aos nomes de variáveis ​​não podem ser alterados. Assim, a ordem na qual as definições ou equações são chamadas, não interessa. Além disso, as definições declarativas não permitem efeitos secundários, isto é, o cálculo de um valor não irá afetar outro valor \cite{coenen}.
+
+De fato, em algumas situações, a especificação de um problema no formato adequado já constitui a solução para o problema algorítmico. Em outras palavras, a programação declarativa torna possível escrever especificações executáveis​​. Entretanto, na prática, os programas obtidos deste modo são frequentemente ineficientes, visto que esta abordagem de programação tem de ser associado, ao uso adequado de transformações dos programas \cite[p.~2]{apt1996}.
+
+\subsection{Paradigma Funcional}
+O centro da programação funcional é a idéia de uma função. A linguagem de programação funcional dá um modelo simples de programação: dado um valor, o resultado é calculado com base em outros valores, as entradas da função. Devido à fundação simples, uma linguagem funcional dá uma visão mais clara das idéias centrais da computação moderna, incluindo abstração, polimorfismo e sobrecarga \cite[p.~16]{thompson1999}.
+
+A primeira linguagem de programação funcional foi inventada para oferecer recursos de linguagem para processamento de listas, cuja necessidade surgiu a partir das primeiras aplicações na área da inteligência artificial \cite[p.~361]{tucker2009}.
+
+A programação funcional exige que as funções sejam cidadãos de primeira classe, o que significa que elas são tratadas como quaisquer outros valores e podem ser passadas ​​como argumentos para outras funções ou serem retornadas como um resultado de uma função. Sendo cidadãos de primeira classe também significa que é possível definir e manipular funções dentro de outras funções \cite{hoogle2013}.
+	 	 	 	
+Uma linguagem de programação puramente funcional não usa variáveis ou instruções de atribuição. Isso libera o programador de preocupar-se com as células da memória do compilador no qual o programa é executado. Sem variáveis, construções interativas não são possíveis, porque elas são controladas por variáveis. A repetição deve ser feita por meio de recursão, não por meio de laços \cite[p.~555]{sebesta2012}.
+
+Por ser programação declarativa o paradigma funcional não tem efeitos colaterais, uma função não faz nada que não seja retornar seu valor de resultado, com isso fica fácil trazer uma experiência matemática para a programação \cite{piponi2006}.
