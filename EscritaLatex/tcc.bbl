@@ -5,6 +5,19 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[AgentBuilder 2009]{agentBuilder}
+\abntrefinfo{AgentBuilder}{AGENTBUILDER}{2009a}
+{AGENTBUILDER. Auction agents for the electric power industry.
+2009.
+Dispon{\'\i}vel em:
+  \url{http://www.agentbuilder.com/Documentation/EPRI/index.html}.}
+
+\bibitem[AgentBuilder 2009]{agentBuilderWhy}
+\abntrefinfo{AgentBuilder}{AGENTBUILDER}{2009b}
+{AGENTBUILDER. Mercado forex: Série alertas.
+2009.
+Dispon{\'\i}vel em: \url{http://www.cvm.gov.br/port/Alertas/mercadoForex.pdf}.}
+
 \bibitem[ALBUQUERQUE 2013]{albuquerque2013}
 \abntrefinfo{ALBUQUERQUE}{ALBUQUERQUE}{2013}
 {ALBUQUERQUE, A.~A.
@@ -30,6 +43,11 @@ Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
 {APT, K.~R. \emph{From Logic programming to Prolog}.
 1. ed. [S.l.], 1996.}
 
+\bibitem[BEIZER 1990]{beizer1990}
+\abntrefinfo{BEIZER}{BEIZER}{1990}
+{BEIZER, B. \emph{Software Testing Techniques}.
+2. ed. [S.l.], 1990.}
+
 \bibitem[Belchior 2012]{belchior2012}
 \abntrefinfo{Belchior}{BELCHIOR}{2012}
 {BELCHIOR, G.~P. \emph{Oficina de Metodologia Científica: Elaboração de
@@ -41,6 +59,13 @@ Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
 {BRADSHAW, J.~M. \emph{Software Agents}.
 [S.l.], 1997.}
 
+\bibitem[BRAGA 2012]{braga2012}
+\abntrefinfo{BRAGA}{BRAGA}{2012}
+{BRAGA, R. Qualidade de software: Avaliação de sistemas computacionais.
+2012.
+Dispon{\'\i}vel em:
+  \url{http://disciplinas.stoa.usp.br/pluginfile.php/57546/mod\_resource/content/1/Aula8-QualidadeSoftware.pdf}.}
+
 \bibitem[BROOKSHEAR 2003]{brookshear}
 \abntrefinfo{BROOKSHEAR}{BROOKSHEAR}{2003}
 {BROOKSHEAR, J.~G. \emph{Ciência da Computação: Uma Visão Abrangente}.
@@ -51,10 +76,22 @@ Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
 {BRUNI, A.~L.; FAMÁ, R. \emph{Gestão de custos e formação de preços}.
 São Paulo, 2011.}
 
+\bibitem[BUENO e CAMPELO 2011]{bueno2011}
+\abntrefinfo{BUENO e CAMPELO}{BUENO; CAMPELO}{2011}
+{BUENO, C.~S.; CAMPELO, G.~B.
+\emph{Qualidade de Software}.
+Monografia (Artigo) --- Departamento de Informática,Universidade Federal de
+  Pernambuco, Pernambuco, 2011.}
+
 \bibitem[CAPRETZ 2003]{capretz2003}
 \abntrefinfo{CAPRETZ}{CAPRETZ}{2003}
 {CAPRETZ, L.~F. \emph{A Brief History of the Object-Oriented Approach}.
 [S.l.], 2003.}
+
+\bibitem[Chess e West 2007]{chess2007}
+\abntrefinfo{Chess e West}{CHESS; WEST}{2007}
+{CHESS, B.; WEST, J. \emph{Secure Programming with Static Analysis}.
+[S.l.], 2007.}
 
 \bibitem[COENEN 1999]{coenen}
 \abntrefinfo{COENEN}{COENEN}{1999}
@@ -118,6 +155,13 @@ Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
 {FERREIRA, D.~F. \emph{Estatística básica}.
 2. ed. [S.l.], 2009.}
 
+\bibitem[Filho 2013]{filho}
+\abntrefinfo{Filho}{FILHO}{2013}
+{FILHO, C.
+\emph{Kalibro: interpretação de métricas de código-fonte}.
+Monografia (Mestrado em Ciência da Computação) --- Instituto de Matemática
+  e Estatística, Universidade de São Paulo, São Paulo, 2013.}
+
 \bibitem[FXCM 2011]{fxcm2011}
 \abntrefinfo{FXCM}{FXCM}{2011}
 {FXCM. Forex basic.
@@ -136,12 +180,12 @@ Monografia (Monografia) --- Universidade Federal de Campinas:, São Paulo,
 {GIRARDI, R. \emph{Engenharia de Software baseada em Agentes}.
 [S.l.], 2004.}
 
-\bibitem[Hoogle
-  http://www.haskell.org/haskellwiki/Functional_programming]{hoogle2013}
-\abntrefinfo{Hoogle}{HOOGLE}{http://www.haskell.org/haskellwiki/Functional_programming}
+\bibitem[Hoogle 2013]{hoogle2013}
+\abntrefinfo{Hoogle}{HOOGLE}{2013}
 {HOOGLE. Functional programming.
-http://www.haskell.org/haskellwiki/Functional_programming.
-Dispon{\'\i}vel em: \url{2013}.}
+2013.
+Dispon{\'\i}vel em:
+  \url{http://www.haskell.org/haskellwiki/Functional\_programming}.}
 
 \bibitem[INÁCIO 2010]{inacio2010}
 \abntrefinfo{INÁCIO}{INÁCIO}{2010}
@@ -175,6 +219,11 @@ Dispon{\'\i}vel em: \url{https://www.coursera.org/course/mathematicalmethods}.}
 Dispon{\'\i}vel em:
   \url{http://www.eecs.ucf.edu/~leavens/ComS541Fall97/hw-pages/paradigms/major.html\#object}.}
 
+\bibitem[Lewis 2009]{lewis2009}
+\abntrefinfo{Lewis}{LEWIS}{2009}
+{LEWIS, W.~E. \emph{Software Testing and Continuous Quality Improvement}.
+3. ed. [S.l.], 2009.}
+
 \bibitem[Lira 2004]{lira2004}
 \abntrefinfo{Lira}{LIRA}{2004}
 {LIRA, S.~A.
@@ -200,6 +249,47 @@ Dispon{\'\i}vel em:
 {MATSURA, E. \emph{Comprar ou Vender? Como investir na Bolsa Utilizando
   Análise Gráfica}.
 7. ed. [S.l.], 2006.}
+
+\bibitem[Meirelles 2013]{meirelles2013}
+\abntrefinfo{Meirelles}{MEIRELLES}{2013}
+{MEIRELLES, P.
+\emph{Monitoramento de métricas de código-fonte em projetos de Software
+  Livre}.
+Monografia (Tese de Doutorado) --- Instituto de Matemática e Estatística,
+  Universidade de São Paulo, São Paulo, 2013.}
+
+\bibitem[Melo 2011]{melo2011}
+\abntrefinfo{Melo}{MELO}{2011}
+{MELO, J. R.~F.
+\emph{Análise Estática de Código}.
+Monografia (Monografia) --- Instituto Federal de Educação, Ciência e
+  Tecnologia do Rio Grande do Norte, Natal, 2011.}
+
+\bibitem[Millani 2013]{millani2013}
+\abntrefinfo{Millani}{MILLANI}{2013}
+{MILLANI, L. F.~G.
+\emph{Análise de Correlação entre Métricas de Qualidade de Software e
+  Métricas Físicas.}
+Monografia (Monografia) --- Universidade Federal do Rio Grande do Sul, Rio
+  Grande do Sul, 2013.}
+
+\bibitem[MYERS 2004]{myers2004}
+\abntrefinfo{MYERS}{MYERS}{2004}
+{MYERS, G.~J. \emph{The art of Software Testing}.
+2. ed. [S.l.], 2004.}
+
+\bibitem[Naik e TRIPATHY 2008]{naik2008}
+\abntrefinfo{Naik e TRIPATHY}{NAIK; TRIPATHY}{2008}
+{NAIK, K.; TRIPATHY, P. \emph{SOFTWARE TESTING AND QUALITY ASSURANCE Theory and
+  Practice}.
+2. ed. [S.l.], 2008.}
+
+\bibitem[Neto 2005]{neto2005}
+\abntrefinfo{Neto}{NETO}{2005}
+{NETO, A. C.~D. Introdução a teste de sofware.
+2005.
+Dispon{\'\i}vel em:
+  \url{http://www.devmedia.com.br/artigo-engenharia-de-software-introducao-a-teste-de-software/8035}.}
 
 \bibitem[Normak 2013]{normak2013}
 \abntrefinfo{Normak}{NORMAK}{2013}
@@ -282,10 +372,37 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{http://beginnersbook.com/2013/05/method-overloading/}.}
 
+\bibitem[Sommerville 2011]{sommerville}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
+{SOMMERVILLE, I. \emph{Engenharia de Software}.
+9. ed. [S.l.], 2011.}
+
+\bibitem[Spillner, Linz e Schaefer 2014]{spillner2014}
+\abntrefinfo{Spillner, Linz e Schaefer}{SPILLNER; LINZ; SCHAEFER}{2014}
+{SPILLNER, A.; LINZ tilo; SCHAEFER, H. \emph{Software Testing Foundations}.
+4. ed. [S.l.], 2014.}
+
+\bibitem[Spivey 1996]{spivey1996}
+\abntrefinfo{Spivey}{SPIVEY}{1996}
+{SPIVEY, M. \emph{An introduction to logic programming through Prolog.}
+1. ed. [S.l.], 1996.}
+
 \bibitem[STEFANOV 2008]{stefanov2008}
 \abntrefinfo{STEFANOV}{STEFANOV}{2008}
 {STEFANOV, S. \emph{Object-Oriented JavaScript}.
 [S.l.], 2008.}
+
+\bibitem[Thiago 2001]{thiago2001}
+\abntrefinfo{Thiago}{THIAGO}{2001}
+{THIAGO, A. As vantagens do teste unitário.
+2001.
+Dispon{\'\i}vel em:
+  \url{http://andrethiago.wordpress.com/2011/04/06/as-vantagens-do-teste-unitario/}.}
+
+\bibitem[Thompson 1999]{thompson1999}
+\abntrefinfo{Thompson}{THOMPSON}{1999}
+{THOMPSON, S. \emph{Haskell: The Craft of Functional Programming}.
+2. ed. [S.l.], 1999.}
 
 \bibitem[TUCKER e NOONAN 2009]{tucker2009}
 \abntrefinfo{TUCKER e NOONAN}{TUCKER; NOONAN}{2009}
@@ -304,7 +421,7 @@ Dispon{\'\i}vel em:
 \abntrefinfo{VIALI}{VIALI}{2009}
 {VIALI, L.~M.
 \emph{Estatística Básica}.
-Monografia (Monogrfia) --- Instituto de Matemática da Universidade Federal do
+Monografia (Monografia) --- Instituto de Matemática da Universidade Federal do
   Rio Grande do Sul, 2009.}
 
 \bibitem[VUOLO 1996]{vuolo1996}
@@ -312,10 +429,20 @@ Monografia (Monogrfia) --- Instituto de Matemática da Universidade Federal do
 {VUOLO, J.~H. \emph{Fundamentos da Teoria de Erros}.
 2. ed. [S.l.], 1996.}
 
+\bibitem[WEGNER 1990]{wegner1990}
+\abntrefinfo{WEGNER}{WEGNER}{1990}
+{WEGNER, P. \emph{Concepts and paradigms of object-oriented programming}.
+1. ed. [S.l.], 1990.}
+
 \bibitem[WEISFELD 2009]{weisfeld2009}
 \abntrefinfo{WEISFELD}{WEISFELD}{2009}
 {WEISFELD, M.~A. \emph{The Object-Oriented Thought Process}.
 3. ed. [S.l.], 2009.}
+
+\bibitem[WILLIAMS 2006]{williams2006}
+\abntrefinfo{WILLIAMS}{WILLIAMS}{2006}
+{WILLIAMS, L. \emph{White-Box Testing}.
+[S.l.], 2006.}
 
 \bibitem[WOOLDRIDGE 2010]{woodridge2010}
 \abntrefinfo{WOOLDRIDGE}{WOOLDRIDGE}{2010}

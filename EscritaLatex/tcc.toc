@@ -25,13 +25,23 @@
 \contentsline {section}{\numberline {2.2}M\IeC {\'e}todos Matem\IeC {\'a}ticos}{31}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}M\IeC {\'e}todo de M\IeC {\'\i }nimos Quadrados}{32}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}M\IeC {\'e}todo de Correla\IeC {\c c}\IeC {\~a}o Linear}{33}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}M\IeC {\'e}todo de Fibonacci}{34}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Paradigmas de Programa\IeC {\c c}\IeC {\~a}o}{34}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Paradigma Procedural}{34}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Paradigma Orientado a Objetos}{36}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Paradigma Orientado a Agentes}{38}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Programa\IeC {\c c}\IeC {\~a}o Declarativa}{40}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Paradigma Funcional}{40}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.2.3}M\IeC {\'e}todo de Fibonacci}{36}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Paradigmas de Programa\IeC {\c c}\IeC {\~a}o}{36}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Paradigma Procedural}{37}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Paradigma Orientado a Objetos}{38}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Paradigma Orientado a Agentes}{41}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Programa\IeC {\c c}\IeC {\~a}o Declarativa}{43}{subsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Paradigma Funcional}{43}{subsubsection.2.3.4.1}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Paradigma L\IeC {\'o}gico}{44}{subsubsection.2.3.4.2}
+\contentsline {section}{\numberline {2.4}Teste de Software}{44}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Testes Unit\IeC {\'a}rios}{47}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Teste de integra\IeC {\c c}\IeC {\~a}o}{47}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Teste de Sistema}{47}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Teste de Aceita\IeC {\c c}\IeC {\~a}o}{48}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Qualidade de Software}{48}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}M\IeC {\'e}tricas de Qualidade de C\IeC {\'o}digo Fonte}{49}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}An\IeC {\'a}lise Est\IeC {\'a}tica de C\IeC {\'o}digo Fonte}{49}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Ferramentas de An\IeC {\'a}lise Est\IeC {\'a}tica}{50}{subsection.2.5.3}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{45}{section*.15}
+\contentsline {chapter}{Refer\^encias}{51}{section*.15}
