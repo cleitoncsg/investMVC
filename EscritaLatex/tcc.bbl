@@ -108,6 +108,11 @@ Monografia (Artigo) --- Departamento de Informática,Universidade Federal de
 {CAPRETZ, L.~F. \emph{A Brief History of the Object-Oriented Approach}.
 [S.l.], 2003.}
 
+\bibitem[Cheesman e Daniels 2001]{john}
+\abntrefinfo{Cheesman e Daniels}{CHEESMAN; DANIELS}{2001}
+{CHEESMAN, J.; DANIELS, J. \emph{UML Components}.
+[S.l.], 2001.}
+
 \bibitem[Chess e West 2007]{chess2007}
 \abntrefinfo{Chess e West}{CHESS; WEST}{2007}
 {CHESS, B.; WEST, J. \emph{Secure Programming with Static Analysis}.
@@ -273,6 +278,13 @@ Monografia (Monografia) --- Faculdade de Informática de Taquara, Rio Grande do
 {KONIS, K. Mathematical methods for quantitative finance.
 2014.
 Dispon{\'\i}vel em: \url{https://www.coursera.org/course/mathematicalmethods}.}
+
+\bibitem[Lamim 2010]{lamin}
+\abntrefinfo{Lamim}{LAMIM}{2010}
+{LAMIM, J. Mvc - o padrão de arquitetura de software.
+2010.
+Dispon{\'\i}vel em:
+  \url{http://www.oficinadanet.com.br/artigo/1687/mvc\_-\_o\_padrao\_de\_arquitetura\_de\_software}.}
 
 \bibitem[Leavens 2014]{leavens2014}
 \abntrefinfo{Leavens}{LEAVENS}{2014}
