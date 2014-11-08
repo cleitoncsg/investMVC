@@ -63,19 +63,19 @@ Por usar vários paradigmas a ferramenta terá vários módulos, cada módulo co
 \label{componente}
 \end{figure}
 
-O módulo groovy fará a interação com o usuário. A escolha da linguagem de programação Groovy se deu porque esta é voltada para aplicações web e juntamente com  o framework grails, fornece na criação do projeto uma arquitetura MVC definida. Esta linguagem de programação é orientada a objetos, essa razão permite uma abstração do mundo, desta forma foi escolhido para  criação do site, uma vez que é preciso que uma entidade represente os usuários e seus experts.
+O módulo groovy fará a interação com o usuário. A escolha da linguagem de programação Groovy se deu porque esta é voltada para aplicações web e juntamente com  o framework grails, fornece na criação do projeto uma arquitetura MVC definida. Esta linguagem de programação é orientada a objetos, por essa razão permite uma abstração do mundo, desta forma foi escolhido para  criação do site, uma vez que é preciso que uma entidade represente os usuários e seus experts \cite[pág.~13]{stefanov2008}.
 
 O módulo Cálculos Numéricos será responsável por realizar os métodos matémáticos presentes na ferramenta Invest MVC, este módulo é composto por dois outros módulos: módulo C e módulo Haskell.
 
-Haskell é uma linguagem de programação funcional, uma vez que sua "gramática" está proóxima das funções matemáticas, a implementação de funções matemáticas, métodos algébricos e numéricos se torna intuitiva quando se usa programação funcional. Além do mais este paradigma é declarativo, por limitar o uso de atribuições à variáveis suas funções são mais precisas do que em outros paradigmas. Por isso o paradigma funcional foi eleito para implementar os métodos matemáticos.
+Haskell é uma linguagem de programação funcional, uma vez que sua "gramática" está proóxima das funções matemáticas, a implementação de funções matemáticas, métodos algébricos e numéricos se torna intuitiva quando se usa programação funcional \cite{hoogle2013}. Além do mais este paradigma é declarativo, por limitar o uso de atribuições à variáveis suas funções são mais precisas do que em outros paradigmas. Por isso o paradigma funcional foi eleito para implementar os métodos matemáticos \cite{piponi2006}.
 
-Já a linguagem de programação C é estruturada, …
+Já a linguagem de programação C é estruturada, a vantagem deste paradigma é seu desempenho na execução do código fonte \cite{gustavo}.Fazendo com que o módulo C e o módulo Haskell realizem a mesma atividade, há a possibilidade de não ocorrer erros no cálculo dos métodos matemáticos, e caso um dos módulos por algum motivo não seja executado no momento correto, o outro módulo garantirá o cálculo do método númerico.
 
-O módulo Controle de comportamento será implementado usando Multi-Agentes. Considerando que os agentes de software são entidades autonomas e com capacidades socias. O uso deste paradigma justifica-se na tomada de decisões ( compra e venda de moedas). Pois sua  caracteristica autônoma dispensa a presença de um usuário interagindo com sistema. Os agentes MVC possuem uma arquitetura reativa, suas ações se dão por "mudanças" que ocorrem no  mercado de moedas.
+O módulo Controle de comportamento será implementado usando Multi-Agentes. Considerando que os agentes de software são entidades autonomas e com capacidades socias. O uso deste paradigma justifica-se na tomada de decisões (compra e venda de moedas). Pois sua  caracteristica autônoma dispensa a presença de um usuário interagindo com sistema \cite{agentBuilderWhy}. Os agentes do Invest MVC possuem uma arquitetura reativa, conforme esplanado na seção 2.3.3 Paradigma Orientado a Agentes, suas ações se dão pelas variações que ocorrem no  mercado de moedas.
 
-O módulo Base de conhecimento será produzido em Prolog, uma linguagem de programação lógica,  uma vez que este  paradigma facilita a representação, inserção e recuperação de conhecimento.
+O módulo Base de conhecimento será produzido em Prolog, uma linguagem de programação lógica,  uma vez que este  paradigma facilita a representação, inserção e recuperação de conhecimento \cite{almeida2010}.
 
-Na Figura \ref{componente} é possível perceber que os módulos interagem entre sim, essa interação fica mais evidente no diagrama de sequência do sistema, figura \ref{sequencia}.
+Na Figura \ref{componente} é possível perceber que os módulos interagem entre si, essa interação fica mais evidente no diagrama de sequência do sistema, figura \ref{sequencia}.
 
 \begin{figure}[htp]
 \centering

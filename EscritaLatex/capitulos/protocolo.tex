@@ -1,8 +1,9 @@
 \chapter{Protocolo de Experimentação para seleção de Métodos Matemáticos}
 
-Esta seção descreve como foi percorrido o Protocolo de Experimentação para selecionar os Métodos Matemáticos para operar no Mercado de Moedas. O Protocolo de Experimentação utilizado é uma adaptação do protocolo presente no Anexo A.
+Esta seção descreve como foi percorrido o Protocolo de Experimentação para selecionar os Métodos Matemáticos para operar no Mercado de Moedas. O Protocolo de Experimentação utilizado é uma adaptação do protocolo presente no Anexo A - Template de Protocolo
+Experimental.
 
-Ao final do capítulo, o leitor será capaz de entender porque foi escolhido os métodos de Correlação de Pearson, Fibonacci e Mínimos Quadrados para serem incorporados na ferramenta investMVC.
+Ao final do capítulo, o leitor será capaz de entender porque foi escolhido os métodos de Correlação de Pearson, Fibonacci e Mínimos Quadrados para serem incorporados na ferramenta Invest MVC.
 
 \section{Preparação para o Protocolo}
 
@@ -12,7 +13,7 @@ A seguinte questão de pesquisa foi definida na capítulo 1: é possível desenv
 
 \section{Controle de Versão do Protocolo}
 
-O controle de versão do protocolo desse experimento encontra-se no github\footnote{\url{https://github.com/cleitoncsg/investMVC}} da ferramenta investMVC.
+O controle de versão do protocolo desse experimento encontra-se no github\footnote{\url{https://github.com/cleitoncsg/investMVC}} da ferramenta Invest MVC.
 
 \section{Projeto do Protocolo de Experimentação}
 
@@ -56,12 +57,12 @@ Nesta seção é evidenciado os resultados  das simulações dos Experts em ling
 
 \subsection{Implementação dos Métodos Matemáticos}
 
-Os métodos de Correlação Linear, Média Móvel, Mínimos Quadrados, Estocástico e Fibonacci foram implementados em linguagem MQL4 e assim foi construído um expert para cada método. Esses produtos de software receberam os nomes, respectivamente, CorrelacaoPearson.mql, MediaMovel.mql, MinimosQuadrados.mql, Estocastico.mql e Fibonacci.mql. Cada expert encontra-se no apêndice B.
+Os métodos de Correlação Linear, Média Móvel, Mínimos Quadrados, Estocástico e Fibonacci foram implementados em linguagem MQL4 e assim foi construído um expert para cada método. Esses produtos de software receberam os nomes, respectivamente, CorrelacaoPearson.mql, MediaMovel.mql, MinimosQuadrados.mql, Estocastico.mql e Fibonacci.mql. Cada expert encontra-se no apêndice Métodos Matemáticos implementados em mql.
 
 \subsection{Simulação do método de Correlação Linear}
 
-O expert CorrelacaoPearson.mql obteve o percentual de negociações com lucros de 56.86% no período agosto 2012-2013. Nesse período, o expert teve um lucro de 1981.60 USD.
- No período de agosto 2013-2014, o percentual de negociações com lucros foi de 55.56%  e obteve-se o lucro de 1119.05 USD. 
+O expert CorrelacaoPearson.mql obteve o percentual de negociações com lucros de 56.86\% no período agosto 2012-2013. Nesse período, o expert teve um lucro de 1981.60 USD.
+ No período de agosto 2013-2014, o percentual de negociações com lucros foi de 55.56\%  e obteve-se o lucro de 1119.05 USD. 
 Os relatórios completos das simulações podem ser visualizados nas figuras \ref{protocoloCorrelacao} e \ref{protocoloCorrelacao2}.
 
 \begin{figure}[htp]
@@ -73,6 +74,7 @@ Os relatórios completos das simulações podem ser visualizados nas figuras \re
 
 \begin{figure}[htp]
 \centering
+
 \includegraphics[width=0.9\textwidth]{figuras/protocoloCorrelacao2}
 \caption{Relatório de simulação no período agosto 2013-2014 do expert CorrelacaoPearson.mql}{Fonte: Autores} 
 \label{protocoloCorrelacao2}
@@ -151,6 +153,8 @@ Os relatórios completos das simulações podem ser visualizados nas figuras \re
 \label{protocoloFib2}
 \end{figure}
 
+É possível visualizar nos gráficos das simulações, as perdas de capital que o expert Fibonacci.mql gerou.
+
 \begin{figure}[htp]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloFib3}
@@ -223,6 +227,8 @@ Os relatórios completos das simulações podem ser visualizados nas figuras \re
 \caption{Relatório de simulação no período agosto 2013-2014 do expert MediaMovel.mql}{Fonte: Autores} 
 \label{protocoloMedia2}
 \end{figure}
+
+É possível visualizar nos gráficos das simulações, as perdas de capital que o expert MediaMovel.mql gerou.
 
 \begin{figure}[htp]
 \centering

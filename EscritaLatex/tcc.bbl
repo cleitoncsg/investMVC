@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[ADVFN 2013]{advfn}
+\abntrefinfo{ADVFN}{ADVFN}{2013}
+{ADVFN. Technical analysis.
+2013.
+Dispon{\'\i}vel em: \url{http://advfn.com/educacional/analise-tecnica}.}
+
 \bibitem[AgentBuilder 2009]{agentBuilder}
 \abntrefinfo{AgentBuilder}{AGENTBUILDER}{2009a}
 {AGENTBUILDER. Auction agents for the electric power industry.
@@ -55,8 +61,7 @@ Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
 \abntrefinfo{BANDEIRA}{BANDEIRA}{2012}
 {BANDEIRA, M.
 \emph{Tipos de Pesquisa.}
-Monografia (Monografia) --- Faculdade de Psicologia, FUNREI, Minas Gerais,
-  2012.}
+Monografia (Artigo) --- Faculdade de Psicologia, FUNREI, Minas Gerais, 2012.}
 
 \bibitem[BEIZER 1990]{beizer1990}
 \abntrefinfo{BEIZER}{BEIZER}{1990}
@@ -225,17 +230,24 @@ Dispon{\'\i}vel em:
 \emph{Metodologia Científica: Pesquisa Experimental}.
 Monografia (Graduação) --- Universidade Federal do Paraná, 2010.}
 
-\bibitem[IEEE-610 1990]{ieee}
-\abntrefinfo{IEEE-610}{IEEE-610}{1990}
-{IEEE-610. \emph{IEEE Standard Glossary of Software Engineering Terminology}.
+\bibitem[IEEE 610 1990]{ieee}
+\abntrefinfo{IEEE 610}{IEEE 610}{1990}
+{IEEE 610. \emph{IEEE Standard Glossary of Software Engineering Terminology}.
 [S.l.], 1990.}
+
+\bibitem[InvestFOREX
+  http://www.investforex.pt/aprender-forex/analise-tecnica]{investforex}
+\abntrefinfo{InvestFOREX}{INVESTFOREX}{http://www.investforex.pt/aprender-forex/analise-tecnica}
+{INVESTFOREX. Análise técnica para mercado forex.
+http://www.investforex.pt/aprender--forex/analise--tecnica.
+Dispon{\'\i}vel em: \url{2014}.}
 
 \bibitem[INÁCIO 2010]{inacio2010}
 \abntrefinfo{INÁCIO}{INÁCIO}{2010}
 {INÁCIO, J. F.~S.
 \emph{Análise do Estimador de Estado por Mínimos Quadrados Ponderados}.
-Monografia (Monografia) --- Universidade Federal do Rio Grande do Sul, Rio
-  Grande do Sul, 2010.}
+Monografia (Trabalho de Conclusão de Curso) --- Universidade Federal do Rio
+  Grande do Sul, Rio Grande do Sul, 2010.}
 
 \bibitem[JENNINGS, Sycara e WOOLDRIDGE 1998]{jennings1998}
 \abntrefinfo{JENNINGS, Sycara e WOOLDRIDGE}{JENNINGS; SYCARA; WOOLDRIDGE}{1998}
@@ -248,6 +260,13 @@ Monografia (Monografia) --- Universidade Federal do Rio Grande do Sul, Rio
 {JENNINGS, N.~R.; WOOLDRIDGE, M. \emph{Intelligent agents: theory and
   practice}.
 [S.l.], 1995.}
+
+\bibitem[Jungthon e Goulart 2009]{gustavo}
+\abntrefinfo{Jungthon e Goulart}{JUNGTHON; GOULART}{2009}
+{JUNGTHON, G.; GOULART, C.~M.
+\emph{Paradigmas de Programação.}
+Monografia (Monografia) --- Faculdade de Informática de Taquara, Rio Grande do
+  Sul, 2009.}
 
 \bibitem[Konis 2014]{konis2014}
 \abntrefinfo{Konis}{KONIS}{2014}
@@ -377,6 +396,13 @@ Monografia (Monografia) --- Universidade Aberta, 2010.}
 1996.
 Dispon{\'\i}vel em: \url{http://cm.bell-labs.com/cm/cs/who/dmr/chistPT.html}.}
 
+\bibitem[RoboForex 2013]{roboforex}
+\abntrefinfo{RoboForex}{ROBOFOREX}{2013}
+{ROBOFOREX. Indicators used in forex market.
+2013.
+Dispon{\'\i}vel em:
+  \url{http://www.roboforex.pt/beginner/start/technical-analysis}.}
+
 \bibitem[Rocha 2008]{rocha2008}
 \abntrefinfo{Rocha}{ROCHA}{2008}
 {ROCHA, R.~A.
@@ -499,6 +525,12 @@ Monografia (Monografia) --- Instituto de Matemática da Universidade Federal do
 \abntrefinfo{WILLIAMS}{WILLIAMS}{2006}
 {WILLIAMS, L. \emph{White-Box Testing}.
 [S.l.], 2006.}
+
+\bibitem[Wolfram MathWorld 2012]{wolfram}
+\abntrefinfo{Wolfram MathWorld}{WOLFRAM MATHWORLD}{2012}
+{WOLFRAM MATHWORLD. Built with mathematica technology: Movingaverage.
+2012.
+Dispon{\'\i}vel em: \url{http://mathworld.wolfram.com/MovingAverage.html}.}
 
 \bibitem[WOOLDRIDGE 2010]{woodridge2010}
 \abntrefinfo{WOOLDRIDGE}{WOOLDRIDGE}{2010}

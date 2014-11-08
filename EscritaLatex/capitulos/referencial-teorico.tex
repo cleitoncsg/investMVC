@@ -118,7 +118,7 @@ Em estudos que envolvem duas ou mais variáveis, é comum o interesse em conhece
 
 O Coeficiente de Correlação Linear de Pearson (r) é uma estatística utilizada para medir força, intensidade ou grau de relação linear entre duas variáveis aleatórias \cite[pág.~664]{ferreira2009}.
 
-Segundo \cite[pág.~134]{lopes2005}, a Correlação Linear indica a relação entre duas variáveis. De modo a interpretar o coeficiente de correlação (r), podem ser utilizados os seguintes critérios para classificar os resultados obtidos:
+Segundo \citeonline[pág.~134]{lopes2005}, a Correlação Linear indica a relação entre duas variáveis. De modo a interpretar o coeficiente de correlação (r), podem ser utilizados os seguintes critérios para classificar os resultados obtidos:
 
 \begin{itemize}
 \item De 0 a 0,50: fraca correlação; 
@@ -158,7 +158,7 @@ A análise da Correlação Linear fornece um número, indicando como duas variá
 
 \subsection{Método de Fibonacci}
 
-A sucessão ou sequência de Fibonacci é uma sequência de números naturais, na qual os primeiros dois termos são 0 e 1, e cada termo subsequente corresponde à soma dos dois precedentes. A sequência tem o nome do matemático pisano do século XIII Leonardo de Pisa,  conhecido como Leonardo Fibonacci, e os termos são chamados números de Fibonacci. Os números de Fibonacci compõem a seguinte sequência de números inteiros: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …, \cite[pág.~6]{gagliardi2013}.
+A sucessão ou sequência de Fibonacci é uma sequência de números naturais, na qual os primeiros dois termos são 0 e 1, e cada termo subsequente corresponde à soma dos dois precedentes. A sequência tem o nome do matemático pisano do século XIII Leonardo de Pisa,  conhecido como Leonardo Fibonacci, e os termos são chamados números de Fibonacci. Os números de Fibonacci compõem a seguinte sequência de números inteiros: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, … \cite[pág.~6]{gagliardi2013}.
 
 Devido a sequência de Fibonacci ser recursiva, é possível determinar uma fórmula capaz de encontrar o valor de qualquer número de Fibonacci, Fn, se seu lugar na sequência, n, for conhecido. Esta propriedade garante que para obter todas as soluções da equação recursiva de Fibonacci: Fn+1 = Fn-1 + Fn, para qualquer n > 1 \cite[pág.~12]{sousa2012}.
 
@@ -169,6 +169,61 @@ Segundo \citeonline[pág.~32]{rocha2008}, a fórmula de Fibonacci, sem uso da re
 \includegraphics[width=0.9\textwidth]{figuras/formulaFibonacci}
 \caption{Fórmula de Fibonacci sem uso de recorrência.}{Fonte: \citeonline[pág.~32]{rocha2008}.} 
 \label{formulaFibonacci}
+\end{figure}
+
+\subsection{Estocástico}
+O estocástico é Método Matemático que gera um tipo de oscilador de momento muito utilizado na análise técnica, principalmente para análises de curto prazo. Dois osciladores estocásticos são geralmente calculados para estimar variações futuras nos preços, o rápido (\%K) e o devagar (\%D) \cite{advfn}.
+
+Segundo \citeonline{advfn}, o oscilador estocástico rápido e devagar variam entre 0 e 100 e são calculados como:
+
+\begin{equation}
+\%K = (FechHoje - Mínn) % (Máxn- Mínn) * 100
+\end{equation}
+
+\begin{equation}
+\%D = \sum_3{FechHoje - Mínn} \div \sum_3{Máxn- Mínn}
+\end{equation}
+
+Sendo que:
+
+\begin{itemize}
+\item \%D = Estocástico Suave
+\item \%K = Estocástico Rápido
+\item Mínn = menor preço durante os últimos "n" períodos
+\item Máxn = maior preço durante os últimos "n" períodos
+\item n = número de períodos
+\item $\sum_3$ = Somatório das 3 últimas barras
+\end{itemize}
+
+As linhas estocásticas seguem uma escala de 0 a 100 e indicam situações de compra ou venda. Conforme a imagem \ref{estocastico}, quando as linhas estocásticas estão acima do nível 80 (linha pontilhada em vermelho), então o mercado está em situação de venda. Quando as linhas estocásticas estão abaixo de 20 (linha pontilhada em azul), então o mercado está numa situação de compra \cite{investforex}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/estocastico}
+\caption{Indicador Estocástico.}{Fonte: \citeonline{investforex}} 
+\label{estocastico}
+\end{figure}
+
+\subsection{Média Móvel}
+
+Dada uma sequência de valores, a soma dos mesmos dividido pelo total de termos gera uma média móvel \cite{wolfram}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=0.5\textwidth]{figuras/equacaoMedia}
+\caption{Equação de Média Móvel.}{Fonte: \citeonline{wolfram}} 
+\label{equacaoMedia}
+\end{figure}
+
+A Média Móvel (Moving Average) pertence a classe de Métodos Matemáticos que acompanham a tendência. Graças à média móvel é possível encontrar o início e o fim da tendência e, através do ângulo da sua inclinação, determinar a aceleração do movimento \cite{roboforex}.
+
+A média móvel é uma forma de analisar a evolução do preço ao longo do tempo. A média móvel é construída a partir do preço médio de fechamento de cotações para os últimos períodos \cite{investforex}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/mediamovel}
+\caption{Indicador Média Móvel}{Fonte: \citeonline{investforex}} 
+\label{mediamovel}
 \end{figure}
 
 \section{Paradigmas de Programação}
@@ -358,7 +413,7 @@ Os casos de teste são escritos para examinar explicitamente as interfaces entre
 
 \subsection{Teste de Sistema}
 
-“Testes conduzidos em um sistema completo e integrado para avaliar a conformidade do sistema com os requisitos especificados” (IEEE 610, 1990).
+“Testes conduzidos em um sistema completo e integrado para avaliar a conformidade do sistema com os requisitos especificados” \cite{ieee}.
 
 Teste de sistema verifica se as funções foram realizados corretamente. Também verifica se certas características não funcionais estão presentes. Alguns exemplos incluem de características não funcionais: testes de usabilidade, testes de desempenho, testes de stress, testes de compatibilidade \cite[pág.~134]{lewis2009}.
 
