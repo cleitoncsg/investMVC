@@ -133,29 +133,29 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {I}\MakeTextUppercase {Estocastico.mql}}{127}{appendix.I}
+\contentsline {appendix}{\chapternumberline {I}\MakeTextUppercase {Estotastico.mql}}{127}{appendix.I}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {J}\MakeTextUppercase {Fibonacci.mql}}{129}{appendix.J}
+\contentsline {appendix}{\chapternumberline {J}\MakeTextUppercase {Fibonacci.mql}}{133}{appendix.J}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {K}\MakeTextUppercase {MediaMovel.mql}}{135}{appendix.K}
+\contentsline {appendix}{\chapternumberline {K}\MakeTextUppercase {MediaMovel.mql}}{139}{appendix.K}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {L}\MakeTextUppercase {MinimosQuadrados.mql}}{141}{appendix.L}
+\contentsline {appendix}{\chapternumberline {L}\MakeTextUppercase {MinimosQuadrados.mql}}{145}{appendix.L}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {M}\MakeTextUppercase {ResistenciaSluporte.mql}}{147}{appendix.M}
+\contentsline {appendix}{\chapternumberline {M}\MakeTextUppercase {ResistenciaSluporte.mql}}{151}{appendix.M}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{151}{section*.15}
+\contentsline {part}{\uppercase {Anexos}}{155}{section*.15}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Template de Protocolo Experimental}}{153}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Template de Protocolo Experimental}}{157}{appendix.anexochapback.1}
