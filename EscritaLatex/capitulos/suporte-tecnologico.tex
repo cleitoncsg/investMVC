@@ -1,0 +1,68 @@
+\chapter{SuporteTecnológico}
+
+\section{Ferramentas para teste unitário e teste de integração}
+
+XUnit \footnote{\url {https://xunit.codeplex.com}} é um framework para construção de testes unitários e de integração. Nesse capítulo, serão apresentados frameworks que se basearam no XUnit para serem construídos.
+Esta seção descreve os frameworks CUnit, Junit, HUnit e PlUnit que respectivamente auxiliam na criação de testes em linguagem C, Java, Haskell e Prolog.
+
+\subsection{CUnit}
+
+Cunit \footnote{\url {http://cunit.sourceforge.net/}} é um framework para escrita e execução de testes automatizados em linguagem C e C++. O framework  usa uma estrutura simples para a construção de estruturas de teste  e fornece um rico conjunto de afirmações para testar tipos de dados comuns. Além disso, várias interfaces diferentes são fornecidos para a execução de testes e comunicação de resultados. Essas interfaces atualmente incluem saídas automatizadas para arquivo xml não interativas, console de interface (ansi C) interativa e interface gráfica Curses (Unix) interativa.
+
+\subsection{JUnit}
+
+JUnit \footnote{\url {http://junit.org/index.html}} é um framework para criação de testes automatizados na linguagem de programação Java. O framework facilita a criação de código para a automação de testes com apresentação dos resultados,  verificando se cada método de uma classe funciona da forma esperada. Os resultados são exibidos via interface, sendo que os erros aparecem em cor vermelha, as falhas cor azul e os testes aceitáveis em cor verde.
+
+\subsection{HUnit}
+
+HUnit \footnote{\url {http://hunit.sourceforge.net/}} é um framework para criação de testes automatizados em linguagem Haskell. Os testes são executados via terminal. Após executar os testes é possível visualizar no terminal, os resultados da quantidade de testes com erros ou falhas.
+
+\subsection{PlUnit}
+
+PlUnit \footnote{\url {http://www.swi-prolog.org/pldoc/package/plunit.html}} é um framework para criação de testes automatizados em linguagem Prolog. Os testes são executados via terminal usando o suporte swi \footnote{\url{ http://www.swi-prolog.org/pldoc/doc_for?object=manual}}. Ao executar os testes, os erros e falhas são mostrados via terminal.
+
+\section{Ferramenta para teste funcional: Cucumber}
+
+Cucumber \footnote{\url{ http://cukes.info/}} permite que as equipes de desenvolvimento de software descrevam como o software deve se comportar com apoio de textos simples. O texto é escrito em uma linguagem específica de domínio e com base nesse texto, é construído o teste funcional da aplicação.
+
+\section{Ferramentas de cobertura de teste}
+
+Esta seção descreve as ferramentas de cobertura de teste Eclemma (linguagem Java) e HPC (linguagem Haskell). O Cunit e o PlUnit já fornecem a cobertura de código e portanto não é necessário instalar nenhum plugin adicional.
+
+\subsection{Eclemma}
+
+Eclemma \footnote{\url{http://www.eclemma.org/}} é uma ferramenta gratuita para fazer cobertura de código Java na IDE Eclipse. Esta ferramenta não exige qualquer alteração no projeto a ser inspecionado, fornecendo um resultado rápido no próprio editor de texto.
+
+\subsection{HPC}
+
+HPC \footnote{\url{https://www.haskell.org/haskellwiki/Haskell_program_coverage\# Hpc_tools}} é um tool-kit para exibir e armazenar o cobertura de código fonte de programas Haskell.
+
+\section{Ferramenta de Análise Estática de Código Fonte}
+
+\subsection{Analizo}
+
+Analizo\footnote{\url{ http://www.analizo.org/}}  é ferramenta de análise estática de código fonte que roda projetos em linguagens C, C++ e Java. A  ferramenta roda sistema operaciaonl Linux, fornece 20 métricas e possui licença GPL3.
+
+\subsection{Sonar}
+
+Sonar \footnote{\url{ http://www.sonarqube.org/}} é uma ferramenta de análise estática de código fonte que roda projetos em mais de 20 linguagens, incluindo C, C++, Java, PHP, Groovy, entre outras. A ferramenta roda nos sistemas operacionais Windows, Linux e Mac OS X. A licença de uso é a LGPL3.
+
+\section{Ferramentas de Mercado de Moedas}
+
+Esta seção descreve as ferramentas de Mercado de Moedas MetaTrader, MetaEditor, Alpari-UK e FXDD.
+
+\subsection{MetaTrade}
+
+MetaTrader \footnote{\url{http://www.metaquotes.net/}} é uma plataforma de negociação eletrônica com capacidade de negociações automatizadas. É possível programar experts em linguagem mql4 \footnote{\url{http://www.mql4.com/}} (paradigma estruturado)  e linguagem mql5 \footnote{\url{http://www.mql5.com/}} (paradigma orientado a objetos).
+
+\subsection{MetaEditor}
+
+MetaEditor \footnote{\url{http://book.mql4.com/metaeditor/index}} é uma IDE para linguagem MQL4 e MQL5. É possível editar e compilar experts para operar de forma automatizada no Mercado de Moedas através de uma corretora.
+
+\subsection{Alpari-UK}
+
+Alpari-UK \footnote{\url{http://www.alpari.co.uk/}} é uma corretora com sede oficial na Inglaterra. Possui tecnologia de negociação que inclui a plataforma MetraTrader. Através da Alpari-UK é possível comprar ou vender no Mercado de Moedas, pois a mesma intermedia as negociações através da cobrança de uma corretagem.
+
+\subsection{FXDD}
+
+FXDD \footnote{\url{http://www.fxdd.com/}} é uma corretora com sede oficial nos Estados Unidos e possui as mesmas características tecnológicas que a Alpari-UK. Inclui as tecnologias da plataforma MetaTrader e intermedia as negociações através da cobrança de uma corretagem para o investidor.

@@ -25,6 +25,14 @@ Dispon{\'\i}vel em: \url{http://www.cvm.gov.br/port/Alertas/mercadoForex.pdf}.}
 Monografia (Especializa{\c c}\~ao) --- Faculdade de Administração,
   Universidade de São Paulo, S\~ao Paulo, 2013.}
 
+\bibitem[Almeida 2010]{almeida2010}
+\abntrefinfo{Almeida}{ALMEIDA}{2010}
+{ALMEIDA, R.~J. de A. Automatizando a criação de uma base de conhecimento em
+  prolog para gerenciar os acessos a um site.
+2010.
+Dispon{\'\i}vel em:
+  \url{http://www.vivaolinux.com.br/artigo/Automatizando-a-criacao-de-uma-base-de-conhecimento-em-Prolog-para-gerenciar-os-acessos-a-um-site}.}
+
 \bibitem[Alves. 2012]{sousa2012}
 \abntrefinfo{Alves.}{ALVES.}{2012}
 {ALVES., T.
@@ -42,6 +50,13 @@ Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
 \abntrefinfo{Apt}{APT}{1996}
 {APT, K.~R. \emph{From Logic programming to Prolog}.
 1. ed. [S.l.], 1996.}
+
+\bibitem[BANDEIRA 2012]{bandeira2012}
+\abntrefinfo{BANDEIRA}{BANDEIRA}{2012}
+{BANDEIRA, M.
+\emph{Tipos de Pesquisa.}
+Monografia (Monografia) --- Faculdade de Psicologia, FUNREI, Minas Gerais,
+  2012.}
 
 \bibitem[BEIZER 1990]{beizer1990}
 \abntrefinfo{BEIZER}{BEIZER}{1990}
@@ -150,6 +165,11 @@ Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rcf/v17n41/v17n41a06.pdf}.}
 2014.
 Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
 
+\bibitem[Ferreira 2008]{ferreira1986}
+\abntrefinfo{Ferreira}{FERREIRA}{2008}
+{FERREIRA, A.~B. de H. \emph{Novo Dicionário da Língua Portuguesa}.
+2. ed. [S.l.], 2008.}
+
 \bibitem[Ferreira 2009]{ferreira2009}
 \abntrefinfo{Ferreira}{FERREIRA}{2009}
 {FERREIRA, D.~F. \emph{Estatística básica}.
@@ -161,6 +181,13 @@ Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
 \emph{Kalibro: interpretação de métricas de código-fonte}.
 Monografia (Mestrado em Ciência da Computação) --- Instituto de Matemática
   e Estatística, Universidade de São Paulo, São Paulo, 2013.}
+
+\bibitem[FORCON 2014]{forcon2014}
+\abntrefinfo{FORCON}{FORCON}{2014}
+{FORCON. Metodologias para monografia.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.fazermonografia.com.br/metodologia-para-monografia}.}
 
 \bibitem[FXCM 2011]{fxcm2011}
 \abntrefinfo{FXCM}{FXCM}{2011}
@@ -175,6 +202,11 @@ Dispon{\'\i}vel em: \url{http://www.fxcm.com/forex-basics/}.}
 Monografia (Monografia) --- Universidade Federal de Campinas:, São Paulo,
   2013.}
 
+\bibitem[Gil 2008]{gil2008}
+\abntrefinfo{Gil}{GIL}{2008}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}.
+4. ed. [S.l.], 2008.}
+
 \bibitem[Girardi 2004]{girardi2004}
 \abntrefinfo{Girardi}{GIRARDI}{2004}
 {GIRARDI, R. \emph{Engenharia de Software baseada em Agentes}.
@@ -186,6 +218,17 @@ Monografia (Monografia) --- Universidade Federal de Campinas:, São Paulo,
 2013.
 Dispon{\'\i}vel em:
   \url{http://www.haskell.org/haskellwiki/Functional\_programming}.}
+
+\bibitem[Hoppen 2010]{hoppen2010}
+\abntrefinfo{Hoppen}{HOPPEN}{2010}
+{HOPPEN, C.
+\emph{Metodologia Científica: Pesquisa Experimental}.
+Monografia (Graduação) --- Universidade Federal do Paraná, 2010.}
+
+\bibitem[IEEE-610 1990]{ieee}
+\abntrefinfo{IEEE-610}{IEEE-610}{1990}
+{IEEE-610. \emph{IEEE Standard Glossary of Software Engineering Terminology}.
+[S.l.], 1990.}
 
 \bibitem[INÁCIO 2010]{inacio2010}
 \abntrefinfo{INÁCIO}{INÁCIO}{2010}
@@ -342,6 +385,11 @@ Dispon{\'\i}vel em: \url{http://cm.bell-labs.com/cm/cs/who/dmr/chistPT.html}.}
 Monografia (Trabalho de Conclusão de Curso em Ciência da Computação) ---
   Universidade Federal do Rio Grande do Norte, Natal, 2008.}
 
+\bibitem[RODRIGUES 2007]{rodrigues2007}
+\abntrefinfo{RODRIGUES}{RODRIGUES}{2007}
+{RODRIGUES, W.~C. \emph{Metodologia Científica}.
+[S.l.], 2007.}
+
 \bibitem[Russel e NORVIG 1995]{russel1995}
 \abntrefinfo{Russel e NORVIG}{RUSSEL; NORVIG}{1995}
 {RUSSEL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}.
@@ -352,6 +400,14 @@ Monografia (Trabalho de Conclusão de Curso em Ciência da Computação) ---
 {SCHUMACHER, M. \emph{Objective Coordination in Multi-Agent System Engineering:
   design and implementation}.
 1. ed. [S.l.], 2001.}
+
+\bibitem[SCHWABER e SUTHERLAND 2013]{schwaber2013}
+\abntrefinfo{SCHWABER e SUTHERLAND}{SCHWABER; SUTHERLAND}{2013}
+{SCHWABER, K.; SUTHERLAND, J. The definitive guide to scrum: The rules of the
+  game.
+2013.
+Dispon{\'\i}vel em:
+  \url{https://www.scrum.org/portals/0/documents/scrum\%20guides/scrum\_guide.pdf}.}
 
 \bibitem[SEBESTA 2012]{sebesta2012}
 \abntrefinfo{SEBESTA}{SEBESTA}{2012}
