@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  8 NOV 2014 19:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  8 NOV 2014 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,51 +1162,54 @@ Underfull \vbox (badness 1325) has occurred while \output is active []
 
  [21]
 [22]
-Overfull \hbox (1.5877pt too wide) detected at line 118
- \T1/lmss/bx/n/12 101
- []
-
-
-Overfull \hbox (1.5877pt too wide) detected at line 122
+Overfull \hbox (1.5877pt too wide) detected at line 123
  \T1/lmss/bx/n/12 105
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 126
+Overfull \hbox (1.5877pt too wide) detected at line 127
  \T1/lmss/bx/n/12 109
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 130
- \T1/lmss/bx/n/12 115
+Overfull \hbox (1.5877pt too wide) detected at line 131
+ \T1/lmss/bx/n/12 113
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 134
+Overfull \hbox (1.5877pt too wide) detected at line 135
  \T1/lmss/bx/n/12 119
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 138
- \T1/lmss/bx/n/12 125
+Overfull \hbox (1.5877pt too wide) detected at line 139
+ \T1/lmss/bx/n/12 123
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 142
- \T1/lmss/bx/n/12 127
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (1.5877pt too wide) detected at line 143
+ \T1/lmss/bx/n/12 129
  []
 
 
-Overfull \hbox (5.41794pt too wide) in paragraph at lines 142--142
+Overfull \hbox (1.5877pt too wide) detected at line 147
+ \T1/lmss/bx/n/12 131
+ []
+
+
+Overfull \hbox (5.41794pt too wide) in paragraph at lines 147--147
  [][] [][][]\T1/lmss/bx/n/12 MÉTODOS MA-TE-MÁ-TI-COS IM-PLE-MEN-TA-DOS 
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 151
- \T1/lmss/bx/n/12 155
+Overfull \hbox (1.5877pt too wide) detected at line 156
+ \T1/lmss/bx/n/12 159
  []
 
-) [23] [24]) (./capitulos/introducao.tex [25
+) [24]) (./capitulos/introducao.tex [25
 
 
 ]
@@ -1229,7 +1232,7 @@ nverted-to.pdf figuras/retaSuporte.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaSuporte-eps-converted-to.pdf, id=525, 517.935pt x 285.065pt>
+<figuras/retaSuporte-eps-converted-to.pdf, id=537, 517.935pt x 285.065pt>
 File: figuras/retaSuporte-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/retaSuporte-eps-converted-to.pdf>
@@ -1249,7 +1252,7 @@ s-converted-to.pdf figuras/retaResistencia.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaResistencia-eps-converted-to.pdf, id=549, 508.90125pt x 286.06876p
+<figuras/retaResistencia-eps-converted-to.pdf, id=561, 508.90125pt x 286.06876p
 t>
 File: figuras/retaResistencia-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/retaResistencia-eps-converted-to.pdf>
@@ -1271,7 +1274,7 @@ rados-eps-converted-to.pdf figuras/equacaoMinimosQuadrados.eps>
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=597, 676.5275pt x 402
+<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=609, 676.5275pt x 402
 .50375pt>
 File: figuras/equacaoMinimosQuadrados-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1301,7 +1304,7 @@ lacaoLinear-eps-converted-to.pdf figuras/classificacaoCorrelacaoLinear.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=618, 461.725pt 
+<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=630, 461.725pt 
 x 173.64874pt>
 File: figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1322,7 +1325,7 @@ acao1-eps-converted-to.pdf figuras/determinacaoCorrelacao1.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=624, 175.65625pt x 83
+<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=636, 175.65625pt x 83
 .31125pt>
 File: figuras/determinacaoCorrelacao1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1342,7 +1345,7 @@ acao2-eps-converted-to.pdf figuras/determinacaoCorrelacao2.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=625, 340.27126pt x 14
+<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=637, 340.27126pt x 14
 5.54375pt>
 File: figuras/determinacaoCorrelacao2-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1363,7 +1366,7 @@ ps-converted-to.pdf figuras/formulaFibonacci.eps>
 (epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/formulaFibonacci-eps-converted-to.pdf, id=655, 273.02pt x 91.34125pt>
+<figuras/formulaFibonacci-eps-converted-to.pdf, id=667, 273.02pt x 91.34125pt>
 File: figuras/formulaFibonacci-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/formulaFibonacci-eps-converted-to.pdf>
@@ -1385,14 +1388,14 @@ LaTeX Warning: Command \' invalid in math mode on input line 184.
 LaTeX Warning: Command \' invalid in math mode on input line 184.
 
 [36 <./figuras/formulaFibonacci-eps-converted-to.pdf>]
-<figuras/estocastico.png, id=689, 312.16624pt x 320.19624pt>
+<figuras/estocastico.png, id=701, 312.16624pt x 320.19624pt>
 File: figuras/estocastico.png Graphic file (type png)
 
 <use figuras/estocastico.png>
 Package pdftex.def Info: figuras/estocastico.png used on input line 202.
 (pdftex.def)             Requested size: 409.49722pt x 420.04155pt.
 
-<figuras/equacaoMedia.png, id=694, 294.09875pt x 94.3525pt>
+<figuras/equacaoMedia.png, id=706, 294.09875pt x 94.3525pt>
 File: figuras/equacaoMedia.png Graphic file (type png)
 
 <use figuras/equacaoMedia.png>
@@ -1404,7 +1407,7 @@ Overfull \hbox (14.58176pt too wide) in paragraph at lines 220--221
 ex.pt/aprender-forex/analise-tecnica[][][]). 
  []
 
-<figuras/mediamovel.png, id=708, 542.025pt x 321.2pt>
+<figuras/mediamovel.png, id=720, 542.025pt x 321.2pt>
 File: figuras/mediamovel.png Graphic file (type png)
 
 <use figuras/mediamovel.png>
@@ -1423,7 +1426,7 @@ f>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arquiteturaVon-eps-converted-to.pdf, id=733, 713.66624pt x 406.51875pt
+<figuras/arquiteturaVon-eps-converted-to.pdf, id=745, 713.66624pt x 406.51875pt
 >
 File: figuras/arquiteturaVon-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/arquiteturaVon-eps-converted-to.pdf>
@@ -1445,7 +1448,7 @@ verted-to.pdf figuras/essenciaOO.eps>
 (epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/essenciaOO-eps-converted-to.pdf, id=769, 835.12pt x 434.62375pt>
+<figuras/essenciaOO-eps-converted-to.pdf, id=781, 835.12pt x 434.62375pt>
 File: figuras/essenciaOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/essenciaOO-eps-converted-to.pdf>
@@ -1479,7 +1482,7 @@ ps-converted-to.pdf figuras/defeitoErroFalha.eps>
 (epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/defeitoErroFalha-eps-converted-to.pdf, id=907, 744.7825pt x 332.24126p
+<figuras/defeitoErroFalha-eps-converted-to.pdf, id=919, 744.7825pt x 332.24126p
 t>
 File: figuras/defeitoErroFalha-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/defeitoErroFalha-eps-converted-to.pdf>
@@ -1498,7 +1501,7 @@ verted-to.pdf figuras/nivelTeste.eps>
 (epstopdf)             \includegraphics on input line 389.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/nivelTeste-eps-converted-to.pdf, id=935, 894.34125pt x 577.15625pt>
+<figuras/nivelTeste-eps-converted-to.pdf, id=947, 894.34125pt x 577.15625pt>
 File: figuras/nivelTeste-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/nivelTeste-eps-converted-to.pdf>
@@ -1520,7 +1523,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 460.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/intervalosMetricas-eps-converted-to.pdf, id=1018, 722.7pt x 109.40875p
+<figuras/intervalosMetricas-eps-converted-to.pdf, id=1030, 722.7pt x 109.40875p
 t>
 File: figuras/intervalosMetricas-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/intervalosMetricas-eps-converted-to.pdf>
@@ -1546,7 +1549,7 @@ nverted-to.pdf figuras/metodologia.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/metodologia-eps-converted-to.pdf, id=1065, 705.63625pt x 1111.15125pt>
+<figuras/metodologia-eps-converted-to.pdf, id=1077, 705.63625pt x 1111.15125pt>
 File: figuras/metodologia-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/metodologia-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/metodologia-eps-converted-to.pdf used on input
@@ -1621,6 +1624,11 @@ Overfull \hbox (1.84435pt too wide) in paragraph at lines 98--98
  []
 
 
+Underfull \hbox (badness 3168) in paragraph at lines 101--102
+[]\T1/lmr/m/n/12 Realizar Ex-pe-ri-men-tos Mé-to-dos de
+ []
+
+
 Overfull \hbox (1.84435pt too wide) in paragraph at lines 104--104
 []|\T1/lmr/m/n/12 01/10/2014| 
  []
@@ -1628,6 +1636,11 @@ Overfull \hbox (1.84435pt too wide) in paragraph at lines 104--104
 
 Overfull \hbox (1.84435pt too wide) in paragraph at lines 104--104
 []|\T1/lmr/m/n/12 15/10/2014| 
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 108--109
+[]\T1/lmr/m/n/12 Realizar Ex-pe-ri-men-tos Mé-to-dos de
  []
 
 
@@ -1641,9 +1654,7 @@ Overfull \hbox (1.84435pt too wide) in paragraph at lines 110--110
  []
 
 
-Overfull \hbox (21.79128pt too wide) in paragraph at lines 79--112
- [] 
- []
+LaTeX Warning: Float too large for page by 0.09163pt on input line 114.
 
 ) (./capitulos/suporte-tecnologico.tex [56] [57] [58
 
@@ -1670,7 +1681,7 @@ o-eps-converted-to.pdf figuras/protocoloCorrelacao.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao-eps-converted-to.pdf, id=1198, 857.2025pt x 315.17
+<figuras/protocoloCorrelacao-eps-converted-to.pdf, id=1210, 857.2025pt x 315.17
 75pt>
 File: figuras/protocoloCorrelacao-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloCorrelacao-eps-converted-to.pdf>
@@ -1689,7 +1700,7 @@ o2-eps-converted-to.pdf figuras/protocoloCorrelacao2.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao2-eps-converted-to.pdf, id=1199, 840.13875pt x 310.
+<figuras/protocoloCorrelacao2-eps-converted-to.pdf, id=1211, 840.13875pt x 310.
 15875pt>
 File: figuras/protocoloCorrelacao2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1709,7 +1720,7 @@ o3-eps-converted-to.pdf figuras/protocoloCorrelacao3.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao3-eps-converted-to.pdf, id=1200, 1253.68375pt x 555
+<figuras/protocoloCorrelacao3-eps-converted-to.pdf, id=1212, 1253.68375pt x 555
 .07375pt>
 File: figuras/protocoloCorrelacao3-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1729,7 +1740,7 @@ o4-eps-converted-to.pdf figuras/protocoloCorrelacao4.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao4-eps-converted-to.pdf, id=1201, 1256.695pt x 604.2
+<figuras/protocoloCorrelacao4-eps-converted-to.pdf, id=1213, 1256.695pt x 604.2
 575pt>
 File: figuras/protocoloCorrelacao4-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1753,7 +1764,7 @@ ps-converted-to.pdf figuras/protocoloMinimos.eps>
 (epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos-eps-converted-to.pdf, id=1212, 838.13126pt x 310.1587
+<figuras/protocoloMinimos-eps-converted-to.pdf, id=1224, 838.13126pt x 310.1587
 5pt>
 File: figuras/protocoloMinimos-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos-eps-converted-to.pdf>
@@ -1772,7 +1783,7 @@ eps-converted-to.pdf figuras/protocoloMinimos2.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos2-eps-converted-to.pdf, id=1213, 853.1875pt x 311.1625
+<figuras/protocoloMinimos2-eps-converted-to.pdf, id=1225, 853.1875pt x 311.1625
 pt>
 File: figuras/protocoloMinimos2-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos2-eps-converted-to.pdf>
@@ -1791,7 +1802,7 @@ eps-converted-to.pdf figuras/protocoloMinimos3.eps>
 (epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos3-eps-converted-to.pdf, id=1214, 1257.69875pt x 546.04
+<figuras/protocoloMinimos3-eps-converted-to.pdf, id=1226, 1257.69875pt x 546.04
 pt>
 File: figuras/protocoloMinimos3-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos3-eps-converted-to.pdf>
@@ -1810,7 +1821,7 @@ eps-converted-to.pdf figuras/protocoloMinimos4.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos4-eps-converted-to.pdf, id=1215, 1256.695pt x 515.9275
+<figuras/protocoloMinimos4-eps-converted-to.pdf, id=1227, 1256.695pt x 515.9275
 pt>
 File: figuras/protocoloMinimos4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos4-eps-converted-to.pdf>
@@ -1836,7 +1847,7 @@ onverted-to.pdf figuras/protocoloFib.eps>
 (epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib-eps-converted-to.pdf, id=1241, 840.13875pt x 309.155pt>
+<figuras/protocoloFib-eps-converted-to.pdf, id=1253, 840.13875pt x 309.155pt>
 File: figuras/protocoloFib-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib-eps-converted-to.pdf>
@@ -1855,7 +1866,7 @@ converted-to.pdf figuras/protocoloFib2.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib2-eps-converted-to.pdf, id=1242, 842.14626pt x 319.1925pt>
+<figuras/protocoloFib2-eps-converted-to.pdf, id=1254, 842.14626pt x 319.1925pt>
 File: figuras/protocoloFib2-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloFib2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloFib2-eps-converted-to.pdf used on inp
@@ -1873,7 +1884,7 @@ converted-to.pdf figuras/protocoloFib3.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib3-eps-converted-to.pdf, id=1243, 1256.695pt x 533.995pt>
+<figuras/protocoloFib3-eps-converted-to.pdf, id=1255, 1256.695pt x 533.995pt>
 File: figuras/protocoloFib3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib3-eps-converted-to.pdf>
@@ -1892,7 +1903,7 @@ converted-to.pdf figuras/protocoloFib4.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib4-eps-converted-to.pdf, id=1244, 1252.68pt x 541.02126pt>
+<figuras/protocoloFib4-eps-converted-to.pdf, id=1256, 1252.68pt x 541.02126pt>
 File: figuras/protocoloFib4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib4-eps-converted-to.pdf>
@@ -1918,7 +1929,7 @@ onverted-to.pdf figuras/protocoloEst.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst-eps-converted-to.pdf, id=1270, 840.13875pt x 294.09875pt>
+<figuras/protocoloEst-eps-converted-to.pdf, id=1282, 840.13875pt x 294.09875pt>
 File: figuras/protocoloEst-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloEst-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst-eps-converted-to.pdf used on inpu
@@ -1936,7 +1947,7 @@ converted-to.pdf figuras/protocoloEst2.eps>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst2-eps-converted-to.pdf, id=1271, 841.1425pt x 305.14pt>
+<figuras/protocoloEst2-eps-converted-to.pdf, id=1283, 841.1425pt x 305.14pt>
 File: figuras/protocoloEst2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloEst2-eps-converted-to.pdf>
@@ -1955,7 +1966,7 @@ converted-to.pdf figuras/protocoloEst3.eps>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst3-eps-converted-to.pdf, id=1272, 1256.695pt x 569.12625pt>
+<figuras/protocoloEst3-eps-converted-to.pdf, id=1284, 1256.695pt x 569.12625pt>
 File: figuras/protocoloEst3-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloEst3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst3-eps-converted-to.pdf used on inp
@@ -1973,7 +1984,7 @@ converted-to.pdf figuras/protocoloEst4.eps>
 (epstopdf)             \includegraphics on input line 204.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst4-eps-converted-to.pdf, id=1273, 1253.68375pt x 510.90875p
+<figuras/protocoloEst4-eps-converted-to.pdf, id=1285, 1253.68375pt x 510.90875p
 t>
 File: figuras/protocoloEst4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloEst4-eps-converted-to.pdf>
@@ -2005,7 +2016,7 @@ f>
 (epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia-eps-converted-to.pdf, id=1300, 839.135pt x 308.15125pt>
+<figuras/protocoloMedia-eps-converted-to.pdf, id=1312, 839.135pt x 308.15125pt>
 File: figuras/protocoloMedia-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloMedia-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMedia-eps-converted-to.pdf used on in
@@ -2023,7 +2034,7 @@ s-converted-to.pdf figuras/protocoloMedia2.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia2-eps-converted-to.pdf, id=1301, 853.1875pt x 307.1475pt
+<figuras/protocoloMedia2-eps-converted-to.pdf, id=1313, 853.1875pt x 307.1475pt
 >
 File: figuras/protocoloMedia2-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia2-eps-converted-to.pdf>
@@ -2042,7 +2053,7 @@ s-converted-to.pdf figuras/protocoloMedia3.eps>
 (epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia3-eps-converted-to.pdf, id=1302, 1251.67625pt x 523.9575
+<figuras/protocoloMedia3-eps-converted-to.pdf, id=1314, 1251.67625pt x 523.9575
 pt>
 File: figuras/protocoloMedia3-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia3-eps-converted-to.pdf>
@@ -2061,7 +2072,7 @@ s-converted-to.pdf figuras/protocoloMedia4.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia4-eps-converted-to.pdf, id=1303, 1254.6875pt x 495.8525p
+<figuras/protocoloMedia4-eps-converted-to.pdf, id=1315, 1254.6875pt x 495.8525p
 t>
 File: figuras/protocoloMedia4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia4-eps-converted-to.pdf>
@@ -2077,6 +2088,16 @@ a3-eps-converted-to.pdf> <./figuras/protocoloMedia4-eps-converted-to.pdf>] [74]
  [75
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+[79] [80]
 Package epstopdf Info: Source file: <figuras/componente.eps>
 (epstopdf)                    date: 2014-11-08 18:36:33
 (epstopdf)                    size: 448971 bytes
@@ -2085,15 +2106,15 @@ Package epstopdf Info: Source file: <figuras/componente.eps>
 (epstopdf)                    size: 104783 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componente-eps-con
 verted-to.pdf figuras/componente.eps>
-(epstopdf)             \includegraphics on input line 63.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componente-eps-converted-to.pdf, id=1336, 857.2025pt x 697.60625pt>
+<figuras/componente-eps-converted-to.pdf, id=1370, 857.2025pt x 697.60625pt>
 File: figuras/componente-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/componente-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/componente-eps-converted-to.pdf used on input 
-line 63.
+line 292.
 (pdftex.def)             Requested size: 409.49722pt x 333.2505pt.
 Package epstopdf Info: Source file: <figuras/classeOO.eps>
 (epstopdf)                    date: 2014-11-08 18:36:42
@@ -2103,18 +2124,16 @@ Package epstopdf Info: Source file: <figuras/classeOO.eps>
 (epstopdf)                    size: 167892 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/classeOO-eps-conve
 rted-to.pdf figuras/classeOO.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 303.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/classeOO-eps-converted-to.pdf, id=1338, 1095.09125pt x 625.33624pt>
+<figuras/classeOO-eps-converted-to.pdf, id=1372, 1095.09125pt x 625.33624pt>
 File: figuras/classeOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/classeOO-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/classeOO-eps-converted-to.pdf used on input li
-ne 74.
+ne 303.
 (pdftex.def)             Requested size: 409.49722pt x 233.84212pt.
- [76] [77 <./figuras/componente-eps-converted-to.pdf> <./figuras/classeOO-eps-c
-onverted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/sequenciaOO.eps>
 (epstopdf)                    date: 2014-11-08 18:35:00
 (epstopdf)                    size: 280564 bytes
@@ -2123,17 +2142,18 @@ Package epstopdf Info: Source file: <figuras/sequenciaOO.eps>
 (epstopdf)                    size: 112760 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaOO-eps-co
 nverted-to.pdf figuras/sequenciaOO.eps>
-(epstopdf)             \includegraphics on input line 91.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaOO-eps-converted-to.pdf, id=1359, 1000.73875pt x 586.19pt>
+<figuras/sequenciaOO-eps-converted-to.pdf, id=1376, 1000.73875pt x 586.19pt>
 File: figuras/sequenciaOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sequenciaOO-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaOO-eps-converted-to.pdf used on input
- line 91.
+ line 320.
 (pdftex.def)             Requested size: 409.49722pt x 239.86539pt.
- [78 <./figuras/sequenciaOO-eps-converted-to.pdf>]
+ [81] [82 <./figuras/componente-eps-converted-to.pdf> <./figuras/classeOO-eps-c
+onverted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/componenteFuncional.eps>
 (epstopdf)                    date: 2014-11-08 18:36:18
 (epstopdf)                    size: 95633 bytes
@@ -2143,16 +2163,17 @@ to.pdf>
 (epstopdf)                    size: 23599 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componenteFunciona
 l-eps-converted-to.pdf figuras/componenteFuncional.eps>
-(epstopdf)             \includegraphics on input line 111.
+(epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componenteFuncional-eps-converted-to.pdf, id=1374, 405.515pt x 312.166
+<figuras/componenteFuncional-eps-converted-to.pdf, id=1400, 405.515pt x 312.166
 24pt>
 File: figuras/componenteFuncional-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/componenteFuncional-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/componenteFuncional-eps-converted-to.pdf used 
-on input line 111.
+on input line 340.
 (pdftex.def)             Requested size: 227.5pt x 175.1358pt.
+ [83 <./figuras/sequenciaOO-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/sequenciaFuncional.eps>
 (epstopdf)                    date: 2014-11-08 18:35:25
 (epstopdf)                    size: 180605 bytes
@@ -2162,16 +2183,21 @@ o.pdf>
 (epstopdf)                    size: 70176 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaFuncional
 -eps-converted-to.pdf figuras/sequenciaFuncional.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 349.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaFuncional-eps-converted-to.pdf, id=1376, 651.43375pt x 435.62
+<figuras/sequenciaFuncional-eps-converted-to.pdf, id=1410, 651.43375pt x 435.62
 75pt>
 File: figuras/sequenciaFuncional-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/sequenciaFuncional-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaFuncional-eps-converted-to.pdf used o
-n input line 120.
+n input line 349.
 (pdftex.def)             Requested size: 409.49722pt x 273.84853pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84 <./figuras/componenteFuncional-eps-converted-to.pdf> <./figuras/sequenciaF
+uncional-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/componenteEstruturado.eps>
 (epstopdf)                    date: 2014-11-08 19:20:19
 (epstopdf)                    size: 166260 bytes
@@ -2181,16 +2207,16 @@ d-to.pdf>
 (epstopdf)                    size: 66813 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componenteEstrutur
 ado-eps-converted-to.pdf figuras/componenteEstruturado.eps>
-(epstopdf)             \includegraphics on input line 135.
+(epstopdf)             \includegraphics on input line 364.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componenteEstruturado-eps-converted-to.pdf, id=1380, 651.43375pt x 435
+<figuras/componenteEstruturado-eps-converted-to.pdf, id=1424, 651.43375pt x 435
 .6275pt>
 File: figuras/componenteEstruturado-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figuras/componenteEstruturado-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/componenteEstruturado-eps-converted-to.pdf use
-d on input line 135.
+d on input line 364.
 (pdftex.def)             Requested size: 227.5pt x 152.1329pt.
 Package epstopdf Info: Source file: <figuras/sequenciaEstruturado.eps>
 (epstopdf)                    date: 2014-11-08 18:35:37
@@ -2201,23 +2227,19 @@ Package epstopdf Info: Source file: <figuras/sequenciaEstruturado.eps>
 (epstopdf)                    size: 71510 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaEstrutura
 do-eps-converted-to.pdf figuras/sequenciaEstruturado.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaEstruturado-eps-converted-to.pdf, id=1381, 657.45625pt x 435.
+<figuras/sequenciaEstruturado-eps-converted-to.pdf, id=1425, 657.45625pt x 435.
 6275pt>
 File: figuras/sequenciaEstruturado-eps-converted-to.pdf Graphic file (type pdf)
 
  <use figuras/sequenciaEstruturado-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaEstruturado-eps-converted-to.pdf used
- on input line 136.
+ on input line 365.
 (pdftex.def)             Requested size: 227.5pt x 150.737pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [79 <./figuras/componenteFuncional-eps-converted-to.pdf>] [80 <./figuras/seque
-nciaFuncional-eps-converted-to.pdf> <./figuras/componenteEstruturado-eps-conver
-ted-to.pdf> <./figuras/sequenciaEstruturado-eps-converted-to.pdf>]
+ [85 <./figuras/componenteEstruturado-eps-converted-to.pdf> <./figuras/sequenci
+aEstruturado-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/diagramaClassesSMA.eps>
 (epstopdf)                    date: 2014-11-08 18:38:46
 (epstopdf)                    size: 782068 bytes
@@ -2227,20 +2249,20 @@ o.pdf>
 (epstopdf)                    size: 136595 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/diagramaClassesSMA
 -eps-converted-to.pdf figuras/diagramaClassesSMA.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 382.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/diagramaClassesSMA-eps-converted-to.pdf, id=1405, 964.60374pt x 805.00
+<figuras/diagramaClassesSMA-eps-converted-to.pdf, id=1440, 964.60374pt x 805.00
 75pt>
 File: figuras/diagramaClassesSMA-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/diagramaClassesSMA-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/diagramaClassesSMA-eps-converted-to.pdf used o
-n input line 153.
+n input line 382.
 (pdftex.def)             Requested size: 409.49722pt x 341.73674pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1168) has occurred while \output is active []
 
- [81 <./figuras/diagramaClassesSMA-eps-converted-to.pdf>]
+ [86 <./figuras/diagramaClassesSMA-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/sequencia.eps>
 (epstopdf)                    date: 2014-11-08 18:36:05
 (epstopdf)                    size: 694548 bytes
@@ -2249,22 +2271,21 @@ Package epstopdf Info: Source file: <figuras/sequencia.eps>
 (epstopdf)                    size: 275607 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequencia-eps-conv
 erted-to.pdf figuras/sequencia.eps>
-(epstopdf)             \includegraphics on input line 176.
+(epstopdf)             \includegraphics on input line 405.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequencia-eps-converted-to.pdf, id=1415, 1633.10126pt x 1012.78375pt>
+<figuras/sequencia-eps-converted-to.pdf, id=1450, 1633.10126pt x 1012.78375pt>
 File: figuras/sequencia-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sequencia-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequencia-eps-converted-to.pdf used on input l
-ine 176.
+ine 405.
 (pdftex.def)             Requested size: 409.49722pt x 253.95255pt.
 ) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [82]
-[83 <./figuras/sequencia-eps-converted-to.pdf>] [84
+ [87 <./figuras/sequencia-eps-converted-to.pdf>] [88
 
 ]
 bibitemlist
@@ -2274,23 +2295,23 @@ Overfull \hbox (90.9577pt too wide) in paragraph at lines 41--41
 o-[]em-[]Prolog-[]para-[]gerenciar-[]os-[]acessos-[]a-[]um-[]site>[]$[][]. 
  []
 
-[85] [86]
+[89] [90]
 Underfull \hbox (badness 1874) in paragraph at lines 249--249
 []\T1/lmr/m/n/12 INVESTFOREX. Aná-lise téc-nica para mer-cado fo-rex. 
  []
 
-[87] [88] [89]) (./capitulos/glossario.tex [90]) (./apendice.tex [91
+[91] [92] [93]) (./capitulos/glossario.tex [94]) (./apendice.tex [95
 
-] [92
+] [96
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-[93
+[97
 
-] [94] <apendices/a.pdf, id=1652, 614.295pt x 794.97pt>
+] [98] <apendices/a.pdf, id=1683, 614.295pt x 794.97pt>
 File: apendices/a.pdf Graphic file (type pdf)
 
 <use apendices/a.pdf>
@@ -2300,10 +2321,10 @@ File: apendices/a.pdf Graphic file (type pdf)
  <use apendices/a.pdf>
 Package pdftex.def Info: apendices/a.pdf used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [95
+ [99
 
 ]
-<apendices/a.pdf, id=1661, page=1, 614.295pt x 794.97pt>
+<apendices/a.pdf, id=1690, page=1, 614.295pt x 794.97pt>
 File: apendices/a.pdf Graphic file (type pdf)
 
 <use apendices/a.pdf, page 1>
@@ -2327,11 +2348,11 @@ File: apendices/a.pdf Graphic file (type pdf)
 <use apendices/a.pdf, page 1>
 Package pdftex.def Info: apendices/a.pdf, page1 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [96 <./apendices/a.pdf
+ [100 <./apendices/a.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/a.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/a.pdf, id=1677, page=2, 614.295pt x 794.97pt>
+>] <apendices/a.pdf, id=1706, page=2, 614.295pt x 794.97pt>
 File: apendices/a.pdf Graphic file (type pdf)
 
 <use apendices/a.pdf, page 2>
@@ -2346,11 +2367,11 @@ File: apendices/a.pdf Graphic file (type pdf)
 <use apendices/a.pdf, page 2>
 Package pdftex.def Info: apendices/a.pdf, page2 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [97 <./apendices/a.pdf
+ [101 <./apendices/a.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/a.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/a.pdf, id=1682, page=3, 614.295pt x 794.97pt>
+>] <apendices/a.pdf, id=1712, page=3, 614.295pt x 794.97pt>
 File: apendices/a.pdf Graphic file (type pdf)
 
 <use apendices/a.pdf, page 3>
@@ -2365,11 +2386,11 @@ File: apendices/a.pdf Graphic file (type pdf)
 <use apendices/a.pdf, page 3>
 Package pdftex.def Info: apendices/a.pdf, page3 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [98 <./apendices/a.pdf
+ [102 <./apendices/a.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/a.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/a.pdf, id=1687, page=4, 614.295pt x 794.97pt>
+>] <apendices/a.pdf, id=1717, page=4, 614.295pt x 794.97pt>
 File: apendices/a.pdf Graphic file (type pdf)
 
 <use apendices/a.pdf, page 4>
@@ -2384,13 +2405,13 @@ File: apendices/a.pdf Graphic file (type pdf)
 <use apendices/a.pdf, page 4>
 Package pdftex.def Info: apendices/a.pdf, page4 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [99 <./apendices/a.pdf
+ [103 <./apendices/a.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/a.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] [100
+>] [104
 
-] <apendices/b.pdf, id=1701, 614.295pt x 794.97pt>
+] <apendices/b.pdf, id=1731, 614.295pt x 794.97pt>
 File: apendices/b.pdf Graphic file (type pdf)
 
 <use apendices/b.pdf>
@@ -2400,8 +2421,8 @@ File: apendices/b.pdf Graphic file (type pdf)
  <use apendices/b.pdf>
 Package pdftex.def Info: apendices/b.pdf used on input line 9.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [101]
-<apendices/b.pdf, id=1709, page=1, 614.295pt x 794.97pt>
+ [105]
+<apendices/b.pdf, id=1738, page=1, 614.295pt x 794.97pt>
 File: apendices/b.pdf Graphic file (type pdf)
 
 <use apendices/b.pdf, page 1>
@@ -2425,11 +2446,11 @@ File: apendices/b.pdf Graphic file (type pdf)
 <use apendices/b.pdf, page 1>
 Package pdftex.def Info: apendices/b.pdf, page1 used on input line 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [102 <./apendices/b.pdf
+ [106 <./apendices/b.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/b.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/b.pdf, id=1720, page=2, 614.295pt x 794.97pt>
+>] <apendices/b.pdf, id=1749, page=2, 614.295pt x 794.97pt>
 File: apendices/b.pdf Graphic file (type pdf)
 
 <use apendices/b.pdf, page 2>
@@ -2444,11 +2465,11 @@ File: apendices/b.pdf Graphic file (type pdf)
 <use apendices/b.pdf, page 2>
 Package pdftex.def Info: apendices/b.pdf, page2 used on input line 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [103 <./apendices/b.pdf
+ [107 <./apendices/b.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/b.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/b.pdf, id=1730, page=3, 614.295pt x 794.97pt>
+>] <apendices/b.pdf, id=1760, page=3, 614.295pt x 794.97pt>
 File: apendices/b.pdf Graphic file (type pdf)
 
 <use apendices/b.pdf, page 3>
@@ -2463,11 +2484,11 @@ File: apendices/b.pdf Graphic file (type pdf)
 <use apendices/b.pdf, page 3>
 Package pdftex.def Info: apendices/b.pdf, page3 used on input line 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [104 <./apendices/b.pdf
+ [108 <./apendices/b.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/b.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/c.pdf, id=1740, 614.295pt x 794.97pt>
+>] <apendices/c.pdf, id=1770, 614.295pt x 794.97pt>
 File: apendices/c.pdf Graphic file (type pdf)
  <use apendices/c.pdf>
 Package pdftex.def Info: apendices/c.pdf used on input line 12.
@@ -2477,10 +2498,10 @@ File: apendices/c.pdf Graphic file (type pdf)
 <use apendices/c.pdf>
 Package pdftex.def Info: apendices/c.pdf used on input line 12.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [105
+ [109
 
 ]
-<apendices/c.pdf, id=1747, page=1, 614.295pt x 794.97pt>
+<apendices/c.pdf, id=1777, page=1, 614.295pt x 794.97pt>
 File: apendices/c.pdf Graphic file (type pdf)
 
 <use apendices/c.pdf, page 1>
@@ -2504,11 +2525,11 @@ File: apendices/c.pdf Graphic file (type pdf)
 <use apendices/c.pdf, page 1>
 Package pdftex.def Info: apendices/c.pdf, page1 used on input line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [106 <./apendices/c.pdf
+ [110 <./apendices/c.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/c.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/c.pdf, id=1763, page=2, 614.295pt x 794.97pt>
+>] <apendices/c.pdf, id=1793, page=2, 614.295pt x 794.97pt>
 File: apendices/c.pdf Graphic file (type pdf)
 
 <use apendices/c.pdf, page 2>
@@ -2523,11 +2544,11 @@ File: apendices/c.pdf Graphic file (type pdf)
 <use apendices/c.pdf, page 2>
 Package pdftex.def Info: apendices/c.pdf, page2 used on input line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [107 <./apendices/c.pdf
+ [111 <./apendices/c.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/c.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/c.pdf, id=1769, page=3, 614.295pt x 794.97pt>
+>] <apendices/c.pdf, id=1798, page=3, 614.295pt x 794.97pt>
 File: apendices/c.pdf Graphic file (type pdf)
 
 <use apendices/c.pdf, page 3>
@@ -2542,11 +2563,11 @@ File: apendices/c.pdf Graphic file (type pdf)
 <use apendices/c.pdf, page 3>
 Package pdftex.def Info: apendices/c.pdf, page3 used on input line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [108 <./apendices/c.pdf
+ [112 <./apendices/c.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/c.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/d.pdf, id=1779, 614.295pt x 794.97pt>
+>] <apendices/d.pdf, id=1808, 614.295pt x 794.97pt>
 File: apendices/d.pdf Graphic file (type pdf)
  <use apendices/d.pdf>
 Package pdftex.def Info: apendices/d.pdf used on input line 15.
@@ -2556,10 +2577,10 @@ File: apendices/d.pdf Graphic file (type pdf)
 <use apendices/d.pdf>
 Package pdftex.def Info: apendices/d.pdf used on input line 15.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [109
+ [113
 
 ]
-<apendices/d.pdf, id=1786, page=1, 614.295pt x 794.97pt>
+<apendices/d.pdf, id=1817, page=1, 614.295pt x 794.97pt>
 File: apendices/d.pdf Graphic file (type pdf)
 
 <use apendices/d.pdf, page 1>
@@ -2583,11 +2604,11 @@ File: apendices/d.pdf Graphic file (type pdf)
 <use apendices/d.pdf, page 1>
 Package pdftex.def Info: apendices/d.pdf, page1 used on input line 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [110 <./apendices/d.pdf
+ [114 <./apendices/d.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/d.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/d.pdf, id=1797, page=2, 614.295pt x 794.97pt>
+>] <apendices/d.pdf, id=1828, page=2, 614.295pt x 794.97pt>
 File: apendices/d.pdf Graphic file (type pdf)
 
 <use apendices/d.pdf, page 2>
@@ -2602,11 +2623,11 @@ File: apendices/d.pdf Graphic file (type pdf)
 <use apendices/d.pdf, page 2>
 Package pdftex.def Info: apendices/d.pdf, page2 used on input line 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [111 <./apendices/d.pdf
+ [115 <./apendices/d.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/d.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/d.pdf, id=1807, page=3, 614.295pt x 794.97pt>
+>] <apendices/d.pdf, id=1838, page=3, 614.295pt x 794.97pt>
 File: apendices/d.pdf Graphic file (type pdf)
 
 <use apendices/d.pdf, page 3>
@@ -2621,11 +2642,11 @@ File: apendices/d.pdf Graphic file (type pdf)
 <use apendices/d.pdf, page 3>
 Package pdftex.def Info: apendices/d.pdf, page3 used on input line 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [112 <./apendices/d.pdf
+ [116 <./apendices/d.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/d.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/d.pdf, id=1812, page=4, 614.295pt x 794.97pt>
+>] <apendices/d.pdf, id=1843, page=4, 614.295pt x 794.97pt>
 File: apendices/d.pdf Graphic file (type pdf)
 
 <use apendices/d.pdf, page 4>
@@ -2640,13 +2661,13 @@ File: apendices/d.pdf Graphic file (type pdf)
 <use apendices/d.pdf, page 4>
 Package pdftex.def Info: apendices/d.pdf, page4 used on input line 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [113 <./apendices/d.pdf
+ [117 <./apendices/d.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/d.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] [114
+>] [118
 
-] <apendices/e.pdf, id=1828, 614.295pt x 794.97pt>
+] <apendices/e.pdf, id=1857, 614.295pt x 794.97pt>
 File: apendices/e.pdf Graphic file (type pdf)
 
 <use apendices/e.pdf>
@@ -2656,8 +2677,8 @@ File: apendices/e.pdf Graphic file (type pdf)
  <use apendices/e.pdf>
 Package pdftex.def Info: apendices/e.pdf used on input line 18.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [115]
-<apendices/e.pdf, id=1835, page=1, 614.295pt x 794.97pt>
+ [119]
+<apendices/e.pdf, id=1865, page=1, 614.295pt x 794.97pt>
 File: apendices/e.pdf Graphic file (type pdf)
 
 <use apendices/e.pdf, page 1>
@@ -2681,11 +2702,11 @@ File: apendices/e.pdf Graphic file (type pdf)
 <use apendices/e.pdf, page 1>
 Package pdftex.def Info: apendices/e.pdf, page1 used on input line 18.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [116 <./apendices/e.pdf
+ [120 <./apendices/e.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/e.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/e.pdf, id=1846, page=2, 614.295pt x 794.97pt>
+>] <apendices/e.pdf, id=1876, page=2, 614.295pt x 794.97pt>
 File: apendices/e.pdf Graphic file (type pdf)
 
 <use apendices/e.pdf, page 2>
@@ -2700,11 +2721,11 @@ File: apendices/e.pdf Graphic file (type pdf)
 <use apendices/e.pdf, page 2>
 Package pdftex.def Info: apendices/e.pdf, page2 used on input line 18.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [117 <./apendices/e.pdf
+ [121 <./apendices/e.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/e.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/e.pdf, id=1851, page=3, 614.295pt x 794.97pt>
+>] <apendices/e.pdf, id=1881, page=3, 614.295pt x 794.97pt>
 File: apendices/e.pdf Graphic file (type pdf)
 
 <use apendices/e.pdf, page 3>
@@ -2719,11 +2740,11 @@ File: apendices/e.pdf Graphic file (type pdf)
 <use apendices/e.pdf, page 3>
 Package pdftex.def Info: apendices/e.pdf, page3 used on input line 18.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [118 <./apendices/e.pdf
+ [122 <./apendices/e.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/e.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/f.pdf, id=1861, 614.295pt x 794.97pt>
+>] <apendices/f.pdf, id=1891, 614.295pt x 794.97pt>
 File: apendices/f.pdf Graphic file (type pdf)
  <use apendices/f.pdf>
 Package pdftex.def Info: apendices/f.pdf used on input line 21.
@@ -2733,10 +2754,10 @@ File: apendices/f.pdf Graphic file (type pdf)
 <use apendices/f.pdf>
 Package pdftex.def Info: apendices/f.pdf used on input line 21.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [119
+ [123
 
 ]
-<apendices/f.pdf, id=1869, page=1, 614.295pt x 794.97pt>
+<apendices/f.pdf, id=1898, page=1, 614.295pt x 794.97pt>
 File: apendices/f.pdf Graphic file (type pdf)
 
 <use apendices/f.pdf, page 1>
@@ -2760,11 +2781,11 @@ File: apendices/f.pdf Graphic file (type pdf)
 <use apendices/f.pdf, page 1>
 Package pdftex.def Info: apendices/f.pdf, page1 used on input line 21.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [120 <./apendices/f.pdf
+ [124 <./apendices/f.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/f.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/f.pdf, id=1880, page=2, 614.295pt x 794.97pt>
+>] <apendices/f.pdf, id=1909, page=2, 614.295pt x 794.97pt>
 File: apendices/f.pdf Graphic file (type pdf)
 
 <use apendices/f.pdf, page 2>
@@ -2779,11 +2800,11 @@ File: apendices/f.pdf Graphic file (type pdf)
 <use apendices/f.pdf, page 2>
 Package pdftex.def Info: apendices/f.pdf, page2 used on input line 21.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [121 <./apendices/f.pdf
+ [125 <./apendices/f.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/f.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/f.pdf, id=1890, page=3, 614.295pt x 794.97pt>
+>] <apendices/f.pdf, id=1920, page=3, 614.295pt x 794.97pt>
 File: apendices/f.pdf Graphic file (type pdf)
 
 <use apendices/f.pdf, page 3>
@@ -2798,11 +2819,11 @@ File: apendices/f.pdf Graphic file (type pdf)
 <use apendices/f.pdf, page 3>
 Package pdftex.def Info: apendices/f.pdf, page3 used on input line 21.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [122 <./apendices/f.pdf
+ [126 <./apendices/f.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/f.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/f.pdf, id=1895, page=4, 614.295pt x 794.97pt>
+>] <apendices/f.pdf, id=1925, page=4, 614.295pt x 794.97pt>
 File: apendices/f.pdf Graphic file (type pdf)
 
 <use apendices/f.pdf, page 4>
@@ -2817,15 +2838,15 @@ File: apendices/f.pdf Graphic file (type pdf)
 <use apendices/f.pdf, page 4>
 Package pdftex.def Info: apendices/f.pdf, page4 used on input line 21.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [123 <./apendices/f.pdf
+ [127 <./apendices/f.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/f.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] [124
+>] [128
 
-] [125] [126
+] [129] [130
 
-] <apendices/pearsonmql.pdf, id=1918, 614.295pt x 794.97pt>
+] <apendices/pearsonmql.pdf, id=1947, 614.295pt x 794.97pt>
 File: apendices/pearsonmql.pdf Graphic file (type pdf)
 
 <use apendices/pearsonmql.pdf>
@@ -2835,8 +2856,8 @@ File: apendices/pearsonmql.pdf Graphic file (type pdf)
  <use apendices/pearsonmql.pdf>
 Package pdftex.def Info: apendices/pearsonmql.pdf used on input line 27.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [127]
-<apendices/pearsonmql.pdf, id=1925, page=1, 614.295pt x 794.97pt>
+ [131]
+<apendices/pearsonmql.pdf, id=1955, page=1, 614.295pt x 794.97pt>
 File: apendices/pearsonmql.pdf Graphic file (type pdf)
 
 <use apendices/pearsonmql.pdf, page 1>
@@ -2865,11 +2886,11 @@ File: apendices/pearsonmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/pearsonmql.pdf, page1 used on input line 27.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [128 <./apendices/pearsonmql.pdf
+ [132 <./apendices/pearsonmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/pearsonmql.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/pearsonmql.pdf, id=1951, page=2, 614.295pt x 794.97pt>
+>] <apendices/pearsonmql.pdf, id=1982, page=2, 614.295pt x 794.97pt>
 File: apendices/pearsonmql.pdf Graphic file (type pdf)
 
 <use apendices/pearsonmql.pdf, page 2>
@@ -2887,11 +2908,11 @@ File: apendices/pearsonmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/pearsonmql.pdf, page2 used on input line 27.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [129 <./apendices/pearsonmql.pdf
+ [133 <./apendices/pearsonmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/pearsonmql.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/pearsonmql.pdf, id=1956, page=3, 614.295pt x 794.97pt>
+>] <apendices/pearsonmql.pdf, id=1987, page=3, 614.295pt x 794.97pt>
 File: apendices/pearsonmql.pdf Graphic file (type pdf)
 
 <use apendices/pearsonmql.pdf, page 3>
@@ -2909,11 +2930,11 @@ File: apendices/pearsonmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/pearsonmql.pdf, page3 used on input line 27.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [130 <./apendices/pearsonmql.pdf
+ [134 <./apendices/pearsonmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/pearsonmql.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/pearsonmql.pdf, id=1961, page=4, 614.295pt x 794.97pt>
+>] <apendices/pearsonmql.pdf, id=1992, page=4, 614.295pt x 794.97pt>
 File: apendices/pearsonmql.pdf Graphic file (type pdf)
 
 <use apendices/pearsonmql.pdf, page 4>
@@ -2931,11 +2952,11 @@ File: apendices/pearsonmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/pearsonmql.pdf, page4 used on input line 27.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [131 <./apendices/pearsonmql.pdf
+ [135 <./apendices/pearsonmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/pearsonmql.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/pearsonmql.pdf, id=1967, page=5, 614.295pt x 794.97pt>
+>] <apendices/pearsonmql.pdf, id=1997, page=5, 614.295pt x 794.97pt>
 File: apendices/pearsonmql.pdf Graphic file (type pdf)
 
 <use apendices/pearsonmql.pdf, page 5>
@@ -2953,11 +2974,11 @@ File: apendices/pearsonmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/pearsonmql.pdf, page5 used on input line 27.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [132 <./apendices/pearsonmql.pdf
+ [136 <./apendices/pearsonmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/pearsonmql.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/pearsonmql.pdf, id=1972, page=6, 614.295pt x 794.97pt>
+>] <apendices/pearsonmql.pdf, id=2002, page=6, 614.295pt x 794.97pt>
 File: apendices/pearsonmql.pdf Graphic file (type pdf)
 
 <use apendices/pearsonmql.pdf, page 6>
@@ -2975,11 +2996,11 @@ File: apendices/pearsonmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/pearsonmql.pdf, page6 used on input line 27.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [133 <./apendices/pearsonmql.pdf
+ [137 <./apendices/pearsonmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/pearsonmql.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/estocasticomql.pdf, id=1977, 614.295pt x 794.97pt>
+>] <apendices/estocasticomql.pdf, id=2008, 614.295pt x 794.97pt>
 File: apendices/estocasticomql.pdf Graphic file (type pdf)
 
 <use apendices/estocasticomql.pdf>
@@ -2990,7 +3011,7 @@ File: apendices/estocasticomql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/estocasticomql.pdf used on input line 28.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/estocasticomql.pdf, id=1980, page=1, 614.295pt x 794.97pt>
+<apendices/estocasticomql.pdf, id=2011, page=1, 614.295pt x 794.97pt>
 File: apendices/estocasticomql.pdf Graphic file (type pdf)
 
 <use apendices/estocasticomql.pdf, page 1>
@@ -3021,12 +3042,12 @@ File: apendices/estocasticomql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/estocasticomql.pdf, page1 used on input line
  28.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [134 <./apendices/estocasticomql.pdf
+ [138 <./apendices/estocasticomql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/estocasticomql.pdf): PDF inclusion: 
 invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
 .
->] <apendices/estocasticomql.pdf, id=2002, page=2, 614.295pt x 794.97pt>
+>] <apendices/estocasticomql.pdf, id=2032, page=2, 614.295pt x 794.97pt>
 File: apendices/estocasticomql.pdf Graphic file (type pdf)
 
 <use apendices/estocasticomql.pdf, page 2>
@@ -3045,12 +3066,12 @@ File: apendices/estocasticomql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/estocasticomql.pdf, page2 used on input line
  28.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [135 <./apendices/estocasticomql.pdf
+ [139 <./apendices/estocasticomql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/estocasticomql.pdf): PDF inclusion: 
 invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
 .
->] <apendices/estocasticomql.pdf, id=2012, page=3, 614.295pt x 794.97pt>
+>] <apendices/estocasticomql.pdf, id=2042, page=3, 614.295pt x 794.97pt>
 File: apendices/estocasticomql.pdf Graphic file (type pdf)
 
 <use apendices/estocasticomql.pdf, page 3>
@@ -3069,12 +3090,12 @@ File: apendices/estocasticomql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/estocasticomql.pdf, page3 used on input line
  28.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [136 <./apendices/estocasticomql.pdf
+ [140 <./apendices/estocasticomql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/estocasticomql.pdf): PDF inclusion: 
 invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
 .
->] <apendices/estocasticomql.pdf, id=2017, page=4, 614.295pt x 794.97pt>
+>] <apendices/estocasticomql.pdf, id=2047, page=4, 614.295pt x 794.97pt>
 File: apendices/estocasticomql.pdf Graphic file (type pdf)
 
 <use apendices/estocasticomql.pdf, page 4>
@@ -3093,12 +3114,12 @@ File: apendices/estocasticomql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/estocasticomql.pdf, page4 used on input line
  28.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [137 <./apendices/estocasticomql.pdf
+ [141 <./apendices/estocasticomql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/estocasticomql.pdf): PDF inclusion: 
 invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
 .
->] <apendices/fibonaccimql.pdf, id=2023, 614.295pt x 794.97pt>
+>] <apendices/fibonaccimql.pdf, id=2052, 614.295pt x 794.97pt>
 File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 
 <use apendices/fibonaccimql.pdf>
@@ -3109,7 +3130,7 @@ File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/fibonaccimql.pdf used on input line 29.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/fibonaccimql.pdf, id=2026, page=1, 614.295pt x 794.97pt>
+<apendices/fibonaccimql.pdf, id=2055, page=1, 614.295pt x 794.97pt>
 File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 
 <use apendices/fibonaccimql.pdf, page 1>
@@ -3140,11 +3161,11 @@ File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/fibonaccimql.pdf, page1 used on input line 2
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [138 <./apendices/fibonaccimql.pdf
+ [142 <./apendices/fibonaccimql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/fibonaccimql.pdf): PDF inclusion: in
 valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/fibonaccimql.pdf, id=2052, page=2, 614.295pt x 794.97pt>
+>] <apendices/fibonaccimql.pdf, id=2081, page=2, 614.295pt x 794.97pt>
 File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 
 <use apendices/fibonaccimql.pdf, page 2>
@@ -3163,11 +3184,11 @@ File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/fibonaccimql.pdf, page2 used on input line 2
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [139 <./apendices/fibonaccimql.pdf
+ [143 <./apendices/fibonaccimql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/fibonaccimql.pdf): PDF inclusion: in
 valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/fibonaccimql.pdf, id=2057, page=3, 614.295pt x 794.97pt>
+>] <apendices/fibonaccimql.pdf, id=2087, page=3, 614.295pt x 794.97pt>
 File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 
 <use apendices/fibonaccimql.pdf, page 3>
@@ -3186,11 +3207,11 @@ File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/fibonaccimql.pdf, page3 used on input line 2
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [140 <./apendices/fibonaccimql.pdf
+ [144 <./apendices/fibonaccimql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/fibonaccimql.pdf): PDF inclusion: in
 valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/fibonaccimql.pdf, id=2062, page=4, 614.295pt x 794.97pt>
+>] <apendices/fibonaccimql.pdf, id=2092, page=4, 614.295pt x 794.97pt>
 File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 
 <use apendices/fibonaccimql.pdf, page 4>
@@ -3209,11 +3230,11 @@ File: apendices/fibonaccimql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/fibonaccimql.pdf, page4 used on input line 2
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [141 <./apendices/fibonaccimql.pdf
+ [145 <./apendices/fibonaccimql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/fibonaccimql.pdf): PDF inclusion: in
 valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/mediamovelmql.pdf, id=2067, 614.295pt x 794.97pt>
+>] <apendices/mediamovelmql.pdf, id=2097, 614.295pt x 794.97pt>
 File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 
 <use apendices/mediamovelmql.pdf>
@@ -3224,7 +3245,7 @@ File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/mediamovelmql.pdf used on input line 30.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/mediamovelmql.pdf, id=2070, page=1, 614.295pt x 794.97pt>
+<apendices/mediamovelmql.pdf, id=2100, page=1, 614.295pt x 794.97pt>
 File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 
 <use apendices/mediamovelmql.pdf, page 1>
@@ -3255,12 +3276,12 @@ File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/mediamovelmql.pdf, page1 used on input line 
 30.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [142 <./apendices/mediamovelmql.pdf
+ [146 <./apendices/mediamovelmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/mediamovelmql.pdf): PDF inclusion: i
 nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 
->] <apendices/mediamovelmql.pdf, id=2096, page=2, 614.295pt x 794.97pt>
+>] <apendices/mediamovelmql.pdf, id=2126, page=2, 614.295pt x 794.97pt>
 File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 
 <use apendices/mediamovelmql.pdf, page 2>
@@ -3279,12 +3300,12 @@ File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/mediamovelmql.pdf, page2 used on input line 
 30.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [143 <./apendices/mediamovelmql.pdf
+ [147 <./apendices/mediamovelmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/mediamovelmql.pdf): PDF inclusion: i
 nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 
->] <apendices/mediamovelmql.pdf, id=2102, page=3, 614.295pt x 794.97pt>
+>] <apendices/mediamovelmql.pdf, id=2131, page=3, 614.295pt x 794.97pt>
 File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 
 <use apendices/mediamovelmql.pdf, page 3>
@@ -3303,12 +3324,12 @@ File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/mediamovelmql.pdf, page3 used on input line 
 30.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [144 <./apendices/mediamovelmql.pdf
+ [148 <./apendices/mediamovelmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/mediamovelmql.pdf): PDF inclusion: i
 nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 
->] <apendices/mediamovelmql.pdf, id=2107, page=4, 614.295pt x 794.97pt>
+>] <apendices/mediamovelmql.pdf, id=2136, page=4, 614.295pt x 794.97pt>
 File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 
 <use apendices/mediamovelmql.pdf, page 4>
@@ -3327,12 +3348,12 @@ File: apendices/mediamovelmql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/mediamovelmql.pdf, page4 used on input line 
 30.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [145 <./apendices/mediamovelmql.pdf
+ [149 <./apendices/mediamovelmql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/mediamovelmql.pdf): PDF inclusion: i
 nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 
->] <apendices/minimosquadradosmql.pdf, id=2112, 614.295pt x 794.97pt>
+>] <apendices/minimosquadradosmql.pdf, id=2142, 614.295pt x 794.97pt>
 File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
 
 <use apendices/minimosquadradosmql.pdf>
@@ -3346,7 +3367,7 @@ Package pdftex.def Info: apendices/minimosquadradosmql.pdf used on input line 3
 1.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/minimosquadradosmql.pdf, id=2115, page=1, 614.295pt x 794.97pt>
+<apendices/minimosquadradosmql.pdf, id=2145, page=1, 614.295pt x 794.97pt>
 File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
 
 <use apendices/minimosquadradosmql.pdf, page 1>
@@ -3375,102 +3396,6 @@ File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
 
 <use apendices/minimosquadradosmql.pdf, page 1>
 Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page1 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [146 <./apendices/minimosquadradosmql.pdf
-
-pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
-ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
-nored.
->] <apendices/minimosquadradosmql.pdf, id=2141, page=2, 614.295pt x 794.97pt>
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 2>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page2 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 2>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page2 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 2>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page2 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [147 <./apendices/minimosquadradosmql.pdf
-
-pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
-ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
-nored.
->] <apendices/minimosquadradosmql.pdf, id=2146, page=3, 614.295pt x 794.97pt>
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 3>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page3 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 3>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page3 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 3>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page3 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [148 <./apendices/minimosquadradosmql.pdf
-
-pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
-ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
-nored.
->] <apendices/minimosquadradosmql.pdf, id=2151, page=4, 614.295pt x 794.97pt>
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 4>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page4 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 4>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page4 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 4>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page4 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [149 <./apendices/minimosquadradosmql.pdf
-
-pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
-ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
-nored.
->] <apendices/minimosquadradosmql.pdf, id=2157, page=5, 614.295pt x 794.97pt>
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 5>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page5 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 5>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page5 used on input
- line 31.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
-
-<use apendices/minimosquadradosmql.pdf, page 5>
-Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page5 used on input
  line 31.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [150 <./apendices/minimosquadradosmql.pdf
@@ -3478,7 +3403,103 @@ Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page5 used on input
 pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
->] <apendices/resistenciasuportemql.pdf, id=2162, 614.295pt x 794.97pt>
+>] <apendices/minimosquadradosmql.pdf, id=2172, page=2, 614.295pt x 794.97pt>
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 2>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page2 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 2>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page2 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 2>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page2 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [151 <./apendices/minimosquadradosmql.pdf
+
+pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <apendices/minimosquadradosmql.pdf, id=2177, page=3, 614.295pt x 794.97pt>
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 3>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page3 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 3>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page3 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 3>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page3 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [152 <./apendices/minimosquadradosmql.pdf
+
+pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <apendices/minimosquadradosmql.pdf, id=2182, page=4, 614.295pt x 794.97pt>
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 4>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page4 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 4>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page4 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 4>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page4 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [153 <./apendices/minimosquadradosmql.pdf
+
+pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <apendices/minimosquadradosmql.pdf, id=2187, page=5, 614.295pt x 794.97pt>
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 5>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page5 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 5>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page5 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/minimosquadradosmql.pdf Graphic file (type pdf)
+
+<use apendices/minimosquadradosmql.pdf, page 5>
+Package pdftex.def Info: apendices/minimosquadradosmql.pdf, page5 used on input
+ line 31.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [154 <./apendices/minimosquadradosmql.pdf
+
+pdfTeX warning: pdflatex (file ./apendices/minimosquadradosmql.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <apendices/resistenciasuportemql.pdf, id=2192, 614.295pt x 794.97pt>
 File: apendices/resistenciasuportemql.pdf Graphic file (type pdf)
 
 <use apendices/resistenciasuportemql.pdf>
@@ -3492,7 +3513,7 @@ Package pdftex.def Info: apendices/resistenciasuportemql.pdf used on input line
  32.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/resistenciasuportemql.pdf, id=2165, page=1, 614.295pt x 794.97pt>
+<apendices/resistenciasuportemql.pdf, id=2195, page=1, 614.295pt x 794.97pt>
 File: apendices/resistenciasuportemql.pdf Graphic file (type pdf)
 
 <use apendices/resistenciasuportemql.pdf, page 1>
@@ -3523,13 +3544,13 @@ File: apendices/resistenciasuportemql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/resistenciasuportemql.pdf, page1 used on inp
 ut line 32.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [151 <./apendices/resistenciasuportemql.pdf
+ [155 <./apendices/resistenciasuportemql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/resistenciasuportemql.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<apendices/resistenciasuportemql.pdf, id=2182, page=2, 614.295pt x 794.97pt>
+<apendices/resistenciasuportemql.pdf, id=2212, page=2, 614.295pt x 794.97pt>
 File: apendices/resistenciasuportemql.pdf Graphic file (type pdf)
 
 <use apendices/resistenciasuportemql.pdf, page 2>
@@ -3548,7 +3569,7 @@ File: apendices/resistenciasuportemql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/resistenciasuportemql.pdf, page2 used on inp
 ut line 32.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [152 <./apendices/resistenciasuportemql.pdf
+ [156 <./apendices/resistenciasuportemql.pdf
 
 pdfTeX warning: pdflatex (file ./apendices/resistenciasuportemql.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
@@ -3558,21 +3579,21 @@ ignored.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-[153
+[157
 
 
-] [154]
+] [158]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[155
+[159
 
 ])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[156]
+[160]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -3588,7 +3609,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 0B45FD8470990386F459AC86A1AF5A58;7740.
+(rerunfilecheck)             Checksum: EB5C8A74C8606FAD13A8177D24C2C406;7740.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3596,10 +3617,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 14688 strings out of 493304
- 222520 string characters out of 6139870
- 352417 words of memory out of 5000000
- 17225 multiletter control sequences out of 15000+600000
+ 14704 strings out of 493304
+ 222710 string characters out of 6139870
+ 351594 words of memory out of 5000000
+ 17231 multiletter control sequences out of 15000+600000
  90893 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,18n,46p,927b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3618,10 +3639,10 @@ f/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
 pfb>
-Output written on tcc.pdf (158 pages, 3238818 bytes).
+Output written on tcc.pdf (162 pages, 3251981 bytes).
 PDF statistics:
- 2743 PDF objects out of 2984 (max. 8388607)
- 2286 compressed objects within 23 object streams
- 498 named destinations out of 1000 (max. 500000)
- 1557 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2791 PDF objects out of 2984 (max. 8388607)
+ 2329 compressed objects within 24 object streams
+ 508 named destinations out of 1000 (max. 500000)
+ 1597 words of extra memory for PDF output out of 10000 (max. 10000000)
 
