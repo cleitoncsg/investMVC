@@ -48,52 +48,50 @@ Nas seções a seguir, são apresentadas as Histórias de Usuário com seus crit
 Como agente de software, gostaria de usar o método de Correlação de Pearson para verificar sua eficácia no Mercado de Moedas.
 
 Critérios de aceitação US1:
-
-A Correlação de Pearson deve ser maior que 0.8 e o mercado estar subindo para se realizar a venda.
-
-A Correlação de Pearson deve ser maior que 0.8 e o mercado estar caindo para se realizar a compra.
-
-O take profit e o stop loss devem ser os mesmos.
+\begin{enumerate}
+\item A Correlação de Pearson deve ser maior que 0.8 e o mercado estar subindo para se realizar a venda.
+\item A Correlação de Pearson deve ser maior que 0.8 e o mercado estar caindo para se realizar a compra.
+\item O take profit e o stop loss devem ser os mesmos.
+\end{enumerate}
 
 \textbf{US2 - Agente Fibonacci}
 
 Como agente de software, gostaria de usar o método de Fibonacci para verificar sua eficácia no Mercado de Moedas.
 
 Critérios de aceitação US2:
-
-Na situação em que o mercado estiver caindo e a regressão de Fibonacci estiver em 0.62, deve-se apenas vender no mercado com take profit e stop loss em 500 pontos.
-
-Na situação em que o mercado estiver subindo e a regressão de Fibonacci estiver em 0.62, deve-se apenas comprar no mercado com take profit e stop loss em 500 pontos.
+\begin{enumerate}
+\item Na situação em que o mercado estiver caindo e a regressão de Fibonacci estiver em 0.62, deve-se apenas vender no mercado com take profit e stop loss em 500 pontos.
+\item Na situação em que o mercado estiver subindo e a regressão de Fibonacci estiver em 0.62, deve-se apenas comprar no mercado com take profit e stop loss em 500 pontos.
+\end{enumerate}
 
 \textbf{US3 - Agente Mínimos Quadrados}
 
 Como agente de software, gostaria de usar o método de Mínimos Quadrados para verificar sua eficácia no Mercado de Moedas.
 
 Critérios de aceitação US3:
-
-Não deve existir stop loss ou take profit fixos, pois os mesmos são variáveis de acordo com a estratégia do método de Mínimos Quadrados.
-
-O método deve seguir a tendência do mercado. Se o mercado estiver subindo, deve-se comprar e se estiver caindo, deve-se vender.
+\begin{enumerate}
+\item Não deve existir stop loss ou take profit fixos, pois os mesmos são variáveis de acordo com a estratégia do método de Mínimos Quadrados.
+\item O método deve seguir a tendência do mercado. Se o mercado estiver subindo, deve-se comprar e se estiver caindo, deve-se vender.
+\end{enumerate}
 
 \textbf{US4 - Agente Tendência}
 Como agente de software, gostaria de verificar a tendência do mercado para estimar um ponto de compra ou venda.
 
 Critérios de aceitação US4:
-
-As cotações obtidas na persistência não podem ser nulas.
-
-A tendência deve ser calculada de acordo com o gráfico escolhido como 1 minuto, 5 minutos e assim por diante.
+\begin{enumerate}
+\item As cotações obtidas na persistência não podem ser nulas.
+\item A tendência deve ser calculada de acordo com o gráfico escolhido como 1 minuto, 5 minutos e assim por diante.
+\end{enumerate}
 
 \textbf{US5 - Agente Gestor/Consultor}
 
 Como agente de software, gostaria de informar ao componente mql uma operação para que seja possível realizar uma compra ou venda.
 
 Critérios de aceitação US5:
-
-Só deve ser informado ao componente mql 1 para compra, -1 para venda ou 0 para fazer nada.
-
-Enquanto o componente mql estiver com uma ordem de compra ou venda aberta, não é necessário informar a operação que deve ser feita ao componente.
-
+\begin{enumerate}
+\item Só deve ser informado ao componente mql 1 para compra, -1 para venda ou 0 para fazer nada.
+\item Enquanto o componente mql estiver com uma ordem de compra ou venda aberta, não é necessário informar a operação que deve ser feita ao componente.
+\end{enumerate}
 
 \subsubsection{Histórias de Usuário Componente Orientado a Objetos}
 
@@ -104,34 +102,32 @@ Nas seções a seguir, são apresentadas as Histórias de Usuário com seus crit
 Como investidor, gostaria de criar uma conta na ferramenta InvestMVC para que eu possa realizar simulações e/ou investimentos reais.
 
 Critério de aceitação US6:
-
-O usuário deve cadastrar um login que não esteja presente no banco de dados.
-
-O usuário deve cadastrar um senha com 6 digitos.
+\begin{enumerate}
+\item O usuário deve cadastrar um login que não esteja presente no banco de dados.
+\item O usuário deve cadastrar um senha com 6 digitos.
+\end{enumerate}
 
 \textbf{US7 - Acompanhar retorno financeiro}
 
 Como investidor, gostaria de vizualizar o status da minha conta de investidor, para saber o lucro/prejuízo do expert.
 
 Critérios de aceitação US7 :
-
-O retorno é um número real maior que 0.
-
-O tempo de resposta para visualização do saldo deve ser inferior a 2 segundos.
-
-Para acompanhar o retorno financeiro, o usuário deve estar logado na ferramenta InvestMVC.
+\begin{enumerate}
+\item O retorno é um número real maior que 0.
+\item O tempo de resposta para visualização do saldo deve ser inferior a 2 segundos.
+\item Para acompanhar o retorno financeiro, o usuário deve estar logado na ferramenta InvestMVC.
+\end{enumerate}
 
 \textbf{US8 - Criar Experts}
 
 Como investir, gostaria de criar um expert na ferramenta InvestMVC para que eu possa investir no Mercado de Moedas.
 
 Critérios de aceitação US8 :
-
-Os experts disponíveis devem ser Mínimos Quadrados, Fibonacci e Correlação de Pearson.
-
-Não se pode criar um expert sem ter selecionado ao menos um Método Matemático.
-
-Para criar um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\begin{enumerate}
+\item Os experts disponíveis devem ser Mínimos Quadrados, Fibonacci e Correlação de Pearson.
+\item Não se pode criar um expert sem ter selecionado ao menos um Método Matemático.
+\item Para criar um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\end{enumerate}
 
 \textbf{US9 - Editar Experts}
 
@@ -139,45 +135,42 @@ Como investir, gostaria de editar um expert na ferramenta investMVC para que eu 
 
 Critérios de aceitação US9: 
 
-Os experts disponíveis devem ser Mínimos Quadrados, Fibonacci e Correlação de Pearson.
-
-Não se pode editar um expert sem ter selecionado ao menos um Método Matemático para edição.
-
-Para editar um expert, o usuário deve estar logado na ferramenta InvestMVC.
-
+\begin{enumerate}
+\item Os experts disponíveis devem ser Mínimos Quadrados, Fibonacci e Correlação de Pearson.
+\item Não se pode editar um expert sem ter selecionado ao menos um Método Matemático para edição.
+\item Para editar um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\end{enumerate}
 
 \textbf{US10 - Excluir Experts}
 
 Como investir, gostaria de excluir um expert na ferramenta investMVC para que não mais visualizar o mesmo para investir no Mercado de Moedas.
 
 Critérios de aceitação US10:
-
-Os experts disponíveis devem ser Mínimos Quadrados, Fibonacci e Correlação de Pearson.
-
-Não se pode excluir um expert sem ter selecionado ao menos um Método Matemático para exclusão.
-
-Para excluir um expert, o usuário deve estar logado na ferramenta InvestMVC.
-
+\begin{enumerate}
+\item Os experts disponíveis devem ser Mínimos Quadrados, Fibonacci e Correlação de Pearson.
+\item Não se pode excluir um expert sem ter selecionado ao menos um Método Matemático para exclusão.
+\item Para excluir um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\end{enumerate}
 
 \textbf{US11 - Ativar Expert}
 
 Como investidor, gostaria de ativar um Expert para que o mesmo esteja disponível para operar de forma automatizada.
 
 Critérios de aceitação US11:
-
-Só pode ser ativado um expert que acabou de ser criado ou que está desativado.
-
-Para ativar um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\begin{enumerate}
+\item Só pode ser ativado um expert que acabou de ser criado ou que está desativado.
+\item Para ativar um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\end{enumerate}
 
 \textbf{US12 - Desativar Expert}
 
 Como investidor, gostaria de desativar um Expert para que o mesmo esteja disponível para operar de forma automatizada.
 
 Critérios de aceitação US12:
-
-Só pode ser desativado um expert que esteja ativado.
-
-Para desativar um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\begin{enumerate}
+\item Só pode ser desativado um expert que esteja ativado.
+\item Para desativar um expert, o usuário deve estar logado na ferramenta InvestMVC.
+\end{enumerate}
 
 \subsubsection{Histórias de Usuário Componente Estruturado}
 Nas seções a seguir, são apresentadas as Histórias de Usuário com seus critérios de aceitação referentes ao componente Estruturado.
@@ -187,30 +180,30 @@ Nas seções a seguir, são apresentadas as Histórias de Usuário com seus crit
 Como investidor, gostaria de usar o método de Correlação de Pearson para operar no Mercado de Moedas.
 
 Critérios de aceitação US13:
-
-A Correlação de Pearson deve ser um número real menor que 1 e maior que -1.
-
-Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\begin{enumerate}
+\item A Correlação de Pearson deve ser um número real menor que 1 e maior que -1.
+\item Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\end{enumerate}
 
 \textbf{US14 - Método de Fibonacci em linguagem C}
 
 Como investidor, gostaria de usar o método de Fibonacci para operar no Mercado de Moedas.
 
 Critérios de aceitação US14:
-
-As regressões de Fibonacci devem ser maior que 0 e menor que 1.
-
-Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\begin{enumerate}
+\item As regressões de Fibonacci devem ser maior que 0 e menor que 1.
+\item Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\end{enumerate}
 
 \textbf{US15- Método de Mínimos Quadrados em linguagem C}
 
 Como investidor, gostaria de usar o método de Mínimos Quadrados para operar no Mercado de Moedas.
 
 Critérios de aceitação US15:
-
-O coeficiente angular e linear da reta de Mínimos Quadrados são números reais menores que 100.
-
-Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\begin{enumerate}
+\item O coeficiente angular e linear da reta de Mínimos Quadrados são números reais menores que 100.
+\item Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\end{enumerate}
 
 \subsubsection{Histórias de Usuário Componente Funcional}
 Nas seções a seguir, são apresentadas as Histórias de Usuário com seus critérios de aceitação referentes ao componente Funcional.
@@ -220,30 +213,30 @@ Nas seções a seguir, são apresentadas as Histórias de Usuário com seus crit
 Como investidor, gostaria de usar o método de Correlação de Pearson para operar no Mercado de Moedas.
 
 Critérios de aceitação US16:
-
-A Correlação de Pearson deve ser um número real menor que 1 e maior que -1.
-
-Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\begin{enumerate}
+\item A Correlação de Pearson deve ser um número real menor que 1 e maior que -1.
+\item Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\end{enumerate}
 
 \textbf{US17 - Método de Fibonacci em linguagem Haskell}
 
 Como investidor, gostaria de usar o método de Fibonacci para operar no Mercado de Moedas.
 
 Critérios de aceitação US17:
-
-As regressões de Fibonacci devem ser maior que 0 e menor que 1.
-
-Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\begin{enumerate}
+\item As regressões de Fibonacci devem ser maior que 0 e menor que 1.
+\item Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\end{enumerate}
 
 \textbf{US18 - Método de Mínimos Quadrados em linguagem Haskell}
 
 Como investidor, gostaria de usar o método de Mínimos Quadrados para operar no Mercado de Moedas.
 
 Critérios de aceitação US18:
-
-O coeficiente angular e linear da reta de Mínimos Quadrados são números reais menores que 100.
-
-Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\begin{enumerate}
+\item O coeficiente angular e linear da reta de Mínimos Quadrados são números reais menores que 100.
+\item Caso, as cotações lidas da persistência sejam nulas, o cálculo é abortado.
+\end{enumerate}
 
 \subsubsection{Histórias de Usuário Componente Lógico}
 
@@ -254,22 +247,21 @@ Nas seções a seguir, são apresentadas as Histórias de Usuário com seus crit
 Como agente de software, gostaria de enviar o retorno do Método Matemático de Correlação de Pearson, Mínimos Quadrados ou Fibonacci para que possa ser inserido na Base de Conhecimento.
 
 Critérios de aceitação US19:
-
-O valor a ser inserido na Base de Conhecimento é um número real.
-
-Não devem ser inseridos valores nulos na Base de Conhecimento.
-
-Caso, seja inserido um valor já existente na Base de Conhecimento, esse valor ganhar um peso a mais na base.
+\begin{enumerate}
+\item O valor a ser inserido na Base de Conhecimento é um número real.
+\item Não devem ser inseridos valores nulos na Base de Conhecimento.
+\item Caso, seja inserido um valor já existente na Base de Conhecimento, esse valor ganhar um peso a mais na base.
+\end{enumerate}
 
 \textbf{US20 - Retirar na Base de Conhecimento}
 
 Como agente de software, gostaria de enviar o retorno do Método Matemático de Correlação de Pearson, Mínimos Quadrados ou Fibonacci para que possa ser retirado na Base de Conhecimento.
 
 Critérios de aceitação US20:
-
-Após o valor ser retirado, deve-se verificar se o mesmo não existe na Base de Conhecimento ou perdeu um peso caso tenha mais de um valor na base.
-
-Deve ser verificado se o valor existe antes do mesmo ser retirado da Base de Conhecimento.
+\begin{enumerate}
+\item Após o valor ser retirado, deve-se verificar se o mesmo não existe na Base de Conhecimento ou perdeu um peso caso tenha mais de um valor na base.
+\item Deve ser verificado se o valor existe antes do mesmo ser retirado da Base de Conhecimento.
+\end{enumerate}
 
 \textbf{US21 - Calcular Critério de Entrada}
 
@@ -277,9 +269,10 @@ Como agente de software, gostaria de solicitar o retorno do Método Matemático 
 
 Critérios de aceitação US21 :
 
-O critério de entrada deve variar de acordo com a estratégia escolhida.
-
-Não devem ser fornecidos critérios de entrada nulos.
+\begin{enumerate}
+\item O critério de entrada deve variar de acordo com a estratégia escolhida.
+\item Não devem ser fornecidos critérios de entrada nulos.
+\end{enumerate}
 
 \section{Arquitetura Orientada a Componentes}
 
