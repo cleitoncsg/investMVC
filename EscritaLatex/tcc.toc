@@ -87,7 +87,7 @@
 \contentsline {section}{\numberline {5.5}Limita\IeC {\c c}\IeC {\~o}es do experimento}{73}{section.5.5}
 \contentsline {section}{\numberline {5.6}Defini\IeC {\c c}\IeC {\~a}o m\IeC {\'e}todos de opera\IeC {\c c}\IeC {\~a}o ferramenta MVC}{73}{section.5.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Proposta de Solu\IeC {\c c}\IeC {\~a}o}}{75}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Proposta da Solu\IeC {\c c}\IeC {\~a}o}}{75}{chapter.6}
 \contentsline {section}{\numberline {6.1}Backlog de Hist\IeC {\'o}rias de Usu\IeC {\'a}rio ferramenta InvestMVC}{75}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{75}{subsection.6.1.1}
 \contentsline {subsubsection}{\numberline {6.1.1.1}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio Componente MultiAgente}{75}{subsubsection.6.1.1.1}

@@ -240,12 +240,12 @@ Monografia (Graduação) --- Universidade Federal do Paraná, 2010.}
 {IEEE 610. \emph{IEEE Standard Glossary of Software Engineering Terminology}.
 [S.l.], 1990.}
 
-\bibitem[InvestFOREX
-  http://www.investforex.pt/aprender-forex/analise-tecnica]{investforex}
-\abntrefinfo{InvestFOREX}{INVESTFOREX}{http://www.investforex.pt/aprender-forex/analise-tecnica}
+\bibitem[InvestFOREX 2014]{investforex}
+\abntrefinfo{InvestFOREX}{INVESTFOREX}{2014}
 {INVESTFOREX. Análise técnica para mercado forex.
-http://www.investforex.pt/aprender--forex/analise--tecnica.
-Dispon{\'\i}vel em: \url{2014}.}
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.investforex.pt/aprender-forex/analise-tecnica}.}
 
 \bibitem[INÁCIO 2010]{inacio2010}
 \abntrefinfo{INÁCIO}{INÁCIO}{2010}
@@ -538,9 +538,9 @@ Monografia (Monografia) --- Instituto de Matemática da Universidade Federal do
 {WILLIAMS, L. \emph{White-Box Testing}.
 [S.l.], 2006.}
 
-\bibitem[Wolfram MathWorld 2012]{wolfram}
-\abntrefinfo{Wolfram MathWorld}{WOLFRAM MATHWORLD}{2012}
-{WOLFRAM MATHWORLD. Built with mathematica technology: Movingaverage.
+\bibitem[Wolfram 2012]{wolfram}
+\abntrefinfo{Wolfram}{WOLFRAM}{2012}
+{WOLFRAM. Built with mathematica technology: Movingaverage.
 2012.
 Dispon{\'\i}vel em: \url{http://mathworld.wolfram.com/MovingAverage.html}.}
 

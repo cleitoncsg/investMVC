@@ -1,4 +1,4 @@
-\chapter{Proposta de Solução}
+\chapter{Proposta da Solução}
 
 \section{Backlog de Histórias de Usuário ferramenta InvestMVC}
 
@@ -123,7 +123,7 @@ Para acompanhar o retorno financeiro, o usuário deve estar logado na ferramenta
 
 \textbf{US8 - Criar Experts}
 
-Como investir, gostaria de criar um expert na ferramenta investMVC para que eu possa investir no Mercado de Moedas.
+Como investir, gostaria de criar um expert na ferramenta InvestMVC para que eu possa investir no Mercado de Moedas.
 
 Critérios de aceitação US8 :
 
@@ -313,7 +313,7 @@ Segundo \citeonline{lamin} na arquitetura MVC o controle de fluxo de dados dentr
 \item A Controladora acessa o Model, atualizando-o baseado na interação do usuário.
 \end{enumerate}
 
-Conforme mostra a figura \ref{sequenciaOO}
+O diagrama de sequência do componente Orientado a Objetos é evidenciado na figura \ref{sequenciaOO}.
 
 \begin{figure}[htp]
 \centering
@@ -324,7 +324,7 @@ Conforme mostra a figura \ref{sequenciaOO}
 
 \subsection{Componente Cálculos Numéricos}
 
-O componente Cálculos Numéricos será responsável por calcular os métodos matemáticos presentes na ferramenta InvestMVC. Este módulo é composto por dois outros módulos: módulo Estruturado e módulo Funcional.
+O componente Cálculos Numéricos será responsável por calcular os Métodos Matemáticos presentes na ferramenta InvestMVC. Este módulo é composto por dois outros módulos: módulo Estruturado e módulo Funcional.
 
 O componente Estruturado da ferramenta InvestMVC será programado em linguagem C e o módulo Funcional em linguagem Haskell. Ambos os componentes irão realizar os mesmos cálculos. Isso aumenta a probabilidade de não ocorrer erros nos cálculos dos Métodos Matemáticos. Caso um dos componentes por algum motivo não seja executado no momento correto, a tendência é que o outro módulo realize os cálculos.
 
@@ -390,9 +390,27 @@ O componente Lógico será produzido em linguagem Prolog e vai definir uma base 
 
 O paradigma Lógico facilita a representação, inserção e recuperação de conhecimento, por isso é muito usado em aplicações com Inteligência Artificial \cite{almeida2010}.
 
+A interação do Componente Lógico com o Componente Multiagentes é evidenciada na figura \ref{sequenciaLogico}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=0.5\textwidth]{figuras/sequenciaLogico}
+\caption{Diagrama de Sequência do Componente Lógico InvestMVC.}
+\label{sequenciaLogico}
+\end{figure}
+
 \subsection{Componente MQL}
 
-O componente MQL será responsável por receber a resposta do módulo Multiagentes para realizar uma compra ou venda. Também será recebido outros atributos relacionados a compra ou venda, como alavancagem, stop loss e take profit.
+O componente MQL será responsável por receber a resposta do Componente Multiagentes para realizar uma compra ou venda. Também será recebido outros atributos relacionados a compra ou venda, como alavancagem, stop loss e take profit.
+
+A interação do Componente MQL com o Componente Multiagentes é evidenciada na figura \ref{sequenciaMQL}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=0.5\textwidth]{figuras/sequenciaMQL}
+\caption{Diagrama de Sequência do Componente MQL InvestMVC.}
+\label{sequenciaMQL}
+\end{figure}
 
 \subsection{Fluxo de atividades  da ferramenta InvestMVC}
 

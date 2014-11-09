@@ -1,19 +1,18 @@
 \chapter{Protocolo de Experimentação para seleção de Métodos Matemáticos}
 
-Esta seção descreve como foi percorrido o Protocolo de Experimentação para selecionar os Métodos Matemáticos para operar no Mercado de Moedas. O Protocolo de Experimentação utilizado é uma adaptação do protocolo presente no Anexo A - Template de Protocolo
-Experimental.
+Esta seção descreve como foi percorrido o Protocolo de Experimentação para selecionar os Métodos Matemáticos que serão implementados na ferramenta InvestMVC. O Protocolo de Experimentação utilizado é uma adaptação do protocolo presente no Anexo A - Template de Protocolo Experimental.
 
-Ao final do capítulo, o leitor será capaz de entender porque foi escolhido os métodos de Correlação de Pearson, Fibonacci e Mínimos Quadrados para serem incorporados na ferramenta Invest MVC.
+Ao final do capítulo, o leitor será capaz de entender porque foi escolhido os métodos de Correlação de Pearson, Fibonacci e Mínimos Quadrados para serem incorporados na ferramenta InvestMVC.
 
 \section{Preparação para o Protocolo}
 
 A seguinte questão de pesquisa foi definida na capítulo 1: é possível desenvolver uma ferramenta multiparadigma que substitua os Experts convencionais do Mercado de Moedas? 
 
-É necessário que a ferramenta investMVC tenha métodos relevantes para operar no Mercado de Moedas. Logo, é deve-se selecionar os métodos para serem implementados na ferramenta através de critérios bem definidos. A seleção dos métodos, critérios para realização dos experimentos, bem como resultados serão apresentados nas seções posteriores.
+É necessário que a ferramenta InvestMVC tenha métodos relevantes para operar no Mercado de Moedas. Logo, é deve-se selecionar os métodos para serem implementados na ferramenta através de critérios bem definidos. A seleção dos métodos, critérios para realização dos experimentos, bem como resultados serão apresentados nas seções posteriores.
 
 \section{Controle de Versão do Protocolo}
 
-O controle de versão do protocolo desse experimento encontra-se no github\footnote{\url{https://github.com/cleitoncsg/investMVC}} da ferramenta Invest MVC.
+O controle de versão do protocolo desse experimento encontra-se no github\footnote{\url{https://github.com/cleitoncsg/investMVC}} da ferramenta InvestMVC.
 
 \section{Projeto do Protocolo de Experimentação}
 
@@ -23,7 +22,7 @@ Nesta seção é definido as variáveis dependentes e independentes, critérios 
 \subsection{Variáveis dependentes e independentes}
 Variáveis independentes são aquelas que são manipuladas e as que variáveis dependentes são apenas medidas ou registradas. Os termos variável dependente e independente aplicam-se principalmente à pesquisa experimental, onde algumas variáveis são manipuladas \cite[pág.~13]{hoppen2010}.
 
-Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta investMVC, foi definido as seguintes variáveis independentes e seus respectivos valores a serem manipulados:
+Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta InvestMVC, foi definido as seguintes variáveis independentes e seus respectivos valores a serem manipulados:
 
 \begin{itemize}
 \item Alavancagem com valor de 0.25;
@@ -47,7 +46,7 @@ Os Métodos Matemáticos implementados em linguagem MQL4 que obter lucro de 10\%
 
 \subsection{Definições para simulação dos métodos de operação}
 
-Foi utilizado o simulador da plataforma Metatrader \footnote{\url{http://www.metatrader4.com/}} para realizar a simulação e, posteriormente, analisar os resultados e definir os métodos a serem implementados na ferramenta investMVC.
+Foi utilizado o simulador da plataforma Metatrader \footnote{\url{http://www.metatrader4.com/}} para realizar a simulação e, posteriormente, analisar os resultados e definir os métodos a serem implementados na ferramenta InvestMVC.
 
 Através do simulador da plataforma Metatrader4, obteve-se o desempenho do expert CorrelacaoPearson.mql, MediaMovel.mql, MinimosQuadrados.mql, Estocastico.mql e Fibonacci.mql durante o período de agosto de 2012-2014.
 
