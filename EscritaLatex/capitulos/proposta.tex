@@ -277,15 +277,17 @@ Critérios de aceitação US21 :
 \end{enumerate}
 
 \subsubsection{História de Usuário Componente MQL}
+
 \textbf{US22 - Realizar Operação no MetaTrader}
+
 Como investidor, gostaria de realizar uma operação na plataforma MetaTrader para que eu possa realizar uma compra ou venda.
 
 Critérios de aceitação US22:
-\begin{enumerate}
-\item Deve ser definido uma alavancagem maior que zero para compra ou venda
-\item Deve ser apresentado um take profit maior que zero
-\item Deve ser apresentado um stop loss maior que zero.
 
+\begin{enumerate}
+\item Deve ser definido uma alavancagem maior que zero para compra ou venda.
+\item Deve ser apresentado um take profit maior que zero.
+\item Deve ser apresentado um stop loss maior que zero.
 \end{enumerate}
 
 \section{Arquitetura Orientada a Componentes}
@@ -315,7 +317,7 @@ Este componente fará a interação com o usuário e será implementado em lingu
 Segundo \citeonline{lamin} na arquitetura MVC o controle de fluxo de dados dentro deste módulo ocorre da seguinte forma:
 
 \begin{enumerate}
-\item O usuário,neste caso o investidor, interage com a Visão;
+\item O usuário,neste caso o investidor, interage com a Visão.
 \item A Controladora manipula o evento da interface do usuário através de uma rotina.
 \item A Controladora acessa o Model, atualizando-o baseado na interação do usuário.
 \end{enumerate}
@@ -401,7 +403,7 @@ A interação do Componente Lógico com o Componente Multiagentes é evidenciada
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{figuras/sequenciaLogico}
+\includegraphics[width=0.7\textwidth]{figuras/sequenciaLogico}
 \caption{Diagrama de Sequência do Componente Lógico InvestMVC.}
 \label{sequenciaLogico}
 \end{figure}

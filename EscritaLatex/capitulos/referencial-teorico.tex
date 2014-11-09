@@ -181,7 +181,7 @@ Segundo \citeonline{advfn}, o oscilador estocástico rápido e devagar variam en
 \end{equation}
 
 \begin{equation}
-\%D = \sum_3{FechHoje - Mínn} \div \sum_3{Máxn- Mínn}
+\%D = \sum_1^3 {FechHoje - Mínn} \div \sum_1^3{Máxn- Mínn}
 \end{equation}
 
 Sendo que:
@@ -192,7 +192,7 @@ Sendo que:
 \item Mínn = menor preço durante os últimos "n" períodos
 \item Máxn = maior preço durante os últimos "n" períodos
 \item n = número de períodos
-\item $\sum_3$ = Somatório das 3 últimas barras
+\item $\sum_1^3$ = Somatório das 3 últimas barras
 \end{itemize}
 
 As linhas estocásticas seguem uma escala de 0 a 100 e indicam situações de compra ou venda. Conforme a imagem \ref{estocastico}, quando as linhas estocásticas estão acima do nível 80 (linha pontilhada em vermelho), então o mercado está em situação de venda. Quando as linhas estocásticas estão abaixo de 20 (linha pontilhada em azul), então o mercado está numa situação de compra \cite{investforex}.
@@ -395,7 +395,7 @@ Os testes são realizados em diferentes níveis, envolvendo o todo o sistema ou 
 
 Testa-se unidades individuais do programa, como as funções, métodos ou classes, de forma isolada. Depois de garantir que as unidades funcionam de forma satisfatória, os módulos são montados para a construção de sub-sistemas maiores, seguindo técnicas de teste de integração \cite[pág.~18]{naik2008}.
 
-Estes testes devem ser capazes de examinar o comportamento do código sob as mais variadas condições, ou seja, como o código deve se comportar se determinado parâmetro for passado (ou não), o que ele retorna se determinada condição for verdadeira, os efeitos colaterais que ele causa durante a sua execução, se determinada exceção é lançada \cite{thiago2001}.
+Os testes unitários devem ser capazes de examinar o comportamento do código sob as mais variadas condições, ou seja, como o código deve se comportar se determinado parâmetro for passado (ou não), o que ele retorna se determinada condição for verdadeira, os efeitos colaterais que ele causa durante a sua execução, se determinada exceção é lançada \cite{thiago2001}.
 
 O teste de unidade é importante para garantir que o código é sólido antes de ser integrado com outro código. Uma vez que o código está integrado na base de outro código, a causa de uma falha é mais difícil de ser encontrado \cite{williams2006}.
 
@@ -411,7 +411,7 @@ Os casos de teste são escritos para examinar explicitamente as interfaces entre
 
 \subsection{Teste de Aceitação}
 
-“Teste formal realizado para permitir que um usuário, cliente ou outra entidade autorizada, para determinar se a aceita um sistema ou componente” \cite{ieee}.
+Teste de Aceitação é um teste formal realizado para permitir que um usuário, cliente ou outra entidade autorizada, para determinar se a aceita um sistema ou componente \cite{ieee}.
 
 Antes de instalar e utilizar o software na vida real outro último nível de teste deve ser executado: o teste de aceitação. Aqui, o foco está no cliente de e na ótica do usuário. O teste de aceitação pode ser a única prova de que os clientes estão efetivamente envolvidos \cite[pág.~61]{spillner2014}.
 
@@ -434,7 +434,7 @@ As métricas de qualidade de código fonte podem ser objetivas ou subjetivas. As
 As métricas de qualidade de código fonte possuem papel fundamental no monitoramento e controle nas atividades de codificação e testes, realizados quase sempre por equipes que possuem diferentes formas de pensar e de realizar o trabalho criativo de codificação \cite[pág.~341]{sommerville}.
 
 \begin{citacao}
-“Ao contrário de outras engenharias, a engenharia de software não é baseada em leis quantitativas básicas, medidas absolutas não são comuns no mundo do software. Ao invés disso, tenta-se derivar um conjunto de medidas indiretas que levam a métricas que fornecem uma indicação de qualidade de alguma representação do software. Embora as métricas para software não sejam absolutas, elas fornecem uma maneira de avaliar qualidade através de um conjunto de regras definidas” \cite[pág.~]{bueno2011}.
+“Ao contrário de outras engenharias, a engenharia de software não é baseada em leis quantitativas básicas, medidas absolutas não são comuns no mundo do software. Ao invés disso, tenta-se derivar um conjunto de medidas indiretas que levam a métricas que fornecem uma indicação de qualidade de alguma representação do software. Embora as métricas para software não sejam absolutas, elas fornecem uma maneira de avaliar qualidade através de um conjunto de regras definidas” \cite[pág.~5]{bueno2011}.
 \end{citacao}
 
 \subsection{Análise Estática de Código Fonte}

@@ -37,7 +37,27 @@ US22 - Realizar Operação no MetaTrader& 1 & Feito\\ \hline
 \end{table}
 
 \section{Resultados do Componente Orientado a Objetos}
+No apêndice C - Componente OO, encontra-se o código fonte das Classes Modelo Expert e User, implementadas em liguagem Groovy. No apêndice C também encontra-se as telas da ferramenta InvestMVC. Um exemplo de tela da ferramenta InvestMVC é exposta na figura \ref{telaInicial}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/telaInicial}
+\caption{Tela Inicial da ferramenta InvestMVC}
+\label{telaInicial}
+\end{figure}
+
 \section{Resultados do Componente Funcional}
+No apêndice D - Componente Funcional, encontra-se o código fonte do Método de Correlação Linear em linguagem Haskell (US16) juntamente com seu teste unitário.
+
+Na figura \ref{testeHaskel} é possível perceber que os testes unitários foram executados se falhas.
+ 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/testeHaskel}
+\caption{Suíte de Teste do Componente Funcional InvestMVC}
+\label{testeHaskel}
+\end{figure}
+
 \section{Resultados do Componente Estruturado}
 
 Encontra-se no apêndice E,  o código fonte das Histórias de Usuário 13 (Método de Correlação Linear em linguagem C), 14 (Método de Fibonacci em linguagem C) e 15 (Método de Mínimos Quadrados em linguagem C). No mesmo apêndice segue o teste unitário de cada História de Usuário.
@@ -47,7 +67,7 @@ Na figura \ref{coberturaEstrturado} é possível ver o resultado da suite de tes
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/coberturaEstruturado}
-\caption{Estado Atual da ferramenta InvestMVC}
+\caption{Cobertura de código fonte Componente Estruturado}
 \label{coberturaEstrturado}
 \end{figure}
 
@@ -66,19 +86,29 @@ Nenhum agente do Componente Multiagente foi construído por completo. Entretanto
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{figuras/estruturaSMA}
+\includegraphics[width=0.5\textwidth]{figuras/estruturaSMA}
 \caption{ Estrutura Interna Componente Multiagente}
 \label{estruturaSMA}
 \end{figure}
 
 \section{Resultados do Componente Lógico}
+
+Não foi feito nenhuma linha de código fonte do Componente Lógico, entretanto já foi instalada a ferramenta de teste unitário PlUnit e na mesma já foi executado um exemplo para evidenciar que a ferramenta funciona corretamente, conforme a figura \ref{prologTests}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/prologTests}
+\caption{Execução de Teste Unitário na Ferramenta PlUnit.}
+\label{prologTests}
+\end{figure}
+
 \section{Resultados do Componente MQL}
 
 No apêndice F - Componente MQL, é possível visualizar o código do Componente MQL que será responsável por interagir com a plataforma de negociação MetaTrader. É possível visualizar na figura \ref{componenteMQL}, o Componente MQL  (InvestMVC ComponenteMQL) já instalado na plataforma.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{figuras/componenteMQL}
+\includegraphics[width=1.0\textwidth]{figuras/componenteMQL}
 \caption{Componente MQL instalado na plataforma MetaTrader}
 \label{componenteMQL}
 \end{figure}
