@@ -32,7 +32,8 @@ US18 - Método Mínimos Quadrados em linguagem Haskell & 2\\ \hline
 US19 - Inserir na Base de Conhecimento & 2\\ \hline
 US20 - Retirar na Base de Conhecimento & 2\\ \hline
 US21 - Calcular Critério de Entrada & 3\\ \hline
-\textbf{Total de pontos} & 48\\ \hline
+US22 - Realizar Operação no MetaTrader& 1\\ \hline
+\textbf{Total de pontos} & 49\\ \hline
 \end{tabular}
 \end{center}
 \label{backlog}
@@ -267,11 +268,24 @@ Critérios de aceitação US20:
 
 Como agente de software, gostaria de solicitar o retorno do Método Matemático de Correlação de Pearson, Mínimos Quadrados ou Fibonacci da Base de Conhecimento para que seja possível operar no Mercado de Moedas.
 
+
 Critérios de aceitação US21 :
 
 \begin{enumerate}
 \item O critério de entrada deve variar de acordo com a estratégia escolhida.
 \item Não devem ser fornecidos critérios de entrada nulos.
+\end{enumerate}
+
+\subsubsection{História de Usuário Componente MQL}
+\textbf{US22 - Realizar Operação no MetaTrader}
+Como investidor, gostaria de realizar uma operação na plataforma MetaTrader para que eu possa realizar uma compra ou venda.
+
+Critérios de aceitação US22:
+\begin{enumerate}
+\item Deve ser definido uma alavancagem maior que zero para compra ou venda
+\item Deve ser apresentado um take profit maior que zero
+\item Deve ser apresentado um stop loss maior que zero.
+
 \end{enumerate}
 
 \section{Arquitetura Orientada a Componentes}
