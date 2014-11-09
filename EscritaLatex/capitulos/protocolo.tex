@@ -1,4 +1,4 @@
-\chapter{Protocolo de Experimentação para seleção de Métodos Matemáticos}
+\chapter{Protocolo de Experimentação}
 
 Esta seção descreve como foi percorrido o Protocolo de Experimentação para selecionar os Métodos Matemáticos que serão implementados na ferramenta InvestMVC. O Protocolo de Experimentação utilizado é uma adaptação do protocolo presente no Anexo A - Template de Protocolo Experimental.
 
@@ -48,8 +48,6 @@ Os Métodos Matemáticos implementados em linguagem MQL4 que obter lucro de 10\%
 
 Foi utilizado o simulador da plataforma Metatrader \footnote{\url{http://www.metatrader4.com/}} para realizar a simulação e, posteriormente, analisar os resultados e definir os métodos a serem implementados na ferramenta InvestMVC.
 
-Através do simulador da plataforma Metatrader4, obteve-se o desempenho do expert CorrelacaoPearson.mql, MediaMovel.mql, MinimosQuadrados.mql, Estocastico.mql e Fibonacci.mql durante o período de agosto de 2012-2014.
-
 \section{Execução e Análise dos dados}
 
 Nesta seção é evidenciado os resultados  das simulações dos Experts em linguagem MQL4 (produto da implementação dos Métodos Matemáticos) através de relatórios e gráficos.
@@ -64,14 +62,14 @@ O expert CorrelacaoPearson.mql obteve o percentual de negociações com lucros d
  No período de agosto 2013-2014, o percentual de negociações com lucros foi de 55.56\%  e obteve-se o lucro de 1119.05 USD. 
 Os relatórios completos das simulações podem ser visualizados nas figuras \ref{protocoloCorrelacao} e \ref{protocoloCorrelacao2}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloCorrelacao}
 \caption{Relatório de simulação no período agosto 2012-2013 do expert CorrelacaoPearson.mql}{Fonte: Autores} 
 \label{protocoloCorrelacao}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 
 \includegraphics[width=0.9\textwidth]{figuras/protocoloCorrelacao2}
@@ -81,14 +79,14 @@ Os relatórios completos das simulações podem ser visualizados nas figuras \re
 
 Foram gerados os gráficos de simulação 2012-2013 e 2013-2014. É possível perceber que o método de Correlação de Pearson, perde dinheiro em alguns períodos, mas os ganhos são superiores as perdas.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloCorrelacao3}
 \caption{Gráfico gerado pela simulação do expert CorrelacaoPearson.mql no período agosto 2012-2013}{Fonte: Autores} 
 \label{protocoloCorrelacao3}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloCorrelacao4}
 \caption{Gráfico gerado pela simulação do expert CorrelacaoPearson.mql no período agosto 2013-2014}{Fonte: Autores} 
@@ -101,14 +99,14 @@ O expert MinimosQuadrados.mql obteve o percentual de negociações com lucros de
  No período de agosto 2013-2014, o percentual de negociações com lucros foi de 85.71\%  e obteve-se o lucro de 1026 USD. 
 Os relatórios completos das simulações podem ser visualizados nas figuras \ref{protocoloMinimos} e \ref{protocoloMinimos2}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMinimos}
 \caption{Relatório de simulação no período agosto 2012-2013 do expert}{Fonte: Autores} 
 \label{protocoloMinimos}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMinimos2}
 \caption{Relatório de simulação no período agosto 2012-2013 do expert}{Fonte: Autores} 
@@ -117,14 +115,14 @@ Os relatórios completos das simulações podem ser visualizados nas figuras \re
 
 O expert MinimosQuadrados.mql, teve altos e baixos nas simulações durante os dois anos (2012-2013 e 2013-2014). Mas, no desempenho geral, conforme é evidenciado nos gráficos, o expert teve um desempenho satisfatório.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMinimos3}
 \caption{Relatório de simulação no período agosto 2012-2013 do expert}{Fonte: Autores} 
 \label{protocoloMinimos3}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMinimos4}
 \caption{Relatório de simulação no período agosto 2013-2014 do expert}{Fonte: Autores} 
@@ -138,33 +136,33 @@ No período de agosto 2013-2014, o percentual de negociações com lucros foi de
 
 Os relatórios completos das simulações podem ser visualizados nas figuras \ref{protocoloFib} e \ref{protocoloFib2}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloFib}
 \caption{Relatório de simulação no período agosto 2012-2013 do expert}{Fonte: Autores} 
 \label{protocoloFib}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloFib2}
 \caption{Relatório de simulação no período agosto 2013-2014 do expert}{Fonte: Autores} 
 \label{protocoloFib2}
 \end{figure}
 
-É possível visualizar nos gráficos das simulações, as perdas de capital que o expert Fibonacci.mql gerou.
+É possível visualizar nos gráficos das simulações, os lucros de capital que o expert Fibonacci.mql gerou.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloFib3}
-\caption{Gráfico gerado pela simulação do expert Fibonacci.mql no período agosto 2012-2013}{Fonte: Autores} 
+\caption{Gráfico gerado pela simulação do expert Fibonacci.mql no período agosto 2012-2013}
 \label{protocoloFib3}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloFib4}
-\caption{Gráfico gerado pela simulação do expert Fibonacci.mql no período agosto 2013-2014}{Fonte: Autores} 
+\caption{Gráfico gerado pela simulação do expert Fibonacci.mql no período agosto 2013-2014}
 \label{protocoloFib4}
 \end{figure}
 
@@ -175,33 +173,33 @@ O expert Estocastico.mql obteve o percentual de negociações com lucros de 47.4
 No período de agosto 2013-2014, o percentual de negociações com lucros foi de 47.70\% (percentual com perdas de 52.30\%)  e obteve-se o prejuízo de 459.17 USD. 
 Os relatórios completos das simulações podem ser visualizados nas figuras \ref{protocoloEst} e \ref{protocoloEst2}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloEst}
-\caption{Relatório de simulação no período agosto 2012-2013 do expert Estocastico.mql}{Fonte: Autores} 
+\caption{Relatório de simulação no período agosto 2012-2013 do expert Estocastico.mql}
 \label{protocoloEst}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloEst2}
-\caption{Relatório de simulação no período agosto 2013-2014 do expert Estocastico.mql}{Fonte: Autores} 
+\caption{Relatório de simulação no período agosto 2013-2014 do expert Estocastico.mql}l 
 \label{protocoloEst2}
 \end{figure}
 
 É possível visualizar nos gráficos das simulações, as perdas de capital que o expert Estocastico.mql gerou.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloEst3}
-\caption{Gráfico gerado pela simulação do expert Estocastico.mql no período agosto 2012-2013}{Fonte: Autores} 
+\caption{Gráfico gerado pela simulação do expert Estocastico.mql no período agosto 2012-2013} 
 \label{protocoloEst3}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloEst4}
-\caption{Gráfico gerado pela simulação do expert Estocastico.mql no período agosto 2013-2014}{Fonte: Autores} 
+\caption{Gráfico gerado pela simulação do expert Estocastico.mql no período agosto 2013-2014} 
 \label{protocoloEst4}
 \end{figure}
 
@@ -213,33 +211,33 @@ No período de agosto 2013-2014, o percentual de negociações com lucros foi de
 
 Os relatórios completos das simulações podem ser visualizados nas figuras \ref{protocoloMedia} e \ref{protocoloMedia2}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMedia}
-\caption{Relatório de simulação no período agosto 2012-2013 do expert MediaMovel.mql}{Fonte: Autores} 
+\caption{Relatório de simulação no período agosto 2012-2013 do expert MediaMovel.mql} 
 \label{protocoloMedia}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMedia2}
-\caption{Relatório de simulação no período agosto 2013-2014 do expert MediaMovel.mql}{Fonte: Autores} 
+\caption{Relatório de simulação no período agosto 2013-2014 do expert MediaMovel.mql} 
 \label{protocoloMedia2}
 \end{figure}
 
 É possível visualizar nos gráficos das simulações, as perdas de capital que o expert MediaMovel.mql gerou.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMedia3}
-\caption{ Gráfico gerado pela simulação do expert MediaMovel.mql no período agosto 2012-2013}{Fonte: Autores} 
+\caption{ Gráfico gerado pela simulação do expert MediaMovel.mql no período agosto 2012-2013} 
 \label{protocoloMedia3}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMedia4}
-\caption{ Gráfico gerado pela simulação do expert MediaMovel.mql no período agosto 2013-2014}{Fonte: Autores} 
+\caption{ Gráfico gerado pela simulação do expert MediaMovel.mql no período agosto 2013-2014} 
 \label{protocoloMedia4}
 \end{figure}
 
@@ -249,6 +247,6 @@ A linguagem MQL4 não possui nenhum suporte para teste unitário. Portanto, os e
 
 O simulador MetaTrader possui código fonte fechado. Portanto, não possível realizar nenhum tipo de adaptação do simulador através do código fonte para o experimento.
 
-\section{Definição métodos de operação ferramenta MVC}
+\section{Definição métodos de operação ferramenta InvestMVC}
 
 Os Métodos Matemáticos de Correlação Linear, Fibonacci e Mínimos Quadrados tiveram êxito nos dois anos de simulação (agosto 2012 a agosto de 2014). Os métodos de Estocástico e Média Móvel tiveram prejuízo nos dois anos de simulação. Portanto, foram escolhidos os métodos de Correlação Linear, Fibonacci e Mínimos Quadrados como métodos de estratégia financeira a serem implementados na ferramenta MVC.

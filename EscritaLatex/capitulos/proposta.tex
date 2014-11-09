@@ -4,10 +4,10 @@
 
 A tabela \ref{backlog} evidencia o Backlog da ferramenta InvestMVC e as respectivas pontuações de cada História de Usuário.
 
-\begin{table}[htp]
-\caption{Atividades e objetivos metodologia de pesquisa}
+\begin{table}[H]
+\caption{Histórias de Usuário da ferramenta InvestMVC}
 \begin{center}
-    \begin{tabular}{ | p{9cm} | p{5cm} |}
+    \begin{tabular}{ | l | c |}
     \hline
     \textbf{Histórias de Usuário} & \textbf{Pontuação} \\ \hline
 
@@ -294,10 +294,10 @@ Arquitetura Orientada a Componentes possui o propósito de dividir para conquist
 
 Por usar vários paradigmas, a ferramenta InvestMVC terá vários componentes e cada componente terá seu paradigma de programação e responsabilidade bem definida, como mostrado na figura \ref{componente}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/componente}
-\caption{Diagrama de Sequência InvestMVC}{Fonte:Autores}
+\caption{Diagrama de Sequência InvestMVC}
 \label{componente}
 \end{figure}
 
@@ -305,10 +305,10 @@ Por usar vários paradigmas, a ferramenta InvestMVC terá vários componentes e 
 
 Este componente fará a interação com o usuário e será implementado em linguagem Grovvy. A escolha dessa linguagem, se deu porque esta é voltada para aplicações web e juntamente com  o framework grails, fornece a criação de um projeto com uma arquitetura MVC definida, como demonstra a figura \ref{classeOO}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/classeOO}
-\caption{Diagrama de Classe InvestMVC componente Orientado a Objetos}{Fonte: Autores} 
+\caption{Diagrama de Classe InvestMVC componente Orientado a Objetos} 
 \label{classeOO}
 \end{figure}
 
@@ -322,10 +322,10 @@ Segundo \citeonline{lamin} na arquitetura MVC o controle de fluxo de dados dentr
 
 O diagrama de sequência do componente Orientado a Objetos é evidenciado na figura \ref{sequenciaOO}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/sequenciaOO}
-\caption{Diagrama de sequência InvestMVC componente Orientado a Objetos}{Fonte: Autores}
+\caption{Diagrama de sequência InvestMVC componente Orientado a Objetos}
 \label{sequenciaOO}
 \end{figure}
 
@@ -342,19 +342,19 @@ O paradigma funcional é declarativo, por limitar o uso de atribuições à vari
 
 Devido aos fatos externalizados, o paradigma funcional, foi eleito para implementar os Métodos Matemáticos de Correlação Linear, Mínimos Quadrados e Fibonacci. Por ser simples,este componente será formado apenas por seus 4 arquivos haskell, cada arquivo realiza o cálculo de um Método Numérico, com execeção do arquivo  Arquivos.hs, que faz a leitura de arquivos.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{figuras/componenteFuncional}
-\caption{Componente Funcional InvestMVC}{Fonte: Autores} 
+\caption{Componente Funcional InvestMVC} 
 \label{componenteFuncional}
 \end{figure}
 
 O componente Funcional espera uma socilitação de cálculo do componente Multiagente, logo após a solicitação o componente busca na persistência(um arquivo) as cotações do mercado, com estas cotações o componente é capaz de realizar o cálculo do Método Numérico que é esperado pelo componente Multiagente, como é mostrado na figura \ref{sequenciaFuncional}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/sequenciaFuncional}
-\caption{Diagrama de Sequência do Componente Funcional InvestMVC}{Fonte: Autores} 
+\caption{Diagrama de Sequência do Componente Funcional InvestMVC} 
 \label{sequenciaFuncional}
 \end{figure}
 
@@ -366,11 +366,11 @@ Devido aos fatos externalizados, o paradigma estruturado utilizando a linguagem 
 
 A arquitetura e sequência do fluxo de dados do Componente Estruturado segue a mesma lógica do Componente Funcional, como ilustrado na figura \ref{sequenciaEstruturado}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{figuras/componenteEstruturado}
-\includegraphics[width=0.5\textwidth]{figuras/sequenciaEstruturado}
-\caption{Diagramas de Componentes e de Sequência do Componente Estruturado InvestMVC.}{Fonte: Autores.} 
+\includegraphics[width=0.7\textwidth]{figuras/componenteEstruturado}
+\includegraphics[width=0.7\textwidth]{figuras/sequenciaEstruturado}
+\caption{Diagramas de Componentes e de Sequência do Componente Estruturado InvestMVC.}
 \label{sequenciaEstruturado}
 \end{figure}
 
@@ -384,10 +384,10 @@ Os agentes da ferramenta  InvestMVC possuem uma arquitetura reativa, pois suas a
 
 A arquitetura do Componente Multiagente está modularizado por pacotes: o pacote comportamentos será formado por compormentos que serão usados pelos Agentes de Software, o pacote metodosNumericos será formado por Agentes que acerão o componente Cálculos Numéricos, o pacote investidores será composto por Agentes que vão interagir com o Componente MQL e o pacote execucao iniciará a execução do SMA.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/diagramaClassesSMA}
-\caption{Diagrama de Classe do Componente Multiagente InvestMVC}{Fonte: Autores} 
+\caption{Diagrama de Classe do Componente Multiagente InvestMVC} 
 \label{diagramaClassesSMA}
 \end{figure}
 
@@ -399,7 +399,7 @@ O paradigma Lógico facilita a representação, inserção e recuperação de co
 
 A interação do Componente Lógico com o Componente Multiagentes é evidenciada na figura \ref{sequenciaLogico}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{figuras/sequenciaLogico}
 \caption{Diagrama de Sequência do Componente Lógico InvestMVC.}
@@ -412,7 +412,7 @@ O componente MQL será responsável por receber a resposta do Componente Multiag
 
 A interação do Componente MQL com o Componente Multiagentes é evidenciada na figura \ref{sequenciaMQL}.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{figuras/sequenciaMQL}
 \caption{Diagrama de Sequência do Componente MQL InvestMVC.}
@@ -425,9 +425,9 @@ O investidor interage apenas com o componente Orientado a Objetos, criando seu u
 
 O componente Multiagentes vai verificar a tendência do Mercado de Moedas, por meio da plataforma MetaTrader. Sendo assim, o componente Multiagentes buscará na persistência o Expert que está ativo. Sabendo qual o Expert que foi ativado, o componente Multiagente faz a requisição de cálculos para os módulos C e Haskell. A partir desse resultado, o componente Multiagente procurará no Módulo Base de Conhecimento, a alavancagem (quanto deve arriscar) e os valores de entrada para o método de Correlação de Pearson, Fibonacci e Mínimos Quadrados. Caso todas as especificações para o módulo Multiagentes sejam obedecidas, ele informa ao componente MQL para realizar uma compra ou venda.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/sequencia}
-\caption{Diagrama de Sequência InvestMVC}{Fonte: Autores} 
+\caption{Diagrama de Sequência InvestMVC} 
 \label{sequencia}
 \end{figure}
