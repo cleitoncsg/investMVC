@@ -11,32 +11,55 @@
 #define QUANTIDADE_CANDLES 100
 #define TAMANHO_STRING 50
 
-double leituraCotacoes[QUANTIDADE_CANDLES];
-char nomeRobo[50],nomeTipoGrafico[2];
+char nomeRobo[TAMANHO_STRING], nomeTipoGrafico[2];
+double quantidadeCandes;
 
 double metodoCorrelacao(int tempoCorrelacao);
 void detectaRoboETipoDeGrafico();
 
 
 int main(){
-   metodoCorrelacao(21);
-   printf("%f\n",metodoCorrelacao(21));
-   return 0;	
+	
+	detectaRoboETipoDeGrafico();
+	metodoCorrelacao(quantidadeCandes);
+	printf("Correlacao Linear em C: %f\n",metodoCorrelacao(quantidadeCandes));
+	
+	return 0;	
 }
 
+void detectaRoboETipoDeGrafico(){
+    FILE *arquivo;
+    char temporariaQuantidadeCandle[10];
+
+    arquivo = fopen("criterioEntrada.txt","rt");
+    
+    if(arquivo == NULL){
+    	printf("Arquivo nulo\n");
+    }
+    
+    fscanf(arquivo,"%s",nomeRobo);
+    //printf("nome robo: %s\n", nomeRobo);
+    fscanf(arquivo,"%s",nomeTipoGrafico);
+    //printf("Nome tipo grafico: %s\n", nomeTipoGrafico);
+    fscanf(arquivo, "%s",&temporariaQuantidadeCandle);
+    //printf("Quantidade candles %s\n", temporariaQuantidadeCandle);
+    quantidadeCandes = atoi(temporariaQuantidadeCandle);
+    
+    fclose(arquivo);
+}
 
 double metodoCorrelacao(int tempoCorrelacao){
 
     FILE *arquivo;
+    int c;
     double somaOrdenadas = 0, somaAbcissas = 0,
            somaOrdenadasQuadrado = 0, somaAbcissasQuadrado = 0,
            somaXvezesY = 0, correlacao,
            numeroAbcissa, numeroOrdenada,
-           numerador, denominador_1,denominador;
-    int c;
-
-    detectaRoboETipoDeGrafico();
-
+           numerador, denominador_1,denominador; 
+    
+	double leituraCotacoes[tempoCorrelacao];
+		
     if( (strcmp(nomeTipoGrafico,"M1")) == 0)
             arquivo = fopen("tabela1Minuto.csv","rt"); 
     else if( (strcmp(nomeTipoGrafico,"M5")) == 0)
@@ -46,11 +69,11 @@ double metodoCorrelacao(int tempoCorrelacao){
     else
             printf("Erro, tabela nao encontrada\n");
 
-    for(c=0; c<QUANTIDADE_CANDLES; c++){
+    for(c=0; c<= tempoCorrelacao; c++){
         fscanf(arquivo, "%lf",&leituraCotacoes[c]);
     }
 
-    for(c=0; c<tempoCorrelacao; c++){
+    for(c=0; c< tempoCorrelacao; c++){
         numeroAbcissa = leituraCotacoes[c];
         numeroOrdenada = leituraCotacoes[c+1];
 
@@ -69,17 +92,8 @@ double metodoCorrelacao(int tempoCorrelacao){
     correlacao = numerador/denominador;
 
     return correlacao;
-
-    printf("%f\n",correlacao);
+    
     fclose(arquivo);
 }
 
-void detectaRoboETipoDeGrafico(){
-    FILE *arquivo;
-
-    arquivo = fopen("criterioEntrada.txt","rt");
-    fgets(nomeRobo, 50,arquivo);
-    fgets(nomeTipoGrafico, 3,arquivo);
-    fclose(arquivo);
-}
 
