@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="743" maximized="true" width="1018" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -16,12 +16,12 @@
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -30,10 +30,26 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CorrelacaoAgente.java" partName="CorrelacaoAgente.java" path="/home/vanessa/investMVC/componenteSMA/src/metodosMatematicos/CorrelacaoAgente.java" title="CorrelacaoAgente.java" tooltip="componenteSMA/src/metodosMatematicos/CorrelacaoAgente.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/componenteSMA/src/metodosMatematicos/CorrelacaoAgente.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="589" selectionTopPixel="215"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" partName="LeituraArquivo.java" path="/home/vanessa/investMVC/componenteSMA/src/comportamentos/LeituraArquivo.java" title="LeituraArquivo.java" tooltip="componenteSMA/src/comportamentos/LeituraArquivo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/componenteSMA/src/comportamentos/LeituraArquivo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="392" selectionTopPixel="91"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RodaComandos.java" partName="RodaComandos.java" path="/home/vanessa/investMVC/componenteSMA/src/comportamentos/RodaComandos.java" title="RodaComandos.java" tooltip="componenteSMA/src/comportamentos/RodaComandos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/componenteSMA/src/comportamentos/RodaComandos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1316" selectionTopPixel="327"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -42,7 +58,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (5 items)"/>
+<category IMemento.internal.id="Warnings (6 items)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -102,7 +120,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -286,7 +304,68 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/componenteSMA/src/metodosMatematicos/CorrelacaoAgente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/componenteSMA/src/execucao/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/componenteSMA/src/comportamentos/LeituraArquivo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/componenteSMA/src/comportamentos/RodaComandos.java"/>
+</editors>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="1238" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="538" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="1157" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="2">
+<position info="not_deleted" x="348" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="2">
+<position info="not_deleted" x="257" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="2">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="2">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="545" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="2">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="561" y="0"/>
+</item>
+<item historyLabel="RodaComandos.java" index="3">
+<position info="not_deleted" x="1316" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="589" y="0"/>
+</item>
+<item historyLabel="RodaComandos.java" index="3">
+<position info="not_deleted" x="1316" y="0"/>
+</item>
+<item active="true" historyLabel="LeituraArquivo.java" index="2">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -303,11 +382,20 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ContainerController.class" tooltip="jade.wrapper.ContainerController">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=componenteSMA/\/home\/vanessa\/jade\/lib\/jade.jar&lt;jade.wrapper(ContainerController.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RodaComandos.java" tooltip="componenteSMA/src/comportamentos/RodaComandos.java">
+<persistable path="/componenteSMA/src/comportamentos/RodaComandos.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" tooltip="componenteSMA/src/comportamentos/LeituraArquivo.java">
+<persistable path="/componenteSMA/src/comportamentos/LeituraArquivo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="componenteSMA/src/execucao/Main.java">
+<persistable path="/componenteSMA/src/execucao/Main.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CorrelacaoAgente.java" tooltip="componenteSMA/src/metodosMatematicos/CorrelacaoAgente.java">
 <persistable path="/componenteSMA/src/metodosMatematicos/CorrelacaoAgente.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ContainerController.class" tooltip="jade.wrapper.ContainerController">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=componenteSMA/\/home\/vanessa\/jade\/lib\/jade.jar&lt;jade.wrapper(ContainerController.class"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperarPedidos.java" tooltip="roboInvestMVC/src/comportamentos/EsperarPedidos.java">
 <persistable path="/roboInvestMVC/src/comportamentos/EsperarPedidos.java"/>

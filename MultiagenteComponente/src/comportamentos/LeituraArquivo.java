@@ -12,7 +12,7 @@ public class LeituraArquivo{
 	
 	public static String leituraCorrelacao() throws IOException{
 		
-		Scanner scanner = new Scanner(new FileReader("../calculoPearsonEmC.txt"))
+		Scanner scanner = new Scanner(new FileReader("../EstruturadoComponente/calculoPearsonEmC.txt"))
         .useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			correlacao = scanner.next();
@@ -22,7 +22,7 @@ public class LeituraArquivo{
 	
 	public static String leituraTendencia() throws IOException{
 		
-		Scanner scanner = new Scanner(new FileReader("../tendencia.txt"))
+		Scanner scanner = new Scanner(new FileReader("tendencia.txt"))
         .useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			tendencia = scanner.next();
