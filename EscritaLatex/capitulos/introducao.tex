@@ -1,0 +1,58 @@
+\chapter{Introdução}
+Este capítulo aborda o contexto, o problema de pesquisa, a justificativa, os objetivos e como o trabalho está organizado.
+
+\section{Contextualização}
+O Mercado de Moedas é constituído por transações entre as corretoras que operam no mesmo e são negociados, diariamente, contratos representando volume total entre 1 e 3 trilhões de dólares. É possível operar nesse mercado de forma manual ou automatizada \cite{cvm2009}.
+
+No contexto de operações automatizadas, no Mercado de Moedas estão inseridos os produtos de software conhecidos como Experts, que processam Métodos Matemáticos para gerar critérios de entrada e saída para comprar ou vender nesse mercado.
+
+\section{Problema de Pesquisa}
+Este TCC procurará responder a seguinte questão: é possível desenvolver uma ferramenta multiparadigma que substitua os Experts convencionais do Mercado de Moedas? 
+
+\section{Justificativa}
+
+Operar no Mercado de Moedas de forma manual é muito arriscado e, portanto, não recomendado, uma vez que esse mercado é não previsível, o que pode provocar a perda do capital de um investidor em apenas alguns minutos. Em diversas situações, o mercado varia as cotações em apenas um minuto, sendo que a mesma variação pode ser feita durante horas. Para contornar esse problema, a plataforma MetaTrader\footnote{\url{http://www.metatrader4.com/}} oferece as linguagens MQL4 (Paradigma Estruturado) e MQL5 (Paradigma Orientado a Objetos) para construir Experts que operem de forma automatizada. 
+
+A plataforma MetaTrader não oferece suporte de ferramentas de teste unitário para as linguagens MQL4 e MQL5. Após implementar um Expert, não é possível implementar testes de unidade para verificar se as instruções programadas estão de acordo com o esperado. A única forma de verificar se o Expert está seguindo as estratégias programadas é usar uma conta real ou demo na plataforma e operar durante um período específico de tempo.
+
+Não foi possível encontrar na literatura investigada até o momento ferramentas que realizem a análise estática de código fonte em MQL4 e MQL5. Portanto, torna-se difícil obter uma análise de critérios de aceitabilidade (ou orientada a métricas) no nível de código fonte dos Experts programados nessas linguagens.
+
+Adicionalmente, o código da plataforma MetaTrader é fechado. Dessa forma, não é possível a colaboração da comunidade de desenvolvedores no que tange a evolução das funcionalidades da ferramenta anteriormente.
+
+Diante das preocupações acordadas até o momento, acredita-se que o desenvolvimento de uma ferramenta de código aberto para investimento no Mercado de Moedas, orientada a modelos conceituais de diferentes Paradigmas de Programação bem como às boas práticas da Engenharia de Software como um todo, irá conferir ao investidor maior segurança e conforto em suas operações. Portanto, a ferramenta proposta será implementada em diferentes linguagens de programação, padrões de projeto adequados, testes unitários orientados à uma abordagem multiparadigmas e análise qualitativa de código fonte. Um Expert (implementado em linguagem MQL4 ou MQL5) ou um conjunto de Experts serão substituídos pela ferramenta. Nesse último caso, a ferramenta terá a propriedade de controlar e/ou monitorar um ou mais Experts.
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Desenvolver uma ferramenta multiparadigma  para operar de forma semi-automatizada no Mercado de Moedas.
+
+
+\subsection{Objetivos Específicos}
+
+Considerando o Mercado de Moedas e os Paradigmas de Programação Estruturado,  Orientado a Objetos,  Funcional, Lógico  e  Multiagentes, são objetivos específicos desse TCC:
+
+\begin{enumerate}
+\item Selecionar Métodos Matemáticos para serem implementados na ferramenta MVC através de um protocolo de experimentação;
+
+\item Caracterizar as implementações dos códigos da ferramenta MVC através dos Paradigmas  de  Programação;
+
+\item Comparar  resultados financeiros obtidos pelo código no Paradigma Estruturado com códigos produzidos nos demais Paradigmas;
+
+\item Realizar análise estática do código fonte dos produtos de software a partir de métricas de qualidade previamente definidas;
+
+\item Apurar a cobertura de código por meio de ferramentas que implementam testes unitários nos Paradigmas Estruturado (linguagem C), Multiagentes (linguagem Java), Lógico (linguagem Prolog) e Funcional (linguagem Haskell);
+
+\item Desenvolver testes de integração e funcionais para a ferramenta InvestMVC.
+\end{enumerate}
+
+\section{Organização do Trabalho}
+
+No capítulo 2, é apresentado o Referencial Teórico quanto ao Contexto Financeiro, Métodos Matemáticos e aos Paradigmas de Programação. No Contexto Financeiro são tratados os atributos atrelados ao Mercado de Moedas como Alavancagem, Suporte e Resistência. Em Métodos Matemáticos, é realizada uma descrição dos métodos de Fibonacci, Correlação de Pearson, Mínimos Quadrados, Estocástico e Média Móvel. Em Paradigmas de Programação são descritos os paradigmas: Estruturado, Orientado a Objetos, Lógico, Funcional e Multiagentes. Em Testes de Software, são evidenciados quais os tipos de testes serão utilizados neste TCC e também quais linguagens terão testes. Por fim, em Qualidade de Software são externalizadas as métricas de qualidade de  código fonte, critérios para interpretação das métricas e ferramentas de análise estática.
+No capítulo 3, é apresentado a Metodologia de Pesquisa e seus atributos como Classificação da Pesquisa, Atividades da Pesquisa e Execução da Pesquisa.
+No capítulo 4, é apresentado o Cronograma.
+No capítulo 5, é apresentado o Suporte Tecnológico como as ferramentas de testes unitários, de teste funcional, de analise estática de código fonte e, por fim, ferramentas do Mercado de Moedas.
+No capítulo 6, é apresentado o Protocolo de Experimentação para seleção dos Métodos Matemáticos. Todos os passos para execução do Protocolo são evidenciados como preparação, controle, projeto, execução, limitações e resultados.
+No capítulo 7, é apresentada a Proposta da Solução acompanhada do Backlog de Histórias de Usuário e Arquitetura Orientada a Componentes.
+No capítulo 8, é apresentado os Resultados da solução de cada Componente.
+Por fim, no capítulo 9 é apresentado a Conclusão.

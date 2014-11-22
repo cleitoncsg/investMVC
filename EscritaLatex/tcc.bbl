@@ -1,0 +1,552 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[ADVFN 2013]{advfn}
+\abntrefinfo{ADVFN}{ADVFN}{2013}
+{ADVFN. Technical analysis.
+2013.
+Dispon{\'\i}vel em: \url{http://advfn.com/educacional/analise-tecnica}.}
+
+\bibitem[AgentBuilder 2009]{agentBuilder}
+\abntrefinfo{AgentBuilder}{AGENTBUILDER}{2009a}
+{AGENTBUILDER. Auction agents for the electric power industry.
+2009.
+Dispon{\'\i}vel em:
+  \url{http://www.agentbuilder.com/Documentation/EPRI/index.html}.}
+
+\bibitem[AgentBuilder 2009]{agentBuilderWhy}
+\abntrefinfo{AgentBuilder}{AGENTBUILDER}{2009b}
+{AGENTBUILDER. Mercado forex: Série alertas.
+2009.
+Dispon{\'\i}vel em: \url{http://www.cvm.gov.br/port/Alertas/mercadoForex.pdf}.}
+
+\bibitem[ALBUQUERQUE 2013]{albuquerque2013}
+\abntrefinfo{ALBUQUERQUE}{ALBUQUERQUE}{2013}
+{ALBUQUERQUE, A.~A.
+\emph{Alavancagem Financeira e Investimento}.
+Monografia (Especializa{\c c}\~ao) --- Faculdade de Administração,
+  Universidade de São Paulo, S\~ao Paulo, 2013.}
+
+\bibitem[Almeida 2010]{almeida2010}
+\abntrefinfo{Almeida}{ALMEIDA}{2010}
+{ALMEIDA, R.~J. de A. Automatizando a criação de uma base de conhecimento em
+  prolog para gerenciar os acessos a um site.
+2010.
+Dispon{\'\i}vel em:
+  \url{http://www.vivaolinux.com.br/artigo/Automatizando-a-criacao-de-uma-base-de-conhecimento-em-Prolog-para-gerenciar-os-acessos-a-um-site}.}
+
+\bibitem[Alves. 2012]{sousa2012}
+\abntrefinfo{Alves.}{ALVES.}{2012}
+{ALVES., T.
+\emph{Um Passeio na Sequência de Fibonacci}.
+Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
+  Estadual da Paraíba, Paraíba, 2012.}
+
+\bibitem[Ambler 1998]{ambler1998}
+\abntrefinfo{Ambler}{AMBLER}{1998}
+{AMBLER, S. \emph{Uma Visão Realística da Reutilização em Orientação a
+  Objetos}.
+[S.l.], 1998.}
+
+\bibitem[Apt 1996]{apt1996}
+\abntrefinfo{Apt}{APT}{1996}
+{APT, K.~R. \emph{From Logic programming to Prolog}.
+1. ed. [S.l.], 1996.}
+
+\bibitem[BANDEIRA 2012]{bandeira2012}
+\abntrefinfo{BANDEIRA}{BANDEIRA}{2012}
+{BANDEIRA, M.
+\emph{Tipos de Pesquisa.}
+Monografia (Artigo) --- Faculdade de Psicologia, FUNREI, Minas Gerais, 2012.}
+
+\bibitem[BEIZER 1990]{beizer1990}
+\abntrefinfo{BEIZER}{BEIZER}{1990}
+{BEIZER, B. \emph{Software Testing Techniques}.
+2. ed. [S.l.], 1990.}
+
+\bibitem[Belchior 2012]{belchior2012}
+\abntrefinfo{Belchior}{BELCHIOR}{2012}
+{BELCHIOR, G.~P. \emph{Oficina de Metodologia Científica: Elaboração de
+  Projetos de Pesquisa}.
+[S.l.], 2012.}
+
+\bibitem[BRADSHAW 1997]{bradshaw1997}
+\abntrefinfo{BRADSHAW}{BRADSHAW}{1997}
+{BRADSHAW, J.~M. \emph{Software Agents}.
+[S.l.], 1997.}
+
+\bibitem[BRAGA 2012]{braga2012}
+\abntrefinfo{BRAGA}{BRAGA}{2012}
+{BRAGA, R. Qualidade de software: Avaliação de sistemas computacionais.
+2012.
+Dispon{\'\i}vel em:
+  \url{http://disciplinas.stoa.usp.br/pluginfile.php/57546/mod\_resource/content/1/Aula8-QualidadeSoftware.pdf}.}
+
+\bibitem[BROOKSHEAR 2003]{brookshear}
+\abntrefinfo{BROOKSHEAR}{BROOKSHEAR}{2003}
+{BROOKSHEAR, J.~G. \emph{Ciência da Computação: Uma Visão Abrangente}.
+3. ed. [S.l.], 2003.}
+
+\bibitem[BRUNI e FAMÁ 2011]{bruni2011}
+\abntrefinfo{BRUNI e FAMÁ}{BRUNI; FAMÁ}{2011}
+{BRUNI, A.~L.; FAMÁ, R. \emph{Gestão de custos e formação de preços}.
+São Paulo, 2011.}
+
+\bibitem[BUENO e CAMPELO 2011]{bueno2011}
+\abntrefinfo{BUENO e CAMPELO}{BUENO; CAMPELO}{2011}
+{BUENO, C.~S.; CAMPELO, G.~B.
+\emph{Qualidade de Software}.
+Monografia (Artigo) --- Departamento de Informática,Universidade Federal de
+  Pernambuco, Pernambuco, 2011.}
+
+\bibitem[CAPRETZ 2003]{capretz2003}
+\abntrefinfo{CAPRETZ}{CAPRETZ}{2003}
+{CAPRETZ, L.~F. \emph{A Brief History of the Object-Oriented Approach}.
+[S.l.], 2003.}
+
+\bibitem[Cheesman e Daniels 2001]{john}
+\abntrefinfo{Cheesman e Daniels}{CHEESMAN; DANIELS}{2001}
+{CHEESMAN, J.; DANIELS, J. \emph{UML Components}.
+[S.l.], 2001.}
+
+\bibitem[Chess e West 2007]{chess2007}
+\abntrefinfo{Chess e West}{CHESS; WEST}{2007}
+{CHESS, B.; WEST, J. \emph{Secure Programming with Static Analysis}.
+[S.l.], 2007.}
+
+\bibitem[COENEN 1999]{coenen}
+\abntrefinfo{COENEN}{COENEN}{1999}
+{COENEN, F. Tópicos de tratamento de informação: Linguagens declarativas.
+1999.
+Dispon{\'\i}vel em:
+  \url{http://cgi.csc.liv.ac.uk/~frans/OldLectures/2CS24/declarative.html\#detail}.}
+
+\bibitem[COLLINS et al. 2012]{collins2012}
+\abntrefinfo{COLLINS et al.}{COLLINS et al.}{2012}
+{COLLINS, V. et al. Support and resistance.
+2012.
+Dispon{\'\i}vel em:
+  \url{http://www.markets.com/pt/education/technical-analysis/support-resistance.html}.}
+
+\bibitem[Costa 2004]{ferreira2004}
+\abntrefinfo{Costa}{COSTA}{2004}
+{COSTA, S.~L.
+\emph{Uma Ferramenta e Técnica para o Projeto Global e Detalhado de Sistemas
+  Multiagente}.
+Monografia (Mestrado em Engenharia de Eletricidade) --- Departamento de
+  Engenharia Elétrica, Universidade Federal do Maranhão, Maranhão, 2004.}
+
+\bibitem[CVM 2009]{cvm2009}
+\abntrefinfo{CVM}{CVM}{2009}
+{CVM. Mercado forex: Série alertas.
+2009.
+Dispon{\'\i}vel em: \url{http://www.cvm.gov.br/port/Alertas/mercadoForex.pdf}.}
+
+\bibitem[Dantas, Medeiros e Lustosa 2006]{dantas2006}
+\abntrefinfo{Dantas, Medeiros e Lustosa}{DANTAS; MEDEIROS; LUSTOSA}{2006}
+{DANTAS, J.~A.; MEDEIROS, O.~R.; LUSTOSA, P. R.~B. Reação do mercado à
+  alavancagem operacional.
+2006.
+Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rcf/v17n41/v17n41a06.pdf}.}
+
+\bibitem[debastini 2008]{debastini2008}
+\abntrefinfo{debastini}{DEBASTINI}{2008}
+{DEBASTINI, C.~A. \emph{Análise técnica de ações: identificando
+  oportunidades de compra e venda}.
+1. ed. [S.l.], 2008.}
+
+\bibitem[Devore 2006]{devore2006}
+\abntrefinfo{Devore}{DEVORE}{2006}
+{DEVORE, J.~L. \emph{Probabilidade e Estatística para Engenharia e Ciências}.
+6. ed. [S.l.], 2006.}
+
+\bibitem[Dias 1985]{dias1985}
+\abntrefinfo{Dias}{DIAS}{1985}
+{DIAS, M. A.~P. \emph{Administração de materiais: uma abordagem logística}.
+2. ed. [S.l.], 1985.}
+
+\bibitem[EasyForex 2014]{easyforex2014}
+\abntrefinfo{EasyForex}{EASYFOREX}{2014}
+{EASYFOREX. Leveraged forex trading: What is leverage in forex trading?
+2014.
+Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
+
+\bibitem[Ferreira 2008]{ferreira1986}
+\abntrefinfo{Ferreira}{FERREIRA}{2008}
+{FERREIRA, A.~B. de H. \emph{Novo Dicionário da Língua Portuguesa}.
+2. ed. [S.l.], 2008.}
+
+\bibitem[Ferreira 2009]{ferreira2009}
+\abntrefinfo{Ferreira}{FERREIRA}{2009}
+{FERREIRA, D.~F. \emph{Estatística básica}.
+2. ed. [S.l.], 2009.}
+
+\bibitem[Filho 2013]{filho}
+\abntrefinfo{Filho}{FILHO}{2013}
+{FILHO, C.
+\emph{Kalibro: interpretação de métricas de código-fonte}.
+Monografia (Mestrado em Ciência da Computação) --- Instituto de Matemática
+  e Estatística, Universidade de São Paulo, São Paulo, 2013.}
+
+\bibitem[FORCON 2014]{forcon2014}
+\abntrefinfo{FORCON}{FORCON}{2014}
+{FORCON. Metodologias para monografia.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.fazermonografia.com.br/metodologia-para-monografia}.}
+
+\bibitem[FXCM 2011]{fxcm2011}
+\abntrefinfo{FXCM}{FXCM}{2011}
+{FXCM. Forex basic.
+2011.
+Dispon{\'\i}vel em: \url{http://www.fxcm.com/forex-basics/}.}
+
+\bibitem[Gagliardi 2013]{gagliardi2013}
+\abntrefinfo{Gagliardi}{GAGLIARDI}{2013}
+{GAGLIARDI, J.~D.
+\emph{Fundamentos de Matemática}.
+Monografia (Monografia) --- Universidade Federal de Campinas:, São Paulo,
+  2013.}
+
+\bibitem[Gil 2008]{gil2008}
+\abntrefinfo{Gil}{GIL}{2008}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}.
+4. ed. [S.l.], 2008.}
+
+\bibitem[Girardi 2004]{girardi2004}
+\abntrefinfo{Girardi}{GIRARDI}{2004}
+{GIRARDI, R. \emph{Engenharia de Software baseada em Agentes}.
+[S.l.], 2004.}
+
+\bibitem[Hoogle 2013]{hoogle2013}
+\abntrefinfo{Hoogle}{HOOGLE}{2013}
+{HOOGLE. Functional programming.
+2013.
+Dispon{\'\i}vel em:
+  \url{http://www.haskell.org/haskellwiki/Functional\_programming}.}
+
+\bibitem[Hoppen 2010]{hoppen2010}
+\abntrefinfo{Hoppen}{HOPPEN}{2010}
+{HOPPEN, C.
+\emph{Metodologia Científica: Pesquisa Experimental}.
+Monografia (Graduação) --- Universidade Federal do Paraná, 2010.}
+
+\bibitem[IEEE 610 1990]{ieee}
+\abntrefinfo{IEEE 610}{IEEE 610}{1990}
+{IEEE 610. \emph{IEEE Standard Glossary of Software Engineering Terminology}.
+[S.l.], 1990.}
+
+\bibitem[InvestFOREX 2014]{investforex}
+\abntrefinfo{InvestFOREX}{INVESTFOREX}{2014}
+{INVESTFOREX. Análise técnica para mercado forex.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.investforex.pt/aprender-forex/analise-tecnica}.}
+
+\bibitem[INÁCIO 2010]{inacio2010}
+\abntrefinfo{INÁCIO}{INÁCIO}{2010}
+{INÁCIO, J. F.~S.
+\emph{Análise do Estimador de Estado por Mínimos Quadrados Ponderados}.
+Monografia (Trabalho de Conclusão de Curso) --- Universidade Federal do Rio
+  Grande do Sul, Rio Grande do Sul, 2010.}
+
+\bibitem[JENNINGS, Sycara e WOOLDRIDGE 1998]{jennings1998}
+\abntrefinfo{JENNINGS, Sycara e WOOLDRIDGE}{JENNINGS; SYCARA; WOOLDRIDGE}{1998}
+{JENNINGS, N.~R.; SYCARA, K.; WOOLDRIDGE, M. \emph{A Roadmap of Agent Research
+  and Development}.
+[S.l.], 1998.}
+
+\bibitem[JENNINGS e WOOLDRIDGE 1995]{jennings1995}
+\abntrefinfo{JENNINGS e WOOLDRIDGE}{JENNINGS; WOOLDRIDGE}{1995}
+{JENNINGS, N.~R.; WOOLDRIDGE, M. \emph{Intelligent agents: theory and
+  practice}.
+[S.l.], 1995.}
+
+\bibitem[Jungthon e Goulart 2009]{gustavo}
+\abntrefinfo{Jungthon e Goulart}{JUNGTHON; GOULART}{2009}
+{JUNGTHON, G.; GOULART, C.~M.
+\emph{Paradigmas de Programação.}
+Monografia (Monografia) --- Faculdade de Informática de Taquara, Rio Grande do
+  Sul, 2009.}
+
+\bibitem[Konis 2014]{konis2014}
+\abntrefinfo{Konis}{KONIS}{2014}
+{KONIS, K. Mathematical methods for quantitative finance.
+2014.
+Dispon{\'\i}vel em: \url{https://www.coursera.org/course/mathematicalmethods}.}
+
+\bibitem[Lamim 2010]{lamin}
+\abntrefinfo{Lamim}{LAMIM}{2010}
+{LAMIM, J. Mvc - o padrão de arquitetura de software.
+2010.
+Dispon{\'\i}vel em:
+  \url{http://www.oficinadanet.com.br/artigo/1687/mvc\_-\_o\_padrao\_de\_arquitetura\_de\_software}.}
+
+\bibitem[Leavens 2014]{leavens2014}
+\abntrefinfo{Leavens}{LEAVENS}{2014}
+{LEAVENS, G.~T. Major programming paradigms.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.eecs.ucf.edu/~leavens/ComS541Fall97/hw-pages/paradigms/major.html\#object}.}
+
+\bibitem[Lewis 2009]{lewis2009}
+\abntrefinfo{Lewis}{LEWIS}{2009}
+{LEWIS, W.~E. \emph{Software Testing and Continuous Quality Improvement}.
+3. ed. [S.l.], 2009.}
+
+\bibitem[Lira 2004]{lira2004}
+\abntrefinfo{Lira}{LIRA}{2004}
+{LIRA, S.~A.
+\emph{Análise Correlação: Abordagem Teórica e de Construção dos
+  Coeficientes com Aplicações}.
+Monografia (Dissertação Pós-Graduação) --- Universidade Federal do
+  Paraná, Paraná, 2004.}
+
+\bibitem[Lopes 2005]{lopes2005}
+\abntrefinfo{Lopes}{LOPES}{2005}
+{LOPES, F.~D. \emph{Caderno didático: estatística geral}.
+[S.l.], 2005.}
+
+\bibitem[Market 2011]{market2011}
+\abntrefinfo{Market}{MARKET}{2011}
+{MARKET. About what is forex.
+2011.
+Dispon{\'\i}vel em:
+  \url{http://www.markets.com/pt/education/forex-education/what-is-forex.html}.}
+
+\bibitem[MATSURA 2006]{matsura2006}
+\abntrefinfo{MATSURA}{MATSURA}{2006}
+{MATSURA, E. \emph{Comprar ou Vender? Como investir na Bolsa Utilizando
+  Análise Gráfica}.
+7. ed. [S.l.], 2006.}
+
+\bibitem[Meirelles 2013]{meirelles2013}
+\abntrefinfo{Meirelles}{MEIRELLES}{2013}
+{MEIRELLES, P.
+\emph{Monitoramento de métricas de código-fonte em projetos de Software
+  Livre}.
+Monografia (Tese de Doutorado) --- Instituto de Matemática e Estatística,
+  Universidade de São Paulo, São Paulo, 2013.}
+
+\bibitem[Melo 2011]{melo2011}
+\abntrefinfo{Melo}{MELO}{2011}
+{MELO, J. R.~F.
+\emph{Análise Estática de Código}.
+Monografia (Monografia) --- Instituto Federal de Educação, Ciência e
+  Tecnologia do Rio Grande do Norte, Natal, 2011.}
+
+\bibitem[Millani 2013]{millani2013}
+\abntrefinfo{Millani}{MILLANI}{2013}
+{MILLANI, L. F.~G.
+\emph{Análise de Correlação entre Métricas de Qualidade de Software e
+  Métricas Físicas.}
+Monografia (Monografia) --- Universidade Federal do Rio Grande do Sul, Rio
+  Grande do Sul, 2013.}
+
+\bibitem[MYERS 2004]{myers2004}
+\abntrefinfo{MYERS}{MYERS}{2004}
+{MYERS, G.~J. \emph{The art of Software Testing}.
+2. ed. [S.l.], 2004.}
+
+\bibitem[Naik e TRIPATHY 2008]{naik2008}
+\abntrefinfo{Naik e TRIPATHY}{NAIK; TRIPATHY}{2008}
+{NAIK, K.; TRIPATHY, P. \emph{SOFTWARE TESTING AND QUALITY ASSURANCE Theory and
+  Practice}.
+2. ed. [S.l.], 2008.}
+
+\bibitem[Neto 2005]{neto2005}
+\abntrefinfo{Neto}{NETO}{2005}
+{NETO, A. C.~D. Introdução a teste de sofware.
+2005.
+Dispon{\'\i}vel em:
+  \url{http://www.devmedia.com.br/artigo-engenharia-de-software-introducao-a-teste-de-software/8035}.}
+
+\bibitem[Normak 2013]{normak2013}
+\abntrefinfo{Normak}{NORMAK}{2013}
+{NORMAK, K. Programming paradigms.
+2013.
+Dispon{\'\i}vel em:
+  \url{http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms\_themes-paradigms.html\#paradigms\_the-word\_title\_1}.}
+
+\bibitem[Odell, GIORGINI e MÜLLER 2005]{odell2005}
+\abntrefinfo{Odell, GIORGINI e MÜLLER}{ODELL; GIORGINI; MÜLLER}{2005}
+{ODELL, J.; GIORGINI, P.; MÜLLER, J.~P. \emph{Agent-Oriented Software
+  Engineering V}.
+[S.l.], 2005.}
+
+\bibitem[Paquet e MOKHOV 2010]{paquet2010}
+\abntrefinfo{Paquet e MOKHOV}{PAQUET; MOKHOV}{2010}
+{PAQUET, J.; MOKHOV, S. \emph{Comparative Studies of Programming Languages}.
+[S.l.], 2010.}
+
+\bibitem[Piponi 2006]{piponi2006}
+\abntrefinfo{Piponi}{PIPONI}{2006}
+{PIPONI, D. Eleven reasons to use haskell as a mathematician.
+2006.
+Dispon{\'\i}vel em:
+  \url{http://blog.sigfpe.com/2006/01/eleven-reasons-to-use-haskell-as.html}.}
+
+\bibitem[Regra 2010]{regra2010}
+\abntrefinfo{Regra}{REGRA}{2010}
+{REGRA, C.~M.
+\emph{Tese de Mestrado em Estatística Computacional}.
+Monografia (Monografia) --- Universidade Aberta, 2010.}
+
+\bibitem[Riley, Hobson e Bence 2011]{riley2011}
+\abntrefinfo{Riley, Hobson e Bence}{RILEY; HOBSON; BENCE}{2011}
+{RILEY, F.; HOBSON, M.~P.; BENCE, S.~J. \emph{Mathematical Methods for Physics
+  and Engineering: A Comprehensive Guide.}
+[S.l.], 2011.}
+
+\bibitem[Ritchie 1996]{ritchie1996}
+\abntrefinfo{Ritchie}{RITCHIE}{1996}
+{RITCHIE, D.~M. O desenvolvimento da linguagem c.
+1996.
+Dispon{\'\i}vel em: \url{http://cm.bell-labs.com/cm/cs/who/dmr/chistPT.html}.}
+
+\bibitem[RoboForex 2013]{roboforex}
+\abntrefinfo{RoboForex}{ROBOFOREX}{2013}
+{ROBOFOREX. Indicators used in forex market.
+2013.
+Dispon{\'\i}vel em:
+  \url{http://www.roboforex.pt/beginner/start/technical-analysis}.}
+
+\bibitem[Rocha 2008]{rocha2008}
+\abntrefinfo{Rocha}{ROCHA}{2008}
+{ROCHA, R.~A.
+\emph{Algumas Evidências Computacionais da Infinitude dos Números Primos de
+  Fibonacci}.
+Monografia (Trabalho de Conclusão de Curso em Ciência da Computação) ---
+  Universidade Federal do Rio Grande do Norte, Natal, 2008.}
+
+\bibitem[RODRIGUES 2007]{rodrigues2007}
+\abntrefinfo{RODRIGUES}{RODRIGUES}{2007}
+{RODRIGUES, W.~C. \emph{Metodologia Científica}.
+[S.l.], 2007.}
+
+\bibitem[Russel e NORVIG 1995]{russel1995}
+\abntrefinfo{Russel e NORVIG}{RUSSEL; NORVIG}{1995}
+{RUSSEL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}.
+3. ed. [S.l.], 1995.}
+
+\bibitem[SCHUMACHER 2001]{schumacher2001}
+\abntrefinfo{SCHUMACHER}{SCHUMACHER}{2001}
+{SCHUMACHER, M. \emph{Objective Coordination in Multi-Agent System Engineering:
+  design and implementation}.
+1. ed. [S.l.], 2001.}
+
+\bibitem[SCHWABER e SUTHERLAND 2013]{schwaber2013}
+\abntrefinfo{SCHWABER e SUTHERLAND}{SCHWABER; SUTHERLAND}{2013}
+{SCHWABER, K.; SUTHERLAND, J. The definitive guide to scrum: The rules of the
+  game.
+2013.
+Dispon{\'\i}vel em:
+  \url{https://www.scrum.org/portals/0/documents/scrum\%20guides/scrum\_guide.pdf}.}
+
+\bibitem[SEBESTA 2012]{sebesta2012}
+\abntrefinfo{SEBESTA}{SEBESTA}{2012}
+{SEBESTA, R.~W. \emph{Concepts of programming languages}.
+10. ed. [S.l.], 2012.}
+
+\bibitem[Singh 2014]{singhDifference}
+\abntrefinfo{Singh}{SINGH}{2014a}
+{SINGH, C. Difference between method overloading and overriding in java.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://beginnersbook.com/2014/01/difference-between-method-overloading-and-overriding-in-java/}.}
+
+\bibitem[Singh 2014]{singhOverload}
+\abntrefinfo{Singh}{SINGH}{2014b}
+{SINGH, C. Method overloading in java with examples.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://beginnersbook.com/2013/05/method-overloading/}.}
+
+\bibitem[Sommerville 2011]{sommerville}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
+{SOMMERVILLE, I. \emph{Engenharia de Software}.
+9. ed. [S.l.], 2011.}
+
+\bibitem[Spillner, Linz e Schaefer 2014]{spillner2014}
+\abntrefinfo{Spillner, Linz e Schaefer}{SPILLNER; LINZ; SCHAEFER}{2014}
+{SPILLNER, A.; LINZ tilo; SCHAEFER, H. \emph{Software Testing Foundations}.
+4. ed. [S.l.], 2014.}
+
+\bibitem[Spivey 1996]{spivey1996}
+\abntrefinfo{Spivey}{SPIVEY}{1996}
+{SPIVEY, M. \emph{An introduction to logic programming through Prolog.}
+1. ed. [S.l.], 1996.}
+
+\bibitem[STEFANOV 2008]{stefanov2008}
+\abntrefinfo{STEFANOV}{STEFANOV}{2008}
+{STEFANOV, S. \emph{Object-Oriented JavaScript}.
+[S.l.], 2008.}
+
+\bibitem[Thiago 2001]{thiago2001}
+\abntrefinfo{Thiago}{THIAGO}{2001}
+{THIAGO, A. As vantagens do teste unitário.
+2001.
+Dispon{\'\i}vel em:
+  \url{http://andrethiago.wordpress.com/2011/04/06/as-vantagens-do-teste-unitario/}.}
+
+\bibitem[Thompson 1999]{thompson1999}
+\abntrefinfo{Thompson}{THOMPSON}{1999}
+{THOMPSON, S. \emph{Haskell: The Craft of Functional Programming}.
+2. ed. [S.l.], 1999.}
+
+\bibitem[TUCKER e NOONAN 2009]{tucker2009}
+\abntrefinfo{TUCKER e NOONAN}{TUCKER; NOONAN}{2009}
+{TUCKER, A.~B.; NOONAN, R.~E. \emph{Linguagens de programação : Princípios e
+  paradigmas}.
+2. ed. [S.l.], 2009.}
+
+\bibitem[VENNERS 1996]{venners1996}
+\abntrefinfo{VENNERS}{VENNERS}{1996}
+{VENNERS, B. Polymorphism and interfaces.
+1996.
+Dispon{\'\i}vel em:
+  \url{<http://www.artima.com/objectsandjava/webuscript/PolymorphismInterfaces1.html}.}
+
+\bibitem[VIALI 2009]{viali2009}
+\abntrefinfo{VIALI}{VIALI}{2009}
+{VIALI, L.~M.
+\emph{Estatística Básica}.
+Monografia (Monografia) --- Instituto de Matemática da Universidade Federal do
+  Rio Grande do Sul, 2009.}
+
+\bibitem[VUOLO 1996]{vuolo1996}
+\abntrefinfo{VUOLO}{VUOLO}{1996}
+{VUOLO, J.~H. \emph{Fundamentos da Teoria de Erros}.
+2. ed. [S.l.], 1996.}
+
+\bibitem[WEGNER 1990]{wegner1990}
+\abntrefinfo{WEGNER}{WEGNER}{1990}
+{WEGNER, P. \emph{Concepts and paradigms of object-oriented programming}.
+1. ed. [S.l.], 1990.}
+
+\bibitem[WEISFELD 2009]{weisfeld2009}
+\abntrefinfo{WEISFELD}{WEISFELD}{2009}
+{WEISFELD, M.~A. \emph{The Object-Oriented Thought Process}.
+3. ed. [S.l.], 2009.}
+
+\bibitem[WILLIAMS 2006]{williams2006}
+\abntrefinfo{WILLIAMS}{WILLIAMS}{2006}
+{WILLIAMS, L. \emph{White-Box Testing}.
+[S.l.], 2006.}
+
+\bibitem[Wolfram 2012]{wolfram}
+\abntrefinfo{Wolfram}{WOLFRAM}{2012}
+{WOLFRAM. Built with mathematica technology: Movingaverage.
+2012.
+Dispon{\'\i}vel em: \url{http://mathworld.wolfram.com/MovingAverage.html}.}
+
+\bibitem[WOOLDRIDGE 2010]{woodridge2010}
+\abntrefinfo{WOOLDRIDGE}{WOOLDRIDGE}{2010}
+{WOOLDRIDGE, M. \emph{Teamwork in Multi-agent systems: A Formal Approach}.
+1. ed. [S.l.], 2010.}
+
+\end{thebibliography}
