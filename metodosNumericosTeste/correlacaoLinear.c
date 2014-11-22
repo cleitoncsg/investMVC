@@ -19,10 +19,16 @@ void detectaRoboETipoDeGrafico();
 
 
 int main(){
+	FILE *arquivo;
 	
 	detectaRoboETipoDeGrafico();
 	metodoCorrelacao(quantidadeCandes);
 	printf("Correlacao Linear em C: %f\n",metodoCorrelacao(quantidadeCandes));
+	
+	arquivo = fopen("calculoPearsonEmC.txt", "wt");
+	fprintf(arquivo, "%f", metodoCorrelacao(quantidadeCandes));
+	
+	fclose(arquivo);
 	
 	return 0;	
 }
