@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="comportamentos.RodaComandos"/>
+<fullyQualifiedTypeName name="jade.core.behaviours.TickerBehaviour"/>
+<fullyQualifiedTypeName name="comportamentos.CorrelacaoLinearC"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="comportamentos.LeituraArquivo"/>
+<fullyQualifiedTypeName name="comportamentos.EscreveArquivo"/>
 </qualifiedTypeNameHistroy>

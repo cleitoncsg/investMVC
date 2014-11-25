@@ -1,0 +1,15 @@
+package teste;
+
+import java.io.IOException;
+
+import comportamentos.LeituraArquivo;
+
+public class Teste {
+	
+	public static void main(String args[]) throws IOException{
+		System.out.println(LeituraArquivo.leituraCorrelacao());
+		
+		double correlacaoLinear = Double.parseDouble(LeituraArquivo.leituraCorrelacao());
+		System.out.println(correlacaoLinear);
+	}
+}

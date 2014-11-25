@@ -1,0 +1,14 @@
+package teste;
+
+import java.io.IOException;
+
+import comportamentos.EscreveArquivo;
+import comportamentos.LeituraArquivo;
+
+public class Teste {
+	
+	public static void main(String args[]) throws IOException{
+		EscreveArquivo.escreveVenda();
+	
+	}
+}

@@ -2,6 +2,7 @@ package metodosMatematicos;
 
 import java.io.IOException;
 
+import comportamentos.CorrelacaoLinearC;
 import comportamentos.EsperarPedidos;
 import comportamentos.LeituraArquivo;
 import comportamentos.RegistrarNoDF;
@@ -14,21 +15,17 @@ import jade.domain.FIPAException;
 public class CorrelacaoAgente extends Agent{
 
 	private static final long serialVersionUID = -7919542083794177881L;
-	private double correlacaoLinear;
 	
 	protected void setup(){
-		RodaComandos.terminal("./../EstruturadoComponente/correlacaoLinear");
-//		RodaComandos.terminal("./hello");
-		try {
-			correlacaoLinear = Double.parseDouble(LeituraArquivo.leituraCorrelacao());
-		} catch (NumberFormatException erro) {
-			erro.printStackTrace();
-		} catch (IOException erro) {
-			erro.printStackTrace();
-		}
-		
+		CorrelacaoLinearC c = new CorrelacaoLinearC(this,6000);
+		addBehaviour(c);		
 		addBehaviour(new RegistrarNoDF("MetodoNumerico", "CorrelacaoDePearson"));
-		addBehaviour(new EsperarPedidos(correlacaoLinear));
+		try {
+			addBehaviour(new EsperarPedidos(LeituraArquivo.leituraCorrelacao()));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	//Remove o registro do agente da página amarela quando sua execução é finalizada
@@ -36,7 +33,7 @@ public class CorrelacaoAgente extends Agent{
 		
 		try {
 			DFService.deregister(this);
-			System.out.println("Agente analisador+"+getAID().getName()+"está finalizado!");
+			System.out.println("Agente analisador+"+getAID().getName()+" está finalizado!");
 		} catch (FIPAException erro) {
 			erro.printStackTrace();
 		}	

@@ -17,16 +17,18 @@ public class LeituraArquivo{
 		while (scanner.hasNext()) {
 			correlacao = scanner.next();
 		}
+		scanner.close();
 		return correlacao;
 	}
 	
 	public static String leituraTendencia() throws IOException{
 		
-		Scanner scanner = new Scanner(new FileReader("tendencia.txt"))
+		Scanner scanner = new Scanner(new FileReader("../tendencia.txt"))
         .useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			tendencia = scanner.next();
 		}
+		scanner.close();
 		return tendencia;
 	}	
 }

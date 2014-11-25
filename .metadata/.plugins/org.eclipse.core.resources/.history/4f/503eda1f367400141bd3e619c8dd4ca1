@@ -1,0 +1,22 @@
+package comportamentos;
+
+import java.io.IOException;
+
+import jade.core.behaviours.TickerBehaviour;
+
+public class CorrelacaoLinearC extends TickerBehaviour{
+
+	@Override
+	protected void onTick() {
+		RodaComandos.terminal("./../EstruturadoComponente/correlacaoLinear");
+		try {
+			double correlacaoLinear = Double.parseDouble(LeituraArquivo.leituraCorrelacao());
+		} catch (NumberFormatException erro) {
+			erro.printStackTrace();
+		} catch (IOException erro) {
+			erro.printStackTrace();
+		}
+		
+	}
+
+}

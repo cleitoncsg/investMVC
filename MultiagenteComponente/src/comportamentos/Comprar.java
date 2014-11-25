@@ -15,6 +15,7 @@ public class Comprar extends CyclicBehaviour {
 			System.out.println("O mercado está Caindo");
 			System.out.println("Hora de Comprar");
 			System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
+			EscreveArquivo.escreveCompra();
 		}
 		else block();
 	}

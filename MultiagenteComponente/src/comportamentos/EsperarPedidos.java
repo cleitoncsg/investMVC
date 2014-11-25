@@ -7,23 +7,24 @@ public class EsperarPedidos extends CyclicBehaviour {
 	private static final long serialVersionUID = 7192572878341493779L;
 	
 	private ACLMessage resposta;
-	private double correlacaoLinear;
+	private String correlacaoLinear;
 
-	public EsperarPedidos(double correlacaoLinear) {
+	public EsperarPedidos(String correlacaoLinear) {
 		this.correlacaoLinear=correlacaoLinear;
 	}
 
 	@Override
 	public void action() {
+		
 		ACLMessage msg = myAgent.receive();
 		if(msg !=null){
 			resposta= msg.createReply();
-			System.out.println("O agente "+msg.getSender().getName() + "está se comunicando");
+			System.out.println("O agente "+msg.getSender().getName() + " está se comunicando");
 			String conteudo = msg.getContent();
 			
 			if(conteudo.equalsIgnoreCase("Pedido de informação")){
 				
-				resposta.setContent(String.valueOf(correlacaoLinear));
+				resposta.setContent(correlacaoLinear);
 				myAgent.send(resposta);
 			}
 		}

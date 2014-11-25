@@ -14,6 +14,7 @@ public class Vender extends CyclicBehaviour {
 			System.out.println("O mercado está subindo");
 			System.out.println("Hora de Vender");
 			System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
+			EscreveArquivo.escreveVenda();
 		}
 		else block();
 	}
