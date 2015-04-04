@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  9 NOV 2014 17:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.20)  4 APR 2015 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,47 +1029,18 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 12.
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 12.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 12.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 12.
-
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 12.
-
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 12.
-<<omx.cmap>>
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 12.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 12.
 Package epstopdf Info: Source file: <figuras/capa.eps>
-(epstopdf)                    date: 2013-04-15 09:15:43
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 649636 bytes
 (epstopdf)             Output file: <figuras/capa-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-03 17:46:23
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 105943 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/capa-eps-converted
 -to.pdf figuras/capa.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/capa-eps-converted-to.pdf, id=9, 814.04124pt x 1150.2975pt>
+<figuras/capa-eps-converted-to.pdf, id=5, 814.04124pt x 1150.2975pt>
 File: figuras/capa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/capa-eps-converted-to.pdf>
@@ -1082,12 +1053,41 @@ Package pdftex.def Info: figuras/capa-eps-converted-to.pdf used on input line 1
 ed-to.pdf>] [2
 
 ]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<ot1.cmap>>
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 14.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<oml.cmap>>
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 14.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<oms.cmap>>
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 14.
+
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 14.
+<<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 14.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1101,8 +1101,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 14.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
@@ -1128,6 +1126,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 30.
 ) (./fixos/folhaDeAprovacao.texpdfTeX warning (ext4): destination with the same
  identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
@@ -1165,82 +1165,73 @@ Underfull \vbox (badness 5008) has occurred while \output is active []
 ] [20
 
 ])
-(./fixos/indiceAutomatico.tex (./tcc.toc
-Underfull \vbox (badness 1325) has occurred while \output is active []
-
- [21]
-[22]
-Overfull \hbox (1.5877pt too wide) detected at line 120
+(./fixos/indiceAutomatico.tex (./tcc.toc [21] [22]
+Overfull \hbox (1.5877pt too wide) detected at line 115
  \T1/lmss/bx/n/12 101
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 122
+Overfull \hbox (1.5877pt too wide) detected at line 117
  \T1/lmss/bx/n/12 107
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 130
+Overfull \hbox (1.5877pt too wide) detected at line 125
  \T1/lmss/bx/n/12 111
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-Overfull \hbox (1.5877pt too wide) detected at line 134
+Overfull \hbox (1.5877pt too wide) detected at line 129
  \T1/lmss/bx/n/12 119
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 138
+Overfull \hbox (1.5877pt too wide) detected at line 133
  \T1/lmss/bx/n/12 135
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 142
+Overfull \hbox (1.5877pt too wide) detected at line 137
  \T1/lmss/bx/n/12 139
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 146
+Overfull \hbox (1.5877pt too wide) detected at line 141
  \T1/lmss/bx/n/12 143
  []
 
-
-Overfull \hbox (1.5877pt too wide) detected at line 150
+[23]
+Overfull \hbox (1.5877pt too wide) detected at line 145
  \T1/lmss/bx/n/12 155
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 159
+Overfull \hbox (1.5877pt too wide) detected at line 154
  \T1/lmss/bx/n/12 161
  []
 
-) [24]) (./capitulos/introducao.tex [25
+) [24]) (./capitulos/introducao.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25
 
 
 ]
-Overfull \hbox (16.70555pt too wide) in paragraph at lines 28--29
-[]\T1/lmr/m/n/12 Desenvolver uma fer-ra-menta mul-ti-pa-ra-digma para ope-rar d
-e forma semi-automatizada
- []
-
 [26]) (./capitulos/referencial-teorico.tex [27] [28
 
 ] [29]
 Package epstopdf Info: Source file: <figuras/retaSuporte.eps>
-(epstopdf)                    date: 2014-11-05 14:20:57
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 41313 bytes
 (epstopdf)             Output file: <figuras/retaSuporte-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-05 14:23:57
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 10764 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/retaSuporte-eps-co
 nverted-to.pdf figuras/retaSuporte.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaSuporte-eps-converted-to.pdf, id=567, 517.935pt x 285.065pt>
+<figuras/retaSuporte-eps-converted-to.pdf, id=554, 517.935pt x 285.065pt>
 File: figuras/retaSuporte-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/retaSuporte-eps-converted-to.pdf>
@@ -1249,18 +1240,18 @@ Package pdftex.def Info: figuras/retaSuporte-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 409.49722pt x 225.39026pt.
  [30]
 Package epstopdf Info: Source file: <figuras/retaResistencia.eps>
-(epstopdf)                    date: 2014-11-05 17:38:25
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 42430 bytes
 (epstopdf)             Output file: <figuras/retaResistencia-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-11-05 17:38:52
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 11040 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/retaResistencia-ep
 s-converted-to.pdf figuras/retaResistencia.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaResistencia-eps-converted-to.pdf, id=591, 508.90125pt x 286.06876p
+<figuras/retaResistencia-eps-converted-to.pdf, id=578, 508.90125pt x 286.06876p
 t>
 File: figuras/retaResistencia-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/retaResistencia-eps-converted-to.pdf>
@@ -1282,18 +1273,18 @@ l.60 \section
              {Métodos Matemáticos} <./figuras/retaSuporte-eps-converted-to.pd
 f> <./figuras/retaResistencia-eps-converted-to.pdf>] [32]
 Package epstopdf Info: Source file: <figuras/equacaoMinimosQuadrados.eps>
-(epstopdf)                    date: 2014-11-05 17:47:45
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 70599 bytes
 (epstopdf)             Output file: <figuras/equacaoMinimosQuadrados-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-11-05 18:43:04
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 23996 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/equacaoMinimosQuad
 rados-eps-converted-to.pdf figuras/equacaoMinimosQuadrados.eps>
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=639, 676.5275pt x 402
+<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=626, 676.5275pt x 402
 .50375pt>
 File: figuras/equacaoMinimosQuadrados-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1318,18 +1309,18 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 124.
 Package epstopdf Info: Source file: <figuras/classificacaoCorrelacaoLinear.eps>
 
-(epstopdf)                    date: 2014-11-05 17:43:08
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 43192 bytes
 (epstopdf)             Output file: <figuras/classificacaoCorrelacaoLinear-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2014-11-05 19:34:13
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 13722 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/classificacaoCorre
 lacaoLinear-eps-converted-to.pdf figuras/classificacaoCorrelacaoLinear.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=661, 461.725pt 
+<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=647, 461.725pt 
 x 173.64874pt>
 File: figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1339,18 +1330,18 @@ Package pdftex.def Info: figuras/classificacaoCorrelacaoLinear-eps-converted-to
 .pdf used on input line 132.
 (pdftex.def)             Requested size: 409.49722pt x 154.00636pt.
 Package epstopdf Info: Source file: <figuras/determinacaoCorrelacao1.eps>
-(epstopdf)                    date: 2014-11-05 17:44:00
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 7096 bytes
 (epstopdf)             Output file: <figuras/determinacaoCorrelacao1-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-11-05 19:52:56
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 5713 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/determinacaoCorrel
 acao1-eps-converted-to.pdf figuras/determinacaoCorrelacao1.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=667, 175.65625pt x 83
+<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=653, 175.65625pt x 83
 .31125pt>
 File: figuras/determinacaoCorrelacao1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1359,18 +1350,18 @@ Package pdftex.def Info: figuras/determinacaoCorrelacao1-eps-converted-to.pdf u
 sed on input line 141.
 (pdftex.def)             Requested size: 227.5pt x 107.90924pt.
 Package epstopdf Info: Source file: <figuras/determinacaoCorrelacao2.eps>
-(epstopdf)                    date: 2014-11-05 17:44:14
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 23806 bytes
 (epstopdf)             Output file: <figuras/determinacaoCorrelacao2-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-11-05 19:52:57
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 12222 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/determinacaoCorrel
 acao2-eps-converted-to.pdf figuras/determinacaoCorrelacao2.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=668, 340.27126pt x 14
+<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=654, 340.27126pt x 14
 5.54375pt>
 File: figuras/determinacaoCorrelacao2-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1386,18 +1377,18 @@ sed on input line 142.
 l.158 
        <./figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/formulaFibonacci.eps>
-(epstopdf)                    date: 2014-11-05 17:44:46
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 15316 bytes
 (epstopdf)             Output file: <figuras/formulaFibonacci-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-11-05 20:39:21
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 7121 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/formulaFibonacci-e
 ps-converted-to.pdf figuras/formulaFibonacci.eps>
 (epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/formulaFibonacci-eps-converted-to.pdf, id=697, 273.02pt x 91.34125pt>
+<figuras/formulaFibonacci-eps-converted-to.pdf, id=684, 273.02pt x 91.34125pt>
 File: figuras/formulaFibonacci-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/formulaFibonacci-eps-converted-to.pdf>
@@ -1432,17 +1423,17 @@ LaTeX Warning: Command \' invalid in math mode on input line 184.
 l.199 
        <./figuras/formulaFibonacci-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/estocastico.eps>
-(epstopdf)                    date: 2014-11-08 12:34:41
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 64337 bytes
 (epstopdf)             Output file: <figuras/estocastico-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-09 13:20:08
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 23053 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/estocastico-eps-co
 nverted-to.pdf figuras/estocastico.eps>
 (epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/estocastico-eps-converted-to.pdf, id=731, 313.17pt x 321.2pt>
+<figuras/estocastico-eps-converted-to.pdf, id=718, 313.17pt x 321.2pt>
 File: figuras/estocastico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/estocastico-eps-converted-to.pdf>
@@ -1450,7 +1441,7 @@ Package pdftex.def Info: figuras/estocastico-eps-converted-to.pdf used on input
  line 202.
 (pdftex.def)             Requested size: 409.49722pt x 420.01051pt.
 
-<figuras/equacaoMedia.png, id=736, 294.09875pt x 94.3525pt>
+<figuras/equacaoMedia.png, id=723, 294.09875pt x 94.3525pt>
 File: figuras/equacaoMedia.png Graphic file (type png)
 
 <use figuras/equacaoMedia.png>
@@ -1465,17 +1456,17 @@ l.220 A
         média móvel é uma forma de analisar a evolução do preço ao lon...
  <./figuras/estocastico-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/mediamovel.eps>
-(epstopdf)                    date: 2014-11-08 12:43:24
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 88267 bytes
 (epstopdf)             Output file: <figuras/mediamovel-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-09 13:20:08
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 35284 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/mediamovel-eps-con
 verted-to.pdf figuras/mediamovel.eps>
 (epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/mediamovel-eps-converted-to.pdf, id=752, 543.02875pt x 322.20375pt>
+<figuras/mediamovel-eps-converted-to.pdf, id=739, 543.02875pt x 322.20375pt>
 File: figuras/mediamovel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/mediamovel-eps-converted-to.pdf>
@@ -1497,18 +1488,18 @@ l.234
        <./figuras/equacaoMedia.png> <./figuras/mediamovel-eps-converted-to.pdf>
 ]
 Package epstopdf Info: Source file: <figuras/arquiteturaVon.eps>
-(epstopdf)                    date: 2014-11-05 17:42:43
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 83646 bytes
 (epstopdf)             Output file: <figuras/arquiteturaVon-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-11-05 20:39:21
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 22451 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/arquiteturaVon-eps
 -converted-to.pdf figuras/arquiteturaVon.eps>
 (epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arquiteturaVon-eps-converted-to.pdf, id=779, 713.66624pt x 406.51875pt
+<figuras/arquiteturaVon-eps-converted-to.pdf, id=765, 713.66624pt x 406.51875pt
 >
 File: figuras/arquiteturaVon-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/arquiteturaVon-eps-converted-to.pdf>
@@ -1529,17 +1520,17 @@ Underfull \vbox (badness 2903) has occurred while \output is active []
 l.259 
        <./figuras/arquiteturaVon-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/essenciaOO.eps>
-(epstopdf)                    date: 2014-11-05 17:44:31
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 129614 bytes
 (epstopdf)             Output file: <figuras/essenciaOO-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-06 11:22:24
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 56947 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/essenciaOO-eps-con
 verted-to.pdf figuras/essenciaOO.eps>
 (epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/essenciaOO-eps-converted-to.pdf, id=813, 835.12pt x 434.62375pt>
+<figuras/essenciaOO-eps-converted-to.pdf, id=800, 835.12pt x 434.62375pt>
 File: figuras/essenciaOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/essenciaOO-eps-converted-to.pdf>
@@ -1568,18 +1559,18 @@ Underfull \vbox (badness 1286) has occurred while \output is active []
  [43]
 [44] [45] [46]
 Package epstopdf Info: Source file: <figuras/defeitoErroFalha.eps>
-(epstopdf)                    date: 2014-11-05 17:43:34
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 493649 bytes
 (epstopdf)             Output file: <figuras/defeitoErroFalha-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-11-07 09:10:41
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 60693 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/defeitoErroFalha-e
 ps-converted-to.pdf figuras/defeitoErroFalha.eps>
 (epstopdf)             \includegraphics on input line 366.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/defeitoErroFalha-eps-converted-to.pdf, id=947, 744.7825pt x 332.24126p
+<figuras/defeitoErroFalha-eps-converted-to.pdf, id=934, 744.7825pt x 332.24126p
 t>
 File: figuras/defeitoErroFalha-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/defeitoErroFalha-eps-converted-to.pdf>
@@ -1598,17 +1589,17 @@ l.383 O
        s testes são realizados em diferentes níveis, envolvendo o todo o s...
  <./figuras/defeitoErroFalha-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/nivelTeste.eps>
-(epstopdf)                    date: 2014-11-05 17:45:23
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 148449 bytes
 (epstopdf)             Output file: <figuras/nivelTeste-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-07 09:10:41
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 56483 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/nivelTeste-eps-con
 verted-to.pdf figuras/nivelTeste.eps>
 (epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/nivelTeste-eps-converted-to.pdf, id=983, 894.34125pt x 577.15625pt>
+<figuras/nivelTeste-eps-converted-to.pdf, id=970, 894.34125pt x 577.15625pt>
 File: figuras/nivelTeste-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/nivelTeste-eps-converted-to.pdf>
@@ -1630,18 +1621,18 @@ Underfull \vbox (badness 1946) has occurred while \output is active []
 
  [51]
 Package epstopdf Info: Source file: <figuras/intervalosMetricas.eps>
-(epstopdf)                    date: 2014-11-05 17:45:10
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 197603 bytes
 (epstopdf)             Output file: <figuras/intervalosMetricas-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-11-07 10:08:01
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 49442 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/intervalosMetricas
 -eps-converted-to.pdf figuras/intervalosMetricas.eps>
 (epstopdf)             \includegraphics on input line 450.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/intervalosMetricas-eps-converted-to.pdf, id=1053, 722.7pt x 109.40875p
+<figuras/intervalosMetricas-eps-converted-to.pdf, id=1040, 722.7pt x 109.40875p
 t>
 File: figuras/intervalosMetricas-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/intervalosMetricas-eps-converted-to.pdf>
@@ -1663,17 +1654,17 @@ Underfull \vbox (badness 2865) has occurred while \output is active []
 
 ]
 Package epstopdf Info: Source file: <figuras/metodologia.eps>
-(epstopdf)                    date: 2014-11-07 12:42:11
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 388090 bytes
 (epstopdf)             Output file: <figuras/metodologia-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-07 12:43:25
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 149033 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/metodologia-eps-co
 nverted-to.pdf figuras/metodologia.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/metodologia-eps-converted-to.pdf, id=1100, 705.63625pt x 1111.15125pt>
+<figuras/metodologia-eps-converted-to.pdf, id=1087, 705.63625pt x 1111.15125pt>
 File: figuras/metodologia-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/metodologia-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/metodologia-eps-converted-to.pdf used on input
@@ -1821,18 +1812,18 @@ Underfull \vbox (badness 2237) has occurred while \output is active []
 
 ] [64]
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao.eps>
-(epstopdf)                    date: 2014-11-07 19:34:05
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 101693 bytes
 (epstopdf)             Output file: <figuras/protocoloCorrelacao-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-11-07 20:38:14
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17345 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloCorrelaca
 o-eps-converted-to.pdf figuras/protocoloCorrelacao.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao-eps-converted-to.pdf, id=1235, 857.2025pt x 315.17
+<figuras/protocoloCorrelacao-eps-converted-to.pdf, id=1222, 857.2025pt x 315.17
 75pt>
 File: figuras/protocoloCorrelacao-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloCorrelacao-eps-converted-to.pdf>
@@ -1840,18 +1831,18 @@ Package pdftex.def Info: figuras/protocoloCorrelacao-eps-converted-to.pdf used
 on input line 67.
 (pdftex.def)             Requested size: 409.49722pt x 150.56209pt.
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao2.eps>
-(epstopdf)                    date: 2014-11-07 19:33:52
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 103738 bytes
 (epstopdf)             Output file: <figuras/protocoloCorrelacao2-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-07 20:38:15
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17248 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloCorrelaca
 o2-eps-converted-to.pdf figuras/protocoloCorrelacao2.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao2-eps-converted-to.pdf, id=1236, 840.13875pt x 310.
+<figuras/protocoloCorrelacao2-eps-converted-to.pdf, id=1223, 840.13875pt x 310.
 15875pt>
 File: figuras/protocoloCorrelacao2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1874,18 +1865,18 @@ l.81
       <./figuras/protocoloCorrelacao-eps-converted-to.pdf> <./figuras/protocolo
 Correlacao2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao3.eps>
-(epstopdf)                    date: 2014-11-07 19:33:37
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 248235 bytes
 (epstopdf)             Output file: <figuras/protocoloCorrelacao3-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-07 20:38:15
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 22121 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloCorrelaca
 o3-eps-converted-to.pdf figuras/protocoloCorrelacao3.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao3-eps-converted-to.pdf, id=1248, 1253.68375pt x 555
+<figuras/protocoloCorrelacao3-eps-converted-to.pdf, id=1235, 1253.68375pt x 555
 .07375pt>
 File: figuras/protocoloCorrelacao3-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1894,18 +1885,18 @@ Package pdftex.def Info: figuras/protocoloCorrelacao3-eps-converted-to.pdf used
  on input line 84.
 (pdftex.def)             Requested size: 409.49722pt x 181.30309pt.
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao4.eps>
-(epstopdf)                    date: 2014-11-07 19:33:24
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 322713 bytes
 (epstopdf)             Output file: <figuras/protocoloCorrelacao4-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-07 20:38:16
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 27214 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloCorrelaca
 o4-eps-converted-to.pdf figuras/protocoloCorrelacao4.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao4-eps-converted-to.pdf, id=1249, 1256.695pt x 604.2
+<figuras/protocoloCorrelacao4-eps-converted-to.pdf, id=1236, 1256.695pt x 604.2
 575pt>
 File: figuras/protocoloCorrelacao4-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1914,18 +1905,18 @@ Package pdftex.def Info: figuras/protocoloCorrelacao4-eps-converted-to.pdf used
  on input line 91.
 (pdftex.def)             Requested size: 409.49722pt x 196.89769pt.
 Package epstopdf Info: Source file: <figuras/protocoloMinimos.eps>
-(epstopdf)                    date: 2014-11-07 20:01:04
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 101643 bytes
 (epstopdf)             Output file: <figuras/protocoloMinimos-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-11-07 20:38:17
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17265 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMinimos-e
 ps-converted-to.pdf figuras/protocoloMinimos.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos-eps-converted-to.pdf, id=1252, 838.13126pt x 310.1587
+<figuras/protocoloMinimos-eps-converted-to.pdf, id=1239, 838.13126pt x 310.1587
 5pt>
 File: figuras/protocoloMinimos-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos-eps-converted-to.pdf>
@@ -1947,18 +1938,18 @@ l.108
        <./figuras/protocoloCorrelacao3-eps-converted-to.pdf> <./figuras/protoco
 loCorrelacao4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloMinimos2.eps>
-(epstopdf)                    date: 2014-11-07 20:00:53
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 101701 bytes
 (epstopdf)             Output file: <figuras/protocoloMinimos2-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-11-07 20:38:17
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17274 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMinimos2-
 eps-converted-to.pdf figuras/protocoloMinimos2.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos2-eps-converted-to.pdf, id=1263, 853.1875pt x 311.1625
+<figuras/protocoloMinimos2-eps-converted-to.pdf, id=1250, 853.1875pt x 311.1625
 pt>
 File: figuras/protocoloMinimos2-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos2-eps-converted-to.pdf>
@@ -1966,18 +1957,18 @@ Package pdftex.def Info: figuras/protocoloMinimos2-eps-converted-to.pdf used on
  input line 111.
 (pdftex.def)             Requested size: 409.49722pt x 149.3468pt.
 Package epstopdf Info: Source file: <figuras/protocoloMinimos3.eps>
-(epstopdf)                    date: 2014-11-07 20:00:41
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 274587 bytes
 (epstopdf)             Output file: <figuras/protocoloMinimos3-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-11-07 20:38:18
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 21375 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMinimos3-
 eps-converted-to.pdf figuras/protocoloMinimos3.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos3-eps-converted-to.pdf, id=1264, 1257.69875pt x 546.04
+<figuras/protocoloMinimos3-eps-converted-to.pdf, id=1251, 1257.69875pt x 546.04
 pt>
 File: figuras/protocoloMinimos3-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos3-eps-converted-to.pdf>
@@ -1985,18 +1976,18 @@ Package pdftex.def Info: figuras/protocoloMinimos3-eps-converted-to.pdf used on
  input line 120.
 (pdftex.def)             Requested size: 409.49722pt x 177.78584pt.
 Package epstopdf Info: Source file: <figuras/protocoloMinimos4.eps>
-(epstopdf)                    date: 2014-11-07 20:00:28
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 254855 bytes
 (epstopdf)             Output file: <figuras/protocoloMinimos4-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-11-07 20:38:18
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 20968 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMinimos4-
 eps-converted-to.pdf figuras/protocoloMinimos4.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos4-eps-converted-to.pdf, id=1265, 1256.695pt x 515.9275
+<figuras/protocoloMinimos4-eps-converted-to.pdf, id=1252, 1256.695pt x 515.9275
 pt>
 File: figuras/protocoloMinimos4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos4-eps-converted-to.pdf>
@@ -2025,18 +2016,18 @@ l.131
 nimos2-eps-converted-to.pdf> <./figuras/protocoloMinimos3-eps-converted-to.pdf>
 ]
 Package epstopdf Info: Source file: <figuras/protocoloFib.eps>
-(epstopdf)                    date: 2014-11-07 20:13:31
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 100272 bytes
 (epstopdf)             Output file: <figuras/protocoloFib-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-11-07 20:38:19
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17147 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloFib-eps-c
 onverted-to.pdf figuras/protocoloFib.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib-eps-converted-to.pdf, id=1281, 840.13875pt x 309.155pt>
+<figuras/protocoloFib-eps-converted-to.pdf, id=1268, 840.13875pt x 309.155pt>
 File: figuras/protocoloFib-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib-eps-converted-to.pdf>
@@ -2044,18 +2035,18 @@ Package pdftex.def Info: figuras/protocoloFib-eps-converted-to.pdf used on inpu
 t line 141.
 (pdftex.def)             Requested size: 409.49722pt x 150.68532pt.
 Package epstopdf Info: Source file: <figuras/protocoloFib2.eps>
-(epstopdf)                    date: 2014-11-07 20:13:23
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 101481 bytes
 (epstopdf)             Output file: <figuras/protocoloFib2-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-11-07 20:38:19
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17396 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloFib2-eps-
 converted-to.pdf figuras/protocoloFib2.eps>
 (epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib2-eps-converted-to.pdf, id=1282, 842.14626pt x 319.1925pt>
+<figuras/protocoloFib2-eps-converted-to.pdf, id=1269, 842.14626pt x 319.1925pt>
 File: figuras/protocoloFib2-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloFib2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloFib2-eps-converted-to.pdf used on inp
@@ -2079,18 +2070,18 @@ l.152
        <./figuras/protocoloMinimos4-eps-converted-to.pdf> <./figuras/protocoloF
 ib-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloFib3.eps>
-(epstopdf)                    date: 2014-11-07 20:13:06
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 244106 bytes
 (epstopdf)             Output file: <figuras/protocoloFib3-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-11-07 20:38:20
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 20780 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloFib3-eps-
 converted-to.pdf figuras/protocoloFib3.eps>
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib3-eps-converted-to.pdf, id=1293, 1256.695pt x 533.995pt>
+<figuras/protocoloFib3-eps-converted-to.pdf, id=1280, 1256.695pt x 533.995pt>
 File: figuras/protocoloFib3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib3-eps-converted-to.pdf>
@@ -2098,18 +2089,18 @@ Package pdftex.def Info: figuras/protocoloFib3-eps-converted-to.pdf used on inp
 ut line 157.
 (pdftex.def)             Requested size: 409.49722pt x 174.00261pt.
 Package epstopdf Info: Source file: <figuras/protocoloFib4.eps>
-(epstopdf)                    date: 2014-11-07 20:12:53
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 237131 bytes
 (epstopdf)             Output file: <figuras/protocoloFib4-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-11-07 20:38:21
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 18977 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloFib4-eps-
 converted-to.pdf figuras/protocoloFib4.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib4-eps-converted-to.pdf, id=1294, 1252.68pt x 541.02126pt>
+<figuras/protocoloFib4-eps-converted-to.pdf, id=1281, 1252.68pt x 541.02126pt>
 File: figuras/protocoloFib4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib4-eps-converted-to.pdf>
@@ -2134,36 +2125,36 @@ l.168
        <./figuras/protocoloFib2-eps-converted-to.pdf> <./figuras/protocoloFib3-
 eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloEst.eps>
-(epstopdf)                    date: 2014-11-07 20:14:08
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 103345 bytes
 (epstopdf)             Output file: <figuras/protocoloEst-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-11-07 20:38:21
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17300 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloEst-eps-c
 onverted-to.pdf figuras/protocoloEst.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst-eps-converted-to.pdf, id=1307, 840.13875pt x 294.09875pt>
+<figuras/protocoloEst-eps-converted-to.pdf, id=1294, 840.13875pt x 294.09875pt>
 File: figuras/protocoloEst-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloEst-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst-eps-converted-to.pdf used on inpu
 t line 178.
 (pdftex.def)             Requested size: 409.49722pt x 143.34676pt.
 Package epstopdf Info: Source file: <figuras/protocoloEst2.eps>
-(epstopdf)                    date: 2014-11-07 20:14:01
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 101299 bytes
 (epstopdf)             Output file: <figuras/protocoloEst2-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-11-07 20:38:22
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17337 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloEst2-eps-
 converted-to.pdf figuras/protocoloEst2.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst2-eps-converted-to.pdf, id=1308, 841.1425pt x 305.14pt>
+<figuras/protocoloEst2-eps-converted-to.pdf, id=1295, 841.1425pt x 305.14pt>
 File: figuras/protocoloEst2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloEst2-eps-converted-to.pdf>
@@ -2188,36 +2179,36 @@ l.189
        <./figuras/protocoloFib4-eps-converted-to.pdf> <./figuras/protocoloEst-e
 ps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloEst3.eps>
-(epstopdf)                    date: 2014-11-07 20:13:52
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 334415 bytes
 (epstopdf)             Output file: <figuras/protocoloEst3-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-11-07 20:38:22
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 25403 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloEst3-eps-
 converted-to.pdf figuras/protocoloEst3.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst3-eps-converted-to.pdf, id=1319, 1256.695pt x 569.12625pt>
+<figuras/protocoloEst3-eps-converted-to.pdf, id=1306, 1256.695pt x 569.12625pt>
 File: figuras/protocoloEst3-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloEst3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst3-eps-converted-to.pdf used on inp
 ut line 194.
 (pdftex.def)             Requested size: 409.49722pt x 185.45015pt.
 Package epstopdf Info: Source file: <figuras/protocoloEst4.eps>
-(epstopdf)                    date: 2014-11-07 20:13:40
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 306768 bytes
 (epstopdf)             Output file: <figuras/protocoloEst4-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-11-07 20:38:23
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 25334 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloEst4-eps-
 converted-to.pdf figuras/protocoloEst4.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst4-eps-converted-to.pdf, id=1320, 1253.68375pt x 510.90875p
+<figuras/protocoloEst4-eps-converted-to.pdf, id=1307, 1253.68375pt x 510.90875p
 t>
 File: figuras/protocoloEst4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloEst4-eps-converted-to.pdf>
@@ -2247,36 +2238,36 @@ i-a-��es com lu-cros de 43.55%
  []
 
 Package epstopdf Info: Source file: <figuras/protocoloMedia.eps>
-(epstopdf)                    date: 2014-11-07 20:12:26
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 102120 bytes
 (epstopdf)             Output file: <figuras/protocoloMedia-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-11-07 20:38:23
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17490 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMedia-eps
 -converted-to.pdf figuras/protocoloMedia.eps>
 (epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia-eps-converted-to.pdf, id=1334, 839.135pt x 308.15125pt>
+<figuras/protocoloMedia-eps-converted-to.pdf, id=1321, 839.135pt x 308.15125pt>
 File: figuras/protocoloMedia-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloMedia-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMedia-eps-converted-to.pdf used on in
 put line 216.
 (pdftex.def)             Requested size: 409.49722pt x 150.37476pt.
 Package epstopdf Info: Source file: <figuras/protocoloMedia2.eps>
-(epstopdf)                    date: 2014-11-07 20:12:11
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 101628 bytes
 (epstopdf)             Output file: <figuras/protocoloMedia2-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-11-07 20:38:24
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 17428 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMedia2-ep
 s-converted-to.pdf figuras/protocoloMedia2.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia2-eps-converted-to.pdf, id=1335, 853.1875pt x 307.1475pt
+<figuras/protocoloMedia2-eps-converted-to.pdf, id=1322, 853.1875pt x 307.1475pt
 >
 File: figuras/protocoloMedia2-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia2-eps-converted-to.pdf>
@@ -2301,18 +2292,18 @@ l.227
        <./figuras/protocoloEst4-eps-converted-to.pdf> <./figuras/protocoloMedia
 -eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloMedia3.eps>
-(epstopdf)                    date: 2014-11-07 20:12:01
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 289495 bytes
 (epstopdf)             Output file: <figuras/protocoloMedia3-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-11-07 20:38:25
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 22107 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMedia3-ep
 s-converted-to.pdf figuras/protocoloMedia3.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia3-eps-converted-to.pdf, id=1347, 1251.67625pt x 523.9575
+<figuras/protocoloMedia3-eps-converted-to.pdf, id=1333, 1251.67625pt x 523.9575
 pt>
 File: figuras/protocoloMedia3-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia3-eps-converted-to.pdf>
@@ -2320,18 +2311,18 @@ Package pdftex.def Info: figuras/protocoloMedia3-eps-converted-to.pdf used on i
 nput line 232.
 (pdftex.def)             Requested size: 409.49722pt x 171.41945pt.
 Package epstopdf Info: Source file: <figuras/protocoloMedia4.eps>
-(epstopdf)                    date: 2014-11-07 20:11:48
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 313068 bytes
 (epstopdf)             Output file: <figuras/protocoloMedia4-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-11-07 20:38:25
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 24160 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/protocoloMedia4-ep
 s-converted-to.pdf figuras/protocoloMedia4.eps>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia4-eps-converted-to.pdf, id=1348, 1254.6875pt x 495.8525p
+<figuras/protocoloMedia4-eps-converted-to.pdf, id=1334, 1254.6875pt x 495.8525p
 t>
 File: figuras/protocoloMedia4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia4-eps-converted-to.pdf>
@@ -2376,17 +2367,17 @@ l.47 \textbf{ US1 - Agente Correlação Linear}
                                                ] [76] [77] [78] [79] [80]
 [81]
 Package epstopdf Info: Source file: <figuras/componente.eps>
-(epstopdf)                    date: 2014-11-08 18:36:33
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 448971 bytes
 (epstopdf)             Output file: <figuras/componente-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-08 18:48:43
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 104783 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componente-eps-con
 verted-to.pdf figuras/componente.eps>
 (epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componente-eps-converted-to.pdf, id=1448, 857.2025pt x 697.60625pt>
+<figuras/componente-eps-converted-to.pdf, id=1434, 857.2025pt x 697.60625pt>
 File: figuras/componente-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/componente-eps-converted-to.pdf>
@@ -2398,17 +2389,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82]
 Package epstopdf Info: Source file: <figuras/classeOO.eps>
-(epstopdf)                    date: 2014-11-08 18:36:42
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 405527 bytes
 (epstopdf)             Output file: <figuras/classeOO-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-08 18:48:44
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 167892 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/classeOO-eps-conve
 rted-to.pdf figuras/classeOO.eps>
 (epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/classeOO-eps-converted-to.pdf, id=1458, 1095.09125pt x 625.33624pt>
+<figuras/classeOO-eps-converted-to.pdf, id=1445, 1095.09125pt x 625.33624pt>
 File: figuras/classeOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/classeOO-eps-converted-to.pdf>
@@ -2426,17 +2417,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 l.316 
        <./figuras/componente-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/sequenciaOO.eps>
-(epstopdf)                    date: 2014-11-08 18:35:00
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 280564 bytes
 (epstopdf)             Output file: <figuras/sequenciaOO-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-08 18:48:45
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 112760 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaOO-eps-co
 nverted-to.pdf figuras/sequenciaOO.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaOO-eps-converted-to.pdf, id=1470, 1000.73875pt x 586.19pt>
+<figuras/sequenciaOO-eps-converted-to.pdf, id=1457, 1000.73875pt x 586.19pt>
 File: figuras/sequenciaOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sequenciaOO-eps-converted-to.pdf>
@@ -2454,18 +2445,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 l.333 
        <./figuras/classeOO-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/componenteFuncional.eps>
-(epstopdf)                    date: 2014-11-08 18:36:18
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 95633 bytes
 (epstopdf)             Output file: <figuras/componenteFuncional-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-11-08 19:09:59
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 23599 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componenteFunciona
 l-eps-converted-to.pdf figuras/componenteFuncional.eps>
 (epstopdf)             \includegraphics on input line 349.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componenteFuncional-eps-converted-to.pdf, id=1486, 405.515pt x 312.166
+<figuras/componenteFuncional-eps-converted-to.pdf, id=1473, 405.515pt x 312.166
 24pt>
 File: figuras/componenteFuncional-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/componenteFuncional-eps-converted-to.pdf>
@@ -2480,18 +2471,18 @@ on input line 349.
 l.353 
        <./figuras/sequenciaOO-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/sequenciaFuncional.eps>
-(epstopdf)                    date: 2014-11-08 18:35:25
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 180605 bytes
 (epstopdf)             Output file: <figuras/sequenciaFuncional-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-11-08 19:09:59
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 70176 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaFuncional
 -eps-converted-to.pdf figuras/sequenciaFuncional.eps>
 (epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaFuncional-eps-converted-to.pdf, id=1495, 651.43375pt x 435.62
+<figuras/sequenciaFuncional-eps-converted-to.pdf, id=1482, 651.43375pt x 435.62
 75pt>
 File: figuras/sequenciaFuncional-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/sequenciaFuncional-eps-converted-to.pdf>
@@ -2515,18 +2506,18 @@ l.367 D
  <./figuras/componenteFuncional-eps-converted-to.pdf> <./figuras/sequenciaFunci
 onal-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/componenteEstruturado.eps>
-(epstopdf)                    date: 2014-11-09 15:32:14
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 106292 bytes
 (epstopdf)             Output file: <figuras/componenteEstruturado-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2014-11-09 15:56:02
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 23469 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componenteEstrutur
 ado-eps-converted-to.pdf figuras/componenteEstruturado.eps>
 (epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componenteEstruturado-eps-converted-to.pdf, id=1509, 405.515pt x 312.1
+<figuras/componenteEstruturado-eps-converted-to.pdf, id=1496, 405.515pt x 312.1
 6624pt>
 File: figuras/componenteEstruturado-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2535,18 +2526,18 @@ Package pdftex.def Info: figuras/componenteEstruturado-eps-converted-to.pdf use
 d on input line 373.
 (pdftex.def)             Requested size: 318.49861pt x 245.18918pt.
 Package epstopdf Info: Source file: <figuras/sequenciaEstruturado.eps>
-(epstopdf)                    date: 2014-11-08 18:35:37
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 180973 bytes
 (epstopdf)             Output file: <figuras/sequenciaEstruturado-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-08 19:21:03
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 71510 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaEstrutura
 do-eps-converted-to.pdf figuras/sequenciaEstruturado.eps>
 (epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaEstruturado-eps-converted-to.pdf, id=1510, 657.45625pt x 435.
+<figuras/sequenciaEstruturado-eps-converted-to.pdf, id=1497, 657.45625pt x 435.
 6275pt>
 File: figuras/sequenciaEstruturado-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2567,18 +2558,18 @@ l.383 A
  <./figuras/componenteEstruturado-eps-converted-to.pdf> <./figuras/sequenciaEst
 ruturado-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/diagramaClassesSMA.eps>
-(epstopdf)                    date: 2014-11-08 18:38:46
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 782068 bytes
 (epstopdf)             Output file: <figuras/diagramaClassesSMA-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-11-08 19:42:12
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 136595 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/diagramaClassesSMA
 -eps-converted-to.pdf figuras/diagramaClassesSMA.eps>
 (epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/diagramaClassesSMA-eps-converted-to.pdf, id=1524, 964.60374pt x 805.00
+<figuras/diagramaClassesSMA-eps-converted-to.pdf, id=1511, 964.60374pt x 805.00
 75pt>
 File: figuras/diagramaClassesSMA-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/diagramaClassesSMA-eps-converted-to.pdf>
@@ -2593,18 +2584,18 @@ n input line 391.
 l.401 
        <./figuras/diagramaClassesSMA-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/sequenciaLogico.eps>
-(epstopdf)                    date: 2014-11-09 09:56:27
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 150933 bytes
 (epstopdf)             Output file: <figuras/sequenciaLogico-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-11-09 09:56:44
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 59266 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaLogico-ep
 s-converted-to.pdf figuras/sequenciaLogico.eps>
 (epstopdf)             \includegraphics on input line 406.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaLogico-eps-converted-to.pdf, id=1535, 522.95375pt x 435.6275p
+<figuras/sequenciaLogico-eps-converted-to.pdf, id=1522, 522.95375pt x 435.6275p
 t>
 File: figuras/sequenciaLogico-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/sequenciaLogico-eps-converted-to.pdf>
@@ -2612,18 +2603,18 @@ Package pdftex.def Info: figuras/sequenciaLogico-eps-converted-to.pdf used on i
 nput line 406.
 (pdftex.def)             Requested size: 318.49861pt x 265.32027pt.
 Package epstopdf Info: Source file: <figuras/sequenciaMQL.eps>
-(epstopdf)                    date: 2014-11-09 09:49:26
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 168768 bytes
 (epstopdf)             Output file: <figuras/sequenciaMQL-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-11-09 09:56:45
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 64101 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequenciaMQL-eps-c
 onverted-to.pdf figuras/sequenciaMQL.eps>
 (epstopdf)             \includegraphics on input line 419.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaMQL-eps-converted-to.pdf, id=1537, 643.40375pt x 435.6275pt>
+<figuras/sequenciaMQL-eps-converted-to.pdf, id=1524, 643.40375pt x 435.6275pt>
 File: figuras/sequenciaMQL-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sequenciaMQL-eps-converted-to.pdf>
@@ -2641,17 +2632,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 l.423 
        <./figuras/sequenciaLogico-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/sequencia.eps>
-(epstopdf)                    date: 2014-11-08 18:36:05
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 694548 bytes
 (epstopdf)             Output file: <figuras/sequencia-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-08 19:42:13
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 275607 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/sequencia-eps-conv
 erted-to.pdf figuras/sequencia.eps>
 (epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequencia-eps-converted-to.pdf, id=1546, 1633.10126pt x 1012.78375pt>
+<figuras/sequencia-eps-converted-to.pdf, id=1533, 1633.10126pt x 1012.78375pt>
 File: figuras/sequencia-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sequencia-eps-converted-to.pdf>
@@ -2692,17 +2683,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 l.41 
      ]
 Package epstopdf Info: Source file: <figuras/telaInicial.eps>
-(epstopdf)                    date: 2014-11-09 16:36:07
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 217500 bytes
 (epstopdf)             Output file: <figuras/telaInicial-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-09 16:46:08
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 106080 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/telaInicial-eps-co
 nverted-to.pdf figuras/telaInicial.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/telaInicial-eps-converted-to.pdf, id=1572, 1246.6575pt x 655.44875pt>
+<figuras/telaInicial-eps-converted-to.pdf, id=1558, 1246.6575pt x 655.44875pt>
 File: figuras/telaInicial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/telaInicial-eps-converted-to.pdf>
@@ -2710,7 +2701,7 @@ Package pdftex.def Info: figuras/telaInicial-eps-converted-to.pdf used on input
  line 44.
 (pdftex.def)             Requested size: 409.49722pt x 215.29861pt.
 
-<figuras/testeHaskel.png, id=1574, 833.1125pt x 285.065pt>
+<figuras/testeHaskel.png, id=1560, 833.1125pt x 285.065pt>
 File: figuras/testeHaskel.png Graphic file (type png)
 
 <use figuras/testeHaskel.png>
@@ -2733,18 +2724,18 @@ l.64
 l.64 
       <./figuras/telaInicial-eps-converted-to.pdf> <./figuras/testeHaskel.png>]
 Package epstopdf Info: Source file: <figuras/coberturaEstruturado.eps>
-(epstopdf)                    date: 2014-11-09 13:19:08
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 173287 bytes
 (epstopdf)             Output file: <figuras/coberturaEstruturado-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-09 13:20:09
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 117476 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/coberturaEstrutura
 do-eps-converted-to.pdf figuras/coberturaEstruturado.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/coberturaEstruturado-eps-converted-to.pdf, id=1583, 1264.725pt x 380.4
+<figuras/coberturaEstruturado-eps-converted-to.pdf, id=1570, 1264.725pt x 380.4
 2125pt>
 File: figuras/coberturaEstruturado-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2753,18 +2744,18 @@ Package pdftex.def Info: figuras/coberturaEstruturado-eps-converted-to.pdf used
  on input line 69.
 (pdftex.def)             Requested size: 409.49722pt x 123.17105pt.
 Package epstopdf Info: Source file: <figuras/qualidadeEstruturado.eps>
-(epstopdf)                    date: 2014-11-09 13:19:21
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 72878 bytes
 (epstopdf)             Output file: <figuras/qualidadeEstruturado-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-11-09 13:20:09
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 20815 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/qualidadeEstrutura
 do-eps-converted-to.pdf figuras/qualidadeEstruturado.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/qualidadeEstruturado-eps-converted-to.pdf, id=1585, 868.24374pt x 170.
+<figuras/qualidadeEstruturado-eps-converted-to.pdf, id=1572, 868.24374pt x 170.
 6375pt>
 File: figuras/qualidadeEstruturado-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2773,18 +2764,18 @@ Package pdftex.def Info: figuras/qualidadeEstruturado-eps-converted-to.pdf used
  on input line 78.
 (pdftex.def)             Requested size: 409.49722pt x 80.48082pt.
 Package epstopdf Info: Source file: <figuras/estruturaSMA.eps>
-(epstopdf)                    date: 2014-11-09 13:27:20
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 76207 bytes
 (epstopdf)             Output file: <figuras/estruturaSMA-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-11-09 13:35:37
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 21278 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/estruturaSMA-eps-c
 onverted-to.pdf figuras/estruturaSMA.eps>
 (epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/estruturaSMA-eps-converted-to.pdf, id=1587, 319.1925pt x 324.21124pt>
+<figuras/estruturaSMA-eps-converted-to.pdf, id=1574, 319.1925pt x 324.21124pt>
 File: figuras/estruturaSMA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/estruturaSMA-eps-converted-to.pdf>
@@ -2806,17 +2797,17 @@ l.93
       <./figuras/coberturaEstruturado-eps-converted-to.pdf> <./figuras/qualidad
 eEstruturado-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/prologTests.eps>
-(epstopdf)                    date: 2014-11-09 17:10:24
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 186921 bytes
 (epstopdf)             Output file: <figuras/prologTests-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-09 17:11:27
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 130266 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/prologTests-eps-co
 nverted-to.pdf figuras/prologTests.eps>
 (epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/prologTests-eps-converted-to.pdf, id=1600, 727.71875pt x 458.71375pt>
+<figuras/prologTests-eps-converted-to.pdf, id=1587, 727.71875pt x 458.71375pt>
 File: figuras/prologTests-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/prologTests-eps-converted-to.pdf>
@@ -2838,18 +2829,18 @@ l.108
        <./figuras/estruturaSMA-eps-converted-to.pdf> <./figuras/prologTests-eps
 -converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/componenteMQL.eps>
-(epstopdf)                    date: 2014-11-09 13:27:31
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 298369 bytes
 (epstopdf)             Output file: <figuras/componenteMQL-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-11-09 13:40:03
+(epstopdf)                    date: 2014-11-22 11:40:49
 (epstopdf)                    size: 35690 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/componenteMQL-eps-
 converted-to.pdf figuras/componenteMQL.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componenteMQL-eps-converted-to.pdf, id=1612, 1305.87875pt x 423.5825pt
+<figuras/componenteMQL-eps-converted-to.pdf, id=1599, 1305.87875pt x 423.5825pt
 >
 File: figuras/componenteMQL-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/componenteMQL-eps-converted-to.pdf>
@@ -2893,7 +2884,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [109
 
-] [110] <apendices/Cronograma.pdf, id=1851, 845.55902pt x 599.84097pt>
+] [110] <apendices/Cronograma.pdf, id=1837, 845.55902pt x 599.84097pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf>
@@ -2906,7 +2897,7 @@ Package pdftex.def Info: apendices/Cronograma.pdf used on input line 6.
  [111
 
 ]
-<apendices/Cronograma.pdf, id=1858, page=1, 845.55902pt x 599.84097pt>
+<apendices/Cronograma.pdf, id=1844, page=1, 845.55902pt x 599.84097pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 1>
@@ -2931,7 +2922,7 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Cronograma.pdf, page1 used on input line 6.
 (pdftex.def)             Requested size: 597.8997pt x 424.15102pt.
  [112 <./apendices/Cronograma.pdf>]
-<apendices/Cronograma.pdf, id=1875, page=2, 845.55902pt x 599.84097pt>
+<apendices/Cronograma.pdf, id=1861, page=2, 845.55902pt x 599.84097pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 2>
@@ -2947,7 +2938,7 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Cronograma.pdf, page2 used on input line 6.
 (pdftex.def)             Requested size: 597.8997pt x 424.15102pt.
  [113 <./apendices/Cronograma.pdf>]
-<apendices/Cronograma.pdf, id=1881, page=3, 845.55902pt x 599.84097pt>
+<apendices/Cronograma.pdf, id=1867, page=3, 845.55902pt x 599.84097pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 3>
@@ -2963,7 +2954,7 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Cronograma.pdf, page3 used on input line 6.
 (pdftex.def)             Requested size: 597.8997pt x 424.15102pt.
  [114 <./apendices/Cronograma.pdf>]
-<apendices/Cronograma.pdf, id=1886, page=4, 845.55902pt x 599.84097pt>
+<apendices/Cronograma.pdf, id=1872, page=4, 845.55902pt x 599.84097pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 4>
@@ -2979,7 +2970,7 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Cronograma.pdf, page4 used on input line 6.
 (pdftex.def)             Requested size: 597.8997pt x 424.15102pt.
  [115 <./apendices/Cronograma.pdf>]
-<apendices/Cronograma.pdf, id=1891, page=5, 845.55902pt x 599.84097pt>
+<apendices/Cronograma.pdf, id=1877, page=5, 845.55902pt x 599.84097pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 5>
@@ -2995,7 +2986,7 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Cronograma.pdf, page5 used on input line 6.
 (pdftex.def)             Requested size: 597.8997pt x 424.15102pt.
  [116 <./apendices/Cronograma.pdf>]
-<apendices/Cronograma.pdf, id=1896, page=6, 845.55902pt x 599.84097pt>
+<apendices/Cronograma.pdf, id=1882, page=6, 845.55902pt x 599.84097pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 6>
@@ -3013,7 +3004,7 @@ Package pdftex.def Info: apendices/Cronograma.pdf, page6 used on input line 6.
  [117 <./apendices/Cronograma.pdf>]
 [118
 
-] <apendices/experimentos-mql.pdf, id=1905, 614.295pt x 794.97pt>
+] <apendices/experimentos-mql.pdf, id=1891, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf>
@@ -3024,7 +3015,7 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf used on input line 9.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-[119] <apendices/experimentos-mql.pdf, id=1913, page=1, 614.295pt x 794.97pt>
+[119] <apendices/experimentos-mql.pdf, id=1899, page=1, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 1>
@@ -3060,7 +3051,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1940, page=2, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1926, page=2, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 2>
@@ -3084,7 +3075,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1945, page=3, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1931, page=3, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 3>
@@ -3108,7 +3099,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1950, page=4, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1936, page=4, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 4>
@@ -3132,7 +3123,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1955, page=5, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1941, page=5, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 5>
@@ -3156,7 +3147,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1960, page=6, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1946, page=6, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 6>
@@ -3180,7 +3171,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1966, page=7, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1952, page=7, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 7>
@@ -3204,7 +3195,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1971, page=8, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1957, page=8, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 8>
@@ -3228,7 +3219,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1976, page=9, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1962, page=9, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 9>
@@ -3252,7 +3243,7 @@ ne 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1981, page=10, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1967, page=10, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 10>
@@ -3276,7 +3267,7 @@ ine 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1986, page=11, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1972, page=11, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 11>
@@ -3300,7 +3291,7 @@ ine 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1991, page=12, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1977, page=12, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 12>
@@ -3324,7 +3315,7 @@ ine 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=1997, page=13, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1983, page=13, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 13>
@@ -3348,7 +3339,7 @@ ine 9.
 pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <apendices/experimentos-mql.pdf, id=2002, page=14, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=1988, page=14, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 14>
@@ -3374,7 +3365,7 @@ pdfTeX warning: pdflatex (file ./apendices/experimentos-mql.pdf): PDF inclusion
 ed.
 >] [134
 
-] <apendices/ComponenteOO.pdf, id=2011, 614.295pt x 794.97pt>
+] <apendices/ComponenteOO.pdf, id=1997, 614.295pt x 794.97pt>
 File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteOO.pdf>
@@ -3385,7 +3376,7 @@ File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/ComponenteOO.pdf used on input line 12.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [135]
-<apendices/ComponenteOO.pdf, id=2018, page=1, 614.295pt x 794.97pt>
+<apendices/ComponenteOO.pdf, id=2004, page=1, 614.295pt x 794.97pt>
 File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteOO.pdf, page 1>
@@ -3420,7 +3411,7 @@ Package pdftex.def Info: apendices/ComponenteOO.pdf, page1 used on input line 1
 
 pdfTeX warning: pdflatex (file ./apendices/ComponenteOO.pdf): PDF inclusion: in
 valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/ComponenteOO.pdf, id=2034, page=2, 614.295pt x 794.97pt>
+>] <apendices/ComponenteOO.pdf, id=2020, page=2, 614.295pt x 794.97pt>
 File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteOO.pdf, page 2>
@@ -3443,7 +3434,7 @@ Package pdftex.def Info: apendices/ComponenteOO.pdf, page2 used on input line 1
 
 pdfTeX warning: pdflatex (file ./apendices/ComponenteOO.pdf): PDF inclusion: in
 valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/telasInvestMVC.pdf, id=2040, 614.295pt x 794.97pt>
+>] <apendices/telasInvestMVC.pdf, id=2026, 614.295pt x 794.97pt>
 File: apendices/telasInvestMVC.pdf Graphic file (type pdf)
 
 <use apendices/telasInvestMVC.pdf>
@@ -3454,7 +3445,7 @@ File: apendices/telasInvestMVC.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/telasInvestMVC.pdf used on input line 13.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/telasInvestMVC.pdf, id=2043, page=1, 614.295pt x 794.97pt>
+<apendices/telasInvestMVC.pdf, id=2029, page=1, 614.295pt x 794.97pt>
 File: apendices/telasInvestMVC.pdf Graphic file (type pdf)
 
 <use apendices/telasInvestMVC.pdf, page 1>
@@ -3490,7 +3481,7 @@ Package pdftex.def Info: apendices/telasInvestMVC.pdf, page1 used on input line
 pdfTeX warning: pdflatex (file ./apendices/telasInvestMVC.pdf): PDF inclusion: 
 invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
 .
->] <apendices/ComponenteFuncional.pdf, id=2056, 614.295pt x 794.97pt>
+>] <apendices/ComponenteFuncional.pdf, id=2042, 614.295pt x 794.97pt>
 File: apendices/ComponenteFuncional.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteFuncional.pdf>
@@ -3506,7 +3497,7 @@ Package pdftex.def Info: apendices/ComponenteFuncional.pdf used on input line 1
  [139
 
 ]
-<apendices/ComponenteFuncional.pdf, id=2063, page=1, 614.295pt x 794.97pt>
+<apendices/ComponenteFuncional.pdf, id=2049, page=1, 614.295pt x 794.97pt>
 File: apendices/ComponenteFuncional.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteFuncional.pdf, page 1>
@@ -3542,7 +3533,7 @@ Package pdftex.def Info: apendices/ComponenteFuncional.pdf, page1 used on input
 pdfTeX warning: pdflatex (file ./apendices/ComponenteFuncional.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
->] <apendices/ComponenteFuncional.pdf, id=2084, page=2, 614.295pt x 794.97pt>
+>] <apendices/ComponenteFuncional.pdf, id=2070, page=2, 614.295pt x 794.97pt>
 File: apendices/ComponenteFuncional.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteFuncional.pdf, page 2>
@@ -3569,7 +3560,7 @@ nored.
 >] [142
 
 ]
-<apendices/ComponenenteEstruturado.pdf, id=2099, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2084, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf>
@@ -3583,7 +3574,7 @@ Package pdftex.def Info: apendices/ComponenenteEstruturado.pdf used on input li
 ne 18.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [143]
-<apendices/ComponenenteEstruturado.pdf, id=2107, page=1, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2092, page=1, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 1>
@@ -3620,7 +3611,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2128, page=2, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2114, page=2, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 2>
@@ -3645,7 +3636,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2133, page=3, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2119, page=3, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 3>
@@ -3670,7 +3661,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2143, page=4, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2129, page=4, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 4>
@@ -3695,7 +3686,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2148, page=5, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2134, page=5, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 5>
@@ -3720,7 +3711,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2153, page=6, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2139, page=6, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 6>
@@ -3745,7 +3736,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2159, page=7, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2145, page=7, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 7>
@@ -3770,7 +3761,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2164, page=8, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2150, page=8, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 8>
@@ -3795,7 +3786,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2169, page=9, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2155, page=9, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 
 <use apendices/ComponenenteEstruturado.pdf, page 9>
@@ -3820,7 +3811,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2174, page=10, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2160, page=10, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 <use apendices/ComponenenteEstruturado.pdf, page 10>
 Package pdftex.def Info: apendices/ComponenenteEstruturado.pdf, page10 used on 
@@ -3844,7 +3835,7 @@ pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<apendices/ComponenenteEstruturado.pdf, id=2179, page=11, 614.295pt x 794.97pt>
+<apendices/ComponenenteEstruturado.pdf, id=2165, page=11, 614.295pt x 794.97pt>
 File: apendices/ComponenenteEstruturado.pdf Graphic file (type pdf)
 <use apendices/ComponenenteEstruturado.pdf, page 11>
 Package pdftex.def Info: apendices/ComponenenteEstruturado.pdf, page11 used on 
@@ -3867,7 +3858,7 @@ input line 18.
 pdfTeX warning: pdflatex (file ./apendices/ComponenenteEstruturado.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
->] <apendices/ComponenteMQL.pdf, id=2189, 614.295pt x 794.97pt>
+>] <apendices/ComponenteMQL.pdf, id=2175, 614.295pt x 794.97pt>
 File: apendices/ComponenteMQL.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteMQL.pdf>
@@ -3880,7 +3871,7 @@ Package pdftex.def Info: apendices/ComponenteMQL.pdf used on input line 21.
  [155
 
 ]
-<apendices/ComponenteMQL.pdf, id=2197, page=1, 614.295pt x 794.97pt>
+<apendices/ComponenteMQL.pdf, id=2183, page=1, 614.295pt x 794.97pt>
 File: apendices/ComponenteMQL.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteMQL.pdf, page 1>
@@ -3916,7 +3907,7 @@ Package pdftex.def Info: apendices/ComponenteMQL.pdf, page1 used on input line
 pdfTeX warning: pdflatex (file ./apendices/ComponenteMQL.pdf): PDF inclusion: i
 nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 
->] <apendices/ComponenteMQL.pdf, id=2213, page=2, 614.295pt x 794.97pt>
+>] <apendices/ComponenteMQL.pdf, id=2199, page=2, 614.295pt x 794.97pt>
 File: apendices/ComponenteMQL.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteMQL.pdf, page 2>
@@ -3976,7 +3967,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 590F94A8A0A72861628A8C9C6AED4992;7586.
+(rerunfilecheck)             Checksum: 54C1E8A33B5AC204E3592FB424AECADE;7542.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3984,32 +3975,31 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 14850 strings out of 493304
- 226375 string characters out of 6139870
- 353499 words of memory out of 5000000
- 17297 multiletter control sequences out of 15000+600000
- 90893 words of font info for 59 fonts, out of 8000000 for 9000
+ 14837 strings out of 493304
+ 226265 string characters out of 6139870
+ 353578 words of memory out of 5000000
+ 17291 multiletter control sequences out of 15000+600000
+ 87898 words of font info for 58 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 45i,18n,46p,997b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,18n,46p,966b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
-m/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
-12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
-pfb>
-Output written on tcc.pdf (164 pages, 3646454 bytes).
+m/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
+17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (164 pages, 3623720 bytes).
 PDF statistics:
- 2830 PDF objects out of 2984 (max. 8388607)
- 2406 compressed objects within 25 object streams
- 579 named destinations out of 1000 (max. 500000)
- 1575 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2795 PDF objects out of 2984 (max. 8388607)
+ 2373 compressed objects within 24 object streams
+ 574 named destinations out of 1000 (max. 500000)
+ 1535 words of extra memory for PDF output out of 10000 (max. 10000000)
 
