@@ -23,6 +23,7 @@ int main(){
 	
 	detectaRoboETipoDeGrafico();
 	metodoCorrelacao(quantidadeCandes);
+	printf("METODO CORRELACAO EM C LIGADO\n");
 	printf("Correlacao Linear em C: %f\n",metodoCorrelacao(quantidadeCandes));
 	
 	arquivo = fopen("calculoPearsonEmC.txt", "wt");

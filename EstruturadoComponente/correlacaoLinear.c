@@ -65,7 +65,7 @@ double metodoCorrelacao(int tempoCorrelacao){
            numeroAbcissa, numeroOrdenada,
            numerador, denominador_1,denominador; 
     
-	double leituraCotacoes[tempoCorrelacao];
+    double leituraCotacoes[tempoCorrelacao];
 		
     if( (strcmp(nomeTipoGrafico,"M1")) == 0)
             arquivo = fopen("tabela1Minuto.csv","rt"); 
