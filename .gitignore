@@ -1,2 +1,8 @@
 /metodosNumericosTeste/dist/
 /metodosNumericosTeste/build/
+
+#Arquivos compilados#
+*.class
+
+
+
