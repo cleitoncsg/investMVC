@@ -4,7 +4,6 @@
 
 <head>
 	<title><g:layoutTitle default="${meta(name:'app.name')}" /></title>
-	<div align="center" id="grailsLogo" role="banner"><a href="/InvestMVC/"><img src="${resource(dir: 'images', file: 'InvestMVC_logo.png')}" alt="Grails"/></a></div>
 	
     <meta charset="utf-8">
     <meta name="viewport"		content="width=device-width, initial-scale=1.0">

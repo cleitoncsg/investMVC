@@ -38,6 +38,12 @@ template {
   display: none;
 }
 
+.myhome{  
+  background: url('http://lerablog.org/wp-content/uploads/2013/06/forex-market.jpg');
+  height: auto !important;
+  min-height:100%;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -321,7 +327,7 @@ textarea {
 }
 
 a {
-  color: #9e0000;
+  color: #3276b1;
   text-decoration: none;
 }
 
@@ -4142,7 +4148,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #9e0000;
+  border-bottom: 1px solid #000000;
 }
 
 .nav-tabs > li {
@@ -4158,7 +4164,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #9e0000 #9e0000 #9e0000;
+  border-color: #3276b1 #3276b1 #3276b1;
 }
 
 .nav-tabs > li.active > a,
@@ -4167,7 +4173,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #000000;
   cursor: default;
   background-color: #ffffff;
-  border: 1px solid #9e0000;
+  border: 1px solid #3276b1;
   border-bottom-color: transparent;
 }
 
@@ -4208,12 +4214,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #9e0000;
+  border: 1px solid #3276b1;
 }
 
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #9e0000;
+    border-bottom: 1px solid #3276b1;
     border-radius: 4px 4px 0 0;
   }
   .nav-tabs.nav-justified > .active > a,
@@ -4291,12 +4297,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus {
-  border: 1px solid #9e0000;
+  border: 1px solid #3276b1;
 }
 
 @media (min-width: 768px) {
   .nav-tabs-justified > li > a {
-    border-bottom: 1px solid #9e0000;
+    border-bottom: 1px solid #3276b1;
     border-radius: 4px 4px 0 0;
   }
   .nav-tabs-justified > .active > a,

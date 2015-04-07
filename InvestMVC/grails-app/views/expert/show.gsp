@@ -1,5 +1,5 @@
 
-<%@ page import="investmvc.Expert" %>
+<%@ page import="investmvc.security.Expert" %>
 <!DOCTYPE html>
 <html>
 
@@ -19,15 +19,25 @@
 			<tr class="prop">
 				<td valign="top" class="name"><g:message code="expert.name.label" default="Name" /></td>
 				
-				<td valign="top" class="value">${fieldValue(bean: expertInstance, field: "name")}</td>
-				
+				<td valign="top" class="value">${fieldValue(bean: expertInstance, field: "name")}</td>			
 			</tr>
 		
 			<tr class="prop">
-				<td valign="top" class="name"><g:message code="expert.quote.label" default="Quote" /></td>
+				<td valign="top" class="name"><g:message code="expert.chartType.label" default="Chart Type" /></td>
 				
-				<td valign="top" class="value">${fieldValue(bean: expertInstance, field: "quote")}</td>
+				<td valign="top" class="value">${fieldValue(bean: expertInstance, field: "chartType")}</td>		
+			</tr>
+
+			<tr class="prop">
+				<td valign="top" class="name"><g:message code="expert.mathematicalMethods.label" default="Mathematical Methods" /></td>
 				
+				<td valign="top" class="value">${fieldValue(bean: expertInstance, field: "mathematicalMethods")}</td>			
+			</tr>
+		
+			<tr class="prop">
+				<td valign="top" class="name"><g:message code="expert.numberOfCandles.label" default="Number Of Candles" /></td>
+				
+				<td valign="top" class="value">${fieldValue(bean: expertInstance, field: "numberOfCandles")}</td>
 			</tr>
 		
 		</tbody>

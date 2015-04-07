@@ -1,4 +1,4 @@
-<%@ page import="investmvc.Expert" %>
+<%@ page import="investmvc.security.Expert" %>
 <!DOCTYPE html>
 <html>
 

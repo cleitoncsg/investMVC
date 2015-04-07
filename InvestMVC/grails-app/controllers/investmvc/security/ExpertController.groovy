@@ -50,10 +50,12 @@ class ExpertController {
             form {
                 flash.message = message(code: 'default.created.message', args: [message(code: 'expertInstance.label', default: 'Expert'), expertInstance.id])
                 redirect expertInstance
-                /*def relacao = new UserExpert(user: springSecurityService.getCurrentUser() ,expert: expertInstance, true)
+                def relacao = new UserExpert(user: springSecurityService.getCurrentUser() ,expert: expertInstance)
+                /*
                 print springSecurityService.getCurrentUser()
                 print expertInstance
-                print relacao*/
+                */
+                print relacao
             }
             '*' { respond expertInstance, [status: CREATED] }
         }

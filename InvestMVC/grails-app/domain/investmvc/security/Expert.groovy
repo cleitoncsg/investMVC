@@ -2,7 +2,7 @@ package investmvc.security
 
 class Expert {
 
-	static belongsTo = [user: User]
+	//static belongsTo = [user: User]
 
 	String name
 	String chartType

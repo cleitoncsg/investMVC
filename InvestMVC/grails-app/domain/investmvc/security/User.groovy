@@ -3,6 +3,7 @@ package investmvc.security
 class User {
 
 	transient springSecurityService
+	//static hasMany = [experts: Expert]
 
 	String username
 	String password
@@ -16,6 +17,7 @@ class User {
 	static constraints = {
 		username blank: false, unique: true
 		password blank: false
+		//experts (blank: true)
 	}
 
 	static mapping = {

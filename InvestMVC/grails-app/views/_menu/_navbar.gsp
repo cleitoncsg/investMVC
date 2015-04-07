@@ -10,23 +10,32 @@
 			</button>
 	
 			<a class="navbar-brand" href="${createLink(uri: '/')}">
-				<img class="logo" src="${resource(plugin: 'kickstart', dir:'images', file:'brand_logo.png')}" alt="${meta(name:'app.name')}" width="16px" height="16px"/> 
+				<img class="logo" src="${resource(plugin: 'kickstart', dir:'images', file:'brand_logo.png')}" alt="${meta(name:'app.name')}" width="24px" height="24px"/> 
 				${meta(name:'app.name')}
-				<small> v${meta(name:'app.version')}</small>
 			</a>
+
 		</div>
 
 		<div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
 
-		<ul class="nav navbar-nav">
+		<!--<ul class="nav navbar-nav">
 			<g:render template="/_menu/controller"/>
-		</ul>
+		</ul> -->
 
     	<ul class="nav navbar-nav navbar-right">
- 			<g:render template="/_menu/search"/> 
-			<g:render template="/_menu/admin"/>														
-			<g:render template="/_menu/info"/>														
-			<g:render template="/_menu/user"/><!-- NOTE: the renderDialog for the "Register" modal dialog MUST be placed outside the NavBar (at least for Bootstrap 2.1.1): see bottom of main.gsp -->
+    		<sec:ifNotLoggedIn>
+				<a class="navbar-brand" href="login/index">
+					<button type="button" class="btn btn-sm btn-success">Login</button></a>
+				<a class="navbar-brand" href="user/create">
+					<button type="button" class="btn btn-sm btn-primary">Register</button>
+				</a>
+			</sec:ifNotLoggedIn>
+			<sec:ifLoggedIn>
+				<a class="navbar-brand" href="logout/index">
+					<button type="button" class="btn btn-sm btn-danger">Logout</button>
+				</a>
+			</sec:ifLoggedIn>
+
 			<g:render template="/_menu/language"/>														
 	    </ul>			
 

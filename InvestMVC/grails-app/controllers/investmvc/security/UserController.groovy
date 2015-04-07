@@ -49,6 +49,9 @@ class UserController {
             form {
                 flash.message = message(code: 'default.created.message', args: [message(code: 'userInstance.label', default: 'User'), userInstance.id])
                 redirect userInstance
+                def roleAdmin = new Role(authority: "ROLE_USER") 
+                roleAdmin.save()
+                UserRole.create(userInstance, roleAdmin, true)
             }
             '*' { respond userInstance, [status: CREATED] }
         }
