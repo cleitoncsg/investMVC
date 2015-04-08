@@ -57,4 +57,17 @@ public class LeituraArquivo{
 		return metodo;
 	}
 	
+	public static double lerAlavancaProlog(){
+		double alavanca;
+		Scanner scanner = null;
+		
+		try {
+			scanner = new Scanner(new FileReader("../prologResposta.txt")).useDelimiter("\\||\\n");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		alavanca = Double.parseDouble(scanner.next());
+		return alavanca;
+	}
+	
 }

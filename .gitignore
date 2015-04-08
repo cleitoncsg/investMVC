@@ -1,5 +1,7 @@
+#Pastas#
 /metodosNumericosTeste/dist/
 /metodosNumericosTeste/build/
+/InvestMVC/.metadata/.plugins/org.eclipse.core.resources/
 
 #Arquivos compilados#
 *.class
