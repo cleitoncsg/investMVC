@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -20,6 +20,9 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -32,17 +35,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CorrelacaoAgente.java" partName="CorrelacaoAgente.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/metodosNumericos/CorrelacaoAgente.java" title="CorrelacaoAgente.java" tooltip="SMA/src/metodosNumericos/CorrelacaoAgente.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/metodosNumericos/CorrelacaoAgente.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="768" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" partName="LeituraArquivo.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/LeituraArquivo.java" title="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1788" selectionTopPixel="709"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EnviarCorrelacao.java" partName="EnviarCorrelacao.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/EnviarCorrelacao.java" title="EnviarCorrelacao.java" tooltip="SMA/src/comportamentosComuns/EnviarCorrelacao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/EnviarCorrelacao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="708" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Comprar.java" partName="Comprar.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/Comprar.java" title="Comprar.java" tooltip="SMA/src/comportamentosComuns/Comprar.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/Comprar.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="540" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vender.java" partName="Vender.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/Vender.java" title="Vender.java" tooltip="SMA/src/comportamentosComuns/Vender.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/Vender.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="310" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -53,6 +61,8 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (14 items)"/>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -233,11 +243,11 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -262,7 +272,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24980666" ratioLeft="323" ratioRight="970" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.8138138" ratioLeft="542" ratioRight="124" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7012012" ratioLeft="467" ratioRight="199" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -296,14 +306,168 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/CorrelacaoAgente.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/EnviarCorrelacao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/teste/TestaArquivo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/CorrelacaoAgente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/investidores/Tendencia.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/investidores/Vendendor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/Vender.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/EscreveArquivo.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=SMA/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/Comprar.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/teste/LeituraArquivoTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
 </editors>
-<item historyLabel="CorrelacaoAgente.java" index="0">
+<item historyLabel="CorrelacaoAgente.java" index="2">
 <position info="not_deleted" x="768" y="0"/>
 </item>
-<item active="true" historyLabel="EnviarCorrelacao.java" index="1">
-<position info="not_deleted" x="309" y="16"/>
+<item historyLabel="EnviarCorrelacao.java" index="0">
+<position info="not_deleted" x="883" y="0"/>
+</item>
+<item historyLabel="Tendencia.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Vendendor.java" index="4">
+<position info="not_deleted" x="343" y="0"/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position info="not_deleted" x="732" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="6">
+<position info="not_deleted" x="783" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="6">
+<position info="not_deleted" x="783" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="6">
+<position info="not_deleted" x="783" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="31" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="230" y="37"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="295" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="332" y="6"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="289" y="0"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="261" y="14"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="289" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="176" y="0"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="289" y="0"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="249" y="0"/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position info="not_deleted" x="732" y="0"/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position info="not_deleted" x="732" y="0"/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position/>
+</item>
+<item historyLabel="Throwable.class" index="8">
+<position info="not_deleted" x="26198" y="15"/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position info="not_deleted" x="371" y="361"/>
+</item>
+<item historyLabel="Comprar.java" index="9">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="LeituraArquivoTest.java" index="10">
+<position info="not_deleted" x="16" y="111"/>
+</item>
+<item historyLabel="TestaArquivo.java" index="1">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="LeituraArquivoTest.java" index="10">
+<position info="not_deleted" x="16" y="111"/>
+</item>
+<item historyLabel="Comprar.java" index="9">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position info="not_deleted" x="371" y="361"/>
+</item>
+<item historyLabel="EscreveArquivo.java" index="7">
+<position info="not_deleted" x="249" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="11">
+<position info="not_deleted" x="1807" y="0"/>
+</item>
+<item historyLabel="Comprar.java" index="9">
+<position info="not_deleted" x="256" y="53"/>
+</item>
+<item historyLabel="Vender.java" index="5">
+<position info="not_deleted" x="310" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="11">
+<position info="not_deleted" x="1807" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="11">
+<position info="not_deleted" x="1788" y="0"/>
+</item>
+<item historyLabel="Comprar.java" index="9">
+<position info="not_deleted" x="256" y="53"/>
+</item>
+<item historyLabel="Comprar.java" index="9">
+<position/>
+</item>
+<item active="true" historyLabel="Comprar.java" index="9">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -311,6 +475,14 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -322,11 +494,35 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EnviarCorrelacao.java" tooltip="SMA/src/comportamentosComuns/EnviarCorrelacao.java">
-<persistable path="/SMA/src/comportamentosComuns/EnviarCorrelacao.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vender.java" tooltip="SMA/src/comportamentosComuns/Vender.java">
+<persistable path="/SMA/src/comportamentosComuns/Vender.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CorrelacaoAgente.java" tooltip="SMA/src/metodosNumericos/CorrelacaoAgente.java">
-<persistable path="/SMA/src/metodosNumericos/CorrelacaoAgente.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Comprar.java" tooltip="SMA/src/comportamentosComuns/Comprar.java">
+<persistable path="/SMA/src/comportamentosComuns/Comprar.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java">
+<persistable path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivoTest.java" tooltip="SMA/src/teste/LeituraArquivoTest.java">
+<persistable path="/SMA/src/teste/LeituraArquivoTest.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Throwable.class" tooltip="java.lang.Throwable">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SMA/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestaArquivo.java" tooltip="SMA/src/teste/TestaArquivo.java">
+<persistable path="/SMA/src/teste/TestaArquivo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EscreveArquivo.java" tooltip="SMA/src/comportamentosComuns/EscreveArquivo.java">
+<persistable path="/SMA/src/comportamentosComuns/EscreveArquivo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vendendor.java" tooltip="SMA/src/investidores/Vendendor.java">
+<persistable path="/SMA/src/investidores/Vendendor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tendencia.java" tooltip="SMA/src/investidores/Tendencia.java">
+<persistable path="/SMA/src/investidores/Tendencia.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RodarComandos.java" tooltip="SMA/src/comportamentosComuns/RodarComandos.java">
+<persistable path="/SMA/src/comportamentosComuns/RodarComandos.java"/>
 </file>
 </mruList>
 </workbench>
