@@ -25,11 +25,11 @@ public class EnviarCorrelacao extends CyclicBehaviour {
 			
 			if(conteudo.equalsIgnoreCase("Pedido de informação")){
 				
-//				try {
-//					RodarComandos.rodarComandoNoTerminal("./correlacao");
-//				} catch (IOException e) {
-//					e.printStackTrace();
-//				}
+				try {
+					RodarComandos.rodarComandoNoTerminal("./../EstruturadoComponente/correlacaoLinear");
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 				
 				resposta.setContent(String.valueOf(correlacaoLinear));
 				myAgent.send(resposta);

@@ -13,7 +13,7 @@ public class LeituraArquivo{
 	static String tendencia;
 	
 	public static String leituraCorrelacao() throws IOException{
-		Scanner scanner = new Scanner(new FileReader("../CorrelacaoResposta.txt"))
+		Scanner scanner = new Scanner(new FileReader("../EstruturadoComponente/correlacaoResposta.txt"))
         .useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			correlacao = scanner.next();
@@ -42,14 +42,9 @@ public class LeituraArquivo{
 		return fibonacci;
 	}
 	
-	public static String leituraMetodo() {
+	public static String leituraMetodo() throws FileNotFoundException {
 		String metodo = new String();		
-		Scanner scanner = null;
-		try {
-			scanner = new Scanner(new FileReader("../criterioEntrada.txt")).useDelimiter("\\||\\n");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+		Scanner scanner = new Scanner(new FileReader("../criterioEntrada.txt")).useDelimiter("\\||\\n");
 		
 		while (scanner.hasNext()){
 			metodo = scanner.next();
@@ -68,6 +63,33 @@ public class LeituraArquivo{
 		}
 		alavanca = Double.parseDouble(scanner.next());
 		return alavanca;
+	}
+	
+	public static long lerTipoGrafico() {
+		long tempoEmMiliSegundos=0;
+		String tipoGrafico = new String();
+		Scanner scanner;
+		try {
+			scanner = new Scanner(new FileReader("../criterioEntrada.txt")).useDelimiter("\\||\\n");
+			scanner.nextLine();
+			tipoGrafico = scanner.nextLine();
+			System.out.println(tipoGrafico);
+			tempoEmMiliSegundos = converteTipoGraficoEmTempo(tipoGrafico);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		return tempoEmMiliSegundos;
+	}
+	
+	private static long converteTipoGraficoEmTempo(String tipoGrafico) {
+		
+		if(tipoGrafico == "M1"){
+			return 60000;
+		}
+		else if (tipoGrafico == "M5") {
+			return 60000*5;
+		}
+		else return 60000*60;
 	}
 	
 }

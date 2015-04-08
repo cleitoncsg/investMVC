@@ -1,5 +1,7 @@
 package execucao;
 
+import java.io.FileNotFoundException;
+
 import metodosNumericos.FibonacciAgente;
 import comportamentosComuns.LeituraArquivo;
 import jade.core.Agent;
@@ -41,7 +43,11 @@ public class Main extends Agent {
 
 		@Override
 		public void action() {
-			metodoNumericoEscolhido = LeituraArquivo.leituraMetodo();
+			try {
+				metodoNumericoEscolhido = LeituraArquivo.leituraMetodo();
+			} catch (FileNotFoundException e1) {
+				e1.printStackTrace();
+			}
 			try {				
 				criaAgenteMetodoNumerico();
 				

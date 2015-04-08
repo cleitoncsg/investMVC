@@ -1,0 +1,294 @@
+0	10:29:32.032	LiveUpdate : 'C:\windows\system32\MetaViewer64.dll' successfully unregistered
+0	10:29:32.057	LiveUpdate : MetaViewer was updated to 1035 build
+0	10:29:32.353	LiveUpdate : 'C:\windows\system32\MetaViewer64.dll' successfully registered
+0	10:29:32.354	LiveUpdate: file 'Z:\home\vanessa\investMVC\MetaViewer.dll' deleted
+0	10:29:32.355	LiveUpdate: file 'Z:\home\vanessa\investMVC\MetaViewer64.dll' deleted
+0	10:29:57.947	Migration: data to 'Z:\home\vanessa\investMVC' migration started
+0	10:29:57.947	Migration: experts migration from 'Z:\home\vanessa\investMVC' to 'Z:\home\vanessa\investMVC' started
+0	10:29:57.947	Migration: experts folder updated from 'Z:\home\vanessa\investMVC\experts' to 'Z:\home\vanessa\investMVC\MQL4\Experts'
+0	10:29:57.947	Migration: include folder updated from 'Z:\home\vanessa\investMVC\experts\include' to 'Z:\home\vanessa\investMVC\MQL4\Include'
+0	10:29:57.947	Migration: indicators folder updated from 'Z:\home\vanessa\investMVC\experts\indicators' to 'Z:\home\vanessa\investMVC\MQL4\Indicators'
+0	10:29:57.947	Migration: scripts folder updated from 'Z:\home\vanessa\investMVC\experts\scripts' to 'Z:\home\vanessa\investMVC\MQL4\Scripts'
+0	10:29:57.947	Migration: expert logs folder updated from 'Z:\home\vanessa\investMVC\experts\logs' to 'Z:\home\vanessa\investMVC\MQL4\Logs'
+0	10:29:57.948	Migration: expert files folder updated from 'Z:\home\vanessa\investMVC\experts\files' to 'Z:\home\vanessa\investMVC\MQL4\Files'
+0	10:29:57.948	Migration: libraries folder updated from 'Z:\home\vanessa\investMVC\experts\libraries' to 'Z:\home\vanessa\investMVC\MQL4\Libraries'
+0	10:29:57.948	Migration: expert presets folder updated from 'Z:\home\vanessa\investMVC\experts\presets' to 'Z:\home\vanessa\investMVC\MQL4\Presets'
+0	10:29:57.948	Migration: expert images folder updated from 'Z:\home\vanessa\investMVC\experts\images' to 'Z:\home\vanessa\investMVC\MQL4\Images'
+0	10:29:57.948	Migration: experts migration finished
+0	10:29:57.948	Migration: data migration finished, no virtual folder
+0	10:29:57.949	LiveUpdate: update Z:\home\vanessa\investMVC\MQL4 folder started
+0	10:29:57.951	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Experts/MACD Sample.mq4 updated
+0	10:29:57.952	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Experts/Moving Average.mq4 updated
+0	10:29:57.954	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/Array.mqh updated
+0	10:29:57.954	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayChar.mqh updated
+0	10:29:57.955	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayDouble.mqh updated
+0	10:29:57.956	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayFloat.mqh updated
+0	10:29:57.957	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayInt.mqh updated
+0	10:29:57.958	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayLong.mqh updated
+0	10:29:57.958	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayObj.mqh updated
+0	10:29:57.959	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayShort.mqh updated
+0	10:29:57.960	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/ArrayString.mqh updated
+0	10:29:57.961	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/List.mqh updated
+0	10:29:57.961	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/Tree.mqh updated
+0	10:29:57.962	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Arrays/TreeNode.mqh updated
+0	10:29:57.964	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Canvas/Canvas.mqh updated
+0	10:29:57.965	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObject.mqh updated
+0	10:29:57.966	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectPanel.mqh updated
+0	10:29:57.967	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsArrows.mqh updated
+0	10:29:57.968	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsBmpControls.mqh updated
+0	10:29:57.969	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsChannels.mqh updated
+0	10:29:57.969	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsFibo.mqh updated
+0	10:29:57.970	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsGann.mqh updated
+0	10:29:57.971	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsLines.mqh updated
+0	10:29:57.971	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsShapes.mqh updated
+0	10:29:57.972	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/ChartObjects/ChartObjectsTxtControls.mqh updated
+0	10:29:57.974	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Charts/Chart.mqh updated
+0	10:29:57.975	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/BmpButton.mqh updated
+0	10:29:57.975	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Button.mqh updated
+0	10:29:57.976	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/CheckBox.mqh updated
+0	10:29:57.976	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/CheckGroup.mqh updated
+0	10:29:57.977	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/ComboBox.mqh updated
+0	10:29:57.977	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/DateDropList.mqh updated
+0	10:29:57.978	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/DatePicker.mqh updated
+0	10:29:57.978	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Defines.mqh updated
+0	10:29:57.979	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Dialog.mqh updated
+0	10:29:57.979	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Edit.mqh updated
+0	10:29:57.980	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Label.mqh updated
+0	10:29:57.980	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/ListView.mqh updated
+0	10:29:57.980	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Panel.mqh updated
+0	10:29:57.981	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Picture.mqh updated
+0	10:29:57.981	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/RadioButton.mqh updated
+0	10:29:57.982	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/RadioGroup.mqh updated
+0	10:29:57.982	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Rect.mqh updated
+0	10:29:57.983	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/CheckBoxOff.bmp updated
+0	10:29:57.983	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/CheckBoxOn.bmp updated
+0	10:29:57.984	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/Close.bmp updated
+0	10:29:57.984	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/CloseDisable.bmp updated
+0	10:29:57.985	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/CloseOff.bmp updated
+0	10:29:57.985	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/CloseOn.bmp updated
+0	10:29:57.985	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/DateDropOff.bmp updated
+0	10:29:57.986	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/DateDropOn.bmp updated
+0	10:29:57.986	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/Down.bmp updated
+0	10:29:57.987	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/DownDisable.bmp updated
+0	10:29:57.987	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/DownSmall.bmp updated
+0	10:29:57.987	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/DownTransp.bmp updated
+0	10:29:57.988	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/down_smoll.bmp updated
+0	10:29:57.988	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/DropOff.bmp updated
+0	10:29:57.989	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/DropOn.bmp updated
+0	10:29:57.989	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/ExpandDisable.bmp updated
+0	10:29:57.989	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/ExpandOff.bmp updated
+0	10:29:57.990	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/ExpandOn.bmp updated
+0	10:29:57.990	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/HelpDisable.bmp updated
+0	10:29:57.991	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/HelpOff.bmp updated
+0	10:29:57.991	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/HelpOn.bmp updated
+0	10:29:57.991	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/Left.bmp updated
+0	10:29:57.992	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/LeftDisable.bmp updated
+0	10:29:57.992	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/LeftTransp.bmp updated
+0	10:29:57.993	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/RadioButtonOff.bmp updated
+0	10:29:57.993	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/RadioButtonOn.bmp updated
+0	10:29:57.994	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/Restore.bmp updated
+0	10:29:57.994	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/RestoreDisable.bmp updated
+0	10:29:57.994	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/RestoreOff.bmp updated
+0	10:29:57.995	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/RestoreOn.bmp updated
+0	10:29:57.995	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/Right.bmp updated
+0	10:29:57.996	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/RightDisable.bmp updated
+0	10:29:57.996	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/RightTransp.bmp updated
+0	10:29:57.997	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/SpinDec.bmp updated
+0	10:29:57.997	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/SpinInc.bmp updated
+0	10:29:57.998	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/ThumbHor.bmp updated
+0	10:29:57.998	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/ThumbHorDisable.bmp updated
+0	10:29:57.998	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/ThumbVert.bmp updated
+0	10:29:57.999	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/ThumbVertDisable.bmp updated
+0	10:29:57.999	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/Turn.bmp updated
+0	10:29:58.000	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/TurnOff.bmp updated
+0	10:29:58.000	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/TurnOn.bmp updated
+0	10:29:58.000	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/Up.bmp updated
+0	10:29:58.001	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/UpDisable.bmp updated
+0	10:29:58.001	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/UpSmall.bmp updated
+0	10:29:58.002	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/UpTransp.bmp updated
+0	10:29:58.002	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/res/up_smoll.bmp updated
+0	10:29:58.003	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Scrolls.mqh updated
+0	10:29:58.003	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/SpinEdit.mqh updated
+0	10:29:58.003	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/TimePicker.mqh updated
+0	10:29:58.004	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/Wnd.mqh updated
+0	10:29:58.004	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/WndClient.mqh updated
+0	10:29:58.005	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/WndContainer.mqh updated
+0	10:29:58.005	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Controls/WndObj.mqh updated
+0	10:29:58.006	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Files/File.mqh updated
+0	10:29:58.006	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Files/FileBin.mqh updated
+0	10:29:58.007	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Files/FilePipe.mqh updated
+0	10:29:58.007	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Files/FileTxt.mqh updated
+0	10:29:58.008	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/BillWilliams.mqh updated
+0	10:29:58.008	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/Custom.mqh updated
+0	10:29:58.008	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/Indicator.mqh updated
+0	10:29:58.009	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/Indicators.mqh updated
+0	10:29:58.009	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/Oscilators.mqh updated
+0	10:29:58.010	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/Series.mqh updated
+0	10:29:58.010	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/TimeSeries.mqh updated
+0	10:29:58.011	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/Trend.mqh updated
+0	10:29:58.011	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Indicators/Volumes.mqh updated
+0	10:29:58.012	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/MovingAverages.mqh updated
+0	10:29:58.012	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Object.mqh updated
+0	10:29:58.012	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/stderror.mqh updated
+0	10:29:58.013	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/stdlib.mqh updated
+0	10:29:58.013	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/StdLibErr.mqh updated
+0	10:29:58.013	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/Strings/String.mqh updated
+0	10:29:58.014	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Include/WinUser32.mqh updated
+0	10:29:58.014	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Accelerator.mq4 updated
+0	10:29:58.015	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Accumulation.mq4 updated
+0	10:29:58.015	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Alligator.mq4 updated
+0	10:29:58.015	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/ATR.mq4 updated
+0	10:29:58.016	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Awesome.mq4 updated
+0	10:29:58.016	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Bands.mq4 updated
+0	10:29:58.016	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Bears.mq4 updated
+0	10:29:58.017	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Bulls.mq4 updated
+0	10:29:58.017	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/CCI.mq4 updated
+0	10:29:58.017	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Custom Moving Averages.mq4 updated
+0	10:29:58.018	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Examples/SimplePanel/PanelDialog.mqh updated
+0	10:29:58.018	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Examples/SimplePanel/SimplePanel.mq4 updated
+0	10:29:58.019	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Heiken Ashi.mq4 updated
+0	10:29:58.019	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Ichimoku.mq4 updated
+0	10:29:58.019	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/iExposure.mq4 updated
+0	10:29:58.020	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/MACD.mq4 updated
+0	10:29:58.020	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Momentum.mq4 updated
+0	10:29:58.020	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/OsMA.mq4 updated
+0	10:29:58.020	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Parabolic.mq4 updated
+0	10:29:58.021	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/RSI.mq4 updated
+0	10:29:58.021	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/Stochastic.mq4 updated
+0	10:29:58.021	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Indicators/ZigZag.mq4 updated
+0	10:29:58.022	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Libraries/stdlib.mq4 updated
+0	10:29:58.023	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Scripts/Examples/DLL/DLLSample.cpp updated
+0	10:29:58.023	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Scripts/Examples/DLL/DLLSample.def updated
+0	10:29:58.023	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Scripts/Examples/DLL/DLLSampleTester.mq4 updated
+0	10:29:58.025	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Scripts/Examples/DLL/Libraries/DLLSample.dll updated
+0	10:29:58.025	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Scripts/Examples/Pipes/PipeClient.mq4 updated
+0	10:29:58.026	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Scripts/Examples/Pipes/PipeClientPure.mq4 updated
+0	10:29:58.026	LiveUpdate: Z:\home\vanessa\investMVC\MQL4/Scripts/PeriodConverter.mq4 updated
+0	10:29:58.026	LiveUpdate: update Z:\home\vanessa\investMVC\MQL4 folder finished
+0	10:29:59.890	FxPro MT4 build 765 started (FXPRO Financial Services Ltd)
+0	10:29:59.890	Data Folder: Z:\home\vanessa\investMVC
+0	10:36:04.920	'6568883': login on FxProcom-Demo01 through Fx - Demo01.DC1
+0	10:36:31.354	'6568883': ping to current access point Fx - Demo01.DC07 is 280.20 ms
+1	10:39:07.850	'6568883': ping failed
+1	10:39:09.546	'6568883': connect failed [Sem conexão]
+0	10:42:34.920	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC01
+0	10:42:37.637	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC01
+0	10:42:38.347	'6568883': previous successful authorization performed from 189.40.90.215
+0	10:45:55.489	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC01
+0	10:45:56.916	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC01
+0	10:45:59.530	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC01
+0	10:46:00.189	'6568883': previous successful authorization performed from 189.40.90.43
+2	10:49:28.644	Expert investMVC EURUSD,H4: loaded successfully
+2	10:52:30.678	Expert investMVC EURUSD,M5: removed
+2	10:52:30.681	Expert investMVC EURUSD,M5: loaded successfully
+2	10:54:08.934	Expert investMVC EURUSD,M5: removed
+2	10:54:08.936	Expert investMVC EURUSD,M5: loaded successfully
+0	10:54:30.432	Automated trading enabled
+2	10:54:38.703	Expert investMVC EURUSD,M5: removed
+2	10:54:38.707	Expert investMVC EURUSD,M5: loaded successfully
+2	10:58:03.646	Expert investMVC EURUSD,M5: removed
+2	10:58:03.647	Expert investMVC EURUSD,M5: loaded successfully
+2	11:01:12.290	Expert investMVC EURUSD,M5: removed
+2	11:01:12.291	Expert investMVC EURUSD,M5: loaded successfully
+2	11:01:24.803	Expert investMVC EURUSD,M5: removed
+2	11:01:24.806	Expert investMVC EURUSD,M5: loaded successfully
+2	11:02:17.598	Expert investMVC EURUSD,M5: removed
+2	11:02:17.600	Expert investMVC EURUSD,M5: loaded successfully
+2	11:02:28.284	Expert investMVC EURUSD,M5: removed
+2	11:02:28.287	Expert investMVC EURUSD,M5: loaded successfully
+2	11:03:16.719	Expert investMVC EURUSD,M5: removed
+2	11:03:16.723	Expert investMVC EURUSD,M5: loaded successfully
+2	11:04:36.289	Expert investMVC EURUSD,M5: removed
+2	11:04:36.291	Expert investMVC EURUSD,M5: loaded successfully
+2	11:05:03.813	Expert investMVC EURUSD,M5: removed
+2	11:05:03.815	Expert investMVC EURUSD,M5: loaded successfully
+2	11:05:42.828	Expert investMVC EURUSD,M5: removed
+2	11:05:42.830	Expert investMVC EURUSD,M5: loaded successfully
+2	11:07:16.752	Expert investMVC EURUSD,M5: removed
+2	11:07:16.754	Expert investMVC EURUSD,M5: loaded successfully
+0	11:18:02.752	'6568883': login datacenter on FxPro.com-Demo01
+0	11:25:41.082	FxPro MT4 build 765 started (FXPRO Financial Services Ltd)
+0	11:25:41.082	Data Folder: Z:\home\vanessa\investMVC
+2	11:25:42.433	Expert investMVC EURUSD,M5: loaded successfully
+1	11:25:43.049	'6568883': connect failed [Sem conexão]
+2	12:36:13.700	Expert investMVC EURUSD,M5: removed
+2	12:36:13.703	Expert investMVC EURUSD,M5: loaded successfully
+2	12:36:21.938	Expert investMVC EURUSD,M5: removed
+2	12:36:21.942	Expert investMVC EURUSD,M5: loaded successfully
+0	12:38:05.991	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC06
+1	12:39:12.775	'6568883': connect failed [Sem conexão]
+0	12:39:18.929	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC03
+0	12:39:21.260	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC03
+0	12:39:21.773	'6568883': previous successful authorization performed from 164.41.94.182
+0	12:40:31.728	'6568883': auto connecting to a better access point Fx - Demo01.DC01 (ping is 230.72 ms)
+0	12:40:32.749	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC01
+0	12:40:34.473	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC01
+0	12:40:35.078	'6568883': previous successful authorization performed from 164.41.94.182
+2	12:41:00.524	Expert investMVC EURUSD,M5: removed
+2	12:41:00.529	Expert investMVC EURUSD,M5: loaded successfully
+2	12:41:53.312	Expert investMVC EURUSD,M5: removed
+2	12:41:53.315	Expert investMVC EURUSD,M5: loaded successfully
+2	12:44:58.518	Expert investMVC EURUSD,M5: removed
+2	12:44:58.522	Expert investMVC EURUSD,M5: loaded successfully
+2	12:47:45.523	Expert investMVC EURUSD,M5: removed
+2	12:47:45.525	Expert investMVC EURUSD,M5: loaded successfully
+2	12:48:02.793	Expert investMVC EURUSD,M5: removed
+2	12:48:02.795	Expert investMVC EURUSD,M5: loaded successfully
+2	12:48:53.038	Expert investMVC EURUSD,M5: removed
+2	12:48:53.041	Expert investMVC EURUSD,M5: loaded successfully
+2	12:48:56.686	Expert investMVC EURUSD,M5: removed
+2	12:48:56.691	Expert investMVC EURUSD,M5: loaded successfully
+2	12:50:06.500	Expert investMVC EURUSD,M5: removed
+2	12:50:06.503	Expert investMVC EURUSD,M5: loaded successfully
+2	12:53:29.649	Expert investMVC EURUSD,M5: removed
+2	12:53:29.652	Expert investMVC EURUSD,M5: loaded successfully
+0	12:53:34.968	'6568883': instant order sell 0.95 EURUSD at 1.08173 sl: 0.00000 tp: 0.00000
+0	12:53:39.833	'6568883': order was opened : #125239189 sell 0.95 EURUSD at 1.08173 sl: 0.00000 tp: 0.00000
+0	12:53:51.993	Automated trading disabled
+0	12:53:58.754	'6568883': one click trading has been enabled
+0	12:54:02.788	'6568883': close order #125239189 sell 0.95 EURUSD at 1.08173 sl: 0.00000 tp: 0.00000 at price 1.08179
+0	12:54:16.168	'6568883': order #125239189 sell 0.95 EURUSD at 1.08173 sl: 0.00000 tp: 0.00000 closed at price 1.08179
+0	12:55:07.869	'6569022': login on FxProcom-Demo01 through Fx - Demo01.DC1
+2	12:55:11.295	Expert investMVC EURUSD,M5: removed
+2	12:55:11.298	Expert investMVC EURUSD,M5: loaded successfully
+2	12:55:35.176	Expert investMVC EURUSD,M5: removed
+2	12:55:35.180	Expert investMVC EURUSD,M5: loaded successfully
+1	12:56:23.269	'6569022': connect failed [Sem conexão]
+1	12:56:39.402	Signal: '6568883': failed get list of signals,connection error
+1	13:00:01.855	Signal: '6568883': failed get list of signals,connection error
+1	13:05:01.847	Signal: '6568883': failed get list of signals,connection error
+1	13:10:01.865	Signal: '6568883': failed get list of signals,connection error
+0	13:14:49.072	'6569022': login on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	13:15:04.404	'6569022': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	13:15:06.163	'6569022': previous successful authorization performed from 164.41.94.182
+0	13:15:06.163	'6569022': one click trading has been disabled
+0	13:15:55.324	'6569022': ping to current access point Fx - Demo01.DC05 is 853.73 ms
+2	13:16:13.555	Expert investMVC EURUSD,M5: removed
+2	13:16:13.558	Expert investMVC EURUSD,M5: loaded successfully
+2	13:16:44.564	Expert investMVC EURUSD,M5: removed
+2	13:16:44.567	Expert investMVC EURUSD,M5: loaded successfully
+2	13:17:27.740	Expert investMVC EURUSD,M5: removed
+2	13:17:27.742	Expert investMVC EURUSD,M5: loaded successfully
+1	13:35:21.872	Signal: '6569022': failed get list of signals,connection error
+1	13:40:01.855	Signal: '6569022': failed get list of signals,connection error
+0	13:41:24.286	Automated trading enabled
+1	13:45:01.857	Signal: '6569022': failed get list of signals,connection error
+1	13:50:01.862	Signal: '6569022': failed get list of signals,connection error
+1	13:50:21.897	'6569022': connect failed [Sem conexão]
+1	13:55:01.856	Signal: '6569022': failed get list of signals,connection error
+1	14:00:01.874	Signal: '6569022': failed get list of signals,connection error
+0	14:01:15.451	'6569022': login on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	14:01:26.617	'6569022': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	14:01:29.538	'6569022': previous successful authorization performed from 189.40.91.239
+2	14:01:51.044	Expert investMVC EURUSD,M5: removed
+2	14:01:51.047	Expert investMVC EURUSD,M5: loaded successfully
+2	14:02:06.937	Expert investMVC EURUSD,M5: removed
+2	14:02:06.939	Expert investMVC EURUSD,M5: loaded successfully
+2	14:02:45.407	Expert investMVC EURUSD,M5: removed
+2	14:02:45.411	Expert investMVC EURUSD,M5: loaded successfully
+0	14:03:26.195	'6569022': instant order sell 0.95 EURUSD at 1.08187 sl: 0.00000 tp: 0.00000
+0	14:04:21.139	'6569022': instant order sell 0.95 EURUSD at 1.08187 sl: 0.00000 tp: 0.00000
+0	14:04:38.882	'6569022': instant order buy 0.95 EURUSD at 1.08203 sl: 0.00000 tp: 0.00000
+1	14:05:01.852	Signal: '6569022': failed get list of signals,connection error
+2	14:05:15.538	Expert investMVC EURUSD,M5: removed
+0	14:05:16.399	FxPro MT4 build 765 stopped

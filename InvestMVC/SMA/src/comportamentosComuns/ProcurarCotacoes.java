@@ -1,5 +1,6 @@
 package comportamentosComuns;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import jade.core.AID;
 import jade.core.Agent;
@@ -13,7 +14,7 @@ import jade.lang.acl.ACLMessage;
 public class ProcurarCotacoes extends TickerBehaviour {
 	
 	public static String metodoUsado = new String();
-	public ProcurarCotacoes(Agent a, long period) {
+	public ProcurarCotacoes(Agent a, long period) throws FileNotFoundException {
 		super(a, period);
 		metodoUsado = LeituraArquivo.leituraMetodo();
 	}

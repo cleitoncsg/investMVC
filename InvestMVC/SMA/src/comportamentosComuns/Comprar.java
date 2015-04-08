@@ -14,7 +14,7 @@ public class Comprar extends CyclicBehaviour {
 		ACLMessage msg = myAgent.receive();
 		if(msg !=null){
 			try {
-			RodarComandos.rodarComandoNoTerminal("./baseDeConhecimento");
+			//RodarComandos.rodarComandoNoTerminal("./baseDeConhecimento");
 			//para compilar um arquivo .pl:
 			//% swipl -o exe -g meuFato -c hello.pl
 			//% ./myexe

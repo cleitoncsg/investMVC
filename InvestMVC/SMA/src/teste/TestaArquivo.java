@@ -10,7 +10,7 @@ public class TestaArquivo {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		EscreveArquivo.escreveDecisao("vender", 0.5);
+		LeituraArquivo.lerTipoGrafico();
 	}
 
 }
