@@ -1,5 +1,7 @@
 package comportamentosComuns;
 
+import java.io.IOException;
+
 import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 
@@ -22,6 +24,12 @@ public class EnviarCorrelacao extends CyclicBehaviour {
 			String conteudo = msg.getContent();
 			
 			if(conteudo.equalsIgnoreCase("Pedido de informação")){
+				
+//				try {
+//					RodarComandos.rodarComandoNoTerminal("./correlacao");
+//				} catch (IOException e) {
+//					e.printStackTrace();
+//				}
 				
 				resposta.setContent(String.valueOf(correlacaoLinear));
 				myAgent.send(resposta);

@@ -1,0 +1,10 @@
+package comportamentosComuns;
+
+import java.io.IOException;
+
+public class RodarComandos {
+	
+	public static void rodarComandoNoTerminal(String comando) throws IOException{
+		Runtime.getRuntime().exec(comando); 
+	}
+}

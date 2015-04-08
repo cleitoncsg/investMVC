@@ -51,11 +51,7 @@ class ExpertController {
                 flash.message = message(code: 'default.created.message', args: [message(code: 'expertInstance.label', default: 'Expert'), expertInstance.id])
                 redirect expertInstance
                 def relacao = new UserExpert(user: springSecurityService.getCurrentUser() ,expert: expertInstance)
-                /*
-                print springSecurityService.getCurrentUser()
-                print expertInstance
-                */
-                print relacao
+                relacao.save()
             }
             '*' { respond expertInstance, [status: CREATED] }
         }
@@ -115,5 +111,26 @@ class ExpertController {
             }
             '*'{ render status: NOT_FOUND }
         }
+    }
+
+    def ativarExpert(Expert expertInstance){
+
+        def arquivo ="criterioEntrada.txt"
+        File limpaArquivo = new File(arquivo)
+        File gravaArquivo = new File(arquivo)
+
+        flash.message = "Expert "+expertInstance.name.toString()+" actived!"
+                redirect action:"index"
+
+        limpaArquivo.write("")
+        gravaArquivo.append(expertInstance.getName())
+        gravaArquivo.append("\n")
+        gravaArquivo.append(expertInstance.getChartType())
+        gravaArquivo.append("\n")
+        gravaArquivo.append(expertInstance.getNumberOfCandles())
+        gravaArquivo.append("\n")
+        gravaArquivo.append(expertInstance.getMathematicalMethods())
+        gravaArquivo.append("\n")
+     
     }
 }
