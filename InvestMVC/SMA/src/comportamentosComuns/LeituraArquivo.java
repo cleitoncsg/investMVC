@@ -33,7 +33,7 @@ public class LeituraArquivo{
 	
 	public static ArrayList<String> leituraFibonacci() throws FileNotFoundException{
 		ArrayList<String> fibonacci = new ArrayList<String>();
-		Scanner scanner = new Scanner(new FileReader("../FibonacciResposta.txt"));
+		Scanner scanner = new Scanner(new FileReader("../EstruturadoComponente/FibonacciResposta.txt"));
 		
 		fibonacci.add(scanner.next());
 		fibonacci.add(scanner.next());
