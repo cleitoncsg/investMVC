@@ -13,6 +13,8 @@ class UrlMappings {
 		"/terms"		(view:"/siteinfo/terms")
 		"/imprint"		(view:"/siteinfo/imprint")
 		"/nextSteps"	(view:"/home/nextSteps")
+		"/faq"			(view:"/home/faq")
+		"/conceitos"		(view:"/home/conceitos")
 
 
 		/*
@@ -37,6 +39,11 @@ class UrlMappings {
         	view		= {'index'}
         }
 
+        "/register"{
+        	controller	= 'user'
+        	action		= {'create'}
+        	view		= {'create'}
+        }
 
 		"/$controller/$action?/$id?"{
 			constraints {

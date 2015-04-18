@@ -26,9 +26,11 @@
     		<sec:ifNotLoggedIn>
 				<a class="navbar-brand" href="${createLink(uri: '/login')}">
 					<button type="button" class="btn btn-sm btn-success">Login</button></a>
-				<a class="navbar-brand" href="user/create">
+
+				<a class="navbar-brand" href="${createLink(uri: '/register')}">
 					<button type="button" class="btn btn-sm btn-primary">Register</button>
 				</a>
+
 			</sec:ifNotLoggedIn>
 			<sec:ifLoggedIn>
 				<a class="navbar-brand" href="${createLink(uri: '/logout')}">
