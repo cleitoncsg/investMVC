@@ -73,7 +73,6 @@ public class LeituraArquivo{
 			scanner = new Scanner(new FileReader("../criterioEntrada.txt")).useDelimiter("\\||\\n");
 			scanner.nextLine();
 			tipoGrafico = scanner.nextLine();
-			System.out.println(tipoGrafico);
 			tempoEmMiliSegundos = converteTipoGraficoEmTempo(tipoGrafico);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

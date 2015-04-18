@@ -1,0 +1,18 @@
+0	09:33:28.685	FxPro MT4 build 765 started (FXPRO Financial Services Ltd)
+0	09:33:28.685	Data Folder: Z:\home\vanessa\investMVC
+2	09:33:32.623	Expert investMVC EURUSD,M5: loaded successfully
+0	09:33:35.151	'6569022': login on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	09:33:40.605	'6569022': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	09:33:41.698	'6569022': previous successful authorization performed from 189.40.91.98
+0	09:33:47.075	'6568883': one click trading has been enabled
+0	09:33:47.293	Automated trading disabled
+3	09:33:47.294	Automated trading disabled because the account has been changed
+0	09:33:48.760	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	09:33:52.980	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC05
+0	09:33:54.072	'6568883': previous successful authorization performed from 164.41.94.182
+0	09:33:57.616	'6569022': auto connecting to a better access point Fx - Demo01.DC07 (ping is 229.77 ms)
+0	09:33:59.308	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC07
+0	09:34:03.200	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC07
+0	09:34:04.150	'6568883': previous successful authorization performed from 179.187.101.112
+2	09:43:30.328	Expert investMVC EURUSD,M5: removed
+0	09:43:30.912	FxPro MT4 build 765 stopped

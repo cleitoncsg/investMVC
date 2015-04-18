@@ -24,14 +24,14 @@
 
     	<ul class="nav navbar-nav navbar-right">
     		<sec:ifNotLoggedIn>
-				<a class="navbar-brand" href="login/index">
+				<a class="navbar-brand" href="${createLink(uri: '/login')}">
 					<button type="button" class="btn btn-sm btn-success">Login</button></a>
 				<a class="navbar-brand" href="user/create">
 					<button type="button" class="btn btn-sm btn-primary">Register</button>
 				</a>
 			</sec:ifNotLoggedIn>
 			<sec:ifLoggedIn>
-				<a class="navbar-brand" href="logout/index">
+				<a class="navbar-brand" href="${createLink(uri: '/logout')}">
 					<button type="button" class="btn btn-sm btn-danger">Logout</button>
 				</a>
 			</sec:ifLoggedIn>

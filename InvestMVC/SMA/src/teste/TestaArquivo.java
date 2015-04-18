@@ -10,7 +10,7 @@ public class TestaArquivo {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		LeituraArquivo.lerTipoGrafico();
+		System.out.println("Hello :D");
 	}
 
 }

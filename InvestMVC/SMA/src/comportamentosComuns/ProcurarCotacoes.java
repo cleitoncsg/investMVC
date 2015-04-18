@@ -49,6 +49,13 @@ public class ProcurarCotacoes extends TickerBehaviour {
 	private void mandarMensagens(){
 		ACLMessage msg = new ACLMessage (ACLMessage.INFORM);
 		for(int i=0; i < metodoNumerico.length; i++){
+			
+			try {
+				Runtime.getRuntime().exec("cls");
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+			
 			System.out.println("Foi achado o Agente: "+metodoNumerico[i]);
 			msg.addReceiver(metodoNumerico[i]);
 			try {

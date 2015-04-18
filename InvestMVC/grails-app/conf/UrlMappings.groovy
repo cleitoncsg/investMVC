@@ -14,6 +14,7 @@ class UrlMappings {
 		"/imprint"		(view:"/siteinfo/imprint")
 		"/nextSteps"	(view:"/home/nextSteps")
 
+
 		/*
 		 * Pages with controller
 		 * WARN: No domain/controller should be named "api" or "mobile" or "web"!
@@ -23,6 +24,20 @@ class UrlMappings {
 			action		= { 'index' }
             view		= { 'index' }
         }
+
+        "/login"{
+        	controller	= 'login'
+        	action		= {'auth'}
+        	view		= {'index'}
+        }
+
+        "/logout"{
+        	controller	= 'logout'
+        	action		= {'index'}
+        	view		= {'index'}
+        }
+
+
 		"/$controller/$action?/$id?"{
 			constraints {
 				controller(matches:/^((?!(api|mobile|web)).*)$/)
