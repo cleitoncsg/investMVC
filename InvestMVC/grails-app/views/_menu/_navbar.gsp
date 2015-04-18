@@ -18,11 +18,15 @@
 
 		<div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
 
-		<!--<ul class="nav navbar-nav">
-			<g:render template="/_menu/controller"/>
-		</ul> -->
+		<a class="navbar-brand" href="${createLink(uri: '/faq')}">FAQ
+		</a>
+
+		<a class="navbar-brand" href="${createLink(uri: '/conceitos')}">Conceitos
+		</a>
+
 
     	<ul class="nav navbar-nav navbar-right">
+
     		<sec:ifNotLoggedIn>
 				<a class="navbar-brand" href="${createLink(uri: '/login')}">
 					<button type="button" class="btn btn-sm btn-success">Login</button></a>

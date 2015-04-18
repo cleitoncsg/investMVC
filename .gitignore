@@ -2,6 +2,7 @@
 /metodosNumericosTeste/dist/
 /metodosNumericosTeste/build/
 /InvestMVC/.metadata/.plugins/org.eclipse.core.resources/
+/Invest/target/
 
 #Arquivos compilados#
 *.class

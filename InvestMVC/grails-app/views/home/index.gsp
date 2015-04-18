@@ -42,12 +42,12 @@
       <div class="carousel-inner">
 
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <img data-src="holder.js/900x500/auto/#FFF:#001535/text:First slide" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Junte-se a este negócio</h1>
               <p>Torne-se um investidor no Mercado de Moedas, em apenas um minuto você consegue fazer uma conta e ter acesso à todas as nossas funcionalidade</p>
-              <p><a class="navbar-brand" href="${createLink(uri: '/register')}"><button type="button" class="btn btn-sm btn-primary">Register</button></a></p>
+              <p><a class="btn btn-lg btn-primary" href="${createLink(uri: '/register')}" role="button">Register</a></p>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
             <div class="carousel-caption">
               <h1>Aprenda a investir no Mercado de Moedas</h1>
               <p>Caso você não entenda sobre este negócio, nosso site fornece uma página de perguntas fregquentes e fornece informações introdutórias para o Mercado de Moedas</p>
-              <p><a class="navbar-brand" href="${createLink(uri: '/faq')}"><button type="button" class="btn btn-sm btn-primary">FAQ</button></a></p>
+              <p><a class="btn btn-lg btn-primary" href="${createLink(uri: '/faq')}" role="button">FAQ</a></p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
             <div class="carousel-caption">
               <h1>Um novo jeito de investir</h1>
               <p>Caso você não entenda sobre este negócio, nosso site fornece uma página de perguntas fregquentes e fornece informações introdutórias para o Mercado de Moedas</p>
-              <p><a class="navbar-brand" href="${createLink(uri: '/login')}"><button type="button" class="btn btn-sm btn-primary">Login</button></a>
+              <p><a class="btn btn-lg btn-primary" href="${createLink(uri: '/login')}" role="button">Login</a>
               </p>
             </div>
           </div>
