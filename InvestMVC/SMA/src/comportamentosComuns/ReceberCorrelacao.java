@@ -13,7 +13,7 @@ public class ReceberCorrelacao extends CyclicBehaviour {
 			String content = msg.getContent();
 			System.out.println("Resposta do Agente "+msg.getSender().getName()+": "+content);
 			
-			if(Double.parseDouble(content)>=0.8){
+			if(Double.parseDouble(content)>=0.8){ //Vou ler essa correlação minima do prolog
 				myAgent.addBehaviour(new NotificarTendencia());
 			}
 		}

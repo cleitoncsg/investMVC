@@ -22,7 +22,7 @@ public class LeituraArquivo{
 	}
 	
 	public static String leituraTendencia() throws IOException{
-		
+		//Aqui vou ter que chamar um programa em C, e verificar o arquivo que foi reescito
 		Scanner scanner = new Scanner(new FileReader("../tendencia.txt"))
         .useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {

@@ -11,7 +11,7 @@
 			<ol>
 
 				<li>
-					<b>Alavancagem</b><br>É o quanto o investidor está disposto a arriscar. O resultado do valor monetário da conta é o produto da alavancagem  com os pontos de variação cambial. Se o investir realizar uma compra no par de moedas euro-dólar com alavanca 1.0 (um), por exemplo, e o mercado subir 1000 (mil) pontos, o investidor irá ganhar 1000 USD (mil dólares). No mesmo exemplo, se a alavanca for de 0.1, o investidor irá ganhar 100 (cem dólares). Se for de 0.01, o investidor irá ganhar 10 (dez dólares). Se no lugar da compra fosse realizada uma venda, os exemplos anteriores de lucros seriam contabilizados como prejuízos.
+					<b>Alavancagem</b><br>É o quanto o investidor está disposto a arriscar. O resultado do valor monetário da conta é o produto da alavancagem com os pontos de variação cambial. Se o investidor realizar uma compra no par de moedas euro-dólar com alavanca 1.0 (um), por exemplo, e o mercado subir 1000 (mil) pontos, o investidor irá ganhar 1000 USD (mil dólares). Entretanto, se a alavanca for de 0.1 para 1.0, o investidor irá ganhar 100 (cem dólares). No caso de a alavanca ser de 0.01 para 1.0, o investidor irá ganhar 10 (dez dólares). Se no lugar da compra fosse realizada uma venda, os exemplos anteriores de lucros seriam contabilizados como prejuízos.
 				</li><br>
 
 				<li>
@@ -31,11 +31,11 @@
 				</li><br>
 
 				<li>
-					<b>Operação automatizada</b><br>Operações que não requer a presença do investidor para serem efetuadas. Geralmente são feitas por um robô de software. O robô de software processa métodos numéricos e compra ou vende.
+					<b>Operação automatizada</b><br>Operações que não demandam a presença do investidor para serem efetuadas. Geralmente são feitas por um robô de software. O robô de software processa métodos numéricos e compra ou vende.
 				</li><br>
 
 				<li>
-					<b>Margem</b><br>Quantidade de dinheiro que a corretora libera para o investidor numa operação. Em uma operação, por exemplo, o investidor tem uma conta de 5000 USD (cinco mil dólares) e a corretora libera 4500 USD (quatro mil e quinhentos dólares) de margem. Caso essa operação fique com 4500 USD negativos, a corretora retira o investidor do mercado e o mesmo fica com 500 USD (quinhentos dólares na conta).
+					<b>Margem</b><br>Quantidade de dinheiro que a corretora libera para o investidor em uma operação. Em uma operação, por exemplo, o investidor tem uma conta de 5000 USD (cinco mil dólares) e a corretora libera 4500 USD (quatro mil e quinhentos dólares) de margem. Caso essa operação fique com 4500 USD negativos, a corretora retira o investidor do mercado e o mesmo fica com 500 USD (quinhentos dólares na conta).
 				</li><br>
 
 				<li>

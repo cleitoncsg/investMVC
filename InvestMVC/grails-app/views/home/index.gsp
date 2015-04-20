@@ -7,13 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
-
-		<sec:ifNotLoggedIn>
-			<g:set var="layout_nomainmenu"		value="${true}" scope="request"/>
-			<g:set var="layout_nosecondarymenu"	value="${true}" scope="request"/>
-		</sec:ifNotLoggedIn>
-  
+    <meta name="author" content="">  
   
 
   <link rel="stylesheet" href="${resource(dir: 'css', file: 'carousel.css')}" type="text/css">
@@ -28,6 +22,12 @@
 
 <body>
   <g:render template="/_menu/navbar"/>
+
+  <sec:ifLoggedIn>
+    <br>
+    <g:render template="/_menu/menubar"/>
+    <br>
+  </sec:ifLoggedIn>
 <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -78,8 +78,8 @@
 
       </div>
 
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="  glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
 
     </div><!-- /.container -->
