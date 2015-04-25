@@ -1,2 +1,2 @@
-comprar
+vender
 0.85

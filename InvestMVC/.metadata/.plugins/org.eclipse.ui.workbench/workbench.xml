@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
-<window height="744" maximized="true" width="1024" x="65" y="24">
+<window height="687" maximized="true" width="1018" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -16,7 +16,7 @@
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="116" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -34,38 +34,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EscreveArquivo.java" partName="EscreveArquivo.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/EscreveArquivo.java" title="EscreveArquivo.java" tooltip="SMA/src/comportamentosComuns/EscreveArquivo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/EscreveArquivo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="406" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReceberCorrelacao.java" partName="ReceberCorrelacao.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/ReceberCorrelacao.java" title="ReceberCorrelacao.java" tooltip="SMA/src/comportamentosComuns/ReceberCorrelacao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/ReceberCorrelacao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="453" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tendencia.java" partName="Tendencia.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/investidores/Tendencia.java" title="Tendencia.java" tooltip="SMA/src/investidores/Tendencia.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/investidores/Tendencia.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="371" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperarNotificacao.java" partName="EsperarNotificacao.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/EsperarNotificacao.java" title="EsperarNotificacao.java" tooltip="SMA/src/comportamentosComuns/EsperarNotificacao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/EsperarNotificacao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="541" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotificarNegociadores.java" partName="NotificarNegociadores.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/NotificarNegociadores.java" title="NotificarNegociadores.java" tooltip="SMA/src/comportamentosComuns/NotificarNegociadores.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/NotificarNegociadores.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="986" selectionTopPixel="218"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" partName="LeituraArquivo.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/LeituraArquivo.java" title="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="697" selectionTopPixel="238"/>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/execucao/Main.java" title="Main.java" tooltip="SMA/src/execucao/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/execucao/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="52"/>
 </editor>
 </editors>
 <views>
@@ -74,11 +49,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (12 items)"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="587" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -136,7 +107,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -284,8 +255,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.20620155" ratioLeft="266" ratioRight="1024" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7012012" ratioLeft="467" ratioRight="199" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.14341085" ratioLeft="185" ratioRight="1105" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6619497" ratioLeft="421" ratioRight="215" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -317,175 +288,170 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/ProcurarCotacoes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/ConsultorAgente.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/EsperarNotificacao.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/CorrelacaoAgente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/EnviarCorrelacao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/execucao/Teste.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/RodarComandos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/NotificarNegociadores.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/investidores/Tendencia.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/FibonacciAgente.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/MinimosQuadradosAgente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/ClasseComum.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/pacote/ClasseComum.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/Main.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/execucao/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/ProcurarCotacoes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/RodarComandos.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/teste/TestaArquivo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/ProcurarCotacoes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/ConsultorAgente.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/EscreveArquivo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/ReceberCorrelacao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/investidores/Tendencia.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/EsperarNotificacao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/NotificarNegociadores.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
 </editors>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2157" y="0"/>
+<item historyLabel="RodarComandos.java" index="4">
+<position info="not_deleted" x="138" y="13"/>
 </item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2306" y="0"/>
+<item historyLabel="Teste.java" index="3">
+<position info="not_deleted" x="332" y="0"/>
 </item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2325" y="0"/>
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position info="not_deleted" x="724" y="0"/>
 </item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2375" y="0"/>
-</item>
-<item historyLabel="EsperarNotificacao.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ConsultorAgente.java" index="2">
-<position info="not_deleted" x="454" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="1">
-<position info="not_deleted" x="661" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2375" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2279" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2280" y="46"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2157" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2117" y="39"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="1790" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2219" y="0"/>
-</item>
-<item historyLabel="ConsultorAgente.java" index="2">
-<position info="not_deleted" x="454" y="0"/>
-</item>
-<item historyLabel="CorrelacaoAgente.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FibonacciAgente.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MinimosQuadradosAgente.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FibonacciAgente.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="CorrelacaoAgente.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ConsultorAgente.java" index="2">
-<position info="not_deleted" x="454" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2219" y="0"/>
-</item>
-<item historyLabel="Main.java" index="7">
-<position info="not_deleted" x="56" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1504" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2078" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1668" y="0"/>
-</item>
-<item historyLabel="RodarComandos.java" index="9">
-<position info="not_deleted" x="237" y="35"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1668" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1668" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1698" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="846" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1349" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="846" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1668" y="0"/>
-</item>
-<item historyLabel="ProcurarCotacoes.java" index="8">
-<position info="not_deleted" x="1192" y="0"/>
-</item>
-<item historyLabel="TestaArquivo.java" index="10">
+<item historyLabel="Teste.java" index="3">
 <position/>
 </item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="30" y="0"/>
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position info="not_deleted" x="757" y="0"/>
 </item>
-<item historyLabel="TestaArquivo.java" index="10">
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="768" y="0"/>
+</item>
+<item historyLabel="EnviarCorrelacao.java" index="2">
 <position/>
 </item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2244" y="0"/>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="378" y="0"/>
 </item>
-<item historyLabel="TestaArquivo.java" index="10">
-<position info="not_deleted" x="274" y="0"/>
+<item historyLabel="RodarComandos.java" index="4">
+<position info="not_deleted" x="138" y="13"/>
 </item>
-<item historyLabel="ProcurarCotacoes.java" index="11">
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position/>
+</item>
+<item historyLabel="NotificarNegociadores.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ConsultorAgente.java" index="12">
+<item historyLabel="NotificarNegociadores.java" index="5">
+<position info="not_deleted" x="982" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="571" y="16"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="857" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="857" y="0"/>
+</item>
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="437" y="0"/>
+</item>
+<item historyLabel="Teste.java" index="3">
+<position info="not_deleted" x="46" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="676" y="0"/>
+</item>
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="776" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="725" y="0"/>
+</item>
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position info="not_deleted" x="727" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="725" y="0"/>
+</item>
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position info="not_deleted" x="727" y="0"/>
+</item>
+<item historyLabel="EnviarCorrelacao.java" index="2">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="CorrelacaoAgente.java" index="0">
+<position info="not_deleted" x="776" y="0"/>
+</item>
+<item historyLabel="Tendencia.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ProcurarCotacoes.java" index="11">
+<item historyLabel="FibonacciAgente.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="LeituraArquivo.java" index="0">
-<position info="not_deleted" x="2365" y="0"/>
+<item historyLabel="MinimosQuadradosAgente.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EscreveArquivo.java" index="13">
-<position info="not_deleted" x="406" y="0"/>
+<item historyLabel="MinimosQuadradosAgente.java" index="8">
+<position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="ReceberCorrelacao.java" index="14">
-<position info="not_deleted" x="453" y="0"/>
+<item historyLabel="Main.java" index="9">
+<position info="not_deleted" x="132" y="0"/>
 </item>
-<item historyLabel="Tendencia.java" index="15">
-<position info="not_deleted" x="371" y="0"/>
+<item historyLabel="ClasseComum.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EsperarNotificacao.java" index="16">
-<position info="not_deleted" x="541" y="0"/>
+<item historyLabel="ClasseComum.java" index="10">
+<position info="not_deleted" x="50" y="0"/>
 </item>
-<item historyLabel="NotificarNegociadores.java" index="17">
-<position info="not_deleted" x="986" y="0"/>
+<item historyLabel="ClasseComum.java" index="10">
+<position info="not_deleted" x="103" y="0"/>
 </item>
-<item active="true" historyLabel="LeituraArquivo.java" index="18">
-<position info="not_deleted" x="574" y="16"/>
+<item historyLabel="Main.java" index="9">
+<position info="not_deleted" x="132" y="0"/>
+</item>
+<item historyLabel="ClasseComum.java" index="11">
+<position/>
+</item>
+<item historyLabel="ClasseComum.java" index="11">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position info="not_deleted" x="213" y="0"/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position info="not_deleted" x="52" y="5"/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position info="not_deleted" x="52" y="5"/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position info="not_deleted" x="32" y="0"/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position info="not_deleted" x="52" y="5"/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="Main.java" index="13">
+<position info="not_deleted" x="413" y="0"/>
+</item>
+<item historyLabel="Main.java" index="12">
+<position info="not_deleted" x="216" y="0"/>
+</item>
+<item historyLabel="Main.java" index="13">
+<position info="not_deleted" x="413" y="0"/>
+</item>
+<item active="true" historyLabel="Main.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -493,6 +459,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -504,38 +476,11 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java">
-<persistable path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotificarNegociadores.java" tooltip="SMA/src/comportamentosComuns/NotificarNegociadores.java">
-<persistable path="/SMA/src/comportamentosComuns/NotificarNegociadores.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperarNotificacao.java" tooltip="SMA/src/comportamentosComuns/EsperarNotificacao.java">
-<persistable path="/SMA/src/comportamentosComuns/EsperarNotificacao.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tendencia.java" tooltip="SMA/src/investidores/Tendencia.java">
-<persistable path="/SMA/src/investidores/Tendencia.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReceberCorrelacao.java" tooltip="SMA/src/comportamentosComuns/ReceberCorrelacao.java">
-<persistable path="/SMA/src/comportamentosComuns/ReceberCorrelacao.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EscreveArquivo.java" tooltip="SMA/src/comportamentosComuns/EscreveArquivo.java">
-<persistable path="/SMA/src/comportamentosComuns/EscreveArquivo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConsultorAgente.java" tooltip="SMA/src/metodosNumericos/ConsultorAgente.java">
-<persistable path="/SMA/src/metodosNumericos/ConsultorAgente.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProcurarCotacoes.java" tooltip="SMA/src/comportamentosComuns/ProcurarCotacoes.java">
-<persistable path="/SMA/src/comportamentosComuns/ProcurarCotacoes.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestaArquivo.java" tooltip="SMA/src/teste/TestaArquivo.java">
-<persistable path="/SMA/src/teste/TestaArquivo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RodarComandos.java" tooltip="SMA/src/comportamentosComuns/RodarComandos.java">
-<persistable path="/SMA/src/comportamentosComuns/RodarComandos.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="SMA/src/execucao/Main.java">
 <persistable path="/SMA/src/execucao/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="HelloJade/src/Main.java">
+<persistable path="/HelloJade/src/Main.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MinimosQuadradosAgente.java" tooltip="SMA/src/metodosNumericos/MinimosQuadradosAgente.java">
 <persistable path="/SMA/src/metodosNumericos/MinimosQuadradosAgente.java"/>
@@ -543,11 +488,38 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FibonacciAgente.java" tooltip="SMA/src/metodosNumericos/FibonacciAgente.java">
 <persistable path="/SMA/src/metodosNumericos/FibonacciAgente.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tendencia.java" tooltip="SMA/src/investidores/Tendencia.java">
+<persistable path="/SMA/src/investidores/Tendencia.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotificarNegociadores.java" tooltip="SMA/src/comportamentosComuns/NotificarNegociadores.java">
+<persistable path="/SMA/src/comportamentosComuns/NotificarNegociadores.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RodarComandos.java" tooltip="SMA/src/comportamentosComuns/RodarComandos.java">
+<persistable path="/SMA/src/comportamentosComuns/RodarComandos.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Teste.java" tooltip="SMA/src/execucao/Teste.java">
+<persistable path="/SMA/src/execucao/Teste.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EnviarCorrelacao.java" tooltip="SMA/src/comportamentosComuns/EnviarCorrelacao.java">
+<persistable path="/SMA/src/comportamentosComuns/EnviarCorrelacao.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java">
+<persistable path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CorrelacaoAgente.java" tooltip="SMA/src/metodosNumericos/CorrelacaoAgente.java">
 <persistable path="/SMA/src/metodosNumericos/CorrelacaoAgente.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vender.java" tooltip="SMA/src/comportamentosComuns/Vender.java">
+<persistable path="/SMA/src/comportamentosComuns/Vender.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Comprar.java" tooltip="SMA/src/comportamentosComuns/Comprar.java">
 <persistable path="/SMA/src/comportamentosComuns/Comprar.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Comprador.java" tooltip="SMA/src/investidores/Comprador.java">
+<persistable path="/SMA/src/investidores/Comprador.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperarNotificacao.java" tooltip="SMA/src/comportamentosComuns/EsperarNotificacao.java">
+<persistable path="/SMA/src/comportamentosComuns/EsperarNotificacao.java"/>
 </file>
 </mruList>
 </workbench>

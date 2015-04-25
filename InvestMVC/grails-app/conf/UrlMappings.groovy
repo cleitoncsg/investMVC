@@ -14,7 +14,7 @@ class UrlMappings {
 		"/imprint"		(view:"/siteinfo/imprint")
 		"/nextSteps"	(view:"/home/nextSteps")
 		"/faq"			(view:"/home/faq")
-		"/conceitos"		(view:"/home/conceitos")
+		"/conceitos"	(view:"/home/conceitos")
 
 
 		/*
@@ -43,6 +43,18 @@ class UrlMappings {
         	controller	= 'user'
         	action		= {'create'}
         	view		= {'create'}
+        }
+
+        "/expert"{
+        	controller	= 'expert'
+        	action		= {'index'}
+        	view		= {'index'}
+        }
+
+        "/historico"{
+        	controller	= 'historico'
+        	action		= {'index'}
+        	view		= {'index'}
         }
 
 		"/$controller/$action?/$id?"{

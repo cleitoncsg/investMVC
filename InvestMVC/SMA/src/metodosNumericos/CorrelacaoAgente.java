@@ -26,7 +26,7 @@ public class CorrelacaoAgente extends Agent{
 		}
 		
 		addBehaviour(new RegistrarNoDF("MetodoNumerico", "Correlacao"));
-		addBehaviour(new EnviarCorrelacao(correlacaoLinear));
+		addBehaviour(new EnviarCorrelacao());
 	}
 	
 	//Remove o registro do agente da página amarela quando sua execução é finalizada

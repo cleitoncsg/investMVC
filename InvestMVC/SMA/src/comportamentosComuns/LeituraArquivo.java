@@ -13,11 +13,12 @@ public class LeituraArquivo{
 	static String tendencia;
 	
 	public static String leituraCorrelacao() throws IOException{
-		Scanner scanner = new Scanner(new FileReader("../EstruturadoComponente/correlacaoResposta.txt"))
+		Scanner scanner = new Scanner(new FileReader("../correlacaoResposta.txt"))
         .useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			correlacao = scanner.next();
 		}
+		scanner.close();
 		return correlacao;
 	}
 	
@@ -27,7 +28,9 @@ public class LeituraArquivo{
         .useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			tendencia = scanner.next();
+			System.out.println("MINHA TENDENCIA: "+tendencia);
 		}
+		scanner.close();
 		return tendencia;
 	}
 	

@@ -29,16 +29,16 @@
 
     		<sec:ifNotLoggedIn>
 				<a class="navbar-brand" href="${createLink(uri: '/login')}">
-					<button type="button" class="btn btn-sm btn-success">Login</button></a>
+					<button type="button" class="btn btn-sm btn-success"><g:message code="security.signin.label" default ="Login" /></button></a>
 
 				<a class="navbar-brand" href="${createLink(uri: '/register')}">
-					<button type="button" class="btn btn-sm btn-primary">Register</button>
+					<button type="button" class="btn btn-sm btn-primary"><g:message code="security.register.label" default="Register" /></button>
 				</a>
 
 			</sec:ifNotLoggedIn>
 			<sec:ifLoggedIn>
 				<a class="navbar-brand" href="${createLink(uri: '/logout')}">
-					<button type="button" class="btn btn-sm btn-danger">Logout</button>
+					<button type="button" class="btn btn-sm btn-danger"><g:message code="security.signoff.label" default="Logout"/></button>
 				</a>
 			</sec:ifLoggedIn>
 

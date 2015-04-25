@@ -11,9 +11,6 @@ public class EnviarCorrelacao extends CyclicBehaviour {
 	private ACLMessage resposta;
 	private double correlacaoLinear;
 
-	public EnviarCorrelacao(double correlacaoLinear) {
-		this.correlacaoLinear=correlacaoLinear;
-	}
 
 	@Override
 	public void action() {
@@ -26,12 +23,16 @@ public class EnviarCorrelacao extends CyclicBehaviour {
 			if(conteudo.equalsIgnoreCase("Pedido de informação")){
 				
 				try {
-					RodarComandos.rodarComandoNoTerminal("./../EstruturadoComponente/correlacaoLinear");
+					RodarComandos.rodarComandoNoTerminal("bash executaCorrelacao.sh");
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
 				
-				resposta.setContent(String.valueOf(correlacaoLinear));
+				try {
+					resposta.setContent(String.valueOf(LeituraArquivo.leituraCorrelacao()));
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 				myAgent.send(resposta);
 			}
 		}

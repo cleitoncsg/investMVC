@@ -14,7 +14,7 @@ public class Vender extends CyclicBehaviour {
 		ACLMessage msg = myAgent.receive();
 		if(msg !=null){
 			System.out.println("------------------------------------");
-			System.out.println("O mercado está subindo");
+			System.out.println("O mercado está caindo");
 			System.out.println("Hora de Vender com a alavanca" + alavanca);
 			System.out.println("------------------------------------");
 			try {

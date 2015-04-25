@@ -13,6 +13,7 @@
 
 char nomeRobo[TAMANHO_STRING], nomeTipoGrafico[2];
 double quantidadeCandes;
+double tendencia;
 
 double metodoCorrelacao(int tempoCorrelacao);
 void detectaRoboETipoDeGrafico();
@@ -20,16 +21,24 @@ void detectaRoboETipoDeGrafico();
 
 int main(){
 	FILE *arquivo;
+    FILE *arquivoTendencia;
 	
 	detectaRoboETipoDeGrafico();
 	metodoCorrelacao(quantidadeCandes);
 	printf("METODO CORRELACAO EM C LIGADO\n");
 	printf("Correlacao Linear em C: %f\n",metodoCorrelacao(quantidadeCandes));
 	
-	arquivo = fopen("calculoPearsonEmC.txt", "wt");
+	arquivo = fopen("../correlacaoResposta.txt", "wt");
 	fprintf(arquivo, "%f", metodoCorrelacao(quantidadeCandes));
 	
 	fclose(arquivo);
+
+    arquivoTendencia = fopen("../tendencia.txt", "wt");
+    printf("%f\n", tendencia);
+    fprintf(arquivoTendencia, "%f", tendencia);
+    
+    fclose(arquivoTendencia);
+    
 	
 	return 0;	
 }
@@ -38,7 +47,7 @@ void detectaRoboETipoDeGrafico(){
     FILE *arquivo;
     char temporariaQuantidadeCandle[10];
 
-    arquivo = fopen("criterioEntrada.txt","rt");
+    arquivo = fopen("../criterioEntrada.txt","rt");
     
     if(arquivo == NULL){
     	printf("Arquivo nulo\n");
@@ -48,7 +57,7 @@ void detectaRoboETipoDeGrafico(){
     //printf("nome robo: %s\n", nomeRobo);
     fscanf(arquivo,"%s",nomeTipoGrafico);
     //printf("Nome tipo grafico: %s\n", nomeTipoGrafico);
-    fscanf(arquivo, "%s",&temporariaQuantidadeCandle);
+    fscanf(arquivo, "%s",temporariaQuantidadeCandle);
     //printf("Quantidade candles %s\n", temporariaQuantidadeCandle);
     quantidadeCandes = atoi(temporariaQuantidadeCandle);
     
@@ -68,11 +77,11 @@ double metodoCorrelacao(int tempoCorrelacao){
     double leituraCotacoes[tempoCorrelacao];
 		
     if( (strcmp(nomeTipoGrafico,"M1")) == 0)
-            arquivo = fopen("tabela1Minuto.csv","rt"); 
+            arquivo = fopen("../../MQL4/Files/tabela1Minuto.csv","rt"); 
     else if( (strcmp(nomeTipoGrafico,"M5")) == 0)
-            arquivo = fopen("tabela5Minutos.csv","rt");
+            arquivo = fopen("../../MQL4/Files/tabela5Minutos.csv","rt");
     else if( (strcmp(nomeTipoGrafico,"H1")) == 0)
-            arquivo = fopen("tabela1Hora.csv","rt");
+            arquivo = fopen("../../MQL4/Files/tabela1Hora.csv","rt");
     else
             printf("Erro, tabela nao encontrada\n");
 
@@ -97,6 +106,8 @@ double metodoCorrelacao(int tempoCorrelacao){
 
     denominador = sqrt(denominador_1); 
     correlacao = numerador/denominador;
+
+    tendencia = somaAbcissas - somaOrdenadas;
 
     return correlacao;
     

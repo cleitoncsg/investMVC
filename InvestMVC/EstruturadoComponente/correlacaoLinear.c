@@ -13,12 +13,14 @@
 
 char nomeRobo[TAMANHO_STRING], nomeTipoGrafico[2];
 double quantidadeCandes;
+double tendencia;
 
 double calculaCorrelacao(int tempoCorrelacao);
 void detectaRoboETipoDeGrafico();
 
 int main(){
 	FILE *arquivo;
+	FILE *arquivoTendencia;
 	
 	detectaRoboETipoDeGrafico();
 	printf("METODO CORRELACAO EM C LIGADO\n");
@@ -28,6 +30,11 @@ int main(){
 	fprintf(arquivo, "%f", calculaCorrelacao(quantidadeCandes));
 	
 	fclose(arquivo);
+	arquivoTendencia = fopen("../tendencia.txt", "wt");
+	printf("%f\n", tendencia);
+	fprintf(arquivoTendencia, "%f", tendencia);
+    
+	fclose(arquivoTendencia);
 	
 	return 0;	
 }
@@ -46,7 +53,7 @@ void detectaRoboETipoDeGrafico(){
     //printf("nome robo: %s\n", nomeRobo);
     fscanf(arquivo,"%s",nomeTipoGrafico);
     //printf("Nome tipo grafico: %s\n", nomeTipoGrafico);
-    fscanf(arquivo, "%s",&temporariaQuantidadeCandle);
+    fscanf(arquivo, "%s",temporariaQuantidadeCandle);
     //printf("Quantidade candles %s\n", temporariaQuantidadeCandle);
     quantidadeCandes = atoi(temporariaQuantidadeCandle);
     
@@ -66,11 +73,11 @@ double calculaCorrelacao(int tempoCorrelacao){
     double leituraCotacoes[tempoCorrelacao];
 		
     if( (strcmp(nomeTipoGrafico,"M1")) == 0)
-            arquivo = fopen("tabela1Minuto.csv","rt"); 
+            arquivo = fopen("../../MQL4/Files/tabela1Minuto.csv","rt"); 
     else if( (strcmp(nomeTipoGrafico,"M5")) == 0)
-            arquivo = fopen("tabela5Minutos.csv","rt");
+            arquivo = fopen("../../MQL4/Files/tabela5Minutos.csv","rt");
     else if( (strcmp(nomeTipoGrafico,"H1")) == 0)
-            arquivo = fopen("tabela1Hora.csv","rt");
+            arquivo = fopen("../../MQL4/Files/tabela1Hora.csv","rt");
     else
             printf("Erro, tabela nao encontrada\n");
 
@@ -94,6 +101,7 @@ double calculaCorrelacao(int tempoCorrelacao){
     ((tempoCorrelacao*somaOrdenadasQuadrado)-(somaOrdenadas*somaOrdenadas));	
 
     denominador = sqrt(denominador_1); 
+	tendencia = somaAbcissas - somaOrdenadas;
     correlacao = numerador/denominador;
 
     return correlacao;

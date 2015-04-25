@@ -19,7 +19,7 @@ public class NotificarNegociadores extends OneShotBehaviour{
 	public void action() {
 		verificarTendencia();
 		
-		if(tendencia>0)
+		if(tendencia<0)
 			buscarNegociadorDeVenda();
 		else buscarNegociadorDeCompra();
 			System.out.println("Vou notificar o negociador "+negociador);
