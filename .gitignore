@@ -3,6 +3,7 @@
 /metodosNumericosTeste/build/
 /InvestMVC/.metadata/
 /Invest/target/
+.metadata/
 
 #Arquivos compilados#
 *.class

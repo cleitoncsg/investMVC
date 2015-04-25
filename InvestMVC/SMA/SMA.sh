@@ -1,0 +1,1 @@
+java -cp SMA.jar jade.Boot -gui -locol-host 127.0.0.1 executaSMA:execucao.Main

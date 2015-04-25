@@ -1,0 +1,29 @@
+0	18:59:49.572	FxPro MT4 build 765 started (FXPRO Financial Services Ltd)
+0	18:59:49.572	Data Folder: Z:\home\vanessa\investMVC
+2	18:59:55.106	Expert investMVC EURUSD,M5: loaded successfully
+0	18:59:57.610	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC07
+1	19:00:02.513	'6568883': datacenter connecting failed [6]
+0	19:00:03.231	'6568883': previous successful authorization performed from 179.187.101.112
+2	19:00:17.175	Expert investMVC EURUSD,M5: removed
+2	19:00:17.179	Expert investMVC EURUSD,M5: loaded successfully
+0	19:00:18.024	'6568883': auto connecting to a better access point Fx - Demo01.DC04 (ping is 229.09 ms)
+0	19:00:19.282	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC04
+0	19:00:21.236	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC04
+0	19:00:21.751	'6568883': previous successful authorization performed from 177.96.248.7
+0	19:03:37.474	Automated trading enabled
+0	19:03:38.347	'6568883': instant order buy 0.85 EURUSD at 1.07355 sl: 1.07085 tp: 1.07505
+0	19:03:38.657	'6568883': order was opened : #125949167 buy 0.85 EURUSD at 1.07355 sl: 1.07085 tp: 1.07505
+2	19:38:29.818	Expert investMVC EURUSD,M5: removed
+0	19:38:30.365	FxPro MT4 build 765 stopped
+0	19:38:39.628	FxPro MT4 build 765 started (FXPRO Financial Services Ltd)
+0	19:38:39.628	Data Folder: Z:\home\vanessa\investMVC
+2	19:38:41.900	Expert investMVC EURUSD,M5: loaded successfully
+0	19:38:43.870	'6568883': login on FxPro.com-Demo01 through Fx - Demo01.DC04
+0	19:38:45.946	'6568883': login datacenter on FxPro.com-Demo01 through Fx - Demo01.DC04
+0	19:38:46.433	'6568883': previous successful authorization performed from 177.96.248.7
+2	19:38:49.067	Expert investMVC EURUSD,M5: removed
+2	19:38:49.069	Expert investMVC EURUSD,M5: loaded successfully
+2	19:41:50.773	Expert investMVC EURUSD,M5: removed
+2	19:41:50.775	Expert investMVC EURUSD,M5: loaded successfully
+2	20:33:58.812	Expert investMVC EURUSD,M5: removed
+0	20:33:59.741	FxPro MT4 build 765 stopped

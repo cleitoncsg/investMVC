@@ -10,9 +10,11 @@
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="execucao.Main"/>
 <fullyQualifiedTypeName name="jade.tools.sniffer.ClearCanvasAction"/>
 <fullyQualifiedTypeName name="comportamentosComuns.LeituraArquivo"/>
 <fullyQualifiedTypeName name="pacote.ClasseComum"/>
 <fullyQualifiedTypeName name="jade.core.Agent"/>
+<fullyQualifiedTypeName name="execucao.Main"/>
+<fullyQualifiedTypeName name="jade.core.event.AgentEvent"/>
+<fullyQualifiedTypeName name="jade.wrapper.AgentController"/>
 </qualifiedTypeNameHistroy>
