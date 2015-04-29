@@ -18,11 +18,10 @@
 
 		<div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
 
-		<a class="navbar-brand" href="${createLink(uri: '/faq')}">FAQ
-		</a>
+		<ul class="nav navbar-nav">
+			<g:render template="/_menu/suport"/>
+		</ul>
 
-		<a class="navbar-brand" href="${createLink(uri: '/conceitos')}">Conceitos
-		</a>
 
 
     	<ul class="nav navbar-nav navbar-right">

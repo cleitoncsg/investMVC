@@ -1,0 +1,2 @@
+cd ..
+wine terminal.exe

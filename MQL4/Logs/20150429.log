@@ -1,0 +1,28 @@
+0	15:00:20.400	Expert investMVC EURUSD,M5: loaded successfully
+0	15:00:24.945	Expert investMVC EURUSD,M5: removed
+0	15:00:44.704	Expert investMVC EURUSD,M5: loaded successfully
+0	15:00:49.234	Expert investMVC EURUSD,M5: removed
+0	15:02:54.775	Expert investMVC EURUSD,M5: loaded successfully
+0	15:03:38.256	Expert investMVC EURUSD,M5: removed
+0	15:04:42.138	Expert investMVC EURUSD,M5: loaded successfully
+0	15:04:52.435	Expert investMVC EURUSD,M5: removed
+0	19:25:02.376	Expert investMVC EURUSD,M5: loaded successfully
+0	19:25:10.329	investMVC EURUSD,M5: initialized
+0	19:25:13.560	investMVC EURUSD,M5: arquivo OK
+2	19:25:13.894	investMVC EURUSD,M5: open #126434789 sell 0.85 EURUSD at 1.11149 sl: 1.11399 tp: 1.10999 ok
+0	19:25:13.894	investMVC EURUSD,M5: Entrou venda
+
+0	19:25:16.138	investMVC EURUSD,M5: arquivo OK
+0	19:25:16.533	investMVC EURUSD,M5: arquivo OK
+0	19:25:35.660	investMVC EURUSD,M5: arquivo OK
+0	19:25:37.898	investMVC EURUSD,M5: arquivo OK
+0	19:25:46.740	investMVC EURUSD,M5: arquivo OK
+0	19:25:47.799	investMVC EURUSD,M5: arquivo OK
+0	19:26:02.130	investMVC EURUSD,M5: arquivo OK
+0	19:26:03.388	investMVC EURUSD,M5: arquivo OK
+0	19:26:03.601	investMVC EURUSD,M5: uninit reason 9
+0	19:26:03.676	Expert investMVC EURUSD,M5: removed
+0	19:26:24.305	Expert investMVC EURUSD,M5: loaded successfully
+0	19:26:29.914	investMVC EURUSD,M5: initialized
+0	19:26:51.572	investMVC EURUSD,M5: uninit reason 9
+0	19:26:51.646	Expert investMVC EURUSD,M5: removed

@@ -31,11 +31,11 @@
 		<g:each in="${expertInstanceList}" status="i" var="expertInstance">
 			<tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
 			
-				<td><g:link action="show" id="${expertInstance.id}">${fieldValue(bean: expertInstance, field: "chartType")}</g:link></td>
+				<td><g:link action="show" id="${expertInstance.id}">${fieldValue(bean: expertInstance, field: "name")}</g:link></td>
 			
 				<td>${fieldValue(bean: expertInstance, field: "mathematicalMethods")}</td>
 			
-				<td>${fieldValue(bean: expertInstance, field: "name")}</td>
+				<td>${fieldValue(bean: expertInstance, field: "chartType")}</td>
 			
 				<td>${fieldValue(bean: expertInstance, field: "numberOfCandles")}</td>
 			

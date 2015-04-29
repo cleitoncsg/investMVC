@@ -78,7 +78,7 @@
         </div>
 
       </div>
-
+<!--
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="  glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
@@ -96,3 +96,4 @@
   <r:layoutResources />
   </body>
 </html>
+    

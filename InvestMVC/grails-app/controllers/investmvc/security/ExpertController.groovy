@@ -131,6 +131,8 @@ class ExpertController {
         gravaArquivo.append("\n")
         gravaArquivo.append(expertInstance.getMathematicalMethods())
         gravaArquivo.append("\n")
-     
+
+        "bash MQL4.sh".execute()
+        "bash SMA.sh".execute()
     }
 }
