@@ -8,13 +8,13 @@ calculaMedia [] = 0
 calculaMedia (cabeca:calda) = sum (cabeca:calda) / fromIntegral(length (cabeca:calda))
 
 vetorX [] = []
-vetorX (cabeca : calda) =  [cabeca] ++ vetorX ( drop 1 calda)
+vetorX (cabeca : calda) =  init (cabeca : calda)
 
 vetorY [] = []
-vetorY (cabeca : calda) = [(head calda)] ++ vetorY ( drop 1 calda)
+vetorY (cabeca : calda) = tail (cabeca : calda)
 
 covarianciaPearson [] [] xMedio yMedio = 0
-covarianciaPearson (cabecaX : caldax) (cabecaY : calday) xMedio yMedio = (cabecaX - xMedio) * (cabecaY - yMedio) + (covarianciaPearson caldax calday xMedio yMedio)
+covarianciaPearson (cabecaX : caldax) (cabecaY : calday) xMedio yMedio = ((cabecaX - xMedio) * (cabecaY - yMedio)) + (covarianciaPearson caldax calday xMedio yMedio)
 
 varianciaPearson [] media = 0
 varianciaPearson (cabeca : calda) media = (cabeca - media) ** 2 + (varianciaPearson calda media)
@@ -38,4 +38,6 @@ correlacaoDePearson (cabeca:calda) =  do
 --correlacao (cabeca:calda) =  (covarianciaPearson (vetorX (cabeca:calda)) (vetorY (cabeca:calda)) (calculaMedia (vetorX (cabeca:calda))) (calculaMedia(vetorY (cabeca:calda))) ) / (sqrt)
 
 correlacao = unsafeLocalState (correlacaoDePearson cotacoes)
+
+covariancia = covarianciaPearson (vetorX cotacoes) (vetorY cotacoes) (calculaMedia (vetorX cotacoes)) (calculaMedia (vetorY cotacoes))
 

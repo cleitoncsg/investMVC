@@ -11,4 +11,3 @@ retracao s r n = (r - s)*n + s
 fibonacci n
 	|unsafeLocalState(tendencia) < 0 = (retracao (suporte cotacoes) (resistencia cotacoes) n)
 	|otherwise = (retracao (resistencia cotacoes) (suporte cotacoes) n)
-

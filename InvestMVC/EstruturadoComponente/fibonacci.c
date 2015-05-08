@@ -15,22 +15,26 @@ void detectaRoboETipoDeGrafico();
 double calculoSuporte(int quantidadeVelas);
 double calculoResistencia(int quantidadeVelas);
 double calculoRegressaoFibonacci(double fatorDeRegressao, int quantidadeVelas);
+void lerTendencia();
+
 double quantidadeCandes;
+double tendencia;
 
 int main(){
     FILE *arquivo;
 
     detectaRoboETipoDeGrafico();
+    lerTendencia();
     //printf("Suporte = %lf, resistencia = %lf\n",calculoSuporte(13),calculoResistencia(13));
     //printf("Regressao De Fibonacci = %lf\n",calculoRegressaoFibonacci(0.23, 13));
     printf("METODO FIBONACCI EM C LIGADO\n");
 
-    arquivo = fopen("fibonacciResposta.txt","wt");
+    arquivo = fopen("../fibonacciResposta.txt","wt");
     
     fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.23, quantidadeCandes));
     fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.38, quantidadeCandes));
-    fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.61, quantidadeCandes));
-	
+    fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.62, quantidadeCandes));
+
     fclose(arquivo);
 
     return 0;
@@ -40,7 +44,7 @@ void detectaRoboETipoDeGrafico(){
     FILE *arquivo;
     char temporariaQuantidadeCandle[10];
 
-    arquivo = fopen("criterioEntrada.txt","rt");
+    arquivo = fopen("../criterioEntrada.txt","rt");
     
     if(arquivo == NULL){
     	printf("Arquivo nulo\n");
@@ -60,67 +64,109 @@ void detectaRoboETipoDeGrafico(){
 double calculoSuporte(int quantidadeVelas){
     FILE *arquivo;
     double cotacao[quantidadeVelas];
-    double suporte = 0;
+    double suporte = 777;
     int i;
     
-     if( (strcmp(nomeTipoGrafico,"M1")) == 0)
-            arquivo = fopen("tabela1Minuto.csv","rt"); 
+    if( (strcmp(nomeTipoGrafico,"M1")) == 0)
+            arquivo = fopen("../../MQL4/Files/M1.csv","rt"); 
     else if( (strcmp(nomeTipoGrafico,"M5")) == 0)
-            arquivo = fopen("tabela5Minutos.csv","rt");
+            arquivo = fopen("../../MQL4/Files/M5.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"M15")) == 0)
+            arquivo = fopen("../../MQL4/Files/M15.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"M30")) == 0)
+            arquivo = fopen("../../MQL4/Files/M30.csv","rt");
     else if( (strcmp(nomeTipoGrafico,"H1")) == 0)
-            arquivo = fopen("tabela1Hora.csv","rt");
+            arquivo = fopen("../../MQL4/Files/H1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"H4")) == 0)
+            arquivo = fopen("../../MQL4/Files/H4.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"D1")) == 0)
+            arquivo = fopen("../../MQL4/Files/D1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"MN1")) == 0)
+            arquivo = fopen("../../MQL4/Files/MN1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"W1")) == 0)
+            arquivo = fopen("../../MQL4/Files/W1.csv","rt");
     else
             printf("Erro, tabela nao encontrada\n");
 
-    for(i=0; i <= quantidadeVelas; i++){
+    for(i = 0; i <= quantidadeVelas; i++){
         fscanf(arquivo, "%lf",&cotacao[i]);
-    }
-
-    for(i = 0; i < quantidadeVelas; i++){
-        fscanf(arquivo, "%lf",&cotacao[i]);
-        
-        if(suporte < cotacao[i])
+        if(suporte > cotacao[i])
             suporte = cotacao[i];
     }
     
     fclose(arquivo);
-    
     return suporte;
 }
 
 double calculoResistencia(int quantidadeVelas){
     FILE *arquivo;
     double cotacao[quantidadeVelas];
-    double resistencia = 777;
+    double resistencia = 0;
     int i;
     
     if( (strcmp(nomeTipoGrafico,"M1")) == 0)
-            arquivo = fopen("tabela1Minuto.csv","rt"); 
+            arquivo = fopen("../../MQL4/Files/M1.csv","rt"); 
     else if( (strcmp(nomeTipoGrafico,"M5")) == 0)
-            arquivo = fopen("tabela5Minutos.csv","rt");
+            arquivo = fopen("../../MQL4/Files/M5.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"M15")) == 0)
+            arquivo = fopen("../../MQL4/Files/M15.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"M30")) == 0)
+            arquivo = fopen("../../MQL4/Files/M30.csv","rt");
     else if( (strcmp(nomeTipoGrafico,"H1")) == 0)
-            arquivo = fopen("tabela1Hora.csv","rt");
+            arquivo = fopen("../../MQL4/Files/H1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"H4")) == 0)
+            arquivo = fopen("../../MQL4/Files/H4.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"D1")) == 0)
+            arquivo = fopen("../../MQL4/Files/D1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"MN1")) == 0)
+            arquivo = fopen("../../MQL4/Files/MN1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"W1")) == 0)
+            arquivo = fopen("../../MQL4/Files/W1.csv","rt");
     else
             printf("Erro, tabela nao encontrada\n");
-
-    for(i=0; i <= quantidadeVelas; i++){
-        fscanf(arquivo, "%lf",&cotacao[i]);
-    }
     
-    for(i = 0; i < quantidadeVelas; i++){
+    for(i = 0; i <= quantidadeVelas; i++){
         fscanf(arquivo, "%lf",&cotacao[i]);
         
-        if(resistencia > cotacao[i])
+        if(resistencia < cotacao[i])
             resistencia = cotacao[i];
     }
     
     fclose(arquivo);
-    
     return resistencia;
 }
 
 double calculoRegressaoFibonacci(double fatorDeRegressao, int quantidadeVelas){
-    double variacaoDePontos = calculoSuporte(quantidadeVelas) - calculoResistencia(quantidadeVelas);
-    return (variacaoDePontos*fatorDeRegressao) + calculoSuporte(quantidadeVelas);
+    double variacaoDePontos;
+    double fibonacci;
+
+    if(tendencia>0){
+        variacaoDePontos = calculoSuporte(quantidadeVelas)-calculoResistencia(quantidadeVelas);
+        fibonacci = (variacaoDePontos*fatorDeRegressao) + calculoResistencia(quantidadeVelas);
+        return fibonacci;
+    }
+
+    else{
+        variacaoDePontos = calculoResistencia(quantidadeVelas)-calculoSuporte(quantidadeVelas);
+        fibonacci = (variacaoDePontos*fatorDeRegressao) + calculoSuporte(quantidadeVelas);
+        return fibonacci;
+    }
+}
+
+void lerTendencia(){
+    FILE *arquivoTendencia;
+    double temporariaTendencia;
+
+    arquivoTendencia = fopen("../tendencia.txt","rt");
+    
+    if(arquivoTendencia == NULL){
+        printf("Arquivo nulo\n");
+    }
+    
+    fscanf(arquivoTendencia, "%lf",&temporariaTendencia);
+    tendencia = temporariaTendencia;
+    //printf("Tendencia: %lf\n", tendencia);
+    
+    fclose(arquivoTendencia);
 }
 

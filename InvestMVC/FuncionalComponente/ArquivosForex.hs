@@ -31,10 +31,6 @@ detectaQuantidadeCandle = do
     let candle = read (last (init listaDePalavras))
     return candle
 
-candlesPar
-    |mod (unsafeLocalState detectaQuantidadeCandle) 2 == 0 = (unsafeLocalState detectaQuantidadeCandle)
-    |otherwise = (unsafeLocalState detectaQuantidadeCandle)+1
-
 tendencia = do
     arquivoForex <- openFile "../tendencia.txt" ReadMode
     conteudo <- hGetContents arquivoForex
@@ -42,5 +38,5 @@ tendencia = do
 
 caminhhoDoCSV = "../../MQL4/Files/"++(unsafeLocalState obtemTipoGrafico)++".csv"
 
-cotacoes = take candlesPar (unsafeLocalState lerCotacoes)
+cotacoes = take ((unsafeLocalState detectaQuantidadeCandle)+1) (unsafeLocalState lerCotacoes)
 
