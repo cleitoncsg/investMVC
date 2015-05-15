@@ -35,17 +35,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/execucao/Main.java" title="Main.java" tooltip="SMA/src/execucao/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/execucao/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1302" selectionTopPixel="439"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConsultorAgente.java" partName="ConsultorAgente.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/metodosNumericos/ConsultorAgente.java" title="ConsultorAgente.java" tooltip="SMA/src/metodosNumericos/ConsultorAgente.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/metodosNumericos/ConsultorAgente.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="443" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" partName="LeituraArquivo.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/LeituraArquivo.java" title="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" partName="LeituraArquivo.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/comportamentosComuns/LeituraArquivo.java" title="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1615" selectionTopPixel="646"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2578" selectionTopPixel="1134"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/vanessa/investMVC/InvestMVC/SMA/src/execucao/Main.java" title="Main.java" tooltip="SMA/src/execucao/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMA/src/execucao/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="872" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -261,7 +266,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.18992248" ratioLeft="245" ratioRight="1045" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.6619497" ratioLeft="421" ratioRight="215" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7507508" ratioLeft="500" ratioRight="166" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -293,163 +298,18 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/ClasseComum.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/pacote/ClasseComum.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloJade/src/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/execucao/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/execucao/Teste.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/metodosNumericos/ConsultorAgente.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMA/src/execucao/Main.java"/>
 </editors>
-<item historyLabel="ClasseComum.java" index="1">
+<item historyLabel="ConsultorAgente.java" index="0">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="LeituraArquivo.java" index="1">
+<position info="not_deleted" x="1965" y="14"/>
+</item>
+<item active="true" historyLabel="Main.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ClasseComum.java" index="1">
-<position info="not_deleted" x="50" y="0"/>
-</item>
-<item historyLabel="ClasseComum.java" index="1">
-<position info="not_deleted" x="103" y="0"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="132" y="0"/>
-</item>
-<item historyLabel="ClasseComum.java" index="2">
-<position/>
-</item>
-<item historyLabel="ClasseComum.java" index="2">
-<position info="not_deleted" x="118" y="0"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="213" y="0"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="52" y="5"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="52" y="5"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="32" y="0"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="52" y="5"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="413" y="0"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="413" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="584" y="0"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="584" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="726" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="1096" y="14"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="2577" y="15"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="2847" y="16"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="2847" y="16"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="2610" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="913" y="159"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="365" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="913" y="159"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="576" y="7"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="454" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="553" y="31"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="454" y="0"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="452" y="0"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="654" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="1436" y="124"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="687" y="202"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="1436" y="124"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="687" y="0"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="860" y="0"/>
-</item>
-<item historyLabel="Teste.java" index="5">
-<position info="not_deleted" x="430" y="0"/>
-</item>
-<item historyLabel="Main.java" index="4">
-<position info="not_deleted" x="1302" y="0"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="6">
-<position info="not_deleted" x="1350" y="13"/>
-</item>
-<item historyLabel="LeituraArquivo.java" index="6">
-<position info="not_deleted" x="1532" y="8"/>
-</item>
-<item active="true" historyLabel="LeituraArquivo.java" index="6">
-<position info="not_deleted" x="1451" y="53"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -468,17 +328,20 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="SMA/src/execucao/Main.java">
+<persistable path="/SMA/src/execucao/Main.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeituraArquivo.java" tooltip="SMA/src/comportamentosComuns/LeituraArquivo.java">
 <persistable path="/SMA/src/comportamentosComuns/LeituraArquivo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConsultorAgente.java" tooltip="SMA/src/metodosNumericos/ConsultorAgente.java">
+<persistable path="/SMA/src/metodosNumericos/ConsultorAgente.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="executaCorrelacao.sh" tooltip="SMA/executaCorrelacao.sh">
 <persistable path="/SMA/executaCorrelacao.sh"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Teste.java" tooltip="SMA/src/execucao/Teste.java">
 <persistable path="/SMA/src/execucao/Teste.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="SMA/src/execucao/Main.java">
-<persistable path="/SMA/src/execucao/Main.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="HelloJade/src/Main.java">
 <persistable path="/HelloJade/src/Main.java"/>
@@ -509,9 +372,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Comprar.java" tooltip="SMA/src/comportamentosComuns/Comprar.java">
 <persistable path="/SMA/src/comportamentosComuns/Comprar.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Comprador.java" tooltip="SMA/src/investidores/Comprador.java">
-<persistable path="/SMA/src/investidores/Comprador.java"/>
 </file>
 </mruList>
 </workbench>

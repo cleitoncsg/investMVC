@@ -146,6 +146,7 @@ grails.plugin.springsecurity.interceptUrlMap = [
     '/**/images/**':                  ['permitAll'],
     '/**/favicon.ico':                ['permitAll'],
     '/login/**':                      ['permitAll'],
-    '/logout/**':                     ['permitAll']
+    '/logout/**':                     ['permitAll'],
+    '/_DemoPage/**':                  ['permitAll']
 ]
 

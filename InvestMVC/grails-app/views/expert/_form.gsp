@@ -13,8 +13,20 @@
 			<div class="${hasErrors(bean: expertInstance, field: 'mathematicalMethods', 'error')} required">
 				<label for="mathematicalMethods" class="control-label"><g:message code="expert.mathematicalMethods.label" default="Mathematical Methods" /><span class="required-indicator">*</span></label>
 				<div>
-					<g:select class="form-control" name="mathematicalMethods" from="${expertInstance.constraints.mathematicalMethods.inList}" required="" value="${expertInstance?.mathematicalMethods}" valueMessagePrefix="expert.mathematicalMethods"/>
+				<!--
+				<g:select class="form-control" name="mathematicalMethods" from="${expertInstance.constraints.mathematicalMethods.inList}" required="" value="${expertInstance?.mathematicalMethods}" valueMessagePrefix="expert.mathematicalMethods"/>
 					<span class="help-inline">${hasErrors(bean: expertInstance, field: 'mathematicalMethods', 'error')}</span>
+				-->
+
+<g:checkBox name="mathematicalMethods" value="Correlacao"/>
+					 <label for="methodInExpert">Correlação</label>
+					 <br>
+					 <g:checkBox name="mathematicalMethods" value="Fibonacci"/>
+					 <label for="methodInExpert">Fibonacci</label>		
+					 <br>
+					 <g:checkBox name="mathematicalMethods" value="Mímimos Quadrados"/>
+					 <label for="methodInExpert">Mímimos Quadrados</label>
+					 <br>
 				</div>
 			</div>
 

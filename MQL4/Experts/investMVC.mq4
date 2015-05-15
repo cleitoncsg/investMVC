@@ -57,15 +57,15 @@ int start(){
      }
      */
      gravaHistorico("historico.txt");   
-     gravaDados("tabela1Minuto.csv", PERIOD_M1); 
-   gravaDados("tabela5Minutos.csv", PERIOD_M5); 
-   gravaDados("tabela15Minutos.csv", PERIOD_M15); 
-   gravaDados("tabela30Minutos.csv", PERIOD_M30); 
-   gravaDados("tabela1Hora.csv", PERIOD_H1);
-   gravaDados("tabela4Horas.csv", PERIOD_H4); 
-   gravaDados("tabelaDiaria.csv", PERIOD_D1);
-   gravaDados("tabelaSemanal.csv", PERIOD_MN1);   
-   gravaDados("tabelaMensal.csv", PERIOD_W1);   
+     gravaDados("M1.csv", PERIOD_M1); 
+   gravaDados("M5.csv", PERIOD_M5); 
+   gravaDados("M15.csv", PERIOD_M15); 
+   gravaDados("M30.csv", PERIOD_M30); 
+   gravaDados("H1.csv", PERIOD_H1);
+   gravaDados("H4.csv", PERIOD_H4); 
+   gravaDados("D1.csv", PERIOD_D1);
+   gravaDados("MN1.csv", PERIOD_MN1);   
+   gravaDados("W1.csv", PERIOD_W1);   
       Comment(
        "\___________________________________/"+"\n",
        " O QUE DEVE SER FEITO?  = ",  respostaOperacaoMultiagente+"\n",

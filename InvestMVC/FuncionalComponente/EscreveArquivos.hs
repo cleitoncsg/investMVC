@@ -6,9 +6,7 @@ import System.IO
 escreveFibonacci = do
 	limparArquivo "fibonacciResposta.txt"
 	arquivo <- openFile "fibonacciResposta.txt" AppendMode
-	hPrint arquivo (fibonacci 0.23)
 	hPrint arquivo (fibonacci 0.38)
-	hPrint arquivo (fibonacci 0.62)
 	hClose arquivo
 
 escreveCorrelacao = do

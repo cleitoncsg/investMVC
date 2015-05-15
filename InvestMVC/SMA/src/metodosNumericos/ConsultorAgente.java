@@ -12,8 +12,8 @@ public class ConsultorAgente extends Agent{
 	protected void setup(){
 		System.out.println("Iniciado o agente consultor");
 		try {
-//			addBehaviour(new ProcurarCotacoes(this,LeituraArquivo.lerTipoGrafico()));
-			addBehaviour(new ProcurarCotacoes(this,6000));
+			addBehaviour(new ProcurarCotacoes(this,LeituraArquivo.lerTipoGrafico()));
+//			addBehaviour(new ProcurarCotacoes(this,6000));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
