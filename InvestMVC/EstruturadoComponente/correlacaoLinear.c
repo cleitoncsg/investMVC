@@ -31,7 +31,7 @@ int main(){
 	
 	fclose(arquivo);
 	arquivoTendencia = fopen("../tendencia.txt", "wt");
-	printf("%f\n", tendencia);
+	//printf("tendencia : %f\n", tendencia);
 	fprintf(arquivoTendencia, "%f", tendencia);
     
 	fclose(arquivoTendencia);
@@ -43,7 +43,7 @@ void detectaRoboETipoDeGrafico(){
     FILE *arquivo;
     char temporariaQuantidadeCandle[10];
 
-    arquivo = fopen("criterioEntrada.txt","rt");
+    arquivo = fopen("../criterioEntrada.txt","rt");
     
     if(arquivo == NULL){
     	printf("Arquivo nulo\n");
@@ -71,13 +71,25 @@ double calculaCorrelacao(int tempoCorrelacao){
            numerador, denominador_1,denominador; 
     
     double leituraCotacoes[tempoCorrelacao];
-		
+
     if( (strcmp(nomeTipoGrafico,"M1")) == 0)
-            arquivo = fopen("../../MQL4/Files/tabela1Minuto.csv","rt"); 
+            arquivo = fopen("../../MQL4/Files/M1.csv","rt"); 
     else if( (strcmp(nomeTipoGrafico,"M5")) == 0)
-            arquivo = fopen("../../MQL4/Files/tabela5Minutos.csv","rt");
+            arquivo = fopen("../../MQL4/Files/M5.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"M15")) == 0)
+            arquivo = fopen("../../MQL4/Files/M15.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"M30")) == 0)
+            arquivo = fopen("../../MQL4/Files/M30.csv","rt");
     else if( (strcmp(nomeTipoGrafico,"H1")) == 0)
-            arquivo = fopen("../../MQL4/Files/tabela1Hora.csv","rt");
+            arquivo = fopen("../../MQL4/Files/H1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"H4")) == 0)
+            arquivo = fopen("../../MQL4/Files/H4.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"D1")) == 0)
+            arquivo = fopen("../../MQL4/Files/D1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"MN1")) == 0)
+            arquivo = fopen("../../MQL4/Files/MN1.csv","rt");
+    else if( (strcmp(nomeTipoGrafico,"W1")) == 0)
+            arquivo = fopen("../../MQL4/Files/W1.csv","rt");
     else
             printf("Erro, tabela nao encontrada\n");
 
@@ -94,19 +106,21 @@ double calculaCorrelacao(int tempoCorrelacao){
         somaOrdenadas = somaOrdenadas + numeroOrdenada;
         somaOrdenadasQuadrado += (numeroOrdenada*numeroOrdenada);
         somaXvezesY = somaXvezesY + (numeroOrdenada*numeroAbcissa);
-     } 
-
+     }
+     
     numerador =((tempoCorrelacao*somaXvezesY)-((somaAbcissas)*(somaOrdenadas)));
+    printf("Numerador %lf\n", numerador);
     denominador_1 =((tempoCorrelacao*somaAbcissasQuadrado)-(somaAbcissas*somaAbcissas))*
-    ((tempoCorrelacao*somaOrdenadasQuadrado)-(somaOrdenadas*somaOrdenadas));	
+    ((tempoCorrelacao*somaOrdenadasQuadrado)-(somaOrdenadas*somaOrdenadas));
 
     denominador = sqrt(denominador_1); 
+    printf("Denominador %lf\n", denominador);
 	tendencia = somaAbcissas - somaOrdenadas;
     correlacao = numerador/denominador;
 
-    return correlacao;
-    
     fclose(arquivo);
+    printf("Correlacao: %lf\n", correlacao);
+    return correlacao;    
 }
 
 

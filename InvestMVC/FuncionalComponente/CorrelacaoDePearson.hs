@@ -1,8 +1,11 @@
-module CorrelacaoDePearson(calculaMedia,vetorX,vetorY,covarianciaPearson, varianciaPearson, correlacaoDePearson, correlacao)where
+module CorrelacaoDePearson(calculaMedia,vetorX,vetorY,qtdCandles,somaQuadradoVetor)where
 import System.IO
 import Foreign.Marshal.Unsafe
-import ArquivosForex(cotacoes)
+import ArquivosForex(cotacoes,detectaQuantidadeCandle)
 
+
+intToFloat :: Int -> Float
+intToFloat n = fromIntegral n ::Float
 
 calculaMedia [] = 0
 calculaMedia (cabeca:calda) = sum (cabeca:calda) / fromIntegral(length (cabeca:calda))
@@ -13,31 +16,20 @@ vetorX (cabeca : calda) =  init (cabeca : calda)
 vetorY [] = []
 vetorY (cabeca : calda) = tail (cabeca : calda)
 
-covarianciaPearson [] [] xMedio yMedio = 0
-covarianciaPearson (cabecaX : caldax) (cabecaY : calday) xMedio yMedio = ((cabecaX - xMedio) * (cabecaY - yMedio)) + (covarianciaPearson caldax calday xMedio yMedio)
+vetorXY [] [] = 0
+vetorXY (cabecaX : caldax) (cabecaY : calday) = (cabecaX*cabecaY) + (vetorXY caldax calday)
 
-varianciaPearson [] media = 0
-varianciaPearson (cabeca : calda) media = (cabeca - media) ** 2 + (varianciaPearson calda media)
+somaQuadradoVetor [] = 0;
+somaQuadradoVetor (cabeca:calda) = (cabeca*cabeca) + (somaQuadradoVetor calda)
 
-correlacaoDePearson (cabeca:calda) =  do
-		let x = vetorX (cabeca:calda)
-		let y = vetorY (cabeca:calda)
+somaAbcissas = sum(vetorX cotacoes)
+somaAbcissasQuadrado = somaQuadradoVetor (vetorX cotacoes)
+somaOrdenadas = sum (vetorY cotacoes)
+somaOrdenadasQuadrado = somaQuadradoVetor (vetorY cotacoes)
+xy = vetorXY (vetorX cotacoes) (vetorY cotacoes)
+qtdCandles = intToFloat (unsafeLocalState detectaQuantidadeCandle)
 
-		let mediaX = calculaMedia x
-		let mediaY = calculaMedia y
+numerador = (qtdCandles*xy)-(somaAbcissas*somaOrdenadas)
+denominador =sqrt( ( (qtdCandles*somaAbcissasQuadrado)-(somaAbcissas*somaAbcissas) )*((qtdCandles*somaOrdenadasQuadrado)-(somaOrdenadas*somaOrdenadas)) )
 
-		let covariancia = covarianciaPearson x y mediaX mediaY
-		let varianciaX = varianciaPearson x mediaX
-		let varianciaY = varianciaPearson y mediaY
-
-		let varianciaXY = varianciaY * varianciaX
-		let raizVarianciaXY = sqrt (varianciaXY)
-
-		return (covariancia / raizVarianciaXY)
-
---correlacao (cabeca:calda) =  (covarianciaPearson (vetorX (cabeca:calda)) (vetorY (cabeca:calda)) (calculaMedia (vetorX (cabeca:calda))) (calculaMedia(vetorY (cabeca:calda))) ) / (sqrt)
-
-correlacao = unsafeLocalState (correlacaoDePearson cotacoes)
-
-covariancia = covarianciaPearson (vetorX cotacoes) (vetorY cotacoes) (calculaMedia (vetorX cotacoes)) (calculaMedia (vetorY cotacoes))
-
+correlacao = numerador / denominador

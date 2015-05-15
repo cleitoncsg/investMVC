@@ -10,7 +10,6 @@ testaResistencia = TestCase (assertEqual "Resistência de uma lista Comum" 4 (re
 testaRetracao :: Test
 testaRetracao = TestCase (assertEqual "Retração Simples" 1 (retracao 1 1 0))
 
-
 suiteDeTeste :: Test
 suiteDeTeste = TestList [testaRetracao,testaSuporte,testaResistencia]
 

@@ -1,13 +1,22 @@
-module MinimosQuadrados (minimosQuadradosA, minimosQuadradosB) where
-
-import CorrelacaoDePearson(calculaMedia,vetorX,vetorY,covarianciaPearson,varianciaPearson)
+module MinimosQuadrados (numerador, denominador, variacaoAngular, variacaoLinear, coeficienteAngular, coeficienteLinear) where
 import ArquivosForex(cotacoes)
+import CorrelacaoDePearson(calculaMedia,qtdCandles,vetorX,vetorY)
 
+numerador [] [] = 0
+numerador (cabecaX:caldaX) (cabecaY: caldaY) =
+	( (cabecaX-(calculaMedia (cabecaX:caldaX)))*(cabecaY-(calculaMedia (cabecaY:caldaY))) )+ (numerador caldaX caldaY)
 
-b (cabeca:calda) = (covarianciaPearson (vetorX (cabeca:calda)) (vetorY (cabeca:calda)) (calculaMedia (vetorX (cabeca:calda))) (calculaMedia (vetorY (cabeca:calda))))/ (varianciaPearson (vetorX (cabeca:calda)) (calculaMedia (vetorX (cabeca:calda))) )
+denominador [] = 0
+denominador (cabecaX:caldaX) =
+	((cabecaX - (calculaMedia (cabecaX:caldaX)))*(cabecaX - (calculaMedia (cabecaX:caldaX)))) + (denominador caldaX)
 
-a (cabeca:calda) = (calculaMedia (vetorY (cabeca:calda))) -( (b (cabeca:calda)) * (calculaMedia (vetorX (cabeca:calda))) )
+variacaoAngular (cabecaX:caldaX) (cabecaY: caldaY) =
+	(numerador (cabecaX:caldaX) (cabecaY: caldaY))/(denominador (cabecaX:caldaX))
 
-minimosQuadradosA = a cotacoes
+variacaoLinear (cabecaX:caldaX) (cabecaY:caldaY) =
+	(calculaMedia (cabecaY:caldaY)) - ((variacaoAngular (cabecaX:caldaX) (cabecaY:caldaY)) * (calculaMedia (cabecaX:caldaX)))
 
-minimosQuadradosB = b cotacoes
+coeficienteAngular = variacaoAngular (vetorX cotacoes) (vetorY cotacoes)
+
+coeficienteLinear = variacaoLinear (vetorX cotacoes) (vetorY cotacoes)
+
