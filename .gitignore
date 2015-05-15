@@ -8,6 +8,9 @@ InvestMVC/.metadata/
 config/
 history/
 profiles/
+/config/
+/history/
+/profiles/
 
 #Arquivos compilados#
 *.class
