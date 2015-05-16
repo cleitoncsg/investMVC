@@ -22,7 +22,6 @@ public class NotificarNegociadores extends OneShotBehaviour{
 		if(tendencia<0)
 			buscarNegociadorDeVenda();
 		else buscarNegociadorDeCompra();
-			System.out.println("Vou notificar o negociador "+negociador);
 			
 		ACLMessage msg = new ACLMessage (ACLMessage.INFORM);
 		msg.addReceiver(negociador);
@@ -66,7 +65,6 @@ public class NotificarNegociadores extends OneShotBehaviour{
 			DFAgentDescription[] metodosAchados = DFService.search(myAgent, template);
 			negociador = new AID();
 			negociador = metodosAchados[0].getName();
-			System.out.println(negociador);
 		} catch (FIPAException erro) {
 			erro.printStackTrace();
 		}

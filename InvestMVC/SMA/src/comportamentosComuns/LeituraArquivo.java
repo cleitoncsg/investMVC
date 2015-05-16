@@ -31,7 +31,6 @@ public abstract class LeituraArquivo {
 				.useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			tendencia = scanner.next();
-			System.out.println("MINHA TENDENCIA: " + tendencia);
 		}
 		scanner.close();
 		return tendencia;
@@ -51,7 +50,7 @@ public abstract class LeituraArquivo {
 
 		String coeficienteLinear = new String();
 		String coeficienteAngular = new String();
-		Scanner scanner = novoArquivoDeLeitura("minimosQuadradosResposta.txt");
+		Scanner scanner = novoArquivoDeLeitura("../minimosQuadradosResposta.txt");
 
 		coeficienteLinear = scanner.next();
 		coeficienteAngular = scanner.next();
@@ -111,6 +110,38 @@ public abstract class LeituraArquivo {
 			return (long) (2.78 * 10 * 7);
 		else
 			return 60000;
+	}
+	
+	public static double lerUltimaCotacao(){
+		double cotacao = 0;
+		Scanner scannerCriterio;
+		Scanner scannerArquivoCSV;
+		String tipoGrafico;
+		
+		try {
+			scannerCriterio = novoArquivoDeLeitura("../criterioEntrada.txt")
+					.useDelimiter("\\||\\n");
+			scannerCriterio.nextLine();
+			tipoGrafico = scannerCriterio.nextLine();
+			scannerArquivoCSV = novoArquivoDeLeitura(abrirCSV(tipoGrafico));
+			cotacao=Double.parseDouble(scannerArquivoCSV.next());
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		return cotacao;
+	}
+
+	private static String abrirCSV(String tipoGrafico) {
+		
+		if(tipoGrafico.equals("M1"))
+			return "../../MQL4/Files/M1.csv";
+		else if(tipoGrafico.equals("M5"))
+			return "../../MQL4/Files/M5.csv";
+		else if(tipoGrafico.equals("H1"))
+			return "../../MQL4/Files/M1.csv";
+		
+		return null;
 	}
 
 }

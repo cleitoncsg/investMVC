@@ -9,7 +9,7 @@ public class TestaArquivo{
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		ManipulaStrings.metodosUsados();
+		System.out.println(LeituraArquivo.leituraMinimosQuadrados());
 	}
 
 }

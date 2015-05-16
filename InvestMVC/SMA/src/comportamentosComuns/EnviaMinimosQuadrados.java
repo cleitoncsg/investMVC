@@ -24,7 +24,7 @@ public class EnviaMinimosQuadrados extends CyclicBehaviour {
 
 			try {
 				RodarComandos
-						.rodarComandoNoTerminal("bash executaFibonacci.sh");
+						.rodarComandoNoTerminal("bash executaMinimosQuadrados.sh");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

@@ -10,7 +10,6 @@ public class EsperarNotificacao extends CyclicBehaviour {
 	public void action() {
 		ACLMessage msg = myAgent.receive();
 		if(msg !=null){
-			System.out.println("O agente "+msg.getSender().getName() + "está se comunicando");
 			String conteudo = msg.getContent();
 			if(conteudo.equalsIgnoreCase("oportunidade")){
 				myAgent.addBehaviour(new NotificarNegociadores());
