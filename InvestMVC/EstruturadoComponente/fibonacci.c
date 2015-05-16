@@ -22,6 +22,7 @@ double tendencia;
 
 int main(){
     FILE *arquivo;
+    FILE *arquivoSuporteResistenia;
 
     detectaRoboETipoDeGrafico();
     lerTendencia();
@@ -34,8 +35,11 @@ int main(){
     //fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.23, quantidadeCandes));
     fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.38, quantidadeCandes));
     //fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.62, quantidadeCandes));
-
     fclose(arquivo);
+
+    arquivoSuporteResistenia = fopen("../suporteResistencia.txt","wt");
+    fprintf(arquivoSuporteResistenia, "%f\n", calculoSuporte(quantidadeCandes));
+    fprintf(arquivoSuporteResistenia, "%f\n", calculoResistencia(quantidadeCandes));
 
     return 0;
 }

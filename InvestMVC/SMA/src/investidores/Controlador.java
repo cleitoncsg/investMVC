@@ -66,7 +66,7 @@ public class Controlador extends Agent {
 				oportunidadeDeNegocio();
 			}
 			
-			else if (correlacaoResposta > 0.1){
+			else if (correlacaoResposta > 0.9){
 				oportunidadeDeNegocio();
 			}
 			

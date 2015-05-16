@@ -1,4 +1,4 @@
-FUCK
+Nani
 M1
-0
-[Correlacao, Fibonacci, Mímimos Quadrados]
+55
+[Fibonacci, Mímimos Quadrados]
