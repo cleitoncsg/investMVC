@@ -1,3 +1,5 @@
+module TesteMinimosQuadrados(main) where
+
 import Test.HUnit
 import MinimosQuadrados
 

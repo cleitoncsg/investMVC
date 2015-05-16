@@ -1,3 +1,5 @@
+module TesteFibonacci(main) where
+
 import Test.HUnit
 import Fibonacci
 

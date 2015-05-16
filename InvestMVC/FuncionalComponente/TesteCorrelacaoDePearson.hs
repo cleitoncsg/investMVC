@@ -1,3 +1,5 @@
+module TesteCorrelacaoDePearson(main) where
+
 import Test.HUnit
 import CorrelacaoDePearson
 
