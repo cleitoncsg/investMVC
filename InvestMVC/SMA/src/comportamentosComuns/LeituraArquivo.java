@@ -1,20 +1,21 @@
 package comportamentosComuns;
 
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
-
-public class LeituraArquivo{
+public abstract class LeituraArquivo{
 	static String correlacao;
 	static String tendencia;
 	
+
+	private static Scanner novoArquivoDeLeitura(String nomeDoArquivo) throws FileNotFoundException {
+		return new Scanner(new FileReader(nomeDoArquivo));
+	}
+	
 	public static String leituraCorrelacao() throws IOException{
-		Scanner scanner = new Scanner(new FileReader("../correlacaoResposta.txt"))
-        .useDelimiter("\\||\\n");
+		Scanner scanner = novoArquivoDeLeitura("../correlacaoResposta.txt").useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			correlacao = scanner.next();
 		}
@@ -24,8 +25,7 @@ public class LeituraArquivo{
 	
 	public static String leituraTendencia() throws IOException{
 		//Aqui vou ter que chamar um programa em C, e verificar o arquivo que foi reescito
-		Scanner scanner = new Scanner(new FileReader("../tendencia.txt"))
-        .useDelimiter("\\||\\n");
+		Scanner scanner = novoArquivoDeLeitura("../tendencia.txt").useDelimiter("\\||\\n");
 		while (scanner.hasNext()) {
 			tendencia = scanner.next();
 			System.out.println("MINHA TENDENCIA: "+tendencia);
@@ -34,20 +34,18 @@ public class LeituraArquivo{
 		return tendencia;
 	}
 	
-	public static ArrayList<String> leituraFibonacci() throws FileNotFoundException{
-		ArrayList<String> fibonacci = new ArrayList<String>();
-		Scanner scanner = new Scanner(new FileReader("../EstruturadoComponente/FibonacciResposta.txt"));
+	public static String leituraFibonacci() throws FileNotFoundException{
+		String fibonacci = new String();
+		Scanner scanner = novoArquivoDeLeitura("../fibonacciResposta.txt");
 		
-		fibonacci.add(scanner.next());
-		fibonacci.add(scanner.next());
-		fibonacci.add(scanner.next());
+		fibonacci= scanner.next();
 		
 		return fibonacci;
 	}
 	
 	public static String leituraMetodo() throws FileNotFoundException {
 		String metodo = new String();		
-		Scanner scanner = new Scanner(new FileReader("../criterioEntrada.txt")).useDelimiter("\\||\\n");
+		Scanner scanner = novoArquivoDeLeitura("../criterioEntrada.txt").useDelimiter("\\||\\n");
 		
 		while (scanner.hasNext()){
 			metodo = scanner.next();
@@ -60,7 +58,7 @@ public class LeituraArquivo{
 		Scanner scanner = null;
 		
 		try {
-			scanner = new Scanner(new FileReader("../prologResposta.txt")).useDelimiter("\\||\\n");
+			scanner = novoArquivoDeLeitura("../prologResposta.txt").useDelimiter("\\||\\n");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -73,7 +71,7 @@ public class LeituraArquivo{
 		String tipoGrafico = new String();
 		Scanner scanner;
 		try {
-			scanner = new Scanner(new FileReader("../criterioEntrada.txt")).useDelimiter("\\||\\n");
+			scanner = novoArquivoDeLeitura("../criterioEntrada.txt").useDelimiter("\\||\\n");
 			scanner.nextLine();
 			tipoGrafico = scanner.nextLine();
 			tempoEmMiliSegundos = converteTipoGraficoEmTempo(tipoGrafico);
@@ -86,12 +84,14 @@ public class LeituraArquivo{
 	private static long converteTipoGraficoEmTempo(String tipoGrafico) {
 		
 		if(tipoGrafico == "M1"){
-			return 60000;
+			return (long) (1.67*1000);
 		}
 		else if (tipoGrafico == "M5") {
-			return 60000*5;
+			return (long) (1.67*1000*5);
 		}
-		else return 60000*60;
+		else if (tipoGrafico=="H1")
+			return (long) (2.78*10*7);
+		else return 60000;
 	}
 	
 }

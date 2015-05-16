@@ -1,7 +1,6 @@
 package metodosNumericos;
 
 import java.io.FileNotFoundException;
-
 import comportamentosComuns.LeituraArquivo;
 import comportamentosComuns.ProcurarCotacoes;
 import jade.core.Agent;
@@ -13,7 +12,6 @@ public class ConsultorAgente extends Agent{
 		System.out.println("Iniciado o agente consultor");
 		try {
 			addBehaviour(new ProcurarCotacoes(this,LeituraArquivo.lerTipoGrafico()));
-//			addBehaviour(new ProcurarCotacoes(this,6000));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

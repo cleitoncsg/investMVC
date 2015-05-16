@@ -1,9 +1,7 @@
 package execucao;
 
 import java.io.FileNotFoundException;
-
-import metodosNumericos.FibonacciAgente;
-import comportamentosComuns.LeituraArquivo;
+import comportamentosComuns.ManipulaStrings;
 import jade.core.Agent;
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
@@ -15,7 +13,7 @@ import jade.wrapper.StaleProxyException;
 
 public class Main extends Agent {
 	private static final long serialVersionUID = 3206847208968227199L;
-	private static String metodoNumericoEscolhido = new String();
+	private static String[] metodoNumericoEscolhido;
 	
 	private AgentContainer metodos;
 	
@@ -44,12 +42,15 @@ public class Main extends Agent {
 		@Override
 		public void action() {
 			try {
-				metodoNumericoEscolhido = LeituraArquivo.leituraMetodo();
+				metodoNumericoEscolhido = ManipulaStrings.metodosUsados();
 			} catch (FileNotFoundException e1) {
 				e1.printStackTrace();
 			}
 			try {				
 				criaAgenteMetodoNumerico();
+				
+				AgentController controlador = metodos.createNewAgent("controladorDeMetodos", "investidores.Controlador", null);
+				controlador.start();
 				
 				AgentController tendencia = metodos.createNewAgent("tendencia", "investidores.Tendencia", null);
 				tendencia.start();
@@ -70,11 +71,14 @@ public class Main extends Agent {
 	}
 	
 	private void criaAgenteMetodoNumerico() throws StaleProxyException{
-		if(metodoNumericoEscolhido.equals("Correlacao"))
-			criaAgenteCorrelacao();
-		else if(metodoNumericoEscolhido.equals("Fibonacci"))
-			criaAgenteFibonacci();
-		else criaAgenteMinimosQuadrados();
+		for (int i = 0; i < metodoNumericoEscolhido.length; i++) {
+			if(metodoNumericoEscolhido[i].equals("Correlacao"))
+				criaAgenteCorrelacao();
+			else if(metodoNumericoEscolhido[i].equals("Fibonacci"))
+				criaAgenteFibonacci();
+			else if (metodoNumericoEscolhido[i].equals("Mímimos Quadrados"))
+				criaAgenteMinimosQuadrados();
+		}
 	}
 
 	private void criaAgenteFibonacci() throws StaleProxyException {
@@ -88,7 +92,7 @@ public class Main extends Agent {
 	}
 	
 	private void criaAgenteMinimosQuadrados() throws StaleProxyException{
-		AgentController minimosQuadrados = metodos.createNewAgent("minimosQuadrados", "metodosNumericos.MinimosQuadrados", null);
+		AgentController minimosQuadrados = metodos.createNewAgent("minimosQuadrados", "metodosNumericos.MinimosQuadradosAgente", null);
 		minimosQuadrados.start();
 	}
 	
