@@ -35,7 +35,6 @@ public class Controlador extends Agent {
 					fibonacciResposta = mensagemRecebida.getContent();
 				} else
 					minimosQuadradosResposta = mensagemRecebida.getContent();
-				
 
 				System.out.println("Respostas do Controlador\nPearson: "
 						+ correlacaoResposta + "\nFib: " + fibonacciResposta

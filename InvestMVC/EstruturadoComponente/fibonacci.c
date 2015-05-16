@@ -31,9 +31,9 @@ int main(){
 
     arquivo = fopen("../fibonacciResposta.txt","wt");
     
-    fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.23, quantidadeCandes));
+    //fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.23, quantidadeCandes));
     fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.38, quantidadeCandes));
-    fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.62, quantidadeCandes));
+    //fprintf(arquivo, "%f\n", calculoRegressaoFibonacci(0.62, quantidadeCandes));
 
     fclose(arquivo);
 

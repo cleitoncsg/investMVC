@@ -1,5 +1,6 @@
 package metodosNumericos;
 
+import comportamentosComuns.EnviaMinimosQuadrados;
 import comportamentosComuns.RegistrarNoDF;
 
 import jade.core.*;
@@ -9,6 +10,7 @@ public class MinimosQuadradosAgente extends Agent {
 	
 	protected void setup() {
 		addBehaviour(new RegistrarNoDF("MetodoNumerico", "MinimosQuadrados"));
+		addBehaviour(new EnviaMinimosQuadrados());
 	} 
 
 }

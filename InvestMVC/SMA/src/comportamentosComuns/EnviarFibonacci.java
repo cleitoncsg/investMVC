@@ -1,37 +1,61 @@
 package comportamentosComuns;
 
-import java.io.FileNotFoundException;
-
+import java.io.IOException;
+import jade.core.AID;
 import jade.core.behaviours.CyclicBehaviour;
+import jade.domain.DFService;
+import jade.domain.FIPAException;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
 
 public class EnviarFibonacci extends CyclicBehaviour {
-
 	private static final long serialVersionUID = 1911196806706828656L;
-	private ACLMessage resposta;
-	
-	
+
+	private AID[] controleDeMetodos;
+
 	@Override
 	public void action() {
-		String fibonacci = new String();
-		try {
-			fibonacci = LeituraArquivo.leituraFibonacci();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
 		ACLMessage msg = myAgent.receive();
-		if(msg !=null){
-			resposta= msg.createReply();
-			System.out.println("O agente "+msg.getSender().getName() + "está se comunicando");
-			String conteudo = msg.getContent();
-			
-			if(conteudo.equalsIgnoreCase("Pedido de informação")){
-				
-				resposta.setContent(fibonacci);
-				myAgent.send(resposta);
+		ACLMessage resposta = new ACLMessage(ACLMessage.INFORM);
+		if (msg != null) {
+			procuraMetodosNoDF();
+
+			try {
+				RodarComandos
+						.rodarComandoNoTerminal("bash executaFibonacci.sh");
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
-		}
-		else block();
+
+			resposta.addReceiver(controleDeMetodos[0]); // Existe Apenas um
+														// controlador
+
+			try {
+				resposta.setContent(LeituraArquivo.leituraFibonacci());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			myAgent.send(resposta);
+		} else
+			block();
 	}
-	
+
+	public void procuraMetodosNoDF() {
+		DFAgentDescription template = new DFAgentDescription();
+		ServiceDescription service = new ServiceDescription();
+		service.setType("Controlador");
+		template.addServices(service);
+		try {
+			DFAgentDescription[] controladoreDoSistema = DFService.search(
+					myAgent, template);
+			controleDeMetodos = new AID[controladoreDoSistema.length];
+			for (int i = 0; i < controladoreDoSistema.length; i++) {
+				controleDeMetodos[i] = controladoreDoSistema[i].getName();
+			}
+		} catch (FIPAException erro) {
+			erro.printStackTrace();
+		}
+	}
+
 }

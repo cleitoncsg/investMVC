@@ -1,8 +1,7 @@
 package teste;
 import java.io.IOException;
-import java.util.ArrayList;
-
 import comportamentosComuns.*;
+
 public class TestaArquivo{
 
 	/**
