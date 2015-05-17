@@ -1,6 +1,6 @@
-\chapter{Metodologia de pesquisa}
+ \chapter{Metodologia de pesquisa}
 
-Segundo \citeonline[pág.~2]{rodrigues2007},a pesquisa deve conter um conjunto de abordagens, técnicas e processos para formular e resolver problemas do mundo real de maneira organizada e sistemática.
+Segundo \citeonline[pág.~2]{rodrigues2007}, a pesquisa deve conter um conjunto de abordagens, técnicas e processos para formular e resolver problemas do mundo real de maneira organizada e sistemática.
 
 Para que uma pesquisa fique bem estruturada é necessário responder como os objetivos serão alcançados e  como será realizada a resolução do problema de pesquisa. Para isso, deve-se classificar a pesquisa, identificar as atividades e estabelecer como as atividades serão executadas \cite{forcon2014}.
 
@@ -31,7 +31,7 @@ Em relação aos procedimentos técnicos, foi utilizado o estudo de caso, pois a
 
 É necessário evidenciar na metodologia de pesquisa quando começam as atividades e quais são as coordenadas para que as mesmas sejam cumpridas \cite{forcon2014}.
 
-A Figura \ref{metodologia} evidencia como estão organizadas as atividades deste TCC.
+A Figura \ref{metodologia} evidencia como estão organizadas as atividades deste trabalho.
 
 \begin{figure}[H]
 \centering
@@ -44,12 +44,21 @@ A Figura \ref{metodologia} evidencia como estão organizadas as atividades deste
 
 A Tabela \ref{atividadeMetologia}  evidencia cada atividade da pesquisa e o objetivo de cada atividade.
 
-\begin{table}[H]
-\caption{Atividades e objetivos da pesquisa}
 \begin{center}
-    \begin{tabular}{ |  p{5cm} | p{9cm}|}
-    \hline
-    \textbf{Atividade} & \textbf{Objetivo} \\ \hline
+\begin{longtable}{| p{8cm} | p{8cm} |}
+\caption{Atividades e objetivos da pesquisa} \\
+\hline
+\textbf{Atividade} & \textbf{Objetivo} \\ \hline
+\endfirsthead
+\multicolumn{2}{c}%
+{\tablename\ \thetable\ -- \textit{Continuação da página anterior}} \\
+\hline
+\textbf{Atividade} & \textbf{Objetivo} \\ \hline
+\endhead
+\hline \multicolumn{2}{c}{\textit{Continuaçao na próxima página}} \\
+\endfoot
+\hline
+\endlastfoot
 	Definir problema & Definir o problema de pesquisa do trabalho.\\ \hline
 	Descrever justificativa & Com base no problema de pesquisa, deve-se justificar a relevância do trabalho proposto.\\ \hline
 	Elaborar referencial teórico & Com base na literatura, descrever os conceitos chaves como Contexto Financeiro, Paradigmas de Programação e Qualidade de Software.\\ \hline
@@ -64,11 +73,10 @@ A Tabela \ref{atividadeMetologia}  evidencia cada atividade da pesquisa e o obje
 	Implementar expert em mql & Implementar toda a lógica da ferramenta MVC em linguagem mql.\\ \hline
 	Comparar resultados monetários expert mql e ferramenta mvc & Comparar os resultados monetários do expert em mql com a ferramenta MVC durante um tempo a se determinado de operação.\\ \hline
 	Reportar resultados & Registrar os resultados da comparação do desempenho da ferramenta MVC e do expert em mql.\\ \hline
-	Elaborar conclusões & Desenvolver as conclusões do TCC.\\ \hline
-    \end{tabular}
-    \end{center}
+	Elaborar conclusões & Desenvolver as conclusões do TCC.\\
 \label{atividadeMetologia}
-\end{table}
+\end{longtable}
+\end{center}
 
 \section{Execução da Pesquisa}
 
@@ -104,12 +112,22 @@ Na Sprint 11, foi construído a US22 (Expert em módulo MQL) para ser integrado 
 
 A tabela \ref{cronograma} mostra quais são as atividades em cada Sprint e a duração da mesma. O cronograma detalhado encontra-se no apêndice A - Cronograma InvestMVC.
 
-\begin{table}
-\caption{Cronograma simplificado}
 \begin{center}
-    \begin{tabular}{  | p{2cm} | p{8cm} | p{2cm}| p{2cm} |}
-    \hline
-    \textbf{Sprint} & \textbf{Atividades} & \textbf{Data de início} & \textbf{Data de finalização}\\ \hline
+\begin{longtable}{  | p{2cm} | p{8cm} | p{2cm}| p{2cm} |}
+\caption{Cronograma simplificado} \\
+\hline
+\textbf{Sprint} & \textbf{Atividades} & \textbf{Data de início} & \textbf{Data de finalização}\\ \hline
+\endfirsthead
+\multicolumn{4}{c}%
+{\tablename\ \thetable\ -- \textit{Continuação da página anterior}} \\
+\hline
+\textbf{Sprint} & \textbf{Atividades} & \textbf{Data de início} & \textbf{Data de finalização} \\ \hline
+\endhead
+\hline \multicolumn{4}{c}{\textit{Continuaçao na próxima página}} \\
+\endfoot
+\hline
+\endlastfoot
+    
     Sprint 1 & \begin{enumerate}
     \item Construir introdução
     \item Implementar Métodos Numéricos
@@ -144,7 +162,57 @@ A tabela \ref{cronograma} mostra quais são as atividades em cada Sprint e a dur
     \item Definir Backlog de Histórias de Usuário
     \item Verificar Qualidade de código fonte
     \end{enumerate} & 01/11/2014 & 10/11/2014\\ \hline
-    \end{tabular}    
-\end{center}
 \label{cronograma}
-\end{table}
+\end{longtable}
+\end{center}
+
+\section{Planejamento para seleção dos métodos matemáticos}
+
+Esta seção descreve o planejamento para seleção dos métodos matemáticos para operar de forma automatizada no mercado de moedas. O planejamento da seleção é uma adaptação do protocolo presente no Anexo B \cite{brereton}.
+
+\subsection{Projeto para seleção dos métodos matemáticos}
+
+Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta investMVC, foi definido as seguintes variáveis e seus devidos valores:
+
+\begin{itemize}
+\item Alavancagem com valor de 0.25;
+\item Conta de simulação com valor inicial de 3.000 USD;
+\item Margem de negociação/alavancagem da conta igual a 1:500;
+\item Stop loss e take profit definido em 500 pontos.
+\item Experts programados em linguagem MQL4
+\item Simulação realizada no mesmo período de tempo (agosto de 2012 à agosto de 2014)
+\item Simulações realizadas na mesma máquina e mesmo sistema operacional
+\end{itemize}
+
+\subsection{Critério para seleção dos métodos matemáticos}
+
+Os Métodos Matemáticos implementados em linguagem MQL4 que obteram lucro de 10\% do capital inicial foram aprovados no experimento.
+
+\subsection{Definições para simulação dos métodos de operação}
+
+Foi utilizado o simulador da plataforma Metatrader para realizar a simulação e, posteriormente, analisar os resultados e definir os métodos a serem implementados na ferramenta InvestMVC.
+
+\subsection{Limitações da seleção dos métodos matemáticos}
+
+A linguagem MQL4 não possui suporte para teste unitário. Portanto, os experts programados para este estudo de caso, não possuem testes automatizados.
+
+O simulador do MetaTrader possui código fonte fechado. Portanto, não foi possível realizar adaptações do simulador através do código fonte.
+
+
+\section{Planejamento para comparação dos valores monetários}
+
+Esta seção descreve o planejamento para comparação dos resultados monetários da ferramenta InvestMVC com o expert tradicional implementado em linguagem MQL. O planejamento da seleção é uma adaptação do protocolo presente no Anexo B \cite{brereton}.
+
+\subsection{Projeto para comparação dos valores monetários}
+
+Para realizar a comparação dos valores monetários do software InvestMVC com o software tradicional em linguagem MQL, foram definidas variáveis de operação iguais para ambos os produtos de software:
+
+\begin{itemize}
+\item Alavancagem com valor de 0.1
+\item Conta de simulação com valor inicial de 5.000 USD
+\item Margem de negociação/alavancagem da conta igual a 1:500
+\item Stop loss e take profit definidos de acordo com a estratégia do método de mínimos Quadrados
+\end{itemize}
+
+\subsection{Definições para execução dos produtos de software}
+O software InvestMVC e o software implementado na linguagem MQL irão rodar no sistema operacional Linux.
