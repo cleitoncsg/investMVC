@@ -18,7 +18,7 @@ public class Vender extends CyclicBehaviour {
 			System.out.println("Hora de Vender com a alavanca" + 0.1);
 			System.out.println("------------------------------------");
 			try {
-				EscreveArquivo.escreveDecisao("vender", 0.1);
+				EscreveArquivo.escreveDecisao("buy", 0.1);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

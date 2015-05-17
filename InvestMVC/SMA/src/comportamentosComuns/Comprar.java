@@ -23,7 +23,7 @@ public class Comprar extends CyclicBehaviour {
 			System.out.println("Hora de Comprar com a alavanca" + 0.1);
 			System.out.println("------------------------------------");
 			
-				EscreveArquivo.escreveDecisao("comprar", 0.1);
+				EscreveArquivo.escreveDecisao("sell", 0.1);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
