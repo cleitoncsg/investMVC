@@ -45,8 +45,7 @@ public abstract class LeituraArquivo {
 		return fibonacci;
 	}
 
-	public static String leituraMinimosQuadrados()
-			throws FileNotFoundException {
+	public static String leituraMinimosQuadrados() throws FileNotFoundException {
 
 		String coeficienteLinear = new String();
 		String coeficienteAngular = new String();
@@ -55,7 +54,7 @@ public abstract class LeituraArquivo {
 		coeficienteLinear = scanner.next();
 		coeficienteAngular = scanner.next();
 
-		String minimoQuadrados = coeficienteLinear+","+ coeficienteAngular;
+		String minimoQuadrados = coeficienteLinear + "," + coeficienteAngular;
 		return minimoQuadrados;
 	}
 
@@ -111,36 +110,65 @@ public abstract class LeituraArquivo {
 		else
 			return 60000;
 	}
-	
-	public static double lerUltimaCotacao(){
+
+	public static double lerUltimaCotacao() {
 		double cotacao = 0;
 		Scanner scannerCriterio;
 		Scanner scannerArquivoCSV;
 		String tipoGrafico;
-		
+
 		try {
 			scannerCriterio = novoArquivoDeLeitura("../criterioEntrada.txt")
 					.useDelimiter("\\||\\n");
 			scannerCriterio.nextLine();
 			tipoGrafico = scannerCriterio.nextLine();
 			scannerArquivoCSV = novoArquivoDeLeitura(abrirCSV(tipoGrafico));
-			cotacao=Double.parseDouble(scannerArquivoCSV.next());
+			cotacao = Double.parseDouble(scannerArquivoCSV.next());
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
+
 		return cotacao;
 	}
 
+	public static double lerSuporte() {
+		double suporte = 0;
+		Scanner scanner;
+
+		try {
+			scanner = novoArquivoDeLeitura("../suporteResistencia.txt");
+			suporte = Double.parseDouble(scanner.next());
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+
+		return suporte;
+	}
+
+	public static double lerResistencia() {
+		double resistencia = 0;
+		Scanner scanner;
+
+		try {
+			scanner = novoArquivoDeLeitura("../suporteResistencia.txt");
+			scanner.next();
+			resistencia = Double.parseDouble(scanner.next());
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+
+		return resistencia;
+	}
+
 	private static String abrirCSV(String tipoGrafico) {
-		
-		if(tipoGrafico.equals("M1"))
+
+		if (tipoGrafico.equals("M1"))
 			return "../../MQL4/Files/M1.csv";
-		else if(tipoGrafico.equals("M5"))
+		else if (tipoGrafico.equals("M5"))
 			return "../../MQL4/Files/M5.csv";
-		else if(tipoGrafico.equals("H1"))
+		else if (tipoGrafico.equals("H1"))
 			return "../../MQL4/Files/M1.csv";
-		
+
 		return null;
 	}
 

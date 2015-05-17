@@ -17,6 +17,8 @@ public abstract class EscreveArquivo {
 		arquivo.append(String.valueOf(Controlador.fibonacciResposta));
 		arquivo.append("\n");
 		arquivo.append(String.valueOf(Controlador.minimoQuadradosSaida));
+		arquivo.append("\n");
+		arquivo.append(String.valueOf(LeituraArquivo.lerResistencia()));
 		
 		arquivo.close();
 	}

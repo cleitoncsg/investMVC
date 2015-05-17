@@ -77,7 +77,7 @@ public class Controlador extends Agent {
 	
 	public void oportunidadeDeNegocio(){
 		if((coeficienteAngular!=0) && (coeficienteLinear!=0))
-			minimoQuadradosSaida = coeficienteLinear + (coeficienteAngular * LeituraArquivo.lerUltimaCotacao());
+			minimoQuadradosSaida = coeficienteLinear + (coeficienteAngular * LeituraArquivo.lerSuporte());
 		
 		addBehaviour(new NotificarTendencia());
 	}
