@@ -3,20 +3,20 @@
 
 Operar no mercado de moedas de forma manual é muito arriscado e, portanto, não recomendado, uma vez que esse mercado é não previsível, o que pode provocar a perda do capital de um investidor em apenas alguns minutos. Em diversas situações, o mercado varia as cotações em apenas um minuto, sendo que a mesma variação pode ser feita durante horas. Para contornar esse problema, a plataforma MetaTrader\footnote{\url{http://www.metatrader4.com/}} oferece as linguagens MQL4 (Paradigma Estruturado) e MQL5 (Paradigma Orientado a Objetos) para construir \textit{Experts} que operem de forma automatizada. 
 
-A plataforma MetaTrader não oferece suporte de ferramentas de teste unitário para as linguagens MQL4 e MQL5. Após implementar um \textit{Expert}, não é possível implementar testes unitários para verificar se as instruções programadas estão de acordo com o esperado. A única forma de verificar se o \textit{Expert} está seguindo as estratégias programadas é usar uma conta real ou demo na plataforma e operar durante um período específico de tempo.
+A plataforma MetaTrader não oferece suporte de ferramentas de testes unitários para as linguagens MQL4 e MQL5. Após implementar um \textit{Expert}, não é possível implementar testes unitários para verificar se as instruções programadas estão de acordo com o esperado. A única forma de verificar se o \textit{Expert} está seguindo as estratégias programadas é usar uma conta real ou demo na plataforma e operar durante um período específico de tempo.
 
 Não foi possível encontrar na literatura investigada até o momento ferramentas que realizem a análise estática de código fonte em MQL4 e MQL5. Portanto, torna-se difícil obter uma análise de critérios de aceitabilidade (ou orientada a métricas) no nível de código fonte dos \textit{Experts} programados nessas linguagens.
 
 Adicionalmente, o código da plataforma MetaTrader é fechado. Dessa forma, não é possível a colaboração da comunidade de desenvolvedores no que tange a evolução das funcionalidades do MetaTrader.
 
-Diante das preocupações acordadas até o momento, acredita-se que o desenvolvimento de um software de código aberto para investimento no Mercado de Moedas, orientado a modelos conceituais de diferentes Paradigmas de Programação bem como às boas práticas da Engenharia de Software como um todo, irá conferir ao investidor maior segurança e conforto em suas operações. Portanto, o software proposto será implementado em diferentes linguagens de programação, padrões de projeto adequados, testes unitários orientados à uma abordagem multiparadigmas e análise qualitativa de código fonte. Um Expert (implementado em linguagem MQL4 ou MQL5) ou um conjunto de Experts serão substituídos pelo software. Nesse último caso, o software terá a propriedade de controlar e/ou monitorar um ou mais \textit{Experts}.
+Diante das preocupações abordadas anteriormente, acredita-se que o desenvolvimento de um software de código aberto para investimento no Mercado de Moedas, orientado a modelos conceituais de diferentes paradigmas de programação bem como às boas práticas da Engenharia de Software como um todo, irá conferir ao investidor maior segurança e conforto em suas operações. Portanto, o software proposto será implementado em diferentes linguagens de programação, padrões de projeto adequados, testes unitários orientados à uma abordagem multiparadigmas e análise qualitativa de código fonte. Um Expert (implementado em linguagem MQL4 ou MQL5) ou um conjunto de Experts serão substituídos pelo software. Nesse último caso, o software terá a propriedade de controlar e/ou monitorar um ou mais \textit{Experts}.
 
-Por fim, este trabalho procurará responder a seguinte questão de pesquisa: é possível desenvolver um software multiparadigma que substitua os Experts convencionais do Mercado de Moedas?
+Este trabalho, portanto, procurará responder a seguinte questão de pesquisa: é possível desenvolver um software multiparadigma que substitua os Experts convencionais do Mercado de Moedas?
 
 \section{Objetivos}
 Este trabalho tem como objetivo geral desenvolver o software multiparadigma InvestMVC que utiliza métodos matemáticos para automação de estratégias financeiras no mercado FOREX.
 
-Considerando o Mercado de Moedas e os Paradigmas de Programação Estruturado, Orientado a Objetos, Funcional, Lógico e Multiagentes, são objetivos específicos deste trabalho:
+Considerando o mercado de moedas e os paradigmas de programação estruturado, orientado a oObjetos, funcional, lógico e multiagentes, são objetivos específicos deste trabalho:
 
 \begin{enumerate}
 \item  Selecionar métodos matemáticos a serem implementados no software InvestMVC com utilização de um protocolo de experimentação;
@@ -29,8 +29,14 @@ Considerando o Mercado de Moedas e os Paradigmas de Programação Estruturado, O
 
 \item Desenvolver testes de integração e funcionais para a software InvestMVC;
 
-\item Comparar resultados financeiros obtidos pelo software InvestMVC com os \textit{Experts} tradicionais implementados em linguagem MQL;
+\item Comparar resultados financeiros obtidos pelo software InvestMVC com os \textit{Experts} tradicionais implementados em linguagem MQL.
 \end{enumerate}
 
 \section{Organização do Trabalho}
-No capítulo 2, é apresentado o Referencial Teórico quanto ao Contexto Financeiro, métodos matemáticos, Paradigmas de Programação, Teste e Qualidade de Software. No Contexto Financeiro, são tratados os atributos atrelados ao Mercado de Moedas como Alavancagem, Suporte e Resistência. Em métodos matemáticos, é realizada uma descrição dos métodos de Fibonacci, Correlação de Pearson, Mínimos Quadrados, Estocástico e Média Móvel. Em Paradigmas de Programação, são descritos os paradigmas: Estruturado, Orientado a Objetos, Lógico, Funcional e Multiagentes. Em Testes de Software, são evidenciados quais os tipos de testes serão utilizados neste trabalho e também quais linguagens terão testes. Por fim, em Qualidade de Software são externalizadas as métricas de qualidade de código fonte, critérios para interpretação das métricas e ferramentas de análise estática. No Capítulo 3, é apresentada a Metodologia de Pesquisa e seus atributos como Classificação da Pesquisa, Atividades da Pesquisa, Execução da Pesquisa, Planejamento do Protocolo de Experimentação e o Cronograma. No Capítulo 4, são apresentados os Resultados com base nos objetivos específicos do trabalho. Por fim, no Capítulo 5 são apresentadas as Conclusões.
+No Capítulo 2, é apresentado o referencial teórico quanto ao contexto financeiro, métodos matemáticos, paradigmas de programação, teste e qualidade de Software. No contexto financeiro, são tratados os atributos atrelados ao mercado de moedas como alavancagem, suporte e resistência. Em métodos matemáticos, é realizada uma descrição dos métodos de Fibonacci, Correlação de Pearson, Mínimos Quadrados, Estocástico e Média Móvel. Em paradigmas de programação, são descritos os paradigmas: estruturado, orientado a objetos, lógico, funcional e multiagentes. Em testes de software, são evidenciados quais os tipos de testes serão utilizados neste trabalho e também quais linguagens terão testes. Por fim, em qualidade de software são externalizadas as métricas de qualidade de código fonte, critérios para interpretação das métricas e ferramentas de análise estática.
+
+No capítulo 3, é apresentada a Metodologia de Pesquisa e seus atributos como classificação da pesquisa, atividades da pesquisa, execução da pesquisa, planejamento do protocolo de experimentação e o cronograma.
+
+No capítulo 4, são apresentados os resultados com base nos objetivos específicos do trabalho.
+
+Por fim, no capítulo 5 são apresentadas as considerações finais.
