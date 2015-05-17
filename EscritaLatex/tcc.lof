@@ -1,53 +1,32 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Reta de Suporte.}}{31}{figure.2.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Reta de Resist\IeC {\^e}ncia.}}{31}{figure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Equa\IeC {\c c}\IeC {\~a}o da reta M\IeC {\'\i }nimos Quadrados.}}{33}{figure.2.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Classifica\IeC {\c c}\IeC {\~a}o da Correla\IeC {\c c}\IeC {\~a}o Linear.}}{34}{figure.2.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Determina\IeC {\c c}\IeC {\~a}o da Correla\IeC {\c c}\IeC {\~a}o Linear.}}{35}{figure.2.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces F\IeC {\'o}rmula de Fibonacci sem uso de recorr\IeC {\^e}ncia.}}{36}{figure.2.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Indicador Estoc\IeC {\'a}stico.}}{37}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Equa\IeC {\c c}\IeC {\~a}o de M\IeC {\'e}dia M\IeC {\'o}vel.}}{38}{figure.2.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Indicador M\IeC {\'e}dia M\IeC {\'o}vel}}{38}{figure.2.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Arquitetura de von Neumann.}}{40}{figure.2.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces A ess\IeC {\^e}ncia do Paradigma Orientado a Objetos.}}{42}{figure.2.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Defeito x Erro x Falha.}}{48}{figure.2.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces N\IeC {\'\i }veis de teste e seu desenvolvimento.}}{49}{figure.2.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Intervalo para interpreta\IeC {\c c}\IeC {\~a}o das m\IeC {\'e}tricas.}}{52}{figure.2.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Atividades da Pesquisa.}}{54}{figure.3.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2012-2013 do expert CorrelacaoPearson.mql}}{65}{figure.6.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2013-2014 do expert CorrelacaoPearson.mql}}{65}{figure.6.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert CorrelacaoPearson.mql no per\IeC {\'\i }odo agosto 2012-2013}}{66}{figure.6.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert CorrelacaoPearson.mql no per\IeC {\'\i }odo agosto 2013-2014}}{66}{figure.6.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2012-2013 do expert}}{67}{figure.6.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2012-2013 do expert}}{67}{figure.6.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2012-2013 do expert}}{67}{figure.6.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2013-2014 do expert}}{68}{figure.6.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2012-2013 do expert}}{68}{figure.6.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2013-2014 do expert}}{69}{figure.6.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert Fibonacci.mql no per\IeC {\'\i }odo agosto 2012-2013}}{69}{figure.6.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert Fibonacci.mql no per\IeC {\'\i }odo agosto 2013-2014}}{70}{figure.6.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2012-2013 do expert Estocastico.mql}}{70}{figure.6.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2013-2014 do expert Estocastico.mql}}{71}{figure.6.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert Estocastico.mql no per\IeC {\'\i }odo agosto 2012-2013}}{71}{figure.6.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert Estocastico.mql no per\IeC {\'\i }odo agosto 2013-2014}}{72}{figure.6.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2012-2013 do expert MediaMovel.mql}}{72}{figure.6.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2013-2014 do expert MediaMovel.mql}}{73}{figure.6.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert MediaMovel.mql no per\IeC {\'\i }odo agosto 2012-2013}}{73}{figure.6.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do expert MediaMovel.mql no per\IeC {\'\i }odo agosto 2013-2014}}{74}{figure.6.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{83}{figure.7.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Diagrama de Classe InvestMVC componente Orientado a Objetos}}{84}{figure.7.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia InvestMVC componente Orientado a Objetos}}{85}{figure.7.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Componente Funcional InvestMVC}}{86}{figure.7.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{86}{figure.7.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{87}{figure.7.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagrama de Classe do Componente Multiagente InvestMVC}}{88}{figure.7.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente L\IeC {\'o}gico InvestMVC.}}{89}{figure.7.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{90}{figure.7.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{91}{figure.7.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces Tela Inicial da ferramenta InvestMVC}}{94}{figure.8.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces Su\IeC {\'\i }te de Teste do Componente Funcional InvestMVC}}{94}{figure.8.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces Cobertura de c\IeC {\'o}digo fonte Componente Estruturado}}{95}{figure.8.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces Resultado da Qualidade de C\IeC {\'o}digo Fonte do Componente Estruturado}}{95}{figure.8.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Estrutura Interna Componente Multiagente}}{96}{figure.8.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces Execu\IeC {\c c}\IeC {\~a}o de Teste Unit\IeC {\'a}rio na Ferramenta PlUnit.}}{96}{figure.8.51}
-\contentsline {figure}{\numberline {52}{\ignorespaces Componente MQL instalado na plataforma MetaTrader}}{97}{figure.8.52}
+\contentsline {figure}{\numberline {1}{\ignorespaces Reta de Suporte.}}{7}{figure.2.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Reta de Resist\IeC {\^e}ncia.}}{8}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Equa\IeC {\c c}\IeC {\~a}o da reta M\IeC {\'\i }nimos Quadrados.}}{10}{figure.2.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Classifica\IeC {\c c}\IeC {\~a}o da Correla\IeC {\c c}\IeC {\~a}o Linear.}}{11}{figure.2.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Determina\IeC {\c c}\IeC {\~a}o da Correla\IeC {\c c}\IeC {\~a}o Linear.}}{11}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces F\IeC {\'o}rmula de Fibonacci sem uso de recorr\IeC {\^e}ncia.}}{13}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Indicador Estoc\IeC {\'a}stico.}}{14}{figure.2.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Equa\IeC {\c c}\IeC {\~a}o de M\IeC {\'e}dia M\IeC {\'o}vel.}}{15}{figure.2.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Indicador M\IeC {\'e}dia M\IeC {\'o}vel}}{15}{figure.2.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Arquitetura de von Neumann.}}{17}{figure.2.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces A ess\IeC {\^e}ncia do Paradigma Orientado a Objetos.}}{19}{figure.2.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Defeito x Erro x Falha.}}{25}{figure.2.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces N\IeC {\'\i }veis de teste e seu desenvolvimento.}}{27}{figure.2.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Intervalo para interpreta\IeC {\c c}\IeC {\~a}o das m\IeC {\'e}tricas.}}{30}{figure.2.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{33}{figure.4.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Diagrama de Classe InvestMVC componente Orientado a Objetos}}{34}{figure.4.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia InvestMVC componente Orientado a Objetos}}{35}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Componente Funcional InvestMVC}}{36}{figure.4.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{36}{figure.4.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{37}{figure.4.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Diagrama de Classe do Componente Multiagente InvestMVC}}{38}{figure.4.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente L\IeC {\'o}gico InvestMVC.}}{39}{figure.4.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{40}{figure.4.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{41}{figure.4.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo Correla\IeC {\c c}\IeC {\~a}o Linear}}{44}{figure.5.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo de Fibonacci}}{44}{figure.5.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo M\IeC {\'\i }mimos Quadrados}}{44}{figure.5.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Su\IeC {\'\i }te de teste da base aprendiz.pl}}{45}{figure.5.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Su\IeC {\'\i }te de teste da base de conhecimento}}{45}{figure.5.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Cobertura de C\IeC {\'o}digo dos pacotes do Componente Multiagentes}}{45}{figure.5.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Suite de teste do Componente Multiagentes}}{46}{figure.5.31}
