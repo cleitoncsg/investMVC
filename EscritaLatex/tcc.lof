@@ -13,20 +13,21 @@
 \contentsline {figure}{\numberline {12}{\ignorespaces Defeito x Erro x Falha.}}{25}{figure.2.12}
 \contentsline {figure}{\numberline {13}{\ignorespaces N\IeC {\'\i }veis de teste e seu desenvolvimento.}}{27}{figure.2.13}
 \contentsline {figure}{\numberline {14}{\ignorespaces Intervalo para interpreta\IeC {\c c}\IeC {\~a}o das m\IeC {\'e}tricas.}}{30}{figure.2.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{33}{figure.4.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Diagrama de Classe InvestMVC componente Orientado a Objetos}}{34}{figure.4.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia InvestMVC componente Orientado a Objetos}}{35}{figure.4.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Componente Funcional InvestMVC}}{36}{figure.4.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{36}{figure.4.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{37}{figure.4.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Diagrama de Classe do Componente Multiagente InvestMVC}}{38}{figure.4.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente L\IeC {\'o}gico InvestMVC.}}{39}{figure.4.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{40}{figure.4.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{41}{figure.4.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo Correla\IeC {\c c}\IeC {\~a}o Linear}}{44}{figure.5.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo de Fibonacci}}{44}{figure.5.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo M\IeC {\'\i }mimos Quadrados}}{44}{figure.5.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Su\IeC {\'\i }te de teste da base aprendiz.pl}}{45}{figure.5.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Su\IeC {\'\i }te de teste da base de conhecimento}}{45}{figure.5.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Cobertura de C\IeC {\'o}digo dos pacotes do Componente Multiagentes}}{45}{figure.5.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Suite de teste do Componente Multiagentes}}{46}{figure.5.31}
+\contentsline {figure}{\numberline {15}{\ignorespaces Atividades da Pesquisa.}}{33}{figure.3.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{41}{figure.4.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama de Classe InvestMVC componente Orientado a Objetos}}{42}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia InvestMVC componente Orientado a Objetos}}{43}{figure.4.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Componente Funcional InvestMVC}}{44}{figure.4.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{44}{figure.4.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{45}{figure.4.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de Classe do Componente Multiagente InvestMVC}}{46}{figure.4.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente L\IeC {\'o}gico InvestMVC.}}{47}{figure.4.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{48}{figure.4.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{49}{figure.4.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo Correla\IeC {\c c}\IeC {\~a}o Linear}}{52}{figure.5.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo de Fibonacci}}{52}{figure.5.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo M\IeC {\'\i }mimos Quadrados}}{52}{figure.5.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Su\IeC {\'\i }te de teste da base aprendiz.pl}}{53}{figure.5.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Su\IeC {\'\i }te de teste da base de conhecimento}}{53}{figure.5.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Cobertura de C\IeC {\'o}digo dos pacotes do Componente Multiagentes}}{53}{figure.5.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Suite de teste do Componente Multiagentes}}{54}{figure.5.32}

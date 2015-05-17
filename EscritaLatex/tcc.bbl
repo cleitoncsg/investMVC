@@ -57,12 +57,6 @@ Monografia (Trabalho de Conclusão de Curso em Matemática) --- Universidade
 {APT, K.~R. \emph{From Logic programming to Prolog}.
 1. ed. [S.l.], 1996.}
 
-\bibitem[BANDEIRA 2012]{bandeira2012}
-\abntrefinfo{BANDEIRA}{BANDEIRA}{2012}
-{BANDEIRA, M.
-\emph{Tipos de Pesquisa.}
-Monografia (Artigo) --- Faculdade de Psicologia, FUNREI, Minas Gerais, 2012.}
-
 \bibitem[BEIZER 1990]{beizer1990}
 \abntrefinfo{BEIZER}{BEIZER}{1990}
 {BEIZER, B. \emph{Software Testing Techniques}.
@@ -85,6 +79,11 @@ Monografia (Artigo) --- Faculdade de Psicologia, FUNREI, Minas Gerais, 2012.}
 2012.
 Dispon{\'\i}vel em:
   \url{http://disciplinas.stoa.usp.br/pluginfile.php/57546/mod\_resource/content/1/Aula8-QualidadeSoftware.pdf}.}
+
+\bibitem[Brereton et al. 2008]{brereton}
+\abntrefinfo{Brereton et al.}{BRERETON et al.}{2008}
+{BRERETON, P. et al. \emph{Using a Protocol Template for Case Study Planning}.
+[S.l.], 2008.}
 
 \bibitem[BROOKSHEAR 2003]{brookshear}
 \abntrefinfo{BROOKSHEAR}{BROOKSHEAR}{2003}
@@ -192,6 +191,11 @@ Dispon{\'\i}vel em: \url{http://www.easy-forex.com/int/leveragedtrading/}.}
 Monografia (Mestrado em Ciência da Computação) --- Instituto de Matemática
   e Estatística, Universidade de São Paulo, São Paulo, 2013.}
 
+\bibitem[fonseca 2002]{fonseca2002}
+\abntrefinfo{fonseca}{FONSECA}{2002}
+{FONSECA j~j~s. \emph{Metodologia da pesquisa científica}.
+[S.l.], 2002.}
+
 \bibitem[FORCON 2014]{forcon2014}
 \abntrefinfo{FORCON}{FORCON}{2014}
 {FORCON. Metodologias para monografia.
@@ -222,18 +226,19 @@ Monografia (Monografia) --- Universidade Federal de Campinas:, São Paulo,
 {GIRARDI, R. \emph{Engenharia de Software baseada em Agentes}.
 [S.l.], 2004.}
 
+\bibitem[Giudice 2010]{giudice}
+\abntrefinfo{Giudice}{GIUDICE}{2010}
+{GIUDICE, J. C.~S. Metodoogia cientifica e métodos de pesquisa.
+2010.
+Dispon{\'\i}vel em:
+  \url{http://www.oficinadapesquisa.com.br/APOSTILAS/METODOL/\_OF.TIPOS\_PESQUISA.PDF}.}
+
 \bibitem[Hoogle 2013]{hoogle2013}
 \abntrefinfo{Hoogle}{HOOGLE}{2013}
 {HOOGLE. Functional programming.
 2013.
 Dispon{\'\i}vel em:
   \url{http://www.haskell.org/haskellwiki/Functional\_programming}.}
-
-\bibitem[Hoppen 2010]{hoppen2010}
-\abntrefinfo{Hoppen}{HOPPEN}{2010}
-{HOPPEN, C.
-\emph{Metodologia Científica: Pesquisa Experimental}.
-Monografia (Graduação) --- Universidade Federal do Paraná, 2010.}
 
 \bibitem[IEEE 610 1990]{ieee}
 \abntrefinfo{IEEE 610}{IEEE 610}{1990}
@@ -423,8 +428,8 @@ Dispon{\'\i}vel em:
 Monografia (Trabalho de Conclusão de Curso em Ciência da Computação) ---
   Universidade Federal do Rio Grande do Norte, Natal, 2008.}
 
-\bibitem[RODRIGUES 2007]{rodrigues2007}
-\abntrefinfo{RODRIGUES}{RODRIGUES}{2007}
+\bibitem[Rodrigues 2007]{rodrigues2007}
+\abntrefinfo{Rodrigues}{RODRIGUES}{2007}
 {RODRIGUES, W.~C. \emph{Metodologia Científica}.
 [S.l.], 2007.}
 
@@ -451,6 +456,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{SEBESTA}{SEBESTA}{2012}
 {SEBESTA, R.~W. \emph{Concepts of programming languages}.
 10. ed. [S.l.], 2012.}
+
+\bibitem[serapioni 2005]{serapioni}
+\abntrefinfo{serapioni}{SERAPIONI}{2005}
+{SERAPIONI m. \emph{Métodos qualitativos e quantitativos na pesquisa social}.
+[S.l.], 2005.}
 
 \bibitem[Singh 2014]{singhDifference}
 \abntrefinfo{Singh}{SINGH}{2014a}
@@ -548,5 +558,10 @@ Dispon{\'\i}vel em: \url{http://mathworld.wolfram.com/MovingAverage.html}.}
 \abntrefinfo{WOOLDRIDGE}{WOOLDRIDGE}{2010}
 {WOOLDRIDGE, M. \emph{Teamwork in Multi-agent systems: A Formal Approach}.
 1. ed. [S.l.], 2010.}
+
+\bibitem[yin 2009]{yin}
+\abntrefinfo{yin}{YIN}{2009}
+{YIN robert~k. \emph{Estudo de caso: planejamento e método}.
+4. ed. [S.l.], 2009.}
 
 \end{thebibliography}

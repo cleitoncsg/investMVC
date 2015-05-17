@@ -39,81 +39,98 @@
 \contentsline {subsection}{\numberline {2.5.3}Ferramentas de An\IeC {\'a}lise Est\IeC {\'a}tica}{30}{subsection.2.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia de pesquisa}}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Classifica\IeC {\c c}\IeC {\~a}o da Pesquisa}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}Atividades da Pesquisa}{32}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Descri\IeC {\c c}\IeC {\~a}o dos Objetivos das Atividades de Pesquisa}{34}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Execu\IeC {\c c}\IeC {\~a}o da Pesquisa}{35}{section.3.3}
+\contentsline {section}{\numberline {3.4}Cronograma}{37}{section.3.4}
+\contentsline {section}{\numberline {3.5}Planejamento para sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'e}todos matem\IeC {\'a}ticos}{38}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Projeto para sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'e}todos matem\IeC {\'a}ticos}{38}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Crit\IeC {\'e}rio para sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'e}todos matem\IeC {\'a}ticos}{39}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Defini\IeC {\c c}\IeC {\~o}es para simula\IeC {\c c}\IeC {\~a}o dos m\IeC {\'e}todos de opera\IeC {\c c}\IeC {\~a}o}{39}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Limita\IeC {\c c}\IeC {\~o}es da sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'e}todos matem\IeC {\'a}ticos}{39}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Planejamento para compara\IeC {\c c}\IeC {\~a}o dos valores monet\IeC {\'a}rios}{39}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Projeto para compara\IeC {\c c}\IeC {\~a}o dos valores monet\IeC {\'a}rios}{39}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Defini\IeC {\c c}\IeC {\~o}es para execu\IeC {\c c}\IeC {\~a}o dos produtos de software}{40}{subsection.3.6.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {O InvestMVC}}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Arquitetura Orientada a Componentes}{33}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Componente Orientado a Objetos}{33}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Componente C\IeC {\'a}lculos Num\IeC {\'e}ricos}{35}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Componente Funcional}{35}{subsubsection.4.1.2.1}
-\contentsline {subsubsection}{\numberline {4.1.2.2}Componente Estruturado}{36}{subsubsection.4.1.2.2}
-\contentsline {subsection}{\numberline {4.1.3}Componente Multiagentes}{38}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Componente L\IeC {\'o}gico}{38}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Componente MQL}{39}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Fluxo de atividades da ferramenta InvestMVC}{40}{subsection.4.1.6}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {O InvestMVC}}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Arquitetura Orientada a Componentes}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Componente Orientado a Objetos}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Componente C\IeC {\'a}lculos Num\IeC {\'e}ricos}{43}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Componente Funcional}{43}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Componente Estruturado}{44}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Componente Multiagentes}{46}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Componente L\IeC {\'o}gico}{46}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Componente MQL}{47}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Fluxo de atividades da ferramenta InvestMVC}{48}{subsection.4.1.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Resultados testes unit\IeC {\'a}rios}{44}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Componente Funcional}{44}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Componente Estruturado}{44}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Componente L\IeC {\'o}gico}{44}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Componente Multiagentes}{45}{subsection.5.1.4}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}Resultados testes unit\IeC {\'a}rios}{52}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Componente Funcional}{52}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Componente Estruturado}{52}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Componente L\IeC {\'o}gico}{52}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Componente Multiagentes}{53}{subsection.5.1.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{47}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{55}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{49}{section*.13}
+\contentsline {chapter}{Refer\^encias}{57}{section*.13}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Gloss\IeC {\'a}rio}}{55}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Gloss\IeC {\'a}rio}}{63}{chapter.7}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{57}{section*.14}
+\contentsline {part}{\uppercase {Ap\^endices}}{65}{section*.14}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{59}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{67}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}}{65}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}}{73}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cronograma InvestMVC}}{73}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cronograma InvestMVC}}{81}{appendix.C}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Experts para Experimento}}{81}{appendix.D}
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Experts para Experimento}}{89}{appendix.D}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Componente OO}}{97}{appendix.E}
+\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Componente OO}}{105}{appendix.E}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {F}\MakeTextUppercase {Componente Funcional}}{101}{appendix.F}
+\contentsline {appendix}{\chapternumberline {F}\MakeTextUppercase {Componente Funcional}}{109}{appendix.F}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {G}\MakeTextUppercase {Componente Estruturado}}{109}{appendix.G}
+\contentsline {appendix}{\chapternumberline {G}\MakeTextUppercase {Componente Estruturado}}{117}{appendix.G}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {H}\MakeTextUppercase {Componente L\IeC {\'o}gico}}{123}{appendix.H}
+\contentsline {appendix}{\chapternumberline {H}\MakeTextUppercase {Componente L\IeC {\'o}gico}}{131}{appendix.H}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {I}\MakeTextUppercase {Componente Multiagentes}}{129}{appendix.I}
+\contentsline {appendix}{\chapternumberline {I}\MakeTextUppercase {Componente Multiagentes}}{137}{appendix.I}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {J}\MakeTextUppercase {Componente MQL}}{135}{appendix.J}
+\contentsline {appendix}{\chapternumberline {J}\MakeTextUppercase {Componente MQL}}{143}{appendix.J}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{139}{section*.15}
+\contentsline {part}{\uppercase {Anexos}}{147}{section*.15}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Template de Protocolo Experimental}}{141}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Template de Protocolo Experimental}}{149}{appendix.anexochapback.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Protocolo de Estudo de Caso}}{151}{appendix.anexochapback.2}
