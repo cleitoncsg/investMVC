@@ -1,2 +1,16 @@
+#Pastas#
 /metodosNumericosTeste/dist/
 /metodosNumericosTeste/build/
+/InvestMVC/.metadata/*
+/InvestMVC/.metadata/
+/Invest/target/
+.metadata/
+config/
+history/
+profiles/
+/config/
+/history/
+/profiles/
+#Arquivos compilados#
+*.class
+*.log
