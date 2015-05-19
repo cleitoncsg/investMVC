@@ -18,12 +18,7 @@ public class Comprar extends CyclicBehaviour {
 			//% swipl -o exe -g meuFato -c hello.pl
 			//% ./myexe
 			
-			System.out.println("------------------------------------");
-			System.out.println("O mercado está subindo");
-			System.out.println("Hora de Comprar com a alavanca" + 0.1);
-			System.out.println("------------------------------------");
-			
-				EscreveArquivo.escreveDecisao("sell", 0.1);
+				EscreveArquivo.escreveDecisao("SELL", 0.1);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

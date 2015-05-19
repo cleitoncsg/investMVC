@@ -13,12 +13,8 @@ public class Vender extends CyclicBehaviour {
 	public void action() {
 		ACLMessage msg = myAgent.receive();
 		if(msg !=null){
-			System.out.println("------------------------------------");
-			System.out.println("O mercado está caindo");
-			System.out.println("Hora de Vender com a alavanca" + 0.1);
-			System.out.println("------------------------------------");
 			try {
-				EscreveArquivo.escreveDecisao("buy", 0.1);
+				EscreveArquivo.escreveDecisao("BUY", 0.1);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

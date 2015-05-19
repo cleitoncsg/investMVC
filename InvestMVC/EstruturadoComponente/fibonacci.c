@@ -38,7 +38,7 @@ int main(){
     fclose(arquivo);    
 
     arquivoSuporteResistencia = fopen("../suporteResistencia.txt","wt");
-    fprintf(    , "%f\n", calculoSuporte(quantidadeCandes));
+    fprintf(arquivoSuporteResistencia, "%f\n", calculoSuporte(quantidadeCandes));
     fprintf(arquivoSuporteResistencia, "%f\n", calculoResistencia(quantidadeCandes));
 
     return 0;

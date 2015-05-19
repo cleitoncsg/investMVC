@@ -41,7 +41,7 @@ public abstract class LeituraArquivo {
 		Scanner scanner = novoArquivoDeLeitura("../fibonacciResposta.txt");
 
 		fibonacci = scanner.next();
-
+		scanner.close();
 		return fibonacci;
 	}
 
@@ -55,6 +55,7 @@ public abstract class LeituraArquivo {
 		coeficienteAngular = scanner.next();
 
 		String minimoQuadrados = coeficienteLinear + "," + coeficienteAngular;
+		scanner.close();
 		return minimoQuadrados;
 	}
 
@@ -66,6 +67,7 @@ public abstract class LeituraArquivo {
 		while (scanner.hasNext()) {
 			metodo = scanner.next();
 		}
+		scanner.close();
 		return metodo;
 	}
 
@@ -80,6 +82,7 @@ public abstract class LeituraArquivo {
 			e.printStackTrace();
 		}
 		alavanca = Double.parseDouble(scanner.next());
+		scanner.close();
 		return alavanca;
 	}
 
@@ -93,6 +96,7 @@ public abstract class LeituraArquivo {
 			scanner.nextLine();
 			tipoGrafico = scanner.nextLine();
 			tempoEmMiliSegundos = converteTipoGraficoEmTempo(tipoGrafico);
+			scanner.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -124,6 +128,8 @@ public abstract class LeituraArquivo {
 			tipoGrafico = scannerCriterio.nextLine();
 			scannerArquivoCSV = novoArquivoDeLeitura(abrirCSV(tipoGrafico));
 			cotacao = Double.parseDouble(scannerArquivoCSV.next());
+			scannerCriterio.close();
+			scannerArquivoCSV.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -138,6 +144,7 @@ public abstract class LeituraArquivo {
 		try {
 			scanner = novoArquivoDeLeitura("../suporteResistencia.txt");
 			suporte = Double.parseDouble(scanner.next());
+			scanner.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -153,10 +160,11 @@ public abstract class LeituraArquivo {
 			scanner = novoArquivoDeLeitura("../suporteResistencia.txt");
 			scanner.next();
 			resistencia = Double.parseDouble(scanner.next());
+			scanner.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-
+		
 		return resistencia;
 	}
 
