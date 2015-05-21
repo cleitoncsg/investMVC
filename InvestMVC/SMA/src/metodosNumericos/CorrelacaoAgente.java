@@ -4,8 +4,8 @@ import comportamentosComuns.EnviarCorrelacao;
 import comportamentosComuns.RegistrarNoDF;
 
 import jade.core.*;
-import jade.domain.DFService;
-import jade.domain.FIPAException;
+import jade.wrapper.AgentController;
+import jade.wrapper.StaleProxyException;
 
 public class CorrelacaoAgente extends Agent{
 
@@ -16,15 +16,15 @@ public class CorrelacaoAgente extends Agent{
 		addBehaviour(new EnviarCorrelacao());
 	}
 	
-	//Remove o registro do agente da página amarela quando sua execução é finalizada
 	protected void takeDown(){
-		
+		System.out.println("Agente morto "+ this.getLocalName());
 		try {
-			DFService.deregister(this);
-			System.out.println("Agente "+getAID().getName()+"está finalizado!");
-		} catch (FIPAException erro) {
-			erro.printStackTrace();
-		}	
+			String nome = "Correlacao "+Math.random();
+			AgentController agente = this.getContainerController().createNewAgent(nome, "agenteQ.AgenteQ", null);
+			agente.start();
+		} catch (StaleProxyException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

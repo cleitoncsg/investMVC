@@ -106,11 +106,11 @@ public abstract class LeituraArquivo {
 	private static long converteTipoGraficoEmTempo(String tipoGrafico) {
 
 		if (tipoGrafico == "M1") {
-			return (long) (1.67 * 1000);
+			return (long) (0.67 * 1000);
 		} else if (tipoGrafico == "M5") {
-			return (long) (1.67 * 1000 * 5);
+			return (long) (1.67 * 1000);
 		} else if (tipoGrafico == "H1")
-			return (long) (2.78 * 10 * 7);
+			return (long) (2.78 * 10 * 2);
 		else
 			return 60000;
 	}

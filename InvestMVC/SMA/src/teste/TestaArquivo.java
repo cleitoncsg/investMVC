@@ -1,15 +1,23 @@
 package teste;
+
+import investidores.Controlador;
+
 import java.io.IOException;
 import comportamentosComuns.*;
 
-public class TestaArquivo{
+public class TestaArquivo {
 
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		System.out.println(LeituraArquivo.leituraMinimosQuadrados());
+		
+		String resposta = "fib suporte resistencia";
+		String[] quebra = resposta.split(" ");
+		System.out.println(quebra[0]);
+		System.out.println(quebra[1]);
+		System.out.println(quebra[2]);
 	}
 
 }

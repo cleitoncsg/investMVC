@@ -1,13 +1,18 @@
 package investidores;
 
+import java.io.IOException;
+
 import comportamentosComuns.LeituraArquivo;
 import comportamentosComuns.NotificarTendencia;
 import comportamentosComuns.RegistrarNoDF;
+import comportamentosComuns.RodarComandos;
 
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.lang.acl.ACLMessage;
+import jade.wrapper.AgentController;
+import jade.wrapper.StaleProxyException;
 
 public class Controlador extends Agent {
 	private double correlacaoResposta = 0;
@@ -16,6 +21,8 @@ public class Controlador extends Agent {
 	private double coeficienteLinear = 0;
 	public static double minimoQuadradosSaida=0;
 	private  String[] minimosQuadradosResposta=null;
+	public static double suporte=0;
+	public static double resistencia=0;
 	
 	private static final long serialVersionUID = 4191947920949390195L;
 
@@ -30,6 +37,10 @@ public class Controlador extends Agent {
 		@Override
 		public void action() {
 			ACLMessage mensagemRecebida = myAgent.receive();
+			
+			if(mensagemRecebida.equals("-nan")){
+				block();
+			}
 			if (mensagemRecebida != null) {
 				if (mensagemRecebida.getSender().getLocalName()
 						.equals("correlacao")) {
@@ -38,7 +49,10 @@ public class Controlador extends Agent {
 
 				else if (mensagemRecebida.getSender().getLocalName()
 						.equals("fibonacci")) {
-					fibonacciResposta = Double.parseDouble(mensagemRecebida.getContent());
+					String[] quebraResposta = mensagemRecebida.getContent().split(" ");
+					fibonacciResposta = Double.parseDouble(quebraResposta[0]);
+					suporte = Double.parseDouble(quebraResposta[1]);
+					resistencia = Double.parseDouble(quebraResposta[2]);
 				} else{
 					minimosQuadradosResposta = mensagemRecebida.getContent().split(",");
 					coeficienteLinear = Double.parseDouble(minimosQuadradosResposta[0]);
@@ -47,11 +61,13 @@ public class Controlador extends Agent {
 
 				System.out.println("Respostas do Controlador\nPearson: "
 						+ correlacaoResposta + "\nFib: " + fibonacciResposta
-						+ "\nMinimos Quadrados: " + coeficienteLinear+ " + "+coeficienteAngular);
+						+ "\nMinimos Quadrados: " + coeficienteLinear+ " + "+coeficienteAngular+"Suporte: "+suporte
+						+"Resistência: "+resistencia+"\n\n");
 				
 				addBehaviour(new AnaliseDosMetodos());
 
-			} else
+			}			
+			else
 				block();
 		}
 	}
@@ -70,16 +86,37 @@ public class Controlador extends Agent {
 				oportunidadeDeNegocio();
 			}
 			
-			else block();
+			else{
+				minimoQuadradosSaida = coeficienteLinear + (coeficienteAngular * suporte);
+				String comando = "NOTHING"+" "+0.1+" "+fibonacciResposta + " "
+						+ minimoQuadradosSaida + " "+ resistencia+"\n\n";
+				
+				try {
+					RodarComandos.rodarComandoNoTerminal("bash escreveArquivo.sh "+comando);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
 		}
 		
 	}
 	
 	public void oportunidadeDeNegocio(){
 		if((coeficienteAngular!=0) && (coeficienteLinear!=0))
-			minimoQuadradosSaida = coeficienteLinear + (coeficienteAngular * LeituraArquivo.lerSuporte());
+			minimoQuadradosSaida = coeficienteLinear + (coeficienteAngular * suporte);
 		
 		addBehaviour(new NotificarTendencia());
+	}
+	
+	protected void takeDown(){
+		System.out.println("Agente morto "+ this.getLocalName());
+		try {
+			String nome = "Controlador "+Math.random();
+			AgentController agente = this.getContainerController().createNewAgent(nome, "agenteQ.AgenteQ", null);
+			agente.start();
+		} catch (StaleProxyException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

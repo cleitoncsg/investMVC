@@ -32,7 +32,7 @@ public class EnviarFibonacci extends CyclicBehaviour {
 														// controlador
 
 			try {
-				resposta.setContent(LeituraArquivo.leituraFibonacci());
+				resposta.setContent(LeituraArquivo.leituraFibonacci()+" "+LeituraArquivo.lerSuporte()+" "+LeituraArquivo.lerResistencia());
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
