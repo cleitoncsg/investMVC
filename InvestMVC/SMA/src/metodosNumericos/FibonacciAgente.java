@@ -21,7 +21,7 @@ public class FibonacciAgente extends Agent {
 		System.out.println("Agente morto "+ this.getLocalName());
 		try {
 			String nome = "Fibonacci "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "agenteQ.AgenteQ", null);
+			AgentController agente = this.getContainerController().createNewAgent(nome, "metodosNumericos.FibonacciAgente", null);
 			agente.start();
 		} catch (StaleProxyException e) {
 			e.printStackTrace();

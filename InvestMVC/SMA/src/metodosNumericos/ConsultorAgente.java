@@ -23,7 +23,7 @@ public class ConsultorAgente extends Agent{
 		System.out.println("Agente morto "+ this.getLocalName());
 		try {
 			String nome = "Consultor "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "agenteQ.AgenteQ", null);
+			AgentController agente = this.getContainerController().createNewAgent(nome, "metodosNumericos.ConsultorAgente", null);
 			agente.start();
 		} catch (StaleProxyException e) {
 			e.printStackTrace();

@@ -38,10 +38,13 @@ public class Controlador extends Agent {
 		public void action() {
 			ACLMessage mensagemRecebida = myAgent.receive();
 			
-			if(mensagemRecebida.equals("-nan")){
-				block();
-			}
+			
 			if (mensagemRecebida != null) {
+				
+				if(mensagemRecebida.equals("-nan")){
+					block();
+				}
+				
 				if (mensagemRecebida.getSender().getLocalName()
 						.equals("correlacao")) {
 					correlacaoResposta = Double.parseDouble(mensagemRecebida.getContent());
@@ -61,8 +64,8 @@ public class Controlador extends Agent {
 
 				System.out.println("Respostas do Controlador\nPearson: "
 						+ correlacaoResposta + "\nFib: " + fibonacciResposta
-						+ "\nMinimos Quadrados: " + coeficienteLinear+ " + "+coeficienteAngular+"Suporte: "+suporte
-						+"Resistência: "+resistencia+"\n\n");
+						+ "\nMinimos Quadrados: " + coeficienteLinear+ " + "+coeficienteAngular+"\nSuporte: "+suporte
+						+"\nResistência: "+resistencia+"\n\n");
 				
 				addBehaviour(new AnaliseDosMetodos());
 
@@ -82,7 +85,7 @@ public class Controlador extends Agent {
 				oportunidadeDeNegocio();
 			}
 			
-			else if (correlacaoResposta > 0.9){
+			else if (correlacaoResposta > 0.8){
 				oportunidadeDeNegocio();
 			}
 			
@@ -112,7 +115,7 @@ public class Controlador extends Agent {
 		System.out.println("Agente morto "+ this.getLocalName());
 		try {
 			String nome = "Controlador "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "agenteQ.AgenteQ", null);
+			AgentController agente = this.getContainerController().createNewAgent(nome, "investidores.Controlador", null);
 			agente.start();
 		} catch (StaleProxyException e) {
 			e.printStackTrace();

@@ -9,7 +9,7 @@ public abstract class EscreveArquivo {
 			throws IOException {
 		
 		String comando = decisao+" "+alavanca+" "+Controlador.fibonacciResposta + " "
-				+ Controlador.minimoQuadradosSaida + " "
+				+ Controlador.suporte + " "
 				+ Controlador.resistencia;
 		
 		RodarComandos.rodarComandoNoTerminal("bash escreveArquivo.sh "+comando);

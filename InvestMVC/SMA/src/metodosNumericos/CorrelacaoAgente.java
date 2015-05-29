@@ -20,7 +20,7 @@ public class CorrelacaoAgente extends Agent{
 		System.out.println("Agente morto "+ this.getLocalName());
 		try {
 			String nome = "Correlacao "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "agenteQ.AgenteQ", null);
+			AgentController agente = this.getContainerController().createNewAgent(nome, "metodosNumericos.CorrelacaoAgente", null);
 			agente.start();
 		} catch (StaleProxyException e) {
 			e.printStackTrace();

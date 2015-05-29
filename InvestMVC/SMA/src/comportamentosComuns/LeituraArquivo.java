@@ -3,6 +3,7 @@ package comportamentosComuns;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public abstract class LeituraArquivo {
@@ -38,9 +39,14 @@ public abstract class LeituraArquivo {
 
 	public static String leituraFibonacci() throws FileNotFoundException {
 		String fibonacci = new String();
-		Scanner scanner = novoArquivoDeLeitura("../fibonacciResposta.txt");
-
-		fibonacci = scanner.next();
+		Scanner scanner = novoArquivoDeLeitura("../fibonacciResposta.txt").useDelimiter("\\||\\n");;
+		
+		try {
+			fibonacci = scanner.next();
+		} catch (NoSuchElementException e) {
+			fibonacci="0";
+		}
+		
 		scanner.close();
 		return fibonacci;
 	}
@@ -49,10 +55,16 @@ public abstract class LeituraArquivo {
 
 		String coeficienteLinear = new String();
 		String coeficienteAngular = new String();
-		Scanner scanner = novoArquivoDeLeitura("../minimosQuadradosResposta.txt");
-
-		coeficienteLinear = scanner.next();
-		coeficienteAngular = scanner.next();
+		Scanner scanner = novoArquivoDeLeitura("../minimosQuadradosResposta.txt").useDelimiter("\\||\\n");;
+		
+		try {
+			coeficienteLinear = scanner.next();
+			coeficienteAngular = scanner.next();
+		} catch (Exception e) {
+			coeficienteLinear = "0";
+			coeficienteAngular = "0";
+		}
+		
 
 		String minimoQuadrados = coeficienteLinear + "," + coeficienteAngular;
 		scanner.close();
@@ -142,7 +154,7 @@ public abstract class LeituraArquivo {
 		Scanner scanner;
 
 		try {
-			scanner = novoArquivoDeLeitura("../suporteResistencia.txt");
+			scanner = novoArquivoDeLeitura("../suporteResistencia.txt").useDelimiter("\\||\\n");;
 			suporte = Double.parseDouble(scanner.next());
 			scanner.close();
 		} catch (FileNotFoundException e) {
@@ -157,7 +169,7 @@ public abstract class LeituraArquivo {
 		Scanner scanner;
 
 		try {
-			scanner = novoArquivoDeLeitura("../suporteResistencia.txt");
+			scanner = novoArquivoDeLeitura("../suporteResistencia.txt").useDelimiter("\\||\\n");;
 			scanner.next();
 			resistencia = Double.parseDouble(scanner.next());
 			scanner.close();

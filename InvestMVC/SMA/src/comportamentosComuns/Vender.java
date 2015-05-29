@@ -14,7 +14,7 @@ public class Vender extends CyclicBehaviour {
 		ACLMessage msg = myAgent.receive();
 		if(msg !=null){
 			try {
-				EscreveArquivo.escreveDecisao("BUY", 0.1);
+				EscreveArquivo.escreveDecisao("SELL", 0.1);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

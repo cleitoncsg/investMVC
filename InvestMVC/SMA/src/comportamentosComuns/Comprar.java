@@ -18,7 +18,7 @@ public class Comprar extends CyclicBehaviour {
 			//% swipl -o exe -g meuFato -c hello.pl
 			//% ./myexe
 			
-				EscreveArquivo.escreveDecisao("SELL", 0.1);
+				EscreveArquivo.escreveDecisao("BUY", 0.1);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
