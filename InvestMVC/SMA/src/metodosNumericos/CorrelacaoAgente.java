@@ -1,7 +1,10 @@
 package metodosNumericos;
 
+import java.io.IOException;
+
 import comportamentosComuns.EnviarCorrelacao;
 import comportamentosComuns.RegistrarNoDF;
+import comportamentosComuns.ReiniciaSistema;
 
 import jade.core.*;
 import jade.wrapper.AgentController;
@@ -17,12 +20,11 @@ public class CorrelacaoAgente extends Agent{
 	}
 	
 	protected void takeDown(){
-		System.out.println("Agente morto "+ this.getLocalName());
 		try {
-			String nome = "Correlacao "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "metodosNumericos.CorrelacaoAgente", null);
-			agente.start();
+			ReiniciaSistema.reiniciaSMA(this);
 		} catch (StaleProxyException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

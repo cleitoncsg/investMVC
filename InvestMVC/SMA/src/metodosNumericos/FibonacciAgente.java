@@ -1,10 +1,13 @@
 package metodosNumericos;
 
+import java.io.IOException;
+
 import jade.core.Agent;
 import jade.wrapper.AgentController;
 import jade.wrapper.StaleProxyException;
 import comportamentosComuns.EnviarFibonacci;
 import comportamentosComuns.RegistrarNoDF;
+import comportamentosComuns.ReiniciaSistema;
 
 
 public class FibonacciAgente extends Agent {
@@ -18,12 +21,11 @@ public class FibonacciAgente extends Agent {
 	}
 	
 	protected void takeDown(){
-		System.out.println("Agente morto "+ this.getLocalName());
 		try {
-			String nome = "Fibonacci "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "metodosNumericos.FibonacciAgente", null);
-			agente.start();
+			ReiniciaSistema.reiniciaSMA(this);
 		} catch (StaleProxyException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

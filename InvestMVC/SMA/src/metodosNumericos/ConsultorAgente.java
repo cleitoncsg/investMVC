@@ -1,8 +1,11 @@
 package metodosNumericos;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import comportamentosComuns.LeituraArquivo;
 import comportamentosComuns.ProcurarCotacoes;
+import comportamentosComuns.ReiniciaSistema;
 import jade.core.Agent;
 import jade.wrapper.AgentController;
 import jade.wrapper.StaleProxyException;
@@ -20,12 +23,11 @@ public class ConsultorAgente extends Agent{
 	}
 	
 	protected void takeDown(){
-		System.out.println("Agente morto "+ this.getLocalName());
 		try {
-			String nome = "Consultor "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "metodosNumericos.ConsultorAgente", null);
-			agente.start();
+			ReiniciaSistema.reiniciaSMA(this);
 		} catch (StaleProxyException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

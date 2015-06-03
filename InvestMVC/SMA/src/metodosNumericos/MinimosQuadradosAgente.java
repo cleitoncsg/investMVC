@@ -1,7 +1,10 @@
 package metodosNumericos;
 
+import java.io.IOException;
+
 import comportamentosComuns.EnviaMinimosQuadrados;
 import comportamentosComuns.RegistrarNoDF;
+import comportamentosComuns.ReiniciaSistema;
 
 import jade.core.*;
 import jade.wrapper.AgentController;
@@ -16,12 +19,11 @@ public class MinimosQuadradosAgente extends Agent {
 	}
 	
 	protected void takeDown(){
-		System.out.println("Agente morto "+ this.getLocalName());
 		try {
-			String nome = "MinimosQuadrados "+Math.random();
-			AgentController agente = this.getContainerController().createNewAgent(nome, "metodosNumericos.MinimosQuadradosAgente", null);
-			agente.start();
+			ReiniciaSistema.reiniciaSMA(this);
 		} catch (StaleProxyException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

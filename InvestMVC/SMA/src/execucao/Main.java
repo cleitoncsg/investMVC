@@ -1,7 +1,10 @@
 package execucao;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import comportamentosComuns.ManipulaStrings;
+import comportamentosComuns.ReiniciaSistema;
 import jade.core.Agent;
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
@@ -17,30 +20,37 @@ public class Main extends Agent {
 	
 	private AgentContainer metodos;
 	
+	
 	protected void setup() {
 		System.out.println("Iniciando a execução");
-		addBehaviour(new CriandoContainers());
+		try {
+			ReiniciaSistema.compilaArquivoC();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		metodos = getContainerController();
 		addBehaviour(new CriandoAgentes());
 	}
 	
-	public class CriandoContainers extends OneShotBehaviour{
-
-		private static final long serialVersionUID = -7764417346591307311L;
-
-		@Override
-		public void action() {
-			System.out.println("Criando Container");
-			Runtime rt = Runtime.instance();
-			ProfileImpl p = new ProfileImpl(true);
-			metodos = rt.createAgentContainer(p);
-		}
-	}
+//	public class CriandoContainers extends OneShotBehaviour{
+//
+//		private static final long serialVersionUID = -7764417346591307311L;
+//
+//		@Override
+//		public void action() {
+//			System.out.println("Criando Container");
+//			Runtime rt = Runtime.instance();
+//			ProfileImpl p = new ProfileImpl(true);
+//			metodos = rt.createAgentContainer(p);
+//		}
+//	}
 	
 	public class CriandoAgentes extends OneShotBehaviour{
 		private static final long serialVersionUID = -7774814918503262919L;
 
 		@Override
 		public void action() {
+			
 			try {
 				metodoNumericoEscolhido = ManipulaStrings.metodosUsados();
 			} catch (FileNotFoundException e1) {
@@ -98,7 +108,13 @@ public class Main extends Agent {
 	
 	
 	@Override
-	protected void takeDown() {		
-		super.takeDown();
+	protected void takeDown(){
+		try {
+			ReiniciaSistema.reiniciaSMA(this);
+		} catch (StaleProxyException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
