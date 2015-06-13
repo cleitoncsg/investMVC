@@ -8,7 +8,7 @@ Para que uma pesquisa fique bem estruturada é necessário responder como os obj
 
 Segundo \citeonline[pág.~41]{gil2008}, a metodologia de pesquisa é classificada através de critérios bem definidos com base em seus objetivos e procedimentos técnicos.
 
-É usual classificar uma pesquisa com base em seus objetivos em três grandes grupos: exploratórias, descritivas e explicativas. Já em nível de procedimento técnico, a pesquisa pode ser classificada como estudo de caso, pesquisa ação, survey, experimental, entre outras \citeonline[pág.~41]{gil2008}.
+É usual classificar uma pesquisa com base em seus objetivos em três grandes grupos: exploratórias, descritivas e explicativas. Já em nível de procedimento técnico, a pesquisa pode ser classificada como estudo de caso, pesquisa ação, survey, experimental, entre outras \cite[pág.~41]{gil2008}.
 
 A pesquisa exploratória é utilizada pelo pesquisador para familiarizar com um assunto pouco explorado. Ao decorrer ou no final da pesquisa exploratória, o pesquisador poderá estar apto para formular hipóteses \cite{giudice}.
 
@@ -166,53 +166,68 @@ A Tabela \ref{cronograma} mostra quais foram as atividades em cada Sprint e a du
 \end{longtable}
 \end{center}
 
-\section{Planejamento para seleção dos métodos matemáticos}
+\section{Planejamento do estudo de caso}
 
-Esta seção descreve o planejamento para seleção dos métodos matemáticos para operar de forma automatizada no mercado de moedas. O planejamento da seleção é uma adaptação do protocolo presente no Anexo A \cite{brereton}.
+Esta seção descreve o planejamento para seleção dos métodos matemá¡ticos e comparação dos valores monetários do software InvestMVC com os experts tradicionais. O planejamento da seleção é uma adaptação do protocolo de estudo de caso presente no Anexo A \cite{brereton}
 
-\subsection{Projeto para seleção dos métodos matemáticos}
+\subsection{Projeto do estudo de caso}
 
-Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta investMVC, foi definido as seguintes variáveis e seus devidos valores:
+Nesta seção são definidos o projeto do estudo de caso para atender os objetivos específicos deste trabalho.
+
+\subsubsection{Projeto para seleção dos métodos matemá¡ticos}
+
+Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta investMVC, foi definido as seguintes variá¡veis e seus devidos valores:
 
 \begin{itemize}
 \item Alavancagem com valor de 0.25;
 \item Conta de simulação com valor inicial de 3.000 USD;
 \item Margem de negociação/alavancagem da conta igual a 1:500;
-\item Stop loss e take profit definido em 500 pontos.
-\item Experts programados em linguagem MQL4
-\item Simulação realizada no mesmo período de tempo (agosto de 2012 à agosto de 2014)
-\item Simulações realizadas na mesma máquina e mesmo sistema operacional
+\item Stop loss e take profit definido em 500 pontos;
+\item Experts programados em linguagem MQL4;
+\item Simulaçãoo realizada no mesmo período de tempo (agosto de 2012 à  agosto de 2014);
+\item Simulações realizadas na mesma máquina e mesmo sistema operacional;
 \end{itemize}
 
-\subsection{Critério para seleção dos métodos matemáticos}
+Os métodos matemáticos que obteram 10/% de lucro sob capital inicial foram aprovados neste estudo de caso.
 
-Os Métodos Matemáticos implementados em linguagem MQL4 que obteram lucro de 10\% do capital inicial foram aprovados no experimento.
+\subsubsection{Projeto de caracterização das estruturas e componentes InvestMVC}
+\subsubsection{Projeto de apuração de cobertura de código fonte}
+\subsubsection{Projeto da realização de análise estática de código fonte}
+\subsubsection{Projeto de comparação dos resultados financeiros}
 
-\subsection{Definições para simulação dos métodos de operação}
-
-Foi utilizado o simulador da plataforma Metatrader para realizar a simulação e, posteriormente, analisar os resultados e definir os métodos a serem implementados na ferramenta InvestMVC.
-
-\subsection{Limitações da seleção dos métodos matemáticos}
-
-A linguagem MQL4 não possui suporte para teste unitário. Portanto, os experts programados para este estudo de caso, não possuem testes automatizados.
-
-O simulador do MetaTrader possui código fonte fechado. Portanto, não foi possível realizar adaptações do simulador através do código fonte.
-
-
-\section{Planejamento para comparação dos valores monetários}
-
-Esta seção descreve o planejamento para comparação dos resultados monetários da ferramenta InvestMVC com o expert tradicional implementado em linguagem MQL. O planejamento da seleção é uma adaptação do protocolo presente no Anexo B \cite{brereton}.
-
-\subsection{Projeto para comparação dos valores monetários}
-
-Para realizar a comparação dos valores monetários do software InvestMVC com o software tradicional em linguagem MQL, foram definidas variáveis de operação iguais para ambos os produtos de software:
+Para realizar a comparação dos valores monetários do software investMVC com o software tradicional em linguagem MQL, foram definidas variáveis de operação iguais para ambos os produtos de software
 
 \begin{itemize}
-\item Alavancagem com valor de 0.1
-\item Conta de simulação com valor inicial de 5.000 USD
-\item Margem de negociação/alavancagem da conta igual a 1:500
-\item Stop loss e take profit definidos de acordo com a estratégia do método de mínimos Quadrados
+\item Alavancagem com valor de 0;
+\item Conta de simulação com valor inicial de 5.000 USD;
+\item Margem de negociação/alavancagem da conta igual a 1:500;
+\item Stop loss e take profit definidos de acordo com a estratégia do método Mínimos Quadrados;
+\item Sistema operacional Linux (Ubuntu 14.04), 32 bits.
 \end{itemize}
 
-\subsection{Definições para execução dos produtos de software}
-O software InvestMVC e o software implementado na linguagem MQL irão rodar no sistema operacional Linux.
+\subsection{Coleta de dados}
+
+A coleta de dados é utilizada para permitir que os objetivos específicos 1, 4 e 5 deste trabalho sejam cumpridos.
+
+\subsubsection{Coleta de dados para seleção dos métodos matemáticos}
+
+Os dados coletados são cotações do par de moedas euro-dólar fornecidos pela ferramenta MetaTrader.
+
+Não tem necessidade de fazer um plano para armazenamento dos dados, pois na simulaçao para seleção dos métodos, a ferramenta MetaTrader já fornece um relatório completo e detalhado do rendimento dos métodos simulados.
+
+O armazenamento das  informações coletadas (gráficos e relatórios de desempenho) são salvos em arquivos com extensões .csv ou .html.
+
+\subsubsection{Coleta de dados para realização de análise estática de código fonte}
+
+Foi utilizada a ferramenta Analizo para coletar os dados referentes as métricas de qualidade de código fonte.
+
+Os dados coletados referentes as métricas de qualidade de código fonte,  são salvos pelo Analizo em planilhas .csv. Através dos critérios de interpretação das métricas de qualidade de código, é definido se o código está ruim, regular, bom ou ótimo.
+
+\subsubsection{Coleta de dados para comparação dos resultados financeiros}
+Os dados para comparação dos resultados financeiros são históricos de rendimentos da ferramenta InvestMVC e dos experts programados em linguagem mql.
+
+Os históricos dos resultados financeiros são salvos em planilhas .csv ou em arquivos .html. Sendo assim, é possível analisar esses arquivos para comparar os valores mometários dos históricos das operações.
+
+\subsection{Análises} 
+\subsection{Validação} 
+\subsection{Limitações do Estudo}

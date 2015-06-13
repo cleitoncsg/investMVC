@@ -3,7 +3,7 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.2 }
+\abntbstabout{v-1.9.5 }
 
 \bibitem[ADVFN 2013]{advfn}
 \abntrefinfo{ADVFN}{ADVFN}{2013}
@@ -245,19 +245,19 @@ Dispon{\'\i}vel em:
 {IEEE 610. \emph{IEEE Standard Glossary of Software Engineering Terminology}.
 [S.l.], 1990.}
 
-\bibitem[InvestFOREX 2014]{investforex}
-\abntrefinfo{InvestFOREX}{INVESTFOREX}{2014}
-{INVESTFOREX. Análise técnica para mercado forex.
-2014.
-Dispon{\'\i}vel em:
-  \url{http://www.investforex.pt/aprender-forex/analise-tecnica}.}
-
 \bibitem[INÁCIO 2010]{inacio2010}
 \abntrefinfo{INÁCIO}{INÁCIO}{2010}
 {INÁCIO, J. F.~S.
 \emph{Análise do Estimador de Estado por Mínimos Quadrados Ponderados}.
 Monografia (Trabalho de Conclusão de Curso) --- Universidade Federal do Rio
   Grande do Sul, Rio Grande do Sul, 2010.}
+
+\bibitem[InvestFOREX 2014]{investforex}
+\abntrefinfo{InvestFOREX}{INVESTFOREX}{2014}
+{INVESTFOREX. Análise técnica para mercado forex.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.investforex.pt/aprender-forex/analise-tecnica}.}
 
 \bibitem[JENNINGS, Sycara e WOOLDRIDGE 1998]{jennings1998}
 \abntrefinfo{JENNINGS, Sycara e WOOLDRIDGE}{JENNINGS; SYCARA; WOOLDRIDGE}{1998}
