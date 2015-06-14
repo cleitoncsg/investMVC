@@ -73,7 +73,7 @@ A Tabela \ref{atividadeMetologia}  evidencia cada atividade da pesquisa e o obje
 	Implementar \textit{expert} em MQL & Implementar toda a lógica da ferramenta InvestMVC em linguagem MQL.\\ \hline
 	Comparar resultados monetários \textit{expert} MQL e ferramenta InvestMVC & Comparar os resultados monetários do \textit{expert} em mql com a ferramenta InvestMVC durante um tempo a se determinado de operação.\\ \hline
 	Reportar resultados & Registrar os resultados da comparação do desempenho da ferramenta InvestMVC e do \textit{expert} em MQL.\\ \hline
-	Elaborar conclusões & Desenvolver as conclusões do trabalho.\\
+	Elaborar conclusões & Desenvolver as conclusões do trabalho.
 \label{atividadeMetologia}
 \end{longtable}
 \end{center}
@@ -161,73 +161,140 @@ A Tabela \ref{cronograma} mostra quais foram as atividades em cada Sprint e a du
     Sprint 6 & \begin{enumerate}
     \item Definir Backlog de Histórias de Usuário
     \item Verificar Qualidade de código fonte
-    \end{enumerate} & 01/11/2014 & 10/11/2014\\
+    \end{enumerate} & 01/11/2014 & 10/11/2014
 \label{cronograma}
 \end{longtable}
 \end{center}
 
 \section{Planejamento do estudo de caso}
 
-Esta seção descreve o planejamento para seleção dos métodos matemá¡ticos e comparação dos valores monetários do software InvestMVC com os experts tradicionais. O planejamento da seleção é uma adaptação do protocolo de estudo de caso presente no Anexo A \cite{brereton}
+Esta seção descreve o planejamento para seleção dos métodos matemáticos e comparação dos valores monetários do software InvestMVC com os \textit{experts} tradicionais implementados em linguagem MQL que são, respectivamente, os objetivos específicos 1 (um) e 5 (cinco) deste trabalho. Os demais objetivos específicos são produtos de trabalho que dão suporte ao desenvolvimento do software InvestMVC e não possuem um rigor metodológico rigoroso com projeto, coleta e análise dos dados, por exemplo. Na seção Execução da pesquisa, é evidenciado com clareza como foi a dinâmica para que todos os objetivos específicos deste trabalho fossem alcançados.
+
+ O planejamento deste estudo de caso é uma adaptação do template de protocolo de estudo de caso presente no Anexo A \cite{brereton}
+
+\subsection{Estudos Anteriories}
+Não foi encontrado na literatura vigente nenhum estudo que compare os resultados monetários de métodos matemáticos implementados em linguagem MQL ou que defina quais são os métodos aceitáveis para serem implementados em um software multiparadigma para operar no Mercado de Moedas. Também não foi encontrado nenhum estudo que compare os resultados monetários de um software desenvolvido através de uma abordagem multiparadigma de programação com um software implementado em um único paradigma de programação.
 
 \subsection{Projeto do estudo de caso}
-
-Nesta seção são definidos o projeto do estudo de caso para atender os objetivos específicos deste trabalho.
+Nesta seção é definido o projeto do estudo de caso para atender os objetivos específicos deste trabalho.
 
 \subsubsection{Projeto para seleção dos métodos matemáticos}
+O objetivo do projeto do estudo de caso da seleção dos métodos matemáticos foi definir os valores das variáveis atreladas as operações no Mercado de Moedas para que fosse possível selecionar os métodos a serem implementados no software InvestMVC.
 
-Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta investMVC, foi definido as seguintes variá¡veis e seus devidos valores:
+Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta InvestMVC, foi definido as seguintes variá¡veis e seus devidos valores:
 
 \begin{itemize}
 \item Alavancagem com valor de 0.25;
 \item Conta de simulação com valor inicial de 3.000 USD;
 \item Margem de negociação/alavancagem da conta igual a 1:500;
-\item Stop loss e take profit definido em 500 pontos;
-\item Experts programados em linguagem MQL4;
-\item Simulaçãoo realizada no mesmo período de tempo (agosto de 2012 à  agosto de 2014);
+\item \textit{Stop loss} e \textit{take profit} definido em 500 pontos;
+\item\textit{Experts} programados em linguagem MQL4;
+\item Simulaçãoo realizada no mesmo período de tempo (Agosto de 2012 à Agosto de 2014);
 \item Simulações realizadas na mesma máquina e mesmo sistema operacional;
 \end{itemize}
 
-Os métodos matemáticos que obteram 10/% de lucro sob capital inicial foram aprovados neste estudo de caso.
-
-\subsubsection{Projeto de caracterização das estruturas e componentes InvestMVC}
-\subsubsection{Projeto de apuração de cobertura de código fonte}
-\subsubsection{Projeto da realização de análise estática de código fonte}
 \subsubsection{Projeto de comparação dos resultados financeiros}
 
-Para realizar a comparação dos valores monetários do software investMVC com o software tradicional em linguagem MQL, foram definidas variáveis de operação iguais para ambos os produtos de software
+Para realizar a comparação dos valores monetários do software InvestMVC com o software tradicional em linguagem MQL, foram definidas variáveis de operação iguais para ambos os produtos de software:
 
 \begin{itemize}
-\item Alavancagem com valor de 0;
-\item Conta de simulação com valor inicial de 5.000 USD;
+\item Sistema operacional Linux (Ubuntu 12.04 ou superior);
+\item Alavancagem com valor de 0.1;
+\item Conta de simulação com valor inicial de 1.000 USD;
 \item Margem de negociação/alavancagem da conta igual a 1:500;
-\item Stop loss e take profit definidos de acordo com a estratégia do método Mínimos Quadrados;
-\item Sistema operacional Linux (Ubuntu 14.04), 32 bits.
+\item \textit{Stop loss} definidos de acordo com a estratégia do método Mínimos Quadrados;
+\item \textit{Take profit} definidos de acordo com a estratégia do método Mínimos Quadrados;
+\item Quantidade de \textit{candles} em 55;
+\item Critério de entrada da Correlação de Pearson maior ou igual a 0.9;
+\item Critério de entrada de Fibonacci em 0.38;
+\item Gráfico de negociação euro-dólar;
+\item Tipo de gráfico de negociação de 5 minutos;
+\item Início das negociações às 18:00 h de todo domingo;
+\item Fim das negociações às 18:00 h de toda sexta-feira;
+\item Tempo de negociação por dia de 24 horas;
 \end{itemize}
 
 \subsection{Coleta de dados}
-
-A coleta de dados é utilizada para permitir que os objetivos específicos 1, 4 e 5 deste trabalho sejam cumpridos.
+Esta seção define os atributos de coleta de dados para a seleção dos métodos matemáticos e comparação dos resultados financeiros do software InvestMVC com o software tradicional implementado em linguagem MQL.
 
 \subsubsection{Coleta de dados para seleção dos métodos matemáticos}
+Os dados coletados para seleção dos métodos matemáticos são: cotações do par de moedas euro-dólar (preço da cotação de abertura e fechamento); data do início e fim da ordem; tipo da ordem (compra ou venda); \textit{stop loss}; \textit{take profit} e resultado da operação (lucro ou prejuízo). Todos esses dados são fornecidos pelo histórico da ferramenta MetaTrader.
 
-Os dados coletados são cotações do par de moedas euro-dólar fornecidos pela ferramenta MetaTrader.
-
-Não tem necessidade de fazer um plano para armazenamento dos dados, pois na simulaçao para seleção dos métodos, a ferramenta MetaTrader já fornece um relatório completo e detalhado do rendimento dos métodos simulados.
-
-O armazenamento das  informações coletadas (gráficos e relatórios de desempenho) são salvos em arquivos com extensões .csv ou .html.
-
-\subsubsection{Coleta de dados para realização de análise estática de código fonte}
-
-Foi utilizada a ferramenta Analizo para coletar os dados referentes as métricas de qualidade de código fonte.
-
-Os dados coletados referentes as métricas de qualidade de código fonte,  são salvos pelo Analizo em planilhas .csv. Através dos critérios de interpretação das métricas de qualidade de código, é definido se o código está ruim, regular, bom ou ótimo.
+A ferramenta MetaTrader já fornece um relatório completo e detalhado do rendimento dos métodos que são colocados em simulação. Portanto, não tem necessidade de fazer um plano para armazenamento dos dados coletados. Os resultados das simulações (gráficos e relatórios de desempenho), são salvos em arquivos com extensões csv ou html.
 
 \subsubsection{Coleta de dados para comparação dos resultados financeiros}
-Os dados para comparação dos resultados financeiros são históricos de rendimentos da ferramenta InvestMVC e dos experts programados em linguagem mql.
+Da mesma forma que a seleção dos Métodos Matemáticos, os dados coletados para comparação dos resultados financeiros são: cotações do par de moedas euro-dólar (preço da cotação de abertura e fechamento); data do início e fim da ordem; tipo da ordem (compra ou venda); \textit{stop loss}; \textit{take profit} e resultado da operação (lucro ou prejuízo). Esses resultados também são oferecidos nos históricos gerados pela ferramenta MetaTrader.
 
-Os históricos dos resultados financeiros são salvos em planilhas .csv ou em arquivos .html. Sendo assim, é possível analisar esses arquivos para comparar os valores mometários dos históricos das operações.
+Os históricos dos resultados financeiros são salvos em planilhas ou em arquivos com extensão html. Sendo assim, é possível armazenar esses dados para fazer análises dos valores monetários extraídos dos históricos das operações.
 
-\subsection{Análises} 
-\subsection{Validação} 
+\subsection{Análise dos dados}
+O critério para seleção dos métodos matemáticos e comparação dos valores monetários é o rendimento sob o capital investido. Os demais dados descritos na seção de coleta de dados (como cotações, data de início e fim da ordem), dão suporte e ajuda a explicar o motivo do rendimento financeiro ser maior ou menor de acordo com um valor de investimento. Entretanto, a análise dos demais dados não fazem parte do escopo deste trabalho.
+
+O critério para análise e selação dos métodos matemáticos foi o percentual de lucro sob o capital investido. Os Métodos Matemáticos que obteram 10\% de lucro sob capital inicial, foram selecionados para serem implementados no software InvestMVC. 
+
+A análise dos resultados monetários é feita com base no histórico das operações. É considerado o resultado da operação (lucro ou prejuízo) como critério para realização da análise.
+
+\subsection{Plano de validação} 
+Para que o software InvestMVC realize uma operação de compra ou venda, devem ser realizados cálculos matemáticos pelo paradigma Estruturado e Funcional. Ambos paradigmas realizam os mesmos cálculos para validar os resultados dos métodos matemáticos para realização das operações. 
+
+O paradigma Multiagente é responsável por receber os cálculos dos métodos de Mínimos Quadrados, Fibonacci e Correlação Linear através dos paradigmas Estruturado e Lógico. Feito isso, os resultados fornecidos são validados pelo paradigma Multiagente com um nível erro de acordo com a Tabela \ref{erroMetodos}. O nível de erro foi definido de forma empírica, considerando a complexidade dos cálculos dos Métodos Matemáticos. Quanto maior a complexidade do cálculo matemático, maior foi o valor do nível de erro aceitado.
+
+\begin{center}
+\begin{longtable}{| p{8cm} | p{8cm} |}
+\caption{Erro aceitável de cada Método Matemático} \\
+\hline
+\textbf{Método Matemático} & \textbf{Nível de erro para validação} \\ \hline
+\endfirsthead
+\multicolumn{2}{c}%
+{\tablename\ \thetable\ -- \textit{Continuação da página anterior}} \\
+\hline
+\textbf{Método matemático} & \textbf{Nível de erro para validação} \\ \hline
+\endhead
+\hline \multicolumn{2}{c}{\textit{Continuação na próxima página}} \\
+\endfoot
+\hline
+\endlastfoot
+
+Correlação Linear & 0.0010\\ \hline
+Fibonacci & 0.0001\\ \hline
+Mínimos Quadrados & 0.0100
+
+\label{erroMetodos}
+\end{longtable}
+\end{center}
+
+A Tabela \ref{exemploErro} evidencia possíveis resultados dos Métodos Matemáticos nos paradigmas Estruturado e Funcional e qual deve ser a resposta do paradigma Multiagente, levando em consideração o nível de erro para validação.
+
+\begin{center}
+\begin{longtable}{| p{4cm} | p{3cm} | p{3cm} | p{3cm} | p{2cm} |}
+\caption{Exemplo de validação do paradigma Multiagente} \\
+\hline
+\textbf{Método Matemático} & \textbf{Cálculo paradigma Estruturado} & \textbf{Cálculo paradigma Funcional} & \textbf{Nível de erro para validação} & \textbf{Validado pelo paradigma Mutilagente?}\\ \hline
+\endfirsthead
+\multicolumn{5}{c}%
+{\tablename\ \thetable\ -- \textit{Continuação da página anterior}} \\
+\hline
+\textbf{Método Matemático} & \textbf{Cálculo paradigma Estruturado} & \textbf{Cálculo paradigma Funcional} & \textbf{Nível de erro para validação} & \textbf{Validado pelo paradigma Mutilagente?}\\ \hline
+\endhead
+\hline \multicolumn{5}{c}{\textit{Continuação na próxima página}} \\
+\endfoot
+\hline
+\endlastfoot
+
+Correlação Linear & 0.9000000 & 0.9100000 & 0.0010 & NÃO\\ \hline
+Fibonacci & 0.6182578 & 0.6182577 & 0.0001 & SIM\\ \hline
+Mínimos Quadrados & 0.912778 & 0.912779 & 0.0100 & SIM
+
+\label{exemploErro}
+\end{longtable}
+\end{center}
+
+Como os resultados dos Métodos Matemáticos possui um plano de validação, não é necessário validar os resultados dos valores monetários, pois os mesmos são originados através das operações de compra ou venda, que por sua vez, são realizadas através dos cálculos matemáticos.
+
 \subsection{Limitações do Estudo}
+
+A linguagem MQL4 não possui suporte para teste unitário. Portanto, os \textit{experts} tradicionais programados para este estudo de caso, não possuem testes automatizados. A linguagem MQL4 também não possui nenhuma ferramenta para realizar uma análise estática de código. Logo, não é possível determinar o nível de qualidade de código fonte dos códigos desenvolvidos.
+
+O software InvestMVC só roda no sistema operacional Linux e utiliza o Wine para rodar o MetaTrader, pois o MetaTrader só roda no sistema operacional Windows. Portanto, nada garante que o Wine não trave em algum momento e faça com que o software InvestMVC deixe de realizar uma operação de compra ou venda.
+
+O simulador do MetaTrader possui código fonte fechado. Portanto, não foi possível realizar nenhuma adaptação da ferramenta para auxilar no desenvolvimento do software InvestMVC. Por exemplo, a ferramenta MetaTrader fornece ao usuário o histórico de operações, mas não é possível a ferramenta InvestMVC utilizar esse histórico. Nesse caso, tem que ser implementado o código para calcular o histórico dos resultados monetários.
