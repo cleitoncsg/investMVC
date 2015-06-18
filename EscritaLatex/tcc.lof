@@ -14,47 +14,57 @@
 \contentsline {figure}{\numberline {13}{\ignorespaces N\IeC {\'\i }veis de teste e seu desenvolvimento.}}{26}{figure.2.13}
 \contentsline {figure}{\numberline {14}{\ignorespaces Intervalo para interpreta\IeC {\c c}\IeC {\~a}o das m\IeC {\'e}tricas.}}{29}{figure.2.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces Atividades da Pesquisa.}}{33}{figure.3.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{45}{figure.4.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} CorrelacaoPearson.mql}}{47}{figure.5.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014 do \textit {expert} CorrelacaoPearson.mql}}{48}{figure.5.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} CorrelacaoPearson.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{48}{figure.5.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} CorrelacaoPearson.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{49}{figure.5.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} MinimosQuadrados.mql}}{49}{figure.5.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} MinimosQuadrados.mql}}{50}{figure.5.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MinimosQuadrados.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{50}{figure.5.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MinimosQuadrados.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{51}{figure.5.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 s Agosto de 2013 do \textit {expert} Fibonacci.mql}}{51}{figure.5.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2013-2014 do \textit {expert} Fibonacci.mql}}{52}{figure.5.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Fibonacci.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{52}{figure.5.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Fibonacci.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{53}{figure.5.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} Estocastico.mql}}{53}{figure.5.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014 do \textit {expert} Estocastico.mql}}{54}{figure.5.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Estocastico.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{54}{figure.5.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Estocastico.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{55}{figure.5.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} MediaMovel.mql}}{55}{figure.5.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014 do \textit {expert} MediaMovel.mql}}{56}{figure.5.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MediaMovel.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{56}{figure.5.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MediaMovel.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{56}{figure.5.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Diagrama de Classe InvestMVC}}{57}{figure.5.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Diagrama de Classe InvestMVC componente Orientado a Objetos}}{58}{figure.5.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia InvestMVC componente Orientado a Objetos}}{59}{figure.5.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Componente Funcional InvestMVC}}{60}{figure.5.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{61}{figure.5.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{62}{figure.5.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Diagrama de Classe do Componente Multiagente InvestMVC}}{63}{figure.5.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente L\IeC {\'o}gico InvestMVC.}}{64}{figure.5.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{65}{figure.5.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo Correla\IeC {\c c}\IeC {\~a}o Linear}}{65}{figure.5.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo de Fibonacci}}{65}{figure.5.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo M\IeC {\'\i }mimos Quadrados}}{65}{figure.5.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces Cobertura de c\IeC {\'o}digo-fonte Componente Estruturado}}{66}{figure.5.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Su\IeC {\'\i }te de teste da base aprendiz.pl}}{66}{figure.5.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces Su\IeC {\'\i }te de teste da base de conhecimento}}{67}{figure.5.51}
-\contentsline {figure}{\numberline {52}{\ignorespaces Cobertura de C\IeC {\'o}digo dos pacotes do Componente Multiagentes}}{67}{figure.5.52}
-\contentsline {figure}{\numberline {53}{\ignorespaces Suite de teste do Componente Multiagente}}{68}{figure.5.53}
-\contentsline {figure}{\numberline {54}{\ignorespaces Primeiro resultado da an\IeC {\'a}lise est\IeC {\'a}tica de c\IeC {\'o}digo-fonte do componente Multiagente}}{69}{figure.5.54}
-\contentsline {figure}{\numberline {55}{\ignorespaces Segundo resultado da an\IeC {\'a}lise est\IeC {\'a}tica de c\IeC {\'o}digo-fonte do componente Multiagente}}{69}{figure.5.55}
-\contentsline {figure}{\numberline {56}{\ignorespaces Gr\IeC {\'a}fico de rendimento software InvestMVC}}{70}{figure.5.56}
-\contentsline {figure}{\numberline {57}{\ignorespaces Gr\IeC {\'a}fico de rendimento do \textit {expert} implementado em MQL}}{71}{figure.5.57}
-\contentsline {figure}{\numberline {58}{\ignorespaces Resultado monet\IeC {\'a}rios do \textit {expert} MQL e InvestMVC}}{72}{figure.5.58}
-\contentsline {figure}{\numberline {59}{\ignorespaces Resultado monet\IeC {\'a}rios do \textit {expert} MQL e InvestMVC em gr\IeC {\'a}fico de barras}}{72}{figure.5.59}
+\contentsline {figure}{\numberline {16}{\ignorespaces Tela de boas vindas InvestMVC}}{45}{figure.4.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Criando um usu\IeC {\'a}rio no software InvestMVC}}{46}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Tela de \textit {login} InvestMVC}}{47}{figure.4.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Suporte InvestMVC}}{47}{figure.4.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Tela de \IeC {\textquotedblleft }Perguntas Frequentes\IeC {\textquotedblright }}}{48}{figure.4.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Conceitos b\IeC {\'a}sicos de mercado}}{48}{figure.4.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Cria\IeC {\c c}\IeC {\~a}o de um \textit {expert}}}{49}{figure.4.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Listagem de \textit {experts} criados}}{49}{figure.4.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Tela de ativa\IeC {\c c}\IeC {\~a}o de um \textit {expert}}}{50}{figure.4.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Software InvestMVC em a\IeC {\c c}\IeC {\~a}o}}{51}{figure.4.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia InvestMVC}}{52}{figure.4.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} CorrelacaoPearson.mql}}{53}{figure.5.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014 do \textit {expert} CorrelacaoPearson.mql}}{54}{figure.5.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} CorrelacaoPearson.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{54}{figure.5.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} CorrelacaoPearson.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{55}{figure.5.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} MinimosQuadrados.mql}}{55}{figure.5.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} MinimosQuadrados.mql}}{56}{figure.5.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MinimosQuadrados.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{56}{figure.5.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MinimosQuadrados.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{57}{figure.5.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 s Agosto de 2013 do \textit {expert} Fibonacci.mql}}{57}{figure.5.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo agosto 2013-2014 do \textit {expert} Fibonacci.mql}}{58}{figure.5.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Fibonacci.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{58}{figure.5.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Fibonacci.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{59}{figure.5.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} Estocastico.mql}}{59}{figure.5.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014 do \textit {expert} Estocastico.mql}}{60}{figure.5.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Estocastico.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{60}{figure.5.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} Estocastico.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{61}{figure.5.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013 do \textit {expert} MediaMovel.mql}}{61}{figure.5.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Relat\IeC {\'o}rio de simula\IeC {\c c}\IeC {\~a}o no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014 do \textit {expert} MediaMovel.mql}}{62}{figure.5.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MediaMovel.mql no per\IeC {\'\i }odo de Agosto de 2012 a Agosto de 2013}}{62}{figure.5.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Gr\IeC {\'a}fico gerado pela simula\IeC {\c c}\IeC {\~a}o do \textit {expert} MediaMovel.mql no per\IeC {\'\i }odo de Agosto de 2013 a Agosto de 2014}}{62}{figure.5.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Diagrama de Classe InvestMVC}}{63}{figure.5.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Diagrama de Classe InvestMVC componente Orientado a Objetos}}{64}{figure.5.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia InvestMVC componente Orientado a Objetos}}{65}{figure.5.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Componente Funcional InvestMVC}}{66}{figure.5.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{67}{figure.5.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{68}{figure.5.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Diagrama de Classe do Componente Multiagente InvestMVC}}{69}{figure.5.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente L\IeC {\'o}gico InvestMVC.}}{70}{figure.5.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{71}{figure.5.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo Correla\IeC {\c c}\IeC {\~a}o Linear}}{71}{figure.5.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo de Fibonacci}}{71}{figure.5.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo M\IeC {\'\i }mimos Quadrados}}{71}{figure.5.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces Cobertura de c\IeC {\'o}digo-fonte Componente Estruturado}}{72}{figure.5.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces Su\IeC {\'\i }te de teste da base aprendiz.pl}}{72}{figure.5.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces Su\IeC {\'\i }te de teste da base de conhecimento}}{73}{figure.5.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces Cobertura de C\IeC {\'o}digo dos pacotes do Componente Multiagentes}}{73}{figure.5.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces Suite de teste do Componente Multiagente}}{74}{figure.5.63}
+\contentsline {figure}{\numberline {64}{\ignorespaces Primeiro resultado da an\IeC {\'a}lise est\IeC {\'a}tica de c\IeC {\'o}digo-fonte do componente Multiagente}}{75}{figure.5.64}
+\contentsline {figure}{\numberline {65}{\ignorespaces Segundo resultado da an\IeC {\'a}lise est\IeC {\'a}tica de c\IeC {\'o}digo-fonte do componente Multiagente}}{75}{figure.5.65}
+\contentsline {figure}{\numberline {66}{\ignorespaces Gr\IeC {\'a}fico de rendimento software InvestMVC}}{76}{figure.5.66}
+\contentsline {figure}{\numberline {67}{\ignorespaces Gr\IeC {\'a}fico de rendimento do \textit {expert} implementado em MQL}}{77}{figure.5.67}
+\contentsline {figure}{\numberline {68}{\ignorespaces Resultado monet\IeC {\'a}rios do \textit {expert} MQL e InvestMVC}}{78}{figure.5.68}
+\contentsline {figure}{\numberline {69}{\ignorespaces Resultado monet\IeC {\'a}rios do \textit {expert} MQL e InvestMVC em gr\IeC {\'a}fico de barras}}{78}{figure.5.69}
