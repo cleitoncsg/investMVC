@@ -66,7 +66,7 @@ A Tabela \ref{atividadeMetologia}  evidencia cada atividade da pesquisa e o obje
 	Realizar simulação com \textit{experts} & Definir critérios de entrada e saída para cada \textit{expert} e realizar a simulação de cada \textit{expert} no Mercado de Moedas durante o perído de 2 anos (agosto 2012-2014).\\ \hline
 	Selecionar métodos de operação & Selecionar os métodos (Fibonacci, Mínimos Quadrados, Correlação Linear, Estocástico ou Média Móvel) que obtiverem lucro durante o período de simulação.\\ \hline
 	Evidenciar aplicações dos paradigmas de programação & Evidenciar aplicações dos paradigmas: Funcional, Lógico, Estruturado e Multiagentes.\\ \hline
-	Desenvolver arquitetura & Desenvolver a arquitetura da ferramenta InvestMVC no intuito de evidenciar decisões sobre a organização do sistema.\\ \hline
+	Desenvolver arquitetura & Desenvolver a arquitetura do software InvestMVC no intuito de evidenciar decisões sobre a organização do sistema.\\ \hline
 	Definir Histórias de Usuário & Definir o conjunto de funcionalidades e pontuar cada História, seguindo a sequência de Fibonacci para realizar a pontuação.\\ \hline
 	Implementar Histórias de Usuário & Desenvolver as Histórias de Usuário que foram definidas.\\ \hline
 	Realizar Análise Estática de código-fonte & Realizar a análise estática de código-fonte para aferir o nível de qualidade do  software InvestMVC.\\ \hline
@@ -78,9 +78,11 @@ A Tabela \ref{atividadeMetologia}  evidencia cada atividade da pesquisa e o obje
 \end{longtable}
 \end{center}
 
+O \textit{backlog} gerado com as histórias de usuário encontra-se no Apêndice A - Histórias de Usuário.
+
 \section{Cronograma}
 
-A Tabela \ref{cronograma} mostra quais foram as atividades em cada Sprint e a duração da mesma. O cronograma detalhado encontra-se no apêndice A - Cronograma InvestMVC.
+A Tabela \ref{cronograma} mostra quais foram as atividades em cada Sprint e a duração da mesma. O cronograma detalhado encontra-se no Apêndice B - Cronograma InvestMVC.
 
 \begin{center}
 \begin{longtable}{  | p{2cm} | p{8cm} | p{2cm}| p{2cm} |}
@@ -134,20 +136,33 @@ A Tabela \ref{cronograma} mostra quais foram as atividades em cada Sprint e a du
     \end{enumerate} & 01/11/2014 & 10/11/2014\\ \hline
 
     Sprint 7 & \begin{enumerate}
-    \item Verificar Qualidade de código-fonte
-    \end{enumerate} & \\ \hline
+    \item Implementar US1
+    \item Implementar US5
+    \item Implementar US11
+    \item Implementar US12
+    \end{enumerate} & 09/03/2015 & 24/03/2015\\ \hline
 
     Sprint 8 & \begin{enumerate}
-    \item Verificar Qualidade de código-fonte
-    \end{enumerate} & \\ \hline
+    \item Implementar US2
+    \item Implementar US3
+    \item Implementar US4
+    \item Implementar US17
+    \end{enumerate} & 25/03/2015 & 15/04/2015\\ \hline
 
     Sprint 9 & \begin{enumerate}
+    \item Implementar US18
+    \item Implementar US7
+    \item Implementar US19
     \item Verificar Qualidade de código-fonte
-    \end{enumerate} & \\ \hline
+    \end{enumerate} & 16/04/2015 & 07/05/2015\\ \hline
 
     Sprint 10 & \begin{enumerate}
-    \item Verificar Qualidade de código-fonte
-    \end{enumerate} & 
+    \item Implementar US20
+    \item Implementar US21
+    \item Implementar US22
+    \end{enumerate} & 08/05/2015 & 29/05/2015\\ \hline
+
+    Sprint 11 & Contingência & 30/05/2015 & 19/05/2015
 
 \label{cronograma}
 \end{longtable}
@@ -161,7 +176,7 @@ Neste trabalho, vertentes defendidas pelo Scrum foram adaptadas e incorporadas �
 
 Na Sprint 1, foi construída a proposta de trabalho e foi implementado os Métodos Matemáticos em linguagem C que serviram como prova de conceito para viabilizar o desenvolvimento do trabalho.
 
-Na Sprint 2, foi construído o referencial teórico dos Métodos Matemáticos e paradigmas de programação. Também foi feito um protótipo da ferramenta InvestMVC para evidenciar como seria a \textit{view} da ferramenta com a dinâmica de construir um robô, selecionar e ativar um robô.
+Na Sprint 2, foi construído o referencial teórico dos Métodos Matemáticos e paradigmas de programação. Também foi feito um protótipo do software InvestMVC para evidenciar como seria a \textit{view} da ferramenta com a dinâmica de construir um robô, selecionar e ativar um robô.
 
 Na Sprint 3, foram refinados o referencial teórico feito na Sprint 2 e foi construído o referencial teórico do Contexto Financeiro.
 
@@ -181,9 +196,9 @@ Devido aos acontecimentos ocorridos na Sprint 9, a Sprint 10 foi totalmente repl
 
 Na Sprint 10, foi detectada a necessidade de excluir a US20 (retirar da base de conhecimento). Foi realizada a análise estática de código-fonte dos paradigmas multiagente e estruturado. Os resultados da qualidade de código e os resultados não documentados da Sprint anterior foram feitos.
 
-Na Sprint 11, foi construída a US22 (\textit{expert} no componente MQL), permitindo a integração entre o componente MQL e Multiagente \textit{expert}. Sendo assim, uma versão estável da ferramenta InvestMVC ficou pronta.
+Na Sprint 11, foi construída a US22 (\textit{expert} no componente MQL), permitindo a integração entre o componente MQL e Multiagente \textit{expert}. Sendo assim, uma versão estável do software InvestMVC ficou pronta.
 
-
+Encontra-se no Apêndice C - Suporte Tecnológico todas as ferramentas utilizadas neste trabalho.
 
 \section{Planejamento do estudo de caso}
 
@@ -200,7 +215,7 @@ Nesta seção é definido o projeto do estudo de caso para atender os objetivos 
 \subsubsection{Projeto para seleção dos Métodos Matemáticos}
 O objetivo do projeto do estudo de caso da seleção dos Métodos Matemáticos foi definir os valores das variáveis atreladas as operações no Mercado de Moedas para que fosse possível selecionar os métodos a serem implementados no software InvestMVC.
 
-Para se selecionar os métodos de operação no Mercado de Moedas da ferramenta InvestMVC, foi definido as seguintes variá¡veis e seus devidos valores:
+Para se selecionar os métodos de operação no Mercado de Moedas do software InvestMVC, foi definido as seguintes variá¡veis e seus devidos valores:
 
 \begin{itemize}
 \item Alavancagem com valor de 0.25;
@@ -316,4 +331,4 @@ A linguagem MQL4 não possui suporte para teste unitário. Portanto, os \textit{
 
 O software InvestMVC só roda no sistema operacional Linux e utiliza o Wine para rodar o MetaTrader, pois o MetaTrader só roda no sistema operacional Windows. Portanto, nada garante que o Wine não trave em algum momento e faça com que o software InvestMVC deixe de realizar uma operação de compra ou venda.
 
-O simulador do MetaTrader possui código- fonte fechado. Portanto, não foi possível realizar nenhuma adaptação da ferramenta para auxilar no desenvolvimento do software InvestMVC. Por exemplo, a ferramenta MetaTrader fornece ao usuário o histórico de operações, mas não é possível a ferramenta InvestMVC utilizar esse histórico. Nesse caso, tem que ser implementado o código para calcular o histórico dos resultados monetários.
+O simulador do MetaTrader possui código- fonte fechado. Portanto, não foi possível realizar nenhuma adaptação da ferramenta para auxilar no desenvolvimento do software InvestMVC. Por exemplo, a ferramenta MetaTrader fornece ao usuário o histórico de operações, mas não é possível o software InvestMVC utilizar esse histórico. Nesse caso, tem que ser implementado o código para calcular o histórico dos resultados monetários.

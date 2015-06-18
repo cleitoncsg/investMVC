@@ -39,17 +39,17 @@
 \contentsline {figure}{\numberline {38}{\ignorespaces Diagrama de Classe InvestMVC componente Orientado a Objetos}}{58}{figure.5.38}
 \contentsline {figure}{\numberline {39}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia InvestMVC componente Orientado a Objetos}}{59}{figure.5.39}
 \contentsline {figure}{\numberline {40}{\ignorespaces Componente Funcional InvestMVC}}{60}{figure.5.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{60}{figure.5.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{61}{figure.5.42}
+\contentsline {figure}{\numberline {41}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente Funcional InvestMVC}}{61}{figure.5.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagramas de Componentes e de Sequ\IeC {\^e}ncia do Componente Estruturado InvestMVC.}}{62}{figure.5.42}
 \contentsline {figure}{\numberline {43}{\ignorespaces Diagrama de Classe do Componente Multiagente InvestMVC}}{63}{figure.5.43}
 \contentsline {figure}{\numberline {44}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente L\IeC {\'o}gico InvestMVC.}}{64}{figure.5.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{64}{figure.5.45}
+\contentsline {figure}{\numberline {45}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia do Componente MQL InvestMVC.}}{65}{figure.5.45}
 \contentsline {figure}{\numberline {46}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo Correla\IeC {\c c}\IeC {\~a}o Linear}}{65}{figure.5.46}
 \contentsline {figure}{\numberline {47}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo de Fibonacci}}{65}{figure.5.47}
 \contentsline {figure}{\numberline {48}{\ignorespaces Resultado da Su\IeC {\'\i }te de Teste do M\IeC {\'e}todo M\IeC {\'\i }mimos Quadrados}}{65}{figure.5.48}
 \contentsline {figure}{\numberline {49}{\ignorespaces Cobertura de c\IeC {\'o}digo-fonte Componente Estruturado}}{66}{figure.5.49}
 \contentsline {figure}{\numberline {50}{\ignorespaces Su\IeC {\'\i }te de teste da base aprendiz.pl}}{66}{figure.5.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces Su\IeC {\'\i }te de teste da base de conhecimento}}{66}{figure.5.51}
+\contentsline {figure}{\numberline {51}{\ignorespaces Su\IeC {\'\i }te de teste da base de conhecimento}}{67}{figure.5.51}
 \contentsline {figure}{\numberline {52}{\ignorespaces Cobertura de C\IeC {\'o}digo dos pacotes do Componente Multiagentes}}{67}{figure.5.52}
 \contentsline {figure}{\numberline {53}{\ignorespaces Suite de teste do Componente Multiagente}}{68}{figure.5.53}
 \contentsline {figure}{\numberline {54}{\ignorespaces Primeiro resultado da an\IeC {\'a}lise est\IeC {\'a}tica de c\IeC {\'o}digo-fonte do componente Multiagente}}{69}{figure.5.54}
@@ -57,3 +57,4 @@
 \contentsline {figure}{\numberline {56}{\ignorespaces Gr\IeC {\'a}fico de rendimento software InvestMVC}}{70}{figure.5.56}
 \contentsline {figure}{\numberline {57}{\ignorespaces Gr\IeC {\'a}fico de rendimento do \textit {expert} implementado em MQL}}{71}{figure.5.57}
 \contentsline {figure}{\numberline {58}{\ignorespaces Resultado monet\IeC {\'a}rios do \textit {expert} MQL e InvestMVC}}{72}{figure.5.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces Resultado monet\IeC {\'a}rios do \textit {expert} MQL e InvestMVC em gr\IeC {\'a}fico de barras}}{72}{figure.5.59}
