@@ -1,5 +1,7 @@
 \chapter{Resultados}
+Este tópico evidencia os resultados deste trabalho. Os resultados estão guiados pelos objetivos específicos (produtos de trabalho).
 
+Encontra-se no Apêndice C - Suporte Tecnológico todas as ferramentas utilizadas como auxílio no desenvolvimento dos resultados.
 
 \section{Seleção dos Métodos Matemáticos}
 
@@ -9,7 +11,7 @@ Nesta seção é evidenciado os resultados  das simulações dos \textit{experts
 
 Os métodos de Correlação Linear, Média Móvel, Mínimos Quadrados, Estocástico e Fibonacci foram implementados em linguagem MQL4 e assim foi construído um \textit{expert} para cada método. Esses produtos de software receberam os nomes, respectivamente, CorrelacaoPearson.mql, MediaMovel.mql, MinimosQuadrados.mql, Estocastico.mql e Fibonacci.mql. Cada \textit{expert} encontra-se no Apêndice D - \textit{Experts} para Estudo de Caso.
 
-\subsubsection{Simulação do método de Correlação Linear}
+\subsection{Simulação do método de Correlação Linear}
 
 O \textit{expert} CorrelacaoPearson.mql obteve o percentual de negociações com lucros de 56.86\% no período de Agosto de 2012 a Agosto de 2013. Nesse período, o \textit{expert} teve um lucro de 1981.60 USD. No período de Agosto de 2013 a Agosto de 2014, o percentual de negociações com lucros foi de 55.56\%  e obteve-se o lucro de 1119.05 USD. 
 Os relatórios completos das simulações podem ser visualizados nas Figuras \ref{protocoloCorrelacao} e \ref{protocoloCorrelacao2}.
@@ -45,7 +47,7 @@ Foram gerados os gráficos de simulação de 2012 a 2013 e de 2013 a 2014, confo
 \label{protocoloCorrelacao4}
 \end{figure}
 
-\subsubsection{Simulação do método de Mínimos Quadrados}
+\subsection{Simulação do método de Mínimos Quadrados}
 
 O \textit{expert} MinimosQuadrados.mql obteve o percentual de negociações com lucros de 77.88\% no período de Agosto de 2012 a Agosto de 2013, e o  lucro nesse período foi de 1341.88 USD. No período de Agosto de 2013 a Agosto de 2014, o percentual de negociações com lucros foi de 85.71\%,  e obteve-se o lucro de 1026 USD. 
 Os relatórios completos das simulações podem ser visualizados nas Figuras \ref{protocoloMinimos} e \ref{protocoloMinimos2}.
@@ -80,7 +82,7 @@ O \textit{expert} MinimosQuadrados.mql, teve altos e baixos nas simulações dur
 \label{protocoloMinimos4}
 \end{figure}
 
-\subsubsection{Simulação do método de Fibonacci}
+\subsection{Simulação do método de Fibonacci}
 
 O \textit{expert} Fibonacci.mql obteve o percentual de negociações com lucros de 72.73\% no período de Agosto de 2012 a Agosto de 2013, e o  lucro nesse período foi de 341.20 USD.
 No período de Agosto de 2013 a Agosto de 2014, o percentual de negociações com lucros foi de 56.00\%,  e obteve-se o lucro de 659.05 USD. Apesar do percentual de acerto nesse período ter sido menor quando comparado ao período de agosto 2012-2013, o lucro obtido foi 51.77\% maior. Isso se deve ao fato do \textit{expert} ter negociado mais vezes (25 nesse período contra 11 no anterior) no período de Agosto 2013-2014.
@@ -117,7 +119,7 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 \label{protocoloFib4}
 \end{figure}
 
-\subsubsection{Simulação do método de Estocástico}
+\subsection{Simulação do método de Estocástico}
 
 O \textit{expert} Estocastico.mql obteve o percentual de negociações com lucros de 47.47\% no período agosto 2012-2013. Portanto, o percentual de negociações com perdas foi de 52.53\%. Nesse período, o \textit{expert} teve um prejuízo de 1110.88 USD.
 
@@ -154,7 +156,7 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 \label{protocoloEst4}
 \end{figure}
 
-\subsubsection{Simulação do método de Média Móvel}
+\subsection{Simulação do método de Média Móvel}
 
 O \textit{expert} MediaMovel.mql obteve o percentual de negociações com lucros de 43.55\% no período de Agosto de 2012 a Agosto de 2013. Portanto, o percentual de negociações com perdas foi de 56.45\%. Nesse período, o \textit{expert} obteve um prejuízo de 2987.00 USD. 
 
@@ -201,7 +203,7 @@ Os Métodos Matemáticos de Correlação Linear, Fibonacci e Mínimos Quadrados 
 
 Arquitetura Orientada a Componentes possui o propósito de dividir para conquistar. Um grande problema é subdividido em partes menores e em seguida se desenvolve soluções mais elaboradas \cite{john}.
 
-Por usar vários paradigmas, o software InvestMVC terá vários componentes, sendo cada qual implementado em um paradigma de programação mais adequado às necessidades do componente bem como contendo responsabilidades bem definidas. A Figura \ref{componente} procura ilustrar esses componentes usando a representação de digrama de classes.
+Por usar vários paradigmas, o software InvestMVC tem vários componentes, sendo cada qual implementado em um paradigma de programação mais adequado às necessidades do componente bem como contendo responsabilidades bem definidas. A Figura \ref{componente} procura ilustrar esses componentes usando a representação de digrama de classes.
 
 \begin{figure}[H]
 \centering
@@ -246,7 +248,7 @@ O componente Cálculos Numéricos é responsável por calcular os Métodos Matem
 
 O componente Estruturado do software InvestMVC foi programado em linguagem C e o módulo Funcional em linguagem Haskell. Ambos os componentes realizam os mesmos cálculos. Isso aumenta a probabilidade de não ocorrer erros nos cálculos dos Métodos Matemáticos. Caso um dos componentes, por algum motivo, não seja executado no momento correto, a tendência é que o outro módulo realize os cálculos.
 
-\subsubsection{Componente Funcional}
+\subsection{Componente Funcional}
 Na linguagem Haskell, por ser uma linguagem de programação funcional, sua "gramática" está próxima das funções matemáticas, logo a implementação dos métodos algébricos e numéricos se torna muito intuitiva. \cite{hoogle2013}.
 
 O paradigma funcional é declarativo. Por limitar o uso de atribuições às variáveis, evitando a noção de estados (comum no paradigma  estruturado bem como na Orientação a Objetos), os resultados das funções em HAskell são mais precisos do que em outros paradigmas \cite{piponi2006}.
@@ -269,7 +271,7 @@ O componente Funcional espera uma socilitação de cálculo do componente Multia
 \label{sequenciaFuncional}
 \end{figure}
 
-\subsubsection{Componente Estruturado}
+\subsection{Componente Estruturado}
 
 A linguagem de programação C é estruturada, possuindo a vantagem da velocidade de execução do código-fonte. Também é uma linguagem bastante utilizada para realizar cálculos numéricos e algébricos \cite{gustavo}. 
 
@@ -335,8 +337,20 @@ A interação do Componente MQL com o Componente Multiagente é evidenciada na F
 \end{figure}
 
 
-\section{Testes unitários}
+\subsection{Fluxo de atividades}
+O investidor interage apenas com o componente Orientado a Objetos, criando seu usuário e \textit{experts}, no qual serão persistidos. Além disso, o investidor também poderá ativar um \textit{expert}.
 
+O componente Multiagentes vai verificar a tendência do Mercado de Moedas, por meio da plataforma MetaTrader. Sendo assim, o componente Multiagentes buscará na persistência o \textit{expert} que está ativo. Sabendo qual o \textit{expert} que foi ativado, o componente Multiagente faz a requisição de cálculos para os módulos C e Haskell. A partir desse resultado, o componente Multiagente procurará no Módulo Base de Conhecimento, a alavancagem (quanto deve arriscar) e os valores de entrada para o método de Correlação de Pearson, Fibonacci e Mínimos Quadrados. Caso todas as especificações para o componente Multiagente sejam obedecidas, ele informa ao componente MQL para realizar uma compra ou venda.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/sequencia}
+\caption{Diagrama de Sequência InvestMVC} 
+\label{sequencia}
+\end{figure}
+
+\section{Testes unitários}
+Esta seção evidencia os resultados dos testes unitários dos componentes Estruturado, Lógico, Funcional e Multiagente.
 \subsection{Componente Funcional}
 
 Foram realizados os testes unitários na linguagem haskell utilizando o \textit{framework} HUnit. O \textit{framework} não fornece a cobertura de código-fonte, mas é possível visualizar a quantidade de casos de teste, quantidade de testes realizados, quantidade de erros e quantidade de falhas. Os resultados dos testes unitários dos métodos de Correlação de Pearson, Fibonacci e Mínimos Quadrados podem ser visualizados na Figura \ref{testeCorrelacaoHaskell}, \ref{testeFibonacciHaskell} e \ref{TesteMinimosHaskell}.

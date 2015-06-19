@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.12)  18 JUN 2015 20:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.12)  18 JUN 2015 22:21
 entering extended mode
 **C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/tcc.tex
 (C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/tcc.tex
@@ -996,11 +996,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 \tcc@idxfile=\write4
 
 Writing index file tcc.idx 
-(C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\tcc.aux
-
-LaTeX Warning: Label `telaInicial' multiply defined.
-
-)
+(C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\tcc.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
@@ -1016,7 +1012,8 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 9.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box38
@@ -1204,7 +1201,9 @@ x [13] [14
 ])
 (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\fixos/listasAutomatic
 as.tex (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\tcc.lof
-[15]
+Underfull \vbox (badness 4072) has occurred while \output is active []
+
+ [15]
 Underfull \vbox (badness 2134) has occurred while \output is active []
 
  [16])
@@ -1223,36 +1222,39 @@ s.tex [21
 (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\fixos/indiceAutomatic
 o.tex (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\tcc.toc
 [23]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 63.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 63.
  [24]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 92.
+
 Overfull \hbox (1.5877pt too wide) detected at line 113
- \T1/lmss/bx/n/12 103
+ \T1/lmss/bx/n/12 105
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 117
- \T1/lmss/bx/n/12 109
+ \T1/lmss/bx/n/12 111
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 121
- \T1/lmss/bx/n/12 115
+ \T1/lmss/bx/n/12 117
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 125
- \T1/lmss/bx/n/12 131
+ \T1/lmss/bx/n/12 133
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 129
- \T1/lmss/bx/n/12 135
+ \T1/lmss/bx/n/12 137
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 133
- \T1/lmss/bx/n/12 143
+ \T1/lmss/bx/n/12 145
  []
 
 
@@ -1314,7 +1316,7 @@ verted-to.pdf figuras/retaSuporte.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaSuporte-eps-converted-to.pdf, id=595, 517.935pt x 285.065pt>
+<figuras/retaSuporte-eps-converted-to.pdf, id=596, 517.935pt x 285.065pt>
 File: figuras/retaSuporte-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/retaSuporte-eps-converted-to.pdf>
@@ -1337,7 +1339,7 @@ df>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/retaResistencia-eps-converted-to.pdf, id=617, 508.90125pt x 286.06876p
+<figuras/retaResistencia-eps-converted-to.pdf, id=618, 508.90125pt x 286.06876p
 t>
 File: figuras/retaResistencia-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/retaResistencia-eps-converted-to.pdf>
@@ -1374,7 +1376,7 @@ ados-eps-converted-to.pdf figuras/equacaoMinimosQuadrados.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=655, 676.5275pt x 402
+<figuras/equacaoMinimosQuadrados-eps-converted-to.pdf, id=656, 676.5275pt x 402
 .50375pt>
 File: figuras/equacaoMinimosQuadrados-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1407,7 +1409,7 @@ acaoLinear-eps-converted-to.pdf figuras/classificacaoCorrelacaoLinear.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=684, 461.725pt 
+<figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf, id=685, 461.725pt 
 x 173.64874pt>
 File: figuras/classificacaoCorrelacaoLinear-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1439,7 +1441,7 @@ cao1-eps-converted-to.pdf figuras/determinacaoCorrelacao1.eps>
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=700, 175.65625pt x 83
+<figuras/determinacaoCorrelacao1-eps-converted-to.pdf, id=701, 175.65625pt x 83
 .31125pt>
 File: figuras/determinacaoCorrelacao1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1459,7 +1461,7 @@ cao2-eps-converted-to.pdf figuras/determinacaoCorrelacao2.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=701, 340.27126pt x 14
+<figuras/determinacaoCorrelacao2-eps-converted-to.pdf, id=702, 340.27126pt x 14
 5.54375pt>
 File: figuras/determinacaoCorrelacao2-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1498,7 +1500,7 @@ s-converted-to.pdf figuras/formulaFibonacci.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/formulaFibonacci-eps-converted-to.pdf, id=730, 273.02pt x 91.34125pt>
+<figuras/formulaFibonacci-eps-converted-to.pdf, id=731, 273.02pt x 91.34125pt>
 File: figuras/formulaFibonacci-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/formulaFibonacci-eps-converted-to.pdf>
@@ -1540,7 +1542,7 @@ verted-to.pdf figuras/estocastico.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/estocastico-eps-converted-to.pdf, id=762, 313.17pt x 321.2pt>
+<figuras/estocastico-eps-converted-to.pdf, id=763, 313.17pt x 321.2pt>
 File: figuras/estocastico-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/estocastico-eps-converted-to.pdf>
@@ -1548,7 +1550,7 @@ Package pdftex.def Info: figuras/estocastico-eps-converted-to.pdf used on input
  line 201.
 (pdftex.def)             Requested size: 409.49722pt x 420.01051pt.
 
-<figuras/equacaoMedia.png, id=767, 294.09875pt x 94.3525pt>
+<figuras/equacaoMedia.png, id=768, 294.09875pt x 94.3525pt>
 File: figuras/equacaoMedia.png Graphic file (type png)
 
 <use figuras/equacaoMedia.png>
@@ -1576,7 +1578,7 @@ erted-to.pdf figuras/mediamovel.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/mediamovel-eps-converted-to.pdf, id=783, 543.02875pt x 322.20375pt>
+<figuras/mediamovel-eps-converted-to.pdf, id=784, 543.02875pt x 322.20375pt>
 File: figuras/mediamovel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/mediamovel-eps-converted-to.pdf>
@@ -1610,7 +1612,7 @@ converted-to.pdf figuras/arquiteturaVon.eps>
 (epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arquiteturaVon-eps-converted-to.pdf, id=810, 713.66624pt x 406.51875pt
+<figuras/arquiteturaVon-eps-converted-to.pdf, id=811, 713.66624pt x 406.51875pt
 >
 File: figuras/arquiteturaVon-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/arquiteturaVon-eps-converted-to.pdf>
@@ -1642,7 +1644,7 @@ erted-to.pdf figuras/essenciaOO.eps>
 (epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/essenciaOO-eps-converted-to.pdf, id=844, 835.12pt x 434.62375pt>
+<figuras/essenciaOO-eps-converted-to.pdf, id=845, 835.12pt x 434.62375pt>
 File: figuras/essenciaOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/essenciaOO-eps-converted-to.pdf>
@@ -1667,14 +1669,17 @@ carga e a so-bres-crita.Sobrecarga
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [20]
 [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-[23] [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+[24]
 Package epstopdf Info: Source file: <figuras/defeitoErroFalha.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 500670 bytes
@@ -1687,7 +1692,7 @@ s-converted-to.pdf figuras/defeitoErroFalha.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/defeitoErroFalha-eps-converted-to.pdf, id=984, 744.7825pt x 332.24126p
+<figuras/defeitoErroFalha-eps-converted-to.pdf, id=985, 744.7825pt x 332.24126p
 t>
 File: figuras/defeitoErroFalha-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/defeitoErroFalha-eps-converted-to.pdf>
@@ -1699,10 +1704,9 @@ input line 365.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.374 C
-       aixa-preta ou teste funcional:  ‚ÄúTeste de que ignora o mecanismo in...
- <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/defeitoErroF
-alha-eps-converted-to.pdf>]
+l.377 
+       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/defeit
+oErroFalha-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/nivelTeste.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 151184 bytes
@@ -1714,25 +1718,21 @@ erted-to.pdf figuras/nivelTeste.eps>
 (epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/nivelTeste-eps-converted-to.pdf, id=1012, 894.34125pt x 577.15625pt>
+<figuras/nivelTeste-eps-converted-to.pdf, id=1013, 894.34125pt x 577.15625pt>
 File: figuras/nivelTeste-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/nivelTeste-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/nivelTeste-eps-converted-to.pdf used on input 
 line 386.
 (pdftex.def)             Requested size: 409.49722pt x 264.27097pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [26pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.395 T
-       esta-se unidades individuais do programa, como as fun√ß√µes, m√©todos...
- <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/nivelTeste-e
-ps-converted-to.pdf>] [27] [28]
+l.396 
+       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/nivelT
+este-eps-converted-to.pdf>] [27] [28]
 Package epstopdf Info: Source file: <figuras/intervalosMetricas.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 200376 bytes
@@ -1745,7 +1745,7 @@ eps-converted-to.pdf figuras/intervalosMetricas.eps>
 (epstopdf)             \includegraphics on input line 449.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/intervalosMetricas-eps-converted-to.pdf, id=1080, 722.7pt x 109.40875p
+<figuras/intervalosMetricas-eps-converted-to.pdf, id=1082, 722.7pt x 109.40875p
 t>
 File: figuras/intervalosMetricas-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/intervalosMetricas-eps-converted-to.pdf>
@@ -1761,10 +1761,10 @@ e.2.14}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.1  \chapter
              {Metodologia de pesquisa} <C:/Users/Vanessa/Documents/GitHub/inves
-tMVC/EscritaLatex/figuras/intervalosMetricas-eps-converted-to.pdf>] [30]
-[31
+tMVC/EscritaLatex/figuras/intervalosMetricas-eps-converted-to.pdf>] [30
 
 ]
+[31]
 Package epstopdf Info: Source file: <figuras/metodologiaTCC.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
 (epstopdf)                    size: 328224 bytes
@@ -1777,7 +1777,7 @@ converted-to.pdf figuras/metodologiaTCC.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/metodologiaTCC-eps-converted-to.pdf, id=1141, 521.95pt x 814.04124pt>
+<figuras/metodologiaTCC-eps-converted-to.pdf, id=1142, 521.95pt x 814.04124pt>
 File: figuras/metodologiaTCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/metodologiaTCC-eps-converted-to.pdf>
@@ -1977,16 +1977,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-[39] [40] [41]
-Underfull \vbox (badness 6575) has occurred while \output is active []
+Underfull \vbox (badness 1867) has occurred while \output is active []
 
- [42]
-Overfull \hbox (25.44406pt too wide) in alignment at lines 277--281
+ [39]
+[40] [41] [42]
+Overfull \hbox (25.44406pt too wide) in alignment at lines 275--279
  [] [] 
  []
 
 
-Overfull \hbox (25.44406pt too wide) in alignment at lines 281--286
+Overfull \hbox (25.44406pt too wide) in alignment at lines 279--284
+ [] [] 
+ []
+
+
+Overfull \hbox (25.44406pt too wide) in alignment at lines 284--286
  [] [] 
  []
 
@@ -1996,102 +2001,102 @@ Overfull \hbox (25.44406pt too wide) in alignment at lines 286--288
  []
 
 
-Overfull \hbox (25.44406pt too wide) in alignment at lines 288--290
+Overfull \hbox (25.44406pt too wide) in alignment at lines 288--295
  [] [] 
  []
 
 
-Overfull \hbox (25.44406pt too wide) in alignment at lines 290--297
- [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []|\T1/lmr/bx/n/12 MÈtodo Ma-te-m·-
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 306--306
+Underfull \hbox (badness 2042) in paragraph at lines 304--304
 []|\T1/lmr/bx/n/12 C·lculo pa-ra-
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 306--306
+Underfull \hbox (badness 4647) in paragraph at lines 304--304
 \T1/lmr/bx/n/12 digma Es-tru-
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 306--306
+Underfull \hbox (badness 2042) in paragraph at lines 304--304
 []|\T1/lmr/bx/n/12 C·lculo pa-ra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []|\T1/lmr/bx/n/12 Validado
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 306--306
+Underfull \hbox (badness 7064) in paragraph at lines 304--304
 \T1/lmr/bx/n/12 pelo pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 \T1/lmr/bx/n/12 ra-digma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 \T1/lmr/bx/n/12 Mu-ti-la-
  []
 
 
-Overfull \hbox (34.19127pt too wide) in alignment at lines 303--307
+Overfull \hbox (34.19127pt too wide) in alignment at lines 301--305
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []|\T1/lmr/bx/n/12 MÈtodo Ma-te-m·-
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 311--311
+Underfull \hbox (badness 2042) in paragraph at lines 309--309
 []|\T1/lmr/bx/n/12 C·lculo pa-ra-
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 311--311
+Underfull \hbox (badness 4647) in paragraph at lines 309--309
 \T1/lmr/bx/n/12 digma Es-tru-
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 311--311
+Underfull \hbox (badness 2042) in paragraph at lines 309--309
 []|\T1/lmr/bx/n/12 C·lculo pa-ra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []|\T1/lmr/bx/n/12 Validado
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 311--311
+Underfull \hbox (badness 7064) in paragraph at lines 309--309
 \T1/lmr/bx/n/12 pelo pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 \T1/lmr/bx/n/12 ra-digma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 \T1/lmr/bx/n/12 Mu-ti-la-
  []
 
 
-Overfull \hbox (34.19127pt too wide) in alignment at lines 307--312
+Overfull \hbox (34.19127pt too wide) in alignment at lines 305--310
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (34.19127pt too wide) in alignment at lines 310--312
  [] [] [] [] [] 
  []
 
@@ -2101,17 +2106,12 @@ Overfull \hbox (34.19127pt too wide) in alignment at lines 312--314
  []
 
 
-Overfull \hbox (34.19127pt too wide) in alignment at lines 314--316
+Overfull \hbox (34.19127pt too wide) in alignment at lines 314--321
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (34.19127pt too wide) in alignment at lines 316--323
- [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5203) has occurred while \output is active []
 
  [43])
 (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\capitulos/proposta.te
@@ -2120,28 +2120,19 @@ Package epstopdf Info: Source file: <figuras/telaInicial.eps>
 (epstopdf)                    date: 2015-06-18 19:29:45
 (epstopdf)                    size: 5152235 bytes
 (epstopdf)             Output file: <figuras/telaInicial-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-13 07:28:20
-(epstopdf)                    size: 106080 bytes
+(epstopdf)                    date: 2015-06-18 20:03:40
+(epstopdf)                    size: 122332 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/telaInicial-eps-con
 verted-to.pdf figuras/telaInicial.eps>
-(epstopdf)             \includegraphics on input line 11.
-runsystem(epstopdf --outfile=figuras/telaInicial-eps-converted-to.pdf figuras/t
-elaInicial.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <figuras/telaInicial-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-18 20:03:40
-(epstopdf)                    size: 122332 bytes.
-
-<figuras/telaInicial-eps-converted-to.pdf, id=1243, 1293.83376pt x 659.46375pt>
+<figuras/telaInicial-eps-converted-to.pdf, id=1246, 1293.83376pt x 659.46375pt>
 File: figuras/telaInicial-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/telaInicial-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/telaInicial-eps-converted-to.pdf used on input
- line 11.
+ line 12.
 (pdftex.def)             Requested size: 409.49722pt x 208.7183pt.
-
-
-LaTeX Warning: Reference `novoUser' on page 45 undefined on input line 18.
-
 Package epstopdf Info: Source file: <figuras/novoUser.eps>
 (epstopdf)                    date: 2015-06-18 19:26:23
 (epstopdf)                    size: 1539566 bytes
@@ -2150,18 +2141,16 @@ Package epstopdf Info: Source file: <figuras/novoUser.eps>
 (epstopdf)                    size: 20041 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/novoUser-eps-conver
 ted-to.pdf figuras/novoUser.eps>
-(epstopdf)             \includegraphics on input line 22.
+(epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/novoUser-eps-converted-to.pdf, id=1245, 479.7925pt x 529.98pt>
+
+<figuras/novoUser-eps-converted-to.pdf, id=1249, 479.7925pt x 529.98pt>
 File: figuras/novoUser-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/novoUser-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/novoUser-eps-converted-to.pdf used on input li
-ne 22.
+ne 23.
 (pdftex.def)             Requested size: 409.49722pt x 452.33699pt.
-
-Underfull \vbox (badness 4660) has occurred while \output is active []
-
  [45
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
@@ -2169,9 +2158,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.26 
-      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/telaIni
-cial-eps-converted-to.pdf>]
+l.26 \end{figure}
+                  <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/fig
+uras/telaInicial-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/login.eps>
 (epstopdf)                    date: 2015-06-18 19:25:51
 (epstopdf)                    size: 2388779 bytes
@@ -2180,15 +2169,15 @@ Package epstopdf Info: Source file: <figuras/login.eps>
 (epstopdf)                    size: 19120 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/login-eps-converted
 -to.pdf figuras/login.eps>
-(epstopdf)             \includegraphics on input line 29.
+(epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/login-eps-converted-to.pdf, id=1254, 706.64pt x 559.08875pt>
+<figuras/login-eps-converted-to.pdf, id=1259, 706.64pt x 559.08875pt>
 File: figuras/login-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/login-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/login-eps-converted-to.pdf used on input line 
-29.
+30.
 (pdftex.def)             Requested size: 409.49722pt x 323.99017pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2198,7 +2187,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.33 
+l.34 
       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/novoUse
 r-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/navSuporte.eps>
@@ -2209,28 +2198,28 @@ Package epstopdf Info: Source file: <figuras/navSuporte.eps>
 (epstopdf)                    size: 7398 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/navSuporte-eps-conv
 erted-to.pdf figuras/navSuporte.eps>
-(epstopdf)             \includegraphics on input line 39.
+(epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/navSuporte-eps-converted-to.pdf, id=1263, 384.43625pt x 150.5625pt>
+<figuras/navSuporte-eps-converted-to.pdf, id=1268, 384.43625pt x 150.5625pt>
 File: figuras/navSuporte-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/navSuporte-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/navSuporte-eps-converted-to.pdf used on input 
-line 39.
+line 40.
 (pdftex.def)             Requested size: 409.49722pt x 160.38808pt.
  [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.45 
+l.46 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.45 
+l.46 
       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/login-e
 ps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/
 figuras/navSuporte-eps-converted-to.pdf>]
@@ -2242,14 +2231,14 @@ Package epstopdf Info: Source file: <figuras/faq.eps>
 (epstopdf)                    size: 125837 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/faq-eps-converted-t
 o.pdf figuras/faq.eps>
-(epstopdf)             \includegraphics on input line 48.
+(epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/faq-eps-converted-to.pdf, id=1275, 1305.87875pt x 746.79pt>
+<figuras/faq-eps-converted-to.pdf, id=1280, 1305.87875pt x 746.79pt>
 File: figuras/faq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/faq-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/faq-eps-converted-to.pdf used on input line 48
+Package pdftex.def Info: figuras/faq-eps-converted-to.pdf used on input line 49
 .
 (pdftex.def)             Requested size: 409.49722pt x 234.16895pt.
 Package epstopdf Info: Source file: <figuras/conceitos.eps>
@@ -2260,30 +2249,30 @@ Package epstopdf Info: Source file: <figuras/conceitos.eps>
 (epstopdf)                    size: 92288 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/conceitos-eps-conve
 rted-to.pdf figuras/conceitos.eps>
-(epstopdf)             \includegraphics on input line 57.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/conceitos-eps-converted-to.pdf, id=1277, 1305.87875pt x 746.79pt>
+<figuras/conceitos-eps-converted-to.pdf, id=1282, 1305.87875pt x 746.79pt>
 File: figuras/conceitos-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/conceitos-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/conceitos-eps-converted-to.pdf used on input l
-ine 57.
+ine 58.
 (pdftex.def)             Requested size: 409.49722pt x 234.16895pt.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 62.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 63.
  [48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.64 
+l.65 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.64 
+l.65 
       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/faq-eps
 -converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/fi
 guras/conceitos-eps-converted-to.pdf>]
@@ -2295,15 +2284,15 @@ Package epstopdf Info: Source file: <figuras/criarExpert.eps>
 (epstopdf)                    size: 34929 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/criarExpert-eps-con
 verted-to.pdf figuras/criarExpert.eps>
-(epstopdf)             \includegraphics on input line 67.
+(epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/criarExpert-eps-converted-to.pdf, id=1289, 1192.455pt x 521.95pt>
+<figuras/criarExpert-eps-converted-to.pdf, id=1294, 1192.455pt x 521.95pt>
 File: figuras/criarExpert-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/criarExpert-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/criarExpert-eps-converted-to.pdf used on input
- line 67.
+ line 68.
 (pdftex.def)             Requested size: 409.49722pt x 179.23668pt.
 Package epstopdf Info: Source file: <figuras/ativado.eps>
 (epstopdf)                    date: 2015-06-18 19:43:55
@@ -2313,15 +2302,15 @@ Package epstopdf Info: Source file: <figuras/ativado.eps>
 (epstopdf)                    size: 18486 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/ativado-eps-convert
 ed-to.pdf figuras/ativado.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/ativado-eps-converted-to.pdf, id=1291, 765.86125pt x 257.96375pt>
+<figuras/ativado-eps-converted-to.pdf, id=1296, 765.86125pt x 257.96375pt>
 File: figuras/ativado-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ativado-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/ativado-eps-converted-to.pdf used on input lin
-e 76.
+e 77.
 (pdftex.def)             Requested size: 409.49722pt x 137.93248pt.
 Package epstopdf Info: Source file: <figuras/ativar.eps>
 (epstopdf)                    date: 2015-06-18 19:44:34
@@ -2331,37 +2320,39 @@ Package epstopdf Info: Source file: <figuras/ativar.eps>
 (epstopdf)                    size: 21172 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/ativar-eps-converte
 d-to.pdf figuras/ativar.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/ativar-eps-converted-to.pdf, id=1293, 760.8425pt x 395.4775pt>
+<figuras/ativar-eps-converted-to.pdf, id=1298, 760.8425pt x 395.4775pt>
 File: figuras/ativar-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ativar-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/ativar-eps-converted-to.pdf used on input line
- 85.
+ 86.
 (pdftex.def)             Requested size: 409.49722pt x 212.85466pt.
  [49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 
+l.90 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 
+l.90 
       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/criarEx
 pert-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escrita
 Latex/figuras/ativado-eps-converted-to.pdf>]
-<figuras/wine.png, id=1305, 309.40594pt x 287.57437pt>
+<figuras/wine.png, id=1311, 309.40594pt x 287.57437pt>
 File: figuras/wine.png Graphic file (type png)
  <use figuras/wine.png>
-Package pdftex.def Info: figuras/wine.png used on input line 95.
+Package pdftex.def Info: figuras/wine.png used on input line 96.
 (pdftex.def)             Requested size: 409.49722pt x 380.6393pt.
-
+)
+(C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\capitulos/estado-atua
+l.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
@@ -2369,47 +2360,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 
-      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/ativar-
-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/sequencia.eps>
-(epstopdf)                    date: 2015-06-13 07:28:20
-(epstopdf)                    size: 705410 bytes
-(epstopdf)             Output file: <figuras/sequencia-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-13 07:28:20
-(epstopdf)                    size: 275607 bytes
-(epstopdf)             Command: <epstopdf --outfile=figuras/sequencia-eps-conve
-rted-to.pdf figuras/sequencia.eps>
-(epstopdf)             \includegraphics on input line 107.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/sequencia-eps-converted-to.pdf, id=1313, 1633.10126pt x 1012.78375pt>
-File: figuras/sequencia-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/sequencia-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/sequencia-eps-converted-to.pdf used on input l
-ine 107.
-(pdftex.def)             Requested size: 409.49722pt x 253.95255pt.
-)
-(C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\capitulos/estado-atua
-l.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-25}) has been already used, duplicate ignored
+l.1 \chapter
+            {Resultados} <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLa
+tex/figuras/ativar-eps-converted-to.pdf>] [51pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.4.25}) has been already used, duplicate 
+ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             {Resultados} <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLa
-tex/figuras/wine.png>] [52pdfTeX warning (ext4): destination with the same iden
-tifier (name{figure.4.26}) has been already used, duplicate ignored
+tex/figuras/wine.png>] [52
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Resultados} <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLa
-tex/figuras/sequencia-eps-converted-to.pdf>]
+]
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 103612 bytes
@@ -2419,16 +2382,20 @@ to.pdf>
 (epstopdf)                    size: 17345 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloCorrelacao
 -eps-converted-to.pdf figuras/protocoloCorrelacao.eps>
-(epstopdf)             \includegraphics on input line 19.
+(epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao-eps-converted-to.pdf, id=1328, 857.2025pt x 315.17
+<figuras/protocoloCorrelacao-eps-converted-to.pdf, id=1330, 857.2025pt x 315.17
 75pt>
 File: figuras/protocoloCorrelacao-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloCorrelacao-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloCorrelacao-eps-converted-to.pdf used 
-on input line 19.
+on input line 21.
 (pdftex.def)             Requested size: 409.49722pt x 150.56209pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao2.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 105664 bytes
@@ -2438,30 +2405,17 @@ Package epstopdf Info: Source file: <figuras/protocoloCorrelacao2.eps>
 (epstopdf)                    size: 17248 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloCorrelacao
 2-eps-converted-to.pdf figuras/protocoloCorrelacao2.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao2-eps-converted-to.pdf, id=1329, 840.13875pt x 310.
+<figuras/protocoloCorrelacao2-eps-converted-to.pdf, id=1335, 840.13875pt x 310.
 15875pt>
 File: figuras/protocoloCorrelacao2-eps-converted-to.pdf Graphic file (type pdf)
 
  <use figuras/protocoloCorrelacao2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloCorrelacao2-eps-converted-to.pdf used
- on input line 27.
+ on input line 29.
 (pdftex.def)             Requested size: 409.49722pt x 151.17456pt.
-
-Underfull \vbox (badness 6063) has occurred while \output is active []
-
- [53
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.27})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.31 
-      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
-loCorrelacao-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao3.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 252270 bytes
@@ -2471,17 +2425,35 @@ Package epstopdf Info: Source file: <figuras/protocoloCorrelacao3.eps>
 (epstopdf)                    size: 22121 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloCorrelacao
 3-eps-converted-to.pdf figuras/protocoloCorrelacao3.eps>
-(epstopdf)             \includegraphics on input line 36.
+(epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao3-eps-converted-to.pdf, id=1339, 1253.68375pt x 555
+<figuras/protocoloCorrelacao3-eps-converted-to.pdf, id=1338, 1253.68375pt x 555
 .07375pt>
 File: figuras/protocoloCorrelacao3-eps-converted-to.pdf Graphic file (type pdf)
 
  <use figuras/protocoloCorrelacao3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloCorrelacao3-eps-converted-to.pdf used
- on input line 36.
+ on input line 38.
 (pdftex.def)             Requested size: 409.49722pt x 181.30309pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.42 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.42 
+      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
+loCorrelacao-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC
+/EscritaLatex/figuras/protocoloCorrelacao2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloCorrelacao4.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 327694 bytes
@@ -2491,35 +2463,17 @@ Package epstopdf Info: Source file: <figuras/protocoloCorrelacao4.eps>
 (epstopdf)                    size: 27214 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloCorrelacao
 4-eps-converted-to.pdf figuras/protocoloCorrelacao4.eps>
-(epstopdf)             \includegraphics on input line 43.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloCorrelacao4-eps-converted-to.pdf, id=1340, 1256.695pt x 604.2
+<figuras/protocoloCorrelacao4-eps-converted-to.pdf, id=1349, 1256.695pt x 604.2
 575pt>
 File: figuras/protocoloCorrelacao4-eps-converted-to.pdf Graphic file (type pdf)
 
  <use figuras/protocoloCorrelacao4-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloCorrelacao4-eps-converted-to.pdf used
- on input line 43.
+ on input line 45.
 (pdftex.def)             Requested size: 409.49722pt x 196.89769pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-28}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.47 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.29}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.47 
-      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
-loCorrelacao2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMV
-C/EscritaLatex/figuras/protocoloCorrelacao3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloMinimos.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 103554 bytes
@@ -2529,16 +2483,34 @@ pdf>
 (epstopdf)                    size: 17265 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMinimos-ep
 s-converted-to.pdf figuras/protocoloMinimos.eps>
-(epstopdf)             \includegraphics on input line 55.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos-eps-converted-to.pdf, id=1353, 838.13126pt x 310.1587
+<figuras/protocoloMinimos-eps-converted-to.pdf, id=1352, 838.13126pt x 310.1587
 5pt>
 File: figuras/protocoloMinimos-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMinimos-eps-converted-to.pdf used on 
-input line 55.
+input line 57.
 (pdftex.def)             Requested size: 409.49722pt x 151.53897pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 
+      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
+loCorrelacao3-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMV
+C/EscritaLatex/figuras/protocoloCorrelacao4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloMinimos2.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 103617 bytes
@@ -2548,34 +2520,16 @@ Package epstopdf Info: Source file: <figuras/protocoloMinimos2.eps>
 (epstopdf)                    size: 17274 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMinimos2-e
 ps-converted-to.pdf figuras/protocoloMinimos2.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos2-eps-converted-to.pdf, id=1354, 853.1875pt x 311.1625
+<figuras/protocoloMinimos2-eps-converted-to.pdf, id=1363, 853.1875pt x 311.1625
 pt>
 File: figuras/protocoloMinimos2-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMinimos2-eps-converted-to.pdf used on
- input line 62.
+ input line 64.
 (pdftex.def)             Requested size: 409.49722pt x 149.3468pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-30}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.66 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.31}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.66 
-      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
-loCorrelacao4-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMV
-C/EscritaLatex/figuras/protocoloMinimos-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloMinimos3.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 278754 bytes
@@ -2585,16 +2539,34 @@ Package epstopdf Info: Source file: <figuras/protocoloMinimos3.eps>
 (epstopdf)                    size: 21375 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMinimos3-e
 ps-converted-to.pdf figuras/protocoloMinimos3.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos3-eps-converted-to.pdf, id=1367, 1257.69875pt x 546.04
+<figuras/protocoloMinimos3-eps-converted-to.pdf, id=1366, 1257.69875pt x 546.04
 pt>
 File: figuras/protocoloMinimos3-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMinimos3-eps-converted-to.pdf used on
- input line 71.
+ input line 73.
 (pdftex.def)             Requested size: 409.49722pt x 177.78584pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+30}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
+loMinimos-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Es
+critaLatex/figuras/protocoloMinimos2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloMinimos4.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 258815 bytes
@@ -2604,34 +2576,16 @@ Package epstopdf Info: Source file: <figuras/protocoloMinimos4.eps>
 (epstopdf)                    size: 20968 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMinimos4-e
 ps-converted-to.pdf figuras/protocoloMinimos4.eps>
-(epstopdf)             \includegraphics on input line 78.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMinimos4-eps-converted-to.pdf, id=1368, 1256.695pt x 515.9275
+<figuras/protocoloMinimos4-eps-converted-to.pdf, id=1377, 1256.695pt x 515.9275
 pt>
 File: figuras/protocoloMinimos4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMinimos4-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMinimos4-eps-converted-to.pdf used on
- input line 78.
+ input line 80.
 (pdftex.def)             Requested size: 409.49722pt x 168.1153pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-32}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.82 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.33}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.82 
-      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
-loMinimos2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/E
-scritaLatex/figuras/protocoloMinimos3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloFib.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 102157 bytes
@@ -2641,16 +2595,31 @@ Package epstopdf Info: Source file: <figuras/protocoloFib.eps>
 (epstopdf)                    size: 17147 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloFib-eps-co
 nverted-to.pdf figuras/protocoloFib.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib-eps-converted-to.pdf, id=1381, 840.13875pt x 309.155pt>
+<figuras/protocoloFib-eps-converted-to.pdf, id=1380, 840.13875pt x 309.155pt>
 File: figuras/protocoloFib-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloFib-eps-converted-to.pdf used on inpu
-t line 92.
+t line 94.
 (pdftex.def)             Requested size: 409.49722pt x 150.68532pt.
+ [57pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+32}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.33}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 
+      <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoco
+loMinimos3-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/E
+scritaLatex/figuras/protocoloMinimos4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloFib2.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 103415 bytes
@@ -2660,33 +2629,15 @@ Package epstopdf Info: Source file: <figuras/protocoloFib2.eps>
 (epstopdf)                    size: 17396 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloFib2-eps-c
 onverted-to.pdf figuras/protocoloFib2.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib2-eps-converted-to.pdf, id=1382, 842.14626pt x 319.1925pt>
+<figuras/protocoloFib2-eps-converted-to.pdf, id=1392, 842.14626pt x 319.1925pt>
 File: figuras/protocoloFib2-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloFib2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloFib2-eps-converted-to.pdf used on inp
-ut line 99.
+ut line 101.
 (pdftex.def)             Requested size: 409.49722pt x 155.20755pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [57pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-34}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.103 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.35}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.103 
-       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoc
-oloMinimos4-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/
-EscritaLatex/figuras/protocoloFib-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloFib3.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 248035 bytes
@@ -2696,15 +2647,15 @@ Package epstopdf Info: Source file: <figuras/protocoloFib3.eps>
 (epstopdf)                    size: 20780 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloFib3-eps-c
 onverted-to.pdf figuras/protocoloFib3.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib3-eps-converted-to.pdf, id=1396, 1256.695pt x 533.995pt>
+<figuras/protocoloFib3-eps-converted-to.pdf, id=1395, 1256.695pt x 533.995pt>
 File: figuras/protocoloFib3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloFib3-eps-converted-to.pdf used on inp
-ut line 108.
+ut line 110.
 (pdftex.def)             Requested size: 409.49722pt x 174.00261pt.
 Package epstopdf Info: Source file: <figuras/protocoloFib4.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -2715,34 +2666,38 @@ Package epstopdf Info: Source file: <figuras/protocoloFib4.eps>
 (epstopdf)                    size: 18977 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloFib4-eps-c
 onverted-to.pdf figuras/protocoloFib4.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloFib4-eps-converted-to.pdf, id=1397, 1252.68pt x 541.02126pt>
+<figuras/protocoloFib4-eps-converted-to.pdf, id=1396, 1252.68pt x 541.02126pt>
 File: figuras/protocoloFib4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloFib4-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloFib4-eps-converted-to.pdf used on inp
-ut line 115.
+ut line 117.
 (pdftex.def)             Requested size: 409.49722pt x 176.85347pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [58pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-36}) has been already used, duplicate ignored
+34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.119 
+l.121 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.37}) has been already used, duplicate ignored
+5.35}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.119 
+l.121 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.36}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.121 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoc
-oloFib2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escr
-itaLatex/figuras/protocoloFib3-eps-converted-to.pdf>]
+oloFib-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escri
+taLatex/figuras/protocoloFib2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents
+/GitHub/investMVC/EscritaLatex/figuras/protocoloFib3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/protocoloEst.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
 (epstopdf)                    size: 105239 bytes
@@ -2752,14 +2707,14 @@ Package epstopdf Info: Source file: <figuras/protocoloEst.eps>
 (epstopdf)                    size: 17300 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloEst-eps-co
 nverted-to.pdf figuras/protocoloEst.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst-eps-converted-to.pdf, id=1410, 840.13875pt x 294.09875pt>
+<figuras/protocoloEst-eps-converted-to.pdf, id=1412, 840.13875pt x 294.09875pt>
 File: figuras/protocoloEst-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloEst-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst-eps-converted-to.pdf used on inpu
-t line 129.
+t line 131.
 (pdftex.def)             Requested size: 409.49722pt x 143.34676pt.
 Package epstopdf Info: Source file: <figuras/protocoloEst2.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -2770,31 +2725,31 @@ Package epstopdf Info: Source file: <figuras/protocoloEst2.eps>
 (epstopdf)                    size: 17337 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloEst2-eps-c
 onverted-to.pdf figuras/protocoloEst2.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst2-eps-converted-to.pdf, id=1411, 841.1425pt x 305.14pt>
+<figuras/protocoloEst2-eps-converted-to.pdf, id=1413, 841.1425pt x 305.14pt>
 File: figuras/protocoloEst2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/protocoloEst2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst2-eps-converted-to.pdf used on inp
-ut line 136.
+ut line 138.
 (pdftex.def)             Requested size: 409.49722pt x 148.55144pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-38}) has been already used, duplicate ignored
+37}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.140 
+l.142 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.39}) has been already used, duplicate ignored
+5.38}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.140 
+l.142 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoc
 oloFib4-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escr
 itaLatex/figuras/protocoloEst-eps-converted-to.pdf>]
@@ -2807,14 +2762,14 @@ Package epstopdf Info: Source file: <figuras/protocoloEst3.eps>
 (epstopdf)                    size: 25403 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloEst3-eps-c
 onverted-to.pdf figuras/protocoloEst3.eps>
-(epstopdf)             \includegraphics on input line 145.
+(epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst3-eps-converted-to.pdf, id=1424, 1256.695pt x 569.12625pt>
+<figuras/protocoloEst3-eps-converted-to.pdf, id=1426, 1256.695pt x 569.12625pt>
 File: figuras/protocoloEst3-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloEst3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst3-eps-converted-to.pdf used on inp
-ut line 145.
+ut line 147.
 (pdftex.def)             Requested size: 409.49722pt x 185.45015pt.
 Package epstopdf Info: Source file: <figuras/protocoloEst4.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -2825,31 +2780,31 @@ Package epstopdf Info: Source file: <figuras/protocoloEst4.eps>
 (epstopdf)                    size: 25334 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloEst4-eps-c
 onverted-to.pdf figuras/protocoloEst4.eps>
-(epstopdf)             \includegraphics on input line 152.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloEst4-eps-converted-to.pdf, id=1425, 1253.68375pt x 510.90875p
+<figuras/protocoloEst4-eps-converted-to.pdf, id=1427, 1253.68375pt x 510.90875p
 t>
 File: figuras/protocoloEst4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloEst4-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloEst4-eps-converted-to.pdf used on inp
-ut line 152.
+ut line 154.
 (pdftex.def)             Requested size: 409.49722pt x 166.87752pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-40}) has been already used, duplicate ignored
+39}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.156 
+l.158 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.41}) has been already used, duplicate ignored
+5.40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.156 
+l.158 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoc
 oloEst2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escr
 itaLatex/figuras/protocoloEst3-eps-converted-to.pdf>]
@@ -2862,14 +2817,14 @@ f>
 (epstopdf)                    size: 17490 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMedia-eps-
 converted-to.pdf figuras/protocoloMedia.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia-eps-converted-to.pdf, id=1438, 839.135pt x 308.15125pt>
+<figuras/protocoloMedia-eps-converted-to.pdf, id=1440, 839.135pt x 308.15125pt>
 File: figuras/protocoloMedia-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/protocoloMedia-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMedia-eps-converted-to.pdf used on in
-put line 167.
+put line 169.
 (pdftex.def)             Requested size: 409.49722pt x 150.37476pt.
 Package epstopdf Info: Source file: <figuras/protocoloMedia2.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -2880,31 +2835,31 @@ df>
 (epstopdf)                    size: 17428 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMedia2-eps
 -converted-to.pdf figuras/protocoloMedia2.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia2-eps-converted-to.pdf, id=1439, 853.1875pt x 307.1475pt
+<figuras/protocoloMedia2-eps-converted-to.pdf, id=1441, 853.1875pt x 307.1475pt
 >
 File: figuras/protocoloMedia2-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMedia2-eps-converted-to.pdf used on i
-nput line 174.
+nput line 176.
 (pdftex.def)             Requested size: 409.49722pt x 147.41974pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-42}) has been already used, duplicate ignored
+41}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.178 
+l.180 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.43}) has been already used, duplicate ignored
+5.42}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.178 
+l.180 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoc
 oloEst4-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escr
 itaLatex/figuras/protocoloMedia-eps-converted-to.pdf>]
@@ -2917,15 +2872,15 @@ df>
 (epstopdf)                    size: 22107 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMedia3-eps
 -converted-to.pdf figuras/protocoloMedia3.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia3-eps-converted-to.pdf, id=1452, 1251.67625pt x 523.9575
+<figuras/protocoloMedia3-eps-converted-to.pdf, id=1454, 1251.67625pt x 523.9575
 pt>
 File: figuras/protocoloMedia3-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMedia3-eps-converted-to.pdf used on i
-nput line 183.
+nput line 185.
 (pdftex.def)             Requested size: 409.49722pt x 171.41945pt.
 Package epstopdf Info: Source file: <figuras/protocoloMedia4.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -2936,34 +2891,34 @@ df>
 (epstopdf)                    size: 24160 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/protocoloMedia4-eps
 -converted-to.pdf figuras/protocoloMedia4.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/protocoloMedia4-eps-converted-to.pdf, id=1453, 1254.6875pt x 495.8525p
+<figuras/protocoloMedia4-eps-converted-to.pdf, id=1455, 1254.6875pt x 495.8525p
 t>
 File: figuras/protocoloMedia4-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/protocoloMedia4-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/protocoloMedia4-eps-converted-to.pdf used on i
-nput line 190.
+nput line 192.
 (pdftex.def)             Requested size: 409.49722pt x 161.8311pt.
  [62pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-44}) has been already used, duplicate ignored
+43}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.199 
+l.201 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.44}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5.45}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.199 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.46}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.199 
+l.201 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/protoc
 oloMedia2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Es
 critaLatex/figuras/protocoloMedia3-eps-converted-to.pdf> <C:/Users/Vanessa/Docu
@@ -2977,25 +2932,25 @@ Package epstopdf Info: Source file: <figuras/componente.eps>
 (epstopdf)                    size: 104783 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/componente-eps-conv
 erted-to.pdf figuras/componente.eps>
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componente-eps-converted-to.pdf, id=1470, 857.2025pt x 697.60625pt>
+<figuras/componente-eps-converted-to.pdf, id=1472, 857.2025pt x 697.60625pt>
 File: figuras/componente-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/componente-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/componente-eps-converted-to.pdf used on input 
-line 208.
+line 210.
 (pdftex.def)             Requested size: 409.49722pt x 333.2505pt.
 
 Underfull \vbox (badness 1454) has occurred while \output is active []
 
  [63pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-47}) has been already used, duplicate ignored
+46}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.216 
+l.218 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/compon
 ente-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/classeOO.eps>
@@ -3006,15 +2961,15 @@ Package epstopdf Info: Source file: <figuras/classeOO.eps>
 (epstopdf)                    size: 167892 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/classeOO-eps-conver
 ted-to.pdf figuras/classeOO.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/classeOO-eps-converted-to.pdf, id=1481, 1095.09125pt x 625.33624pt>
+<figuras/classeOO-eps-converted-to.pdf, id=1483, 1095.09125pt x 625.33624pt>
 File: figuras/classeOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/classeOO-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/classeOO-eps-converted-to.pdf used on input li
-ne 219.
+ne 221.
 (pdftex.def)             Requested size: 409.49722pt x 233.84212pt.
 Package epstopdf Info: Source file: <figuras/sequenciaOO.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -3024,32 +2979,32 @@ Package epstopdf Info: Source file: <figuras/sequenciaOO.eps>
 (epstopdf)                    size: 112760 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/sequenciaOO-eps-con
 verted-to.pdf figuras/sequenciaOO.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaOO-eps-converted-to.pdf, id=1485, 1000.73875pt x 586.19pt>
+<figuras/sequenciaOO-eps-converted-to.pdf, id=1487, 1000.73875pt x 586.19pt>
 File: figuras/sequenciaOO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sequenciaOO-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaOO-eps-converted-to.pdf used on input
- line 236.
+ line 238.
 (pdftex.def)             Requested size: 409.49722pt x 239.86539pt.
 
 Underfull \vbox (badness 2913) has occurred while \output is active []
 
  [64pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-48}) has been already used, duplicate ignored
+47}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.240 
+l.242 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/classe
 OO-eps-converted-to.pdf>] [65pdfTeX warning (ext4): destination with the same i
-dentifier (name{figure.5.49}) has been already used, duplicate ignored
+dentifier (name{figure.5.48}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 
+l.257 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/sequen
 ciaOO-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/componenteFuncional.eps>
@@ -3061,15 +3016,15 @@ to.pdf>
 (epstopdf)                    size: 23599 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/componenteFuncional
 -eps-converted-to.pdf figuras/componenteFuncional.eps>
-(epstopdf)             \includegraphics on input line 258.
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componenteFuncional-eps-converted-to.pdf, id=1508, 405.515pt x 312.166
+<figuras/componenteFuncional-eps-converted-to.pdf, id=1510, 405.515pt x 312.166
 24pt>
 File: figuras/componenteFuncional-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/componenteFuncional-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/componenteFuncional-eps-converted-to.pdf used 
-on input line 258.
+on input line 260.
 (pdftex.def)             Requested size: 227.5pt x 175.1358pt.
 Package epstopdf Info: Source file: <figuras/sequenciaFuncional.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -3080,25 +3035,25 @@ o.pdf>
 (epstopdf)                    size: 70176 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/sequenciaFuncional-
 eps-converted-to.pdf figuras/sequenciaFuncional.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaFuncional-eps-converted-to.pdf, id=1510, 651.43375pt x 435.62
+<figuras/sequenciaFuncional-eps-converted-to.pdf, id=1512, 651.43375pt x 435.62
 75pt>
 File: figuras/sequenciaFuncional-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/sequenciaFuncional-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaFuncional-eps-converted-to.pdf used o
-n input line 267.
+n input line 269.
 (pdftex.def)             Requested size: 409.49722pt x 273.84853pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-50}) has been already used, duplicate ignored
+49}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.271 
+l.273 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/compon
 enteFuncional-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/componenteEstruturado.eps>
@@ -3110,16 +3065,16 @@ d-to.pdf>
 (epstopdf)                    size: 23469 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/componenteEstrutura
 do-eps-converted-to.pdf figuras/componenteEstruturado.eps>
-(epstopdf)             \includegraphics on input line 282.
+(epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/componenteEstruturado-eps-converted-to.pdf, id=1521, 405.515pt x 312.1
+<figuras/componenteEstruturado-eps-converted-to.pdf, id=1523, 405.515pt x 312.1
 6624pt>
 File: figuras/componenteEstruturado-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figuras/componenteEstruturado-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/componenteEstruturado-eps-converted-to.pdf use
-d on input line 282.
+d on input line 284.
 (pdftex.def)             Requested size: 318.49861pt x 245.18918pt.
 Package epstopdf Info: Source file: <figuras/sequenciaEstruturado.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -3130,34 +3085,34 @@ Package epstopdf Info: Source file: <figuras/sequenciaEstruturado.eps>
 (epstopdf)                    size: 71510 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/sequenciaEstruturad
 o-eps-converted-to.pdf figuras/sequenciaEstruturado.eps>
-(epstopdf)             \includegraphics on input line 283.
+(epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaEstruturado-eps-converted-to.pdf, id=1522, 657.45625pt x 435.
+<figuras/sequenciaEstruturado-eps-converted-to.pdf, id=1524, 657.45625pt x 435.
 6275pt>
 File: figuras/sequenciaEstruturado-eps-converted-to.pdf Graphic file (type pdf)
 
  <use figuras/sequenciaEstruturado-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaEstruturado-eps-converted-to.pdf used
- on input line 283.
+ on input line 285.
 (pdftex.def)             Requested size: 318.49861pt x 211.03978pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-51}) has been already used, duplicate ignored
+50}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.287 
+l.289 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/sequen
 ciaFuncional-eps-converted-to.pdf>] [68pdfTeX warning (ext4): destination with 
-the same identifier (name{figure.5.52}) has been already used, duplicate ignore
+the same identifier (name{figure.5.51}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.294 \end{citacao}
+l.296 \end{citacao}
                     <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/f
 iguras/componenteEstruturado-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/
 GitHub/investMVC/EscritaLatex/figuras/sequenciaEstruturado-eps-converted-to.pdf
@@ -3171,25 +3126,25 @@ o.pdf>
 (epstopdf)                    size: 136595 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/diagramaClassesSMA-
 eps-converted-to.pdf figuras/diagramaClassesSMA.eps>
-(epstopdf)             \includegraphics on input line 304.
+(epstopdf)             \includegraphics on input line 306.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/diagramaClassesSMA-eps-converted-to.pdf, id=1545, 964.60374pt x 805.00
+<figuras/diagramaClassesSMA-eps-converted-to.pdf, id=1547, 964.60374pt x 805.00
 75pt>
 File: figuras/diagramaClassesSMA-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/diagramaClassesSMA-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/diagramaClassesSMA-eps-converted-to.pdf used o
-n input line 304.
+n input line 306.
 (pdftex.def)             Requested size: 409.49722pt x 341.73674pt.
 
 Underfull \vbox (badness 1270) has occurred while \output is active []
 
  [69pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-53}) has been already used, duplicate ignored
+52}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.313 O
+l.315 O
         paradigma L√≥gico facilita a representa√ß√£o, inser√ß√£o e recupera√...
  <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/diagramaClas
 sesSMA-eps-converted-to.pdf>]
@@ -3202,15 +3157,15 @@ df>
 (epstopdf)                    size: 59266 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/sequenciaLogico-eps
 -converted-to.pdf figuras/sequenciaLogico.eps>
-(epstopdf)             \includegraphics on input line 319.
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaLogico-eps-converted-to.pdf, id=1558, 522.95375pt x 435.6275p
+<figuras/sequenciaLogico-eps-converted-to.pdf, id=1560, 522.95375pt x 435.6275p
 t>
 File: figuras/sequenciaLogico-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/sequenciaLogico-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaLogico-eps-converted-to.pdf used on i
-nput line 319.
+nput line 321.
 (pdftex.def)             Requested size: 318.49861pt x 265.32027pt.
 Package epstopdf Info: Source file: <figuras/sequenciaMQL.eps>
 (epstopdf)                    date: 2015-06-13 07:28:20
@@ -3221,27 +3176,56 @@ Package epstopdf Info: Source file: <figuras/sequenciaMQL.eps>
 (epstopdf)                    size: 64101 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/sequenciaMQL-eps-co
 nverted-to.pdf figuras/sequenciaMQL.eps>
-(epstopdf)             \includegraphics on input line 332.
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/sequenciaMQL-eps-converted-to.pdf, id=1560, 643.40375pt x 435.6275pt>
+<figuras/sequenciaMQL-eps-converted-to.pdf, id=1562, 643.40375pt x 435.6275pt>
 File: figuras/sequenciaMQL-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/sequenciaMQL-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/sequenciaMQL-eps-converted-to.pdf used on inpu
-t line 332.
+t line 334.
 (pdftex.def)             Requested size: 227.5pt x 154.03398pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [70pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+53}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.338 
+       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/sequen
+ciaLogico-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figuras/sequencia.eps>
+(epstopdf)                    date: 2015-06-13 07:28:20
+(epstopdf)                    size: 705410 bytes
+(epstopdf)             Output file: <figuras/sequencia-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-13 07:28:20
+(epstopdf)                    size: 275607 bytes
+(epstopdf)             Command: <epstopdf --outfile=figuras/sequencia-eps-conve
+rted-to.pdf figuras/sequencia.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+
+<figuras/sequencia-eps-converted-to.pdf, id=1570, 1633.10126pt x 1012.78375pt>
+File: figuras/sequencia-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figuras/sequencia-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/sequencia-eps-converted-to.pdf used on input l
+ine 347.
+(pdftex.def)             Requested size: 409.49722pt x 253.95255pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 54}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.336 
+l.351 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/sequen
-ciaLogico-eps-converted-to.pdf>]
+ciaMQL-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/testeCorrelacaoHaskell.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
 (epstopdf)                    size: 61184 bytes
@@ -3251,16 +3235,16 @@ ed-to.pdf>
 (epstopdf)                    size: 19234 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/testeCorrelacaoHask
 ell-eps-converted-to.pdf figuras/testeCorrelacaoHaskell.eps>
-(epstopdf)             \includegraphics on input line 346.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/testeCorrelacaoHaskell-eps-converted-to.pdf, id=1571, 808.01875pt x 84
+<figuras/testeCorrelacaoHaskell-eps-converted-to.pdf, id=1581, 808.01875pt x 84
 .315pt>
 File: figuras/testeCorrelacaoHaskell-eps-converted-to.pdf Graphic file (type pd
 f)
  <use figuras/testeCorrelacaoHaskell-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/testeCorrelacaoHaskell-eps-converted-to.pdf us
-ed on input line 346.
+ed on input line 360.
 (pdftex.def)             Requested size: 409.49722pt x 42.72989pt.
 Package epstopdf Info: Source file: <figuras/testeFibonacciHaskell.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
@@ -3271,16 +3255,16 @@ d-to.pdf>
 (epstopdf)                    size: 17824 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/testeFibonacciHaske
 ll-eps-converted-to.pdf figuras/testeFibonacciHaskell.eps>
-(epstopdf)             \includegraphics on input line 353.
+(epstopdf)             \includegraphics on input line 367.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/testeFibonacciHaskell-eps-converted-to.pdf, id=1572, 788.9475pt x 84.3
+<figuras/testeFibonacciHaskell-eps-converted-to.pdf, id=1582, 788.9475pt x 84.3
 15pt>
 File: figuras/testeFibonacciHaskell-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figuras/testeFibonacciHaskell-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/testeFibonacciHaskell-eps-converted-to.pdf use
-d on input line 353.
+d on input line 367.
 (pdftex.def)             Requested size: 409.49722pt x 43.76299pt.
 Package epstopdf Info: Source file: <figuras/TesteMinimosHaskell.eps>
 (epstopdf)                    date: 2015-06-17 17:07:01
@@ -3291,51 +3275,43 @@ to.pdf>
 (epstopdf)                    size: 18645 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/TesteMinimosHaskell
 -eps-converted-to.pdf figuras/TesteMinimosHaskell.eps>
-(epstopdf)             \includegraphics on input line 360.
+(epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/TesteMinimosHaskell-eps-converted-to.pdf, id=1573, 786.94pt x 87.32625
+<figuras/TesteMinimosHaskell-eps-converted-to.pdf, id=1583, 786.94pt x 87.32625
 pt>
 File: figuras/TesteMinimosHaskell-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/TesteMinimosHaskell-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/TesteMinimosHaskell-eps-converted-to.pdf used 
-on input line 360.
+on input line 374.
 (pdftex.def)             Requested size: 409.49722pt x 45.44055pt.
- [71pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [72pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 55}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 
+l.378 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5.56}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 
+l.378 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5.57}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.58}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.370 
+l.378 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/sequen
-ciaMQL-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escri
-taLatex/figuras/testeCorrelacaoHaskell-eps-converted-to.pdf> <C:/Users/Vanessa/
-Documents/GitHub/investMVC/EscritaLatex/figuras/testeFibonacciHaskell-eps-conve
-rted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/
-TesteMinimosHaskell-eps-converted-to.pdf>]
-<figuras/testeC.jpg, id=1591, 956.82469pt x 322.20375pt>
+cia-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaL
+atex/figuras/testeCorrelacaoHaskell-eps-converted-to.pdf> <C:/Users/Vanessa/Doc
+uments/GitHub/investMVC/EscritaLatex/figuras/testeFibonacciHaskell-eps-converte
+d-to.pdf>] <figuras/testeC.jpg, id=1598, 956.82469pt x 322.20375pt>
 File: figuras/testeC.jpg Graphic file (type jpg)
 
 <use figuras/testeC.jpg>
-Package pdftex.def Info: figuras/testeC.jpg used on input line 375.
+Package pdftex.def Info: figuras/testeC.jpg used on input line 389.
 (pdftex.def)             Requested size: 409.49722pt x 137.89594pt.
 Package epstopdf Info: Source file: <figuras/prologTeste1.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
@@ -3346,16 +3322,34 @@ Package epstopdf Info: Source file: <figuras/prologTeste1.eps>
 (epstopdf)                    size: 22848 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/prologTeste1-eps-co
 nverted-to.pdf figuras/prologTeste1.eps>
-(epstopdf)             \includegraphics on input line 385.
+(epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/prologTeste1-eps-converted-to.pdf, id=1594, 725.71124pt x 264.99pt>
+<figuras/prologTeste1-eps-converted-to.pdf, id=1601, 725.71124pt x 264.99pt>
 File: figuras/prologTeste1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/prologTeste1-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/prologTeste1-eps-converted-to.pdf used on inpu
-t line 385.
+t line 399.
 (pdftex.def)             Requested size: 409.49722pt x 149.52959pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+58}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.403 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.59}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.403 
+       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/TesteM
+inimosHaskell-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMV
+C/EscritaLatex/figuras/testeC.jpg>]
 Package epstopdf Info: Source file: <figuras/prologTeste2.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
 (epstopdf)                    size: 99477 bytes
@@ -3365,34 +3359,16 @@ Package epstopdf Info: Source file: <figuras/prologTeste2.eps>
 (epstopdf)                    size: 23095 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/prologTeste2-eps-co
 nverted-to.pdf figuras/prologTeste2.eps>
-(epstopdf)             \includegraphics on input line 392.
+(epstopdf)             \includegraphics on input line 406.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/prologTeste2-eps-converted-to.pdf, id=1595, 723.70375pt x 262.9825pt>
+<figuras/prologTeste2-eps-converted-to.pdf, id=1609, 723.70375pt x 262.9825pt>
 File: figuras/prologTeste2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/prologTeste2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/prologTeste2-eps-converted-to.pdf used on inpu
-t line 392.
+t line 406.
 (pdftex.def)             Requested size: 409.49722pt x 148.80608pt.
-
-Underfull \vbox (badness 4779) has occurred while \output is active []
-
- [72pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-59}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.396 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.60}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.396 
-       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/testeC
-.jpg> <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/prologT
-este1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/eclemmaSMA.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
 (epstopdf)                    size: 39157 bytes
@@ -3401,16 +3377,38 @@ Package epstopdf Info: Source file: <figuras/eclemmaSMA.eps>
 (epstopdf)                    size: 18928 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/eclemmaSMA-eps-conv
 erted-to.pdf figuras/eclemmaSMA.eps>
-(epstopdf)             \includegraphics on input line 404.
+(epstopdf)             \includegraphics on input line 418.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/eclemmaSMA-eps-converted-to.pdf, id=1604, 624.3325pt x 97.36375pt>
+<figuras/eclemmaSMA-eps-converted-to.pdf, id=1611, 624.3325pt x 97.36375pt>
 File: figuras/eclemmaSMA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/eclemmaSMA-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/eclemmaSMA-eps-converted-to.pdf used on input 
-line 404.
+line 418.
 (pdftex.def)             Requested size: 409.49722pt x 63.8621pt.
+ [74pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+60}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.424 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.61}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.424 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.62}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.424 
+       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/prolog
+Teste1-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escri
+taLatex/figuras/prologTeste2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/
+GitHub/investMVC/EscritaLatex/figuras/eclemmaSMA-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/eclemmaTodasClasses.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
 (epstopdf)                    size: 565796 bytes
@@ -3420,40 +3418,22 @@ to.pdf>
 (epstopdf)                    size: 350559 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/eclemmaTodasClasses
 -eps-converted-to.pdf figuras/eclemmaTodasClasses.eps>
-(epstopdf)             \includegraphics on input line 413.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/eclemmaTodasClasses-eps-converted-to.pdf, id=1606, 950.55125pt x 615.2
+<figuras/eclemmaTodasClasses-eps-converted-to.pdf, id=1626, 950.55125pt x 615.2
 9875pt>
 File: figuras/eclemmaTodasClasses-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/eclemmaTodasClasses-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/eclemmaTodasClasses-eps-converted-to.pdf used 
-on input line 413.
+on input line 427.
 (pdftex.def)             Requested size: 409.49722pt x 265.0709pt.
-
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
- [73pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-61}) has been already used, duplicate ignored
+ [75pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+63}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.417 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.62}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.417 
-       <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/prolog
-Teste2-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Escri
-taLatex/figuras/eclemmaSMA-eps-converted-to.pdf>] [74pdfTeX warning (ext4): des
-tination with the same identifier (name{figure.5.63}) has been already used, du
-plicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.427 
+l.439 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/eclemm
 aTodasClasses-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/analiseinicial.eps>
@@ -3465,14 +3445,14 @@ f>
 (epstopdf)                    size: 30114 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/analiseinicial-eps-
 converted-to.pdf figuras/analiseinicial.eps>
-(epstopdf)             \includegraphics on input line 430.
+(epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/analiseinicial-eps-converted-to.pdf, id=1632, 664.4825pt x 134.5025pt>
+<figuras/analiseinicial-eps-converted-to.pdf, id=1643, 664.4825pt x 134.5025pt>
 File: figuras/analiseinicial-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/analiseinicial-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/analiseinicial-eps-converted-to.pdf used on in
-put line 430.
+put line 444.
 (pdftex.def)             Requested size: 409.49722pt x 82.8899pt.
 Package epstopdf Info: Source file: <figuras/analisefinal.eps>
 (epstopdf)                    date: 2015-06-17 17:07:02
@@ -3483,133 +3463,132 @@ Package epstopdf Info: Source file: <figuras/analisefinal.eps>
 (epstopdf)                    size: 28902 bytes
 (epstopdf)             Command: <epstopdf --outfile=figuras/analisefinal-eps-co
 nverted-to.pdf figuras/analisefinal.eps>
-(epstopdf)             \includegraphics on input line 437.
+(epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/analisefinal-eps-converted-to.pdf, id=1633, 645.41125pt x 134.5025pt>
+<figuras/analisefinal-eps-converted-to.pdf, id=1644, 645.41125pt x 134.5025pt>
 File: figuras/analisefinal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/analisefinal-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/analisefinal-eps-converted-to.pdf used on inpu
-t line 437.
+t line 451.
 (pdftex.def)             Requested size: 409.49722pt x 85.33833pt.
- [75pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [76pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 64}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.450 
+l.460 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5.65}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.450 
+l.460 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/analis
 einicial-eps-converted-to.pdf> <C:/Users/Vanessa/Documents/GitHub/investMVC/Esc
 ritaLatex/figuras/analisefinal-eps-converted-to.pdf>]
-<figuras/rendimentoInvestMVC.jpg, id=1646, 309.40594pt x 201.00093pt>
+<figuras/rendimentoInvestMVC.jpg, id=1656, 309.40594pt x 201.00093pt>
 File: figuras/rendimentoInvestMVC.jpg Graphic file (type jpg)
 
 <use figuras/rendimentoInvestMVC.jpg>
-Package pdftex.def Info: figuras/rendimentoInvestMVC.jpg used on input line 455
+Package pdftex.def Info: figuras/rendimentoInvestMVC.jpg used on input line 469
 .
 (pdftex.def)             Requested size: 409.49722pt x 266.04892pt.
-
-<figuras/rendimentoMQL.jpg, id=1648, 335.75438pt x 206.27063pt>
-File: figuras/rendimentoMQL.jpg Graphic file (type jpg)
-
-<use figuras/rendimentoMQL.jpg>
-Package pdftex.def Info: figuras/rendimentoMQL.jpg used on input line 469.
-(pdftex.def)             Requested size: 409.49722pt x 251.57423pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [76pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 474.
+ [77pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 66}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.473 
+l.478 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/rendim
 entoInvestMVC.jpg>]
-<figuras/rendimentoVersus.jpg, id=1654, 335.75438pt x 206.27063pt>
+<figuras/rendimentoMQL.jpg, id=1662, 335.75438pt x 206.27063pt>
+File: figuras/rendimentoMQL.jpg Graphic file (type jpg)
+
+<use figuras/rendimentoMQL.jpg>
+Package pdftex.def Info: figuras/rendimentoMQL.jpg used on input line 483.
+(pdftex.def)             Requested size: 409.49722pt x 251.57423pt.
+
+<figuras/rendimentoVersus.jpg, id=1664, 335.75438pt x 206.27063pt>
 File: figuras/rendimentoVersus.jpg Graphic file (type jpg)
 
 <use figuras/rendimentoVersus.jpg>
-Package pdftex.def Info: figuras/rendimentoVersus.jpg used on input line 485.
+Package pdftex.def Info: figuras/rendimentoVersus.jpg used on input line 499.
 (pdftex.def)             Requested size: 409.49722pt x 251.57423pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [78pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 67}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.489 
+l.503 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/rendim
-entoMQL.jpg>] <figuras/graficoBarras.jpg, id=1660, 335.75438pt x 207.02344pt>
+entoMQL.jpg>] <figuras/graficoBarras.jpg, id=1670, 335.75438pt x 207.02344pt>
 File: figuras/graficoBarras.jpg Graphic file (type jpg)
 
 <use figuras/graficoBarras.jpg>
-Package pdftex.def Info: figuras/graficoBarras.jpg used on input line 495.
+Package pdftex.def Info: figuras/graficoBarras.jpg used on input line 509.
 (pdftex.def)             Requested size: 409.49722pt x 252.49239pt.
- [78pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [79pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 68}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.503 
+l.517 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5.69}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.503 
+l.517 
        <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figuras/rendim
 entoVersus.jpg> <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/figur
 as/graficoBarras.jpg>]
-Overfull \hbox (25.44406pt too wide) in alignment at lines 505--509
+Overfull \hbox (25.44406pt too wide) in alignment at lines 519--523
  [] [] 
  []
 
 
-Overfull \hbox (25.44406pt too wide) in alignment at lines 509--514
+Overfull \hbox (25.44406pt too wide) in alignment at lines 523--528
  [] [] 
  []
 
 
-Overfull \hbox (25.44406pt too wide) in alignment at lines 514--516
+Overfull \hbox (25.44406pt too wide) in alignment at lines 528--530
  [] [] 
  []
 
 
-Overfull \hbox (25.44406pt too wide) in alignment at lines 516--518
+Overfull \hbox (25.44406pt too wide) in alignment at lines 530--532
  [] [] 
  []
 
 
-Overfull \hbox (25.44406pt too wide) in alignment at lines 518--540
+Overfull \hbox (25.44406pt too wide) in alignment at lines 532--554
  [] [] 
  []
 
 )
 (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\capitulos/consideraca
-o-final.tex [79] [80]
+o-final.tex [80] [81] [82
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81
-
-])
+ [83])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
+ [84]
 (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\tcc.bbl
 (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\tcc.brf)
 \tf@brf=\write5
- [83]
-[84
+ [85]
+[86
 
 ]
 
@@ -3623,21 +3602,21 @@ $\T1/lmr/m/n/12 Automatizando-[]a-[]criacao-[]de-[]uma-[]base-[]de-[]conhecimen
 to-[]em-[]Prolog-[]para-[]gerenciar-[]os-[]acessos-[]a-[]um-[]site>[]$[][]. 
  []
 
-[85] [86] [87] [88] [89])
+[87] [88] [89] [90] [91])
 (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\capitulos/glossario.t
-ex [90]) (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\apendice.tex
-[91
+ex [92]) (C:\Users\Vanessa\Documents\GitHub\investMVC\EscritaLatex\apendice.tex
+[93
 
-] [92
+] [94
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-[93
+[95
 
-] [94] <apendices/historiaUsuario.pdf, id=1923, 597.23125pt x 844.15375pt>
+] [96] <apendices/historiaUsuario.pdf, id=1935, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf>
@@ -3648,7 +3627,7 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf used on input line 6.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<apendices/historiaUsuario.pdf, id=1926, page=1, 597.23125pt x 844.15375pt>
+<apendices/historiaUsuario.pdf, id=1938, page=1, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf, page 1>
@@ -3673,10 +3652,10 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page1 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [95
+ [97
 
 ]
-<apendices/historiaUsuario.pdf, id=1931, page=2, 597.23125pt x 844.15375pt>
+<apendices/historiaUsuario.pdf, id=1943, page=2, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf, page 2>
@@ -3695,13 +3674,13 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page1 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [96 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histor
+ [98 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histor
 iaUsuario.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/historiaUsuario.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/historiaUsuario.pdf, id=1947, page=3, 597.23125pt x 844.15375pt>
+>] <apendices/historiaUsuario.pdf, id=1959, page=3, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf, page 3>
@@ -3720,13 +3699,13 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page2 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [97 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histor
+ [99 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histor
 iaUsuario.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/historiaUsuario.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/historiaUsuario.pdf, id=1952, page=4, 597.23125pt x 844.15375pt>
+>] <apendices/historiaUsuario.pdf, id=1965, page=4, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf, page 4>
@@ -3745,13 +3724,13 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page3 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [98 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histor
-iaUsuario.pdf
+ [100 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
+riaUsuario.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/historiaUsuario.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/historiaUsuario.pdf, id=1957, page=5, 597.23125pt x 844.15375pt>
+>] <apendices/historiaUsuario.pdf, id=1970, page=5, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf, page 5>
@@ -3770,13 +3749,13 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page4 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [99 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histor
-iaUsuario.pdf
+ [101 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
+riaUsuario.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/historiaUsuario.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/historiaUsuario.pdf, id=1963, page=6, 597.23125pt x 844.15375pt>
+>] <apendices/historiaUsuario.pdf, id=1975, page=6, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf, page 6>
@@ -3795,13 +3774,13 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page5 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [100 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
+ [102 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
 riaUsuario.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/historiaUsuario.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/historiaUsuario.pdf, id=1968, page=7, 597.23125pt x 844.15375pt>
+>] <apendices/historiaUsuario.pdf, id=1980, page=7, 597.23125pt x 844.15375pt>
 File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 
 <use apendices/historiaUsuario.pdf, page 7>
@@ -3820,7 +3799,7 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page6 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [101 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
+ [103 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
 riaUsuario.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -3832,13 +3811,13 @@ File: apendices/historiaUsuario.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historiaUsuario.pdf, page7 used on input lin
 e 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [102 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
+ [104 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/histo
 riaUsuario.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/historiaUsuario.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/Cronograma.pdf, id=1977, 598.235pt x 846.16125pt>
+>] <apendices/Cronograma.pdf, id=1989, 598.235pt x 846.16125pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf>
@@ -3849,7 +3828,7 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Cronograma.pdf used on input line 9.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<apendices/Cronograma.pdf, id=1980, page=1, 598.235pt x 846.16125pt>
+<apendices/Cronograma.pdf, id=1992, page=1, 598.235pt x 846.16125pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 1>
@@ -3869,9 +3848,9 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Cronograma.pdf, page1 used on input line 9.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 
-[103
+[105
 
-] <apendices/Cronograma.pdf, id=1985, page=2, 598.235pt x 846.16125pt>
+] <apendices/Cronograma.pdf, id=1998, page=2, 598.235pt x 846.16125pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 2>
@@ -3886,13 +3865,13 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 <use apendices/Cronograma.pdf, page 1>
 Package pdftex.def Info: apendices/Cronograma.pdf, page1 used on input line 9.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [104 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
+ [106 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
 grama.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/Cronograma.pdf): PDF inclusion: invalid other resource w
 hich is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/Cronograma.pdf, id=2012, page=3, 598.235pt x 846.16125pt>
+>] <apendices/Cronograma.pdf, id=2025, page=3, 598.235pt x 846.16125pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 3>
@@ -3907,13 +3886,13 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 <use apendices/Cronograma.pdf, page 2>
 Package pdftex.def Info: apendices/Cronograma.pdf, page2 used on input line 9.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [105 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
+ [107 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
 grama.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/Cronograma.pdf): PDF inclusion: invalid other resource w
 hich is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/Cronograma.pdf, id=2021, page=4, 598.235pt x 846.16125pt>
+>] <apendices/Cronograma.pdf, id=2033, page=4, 598.235pt x 846.16125pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 4>
@@ -3928,13 +3907,13 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 <use apendices/Cronograma.pdf, page 3>
 Package pdftex.def Info: apendices/Cronograma.pdf, page3 used on input line 9.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [106 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
+ [108 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
 grama.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/Cronograma.pdf): PDF inclusion: invalid other resource w
 hich is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/Cronograma.pdf, id=2029, page=5, 598.235pt x 846.16125pt>
+>] <apendices/Cronograma.pdf, id=2041, page=5, 598.235pt x 846.16125pt>
 File: apendices/Cronograma.pdf Graphic file (type pdf)
 
 <use apendices/Cronograma.pdf, page 5>
@@ -3949,7 +3928,7 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
 <use apendices/Cronograma.pdf, page 4>
 Package pdftex.def Info: apendices/Cronograma.pdf, page4 used on input line 9.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [107 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
+ [109 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
 grama.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -3960,13 +3939,13 @@ File: apendices/Cronograma.pdf Graphic file (type pdf)
  <use apendices/Cronograma.pdf, page 5>
 Package pdftex.def Info: apendices/Cronograma.pdf, page5 used on input line 9.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [108 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
+ [110 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Crono
 grama.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/Cronograma.pdf): PDF inclusion: invalid other resource w
 hich is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/suporteTecnologico.pdf, id=2044, 614.295pt x 794.97pt>
+>] <apendices/suporteTecnologico.pdf, id=2056, 614.295pt x 794.97pt>
 File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 
 <use apendices/suporteTecnologico.pdf>
@@ -3979,7 +3958,7 @@ Package pdftex.def Info: apendices/suporteTecnologico.pdf used on input line 12
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/suporteTecnologico.pdf, id=2047, page=1, 614.295pt x 794.97pt>
+<apendices/suporteTecnologico.pdf, id=2059, page=1, 614.295pt x 794.97pt>
 File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 
 <use apendices/suporteTecnologico.pdf, page 1>
@@ -4004,10 +3983,10 @@ File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/suporteTecnologico.pdf, page1 used on input 
 line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [109
+ [111
 
 ]
-<apendices/suporteTecnologico.pdf, id=2052, page=2, 614.295pt x 794.97pt>
+<apendices/suporteTecnologico.pdf, id=2065, page=2, 614.295pt x 794.97pt>
 File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 
 <use apendices/suporteTecnologico.pdf, page 2>
@@ -4026,13 +4005,13 @@ File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/suporteTecnologico.pdf, page1 used on input 
 line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [110 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
+ [112 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
 teTecnologico.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/suporteTecnologico.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/suporteTecnologico.pdf, id=2078, page=3, 614.295pt x 794.97pt>
+>] <apendices/suporteTecnologico.pdf, id=2091, page=3, 614.295pt x 794.97pt>
 File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 
 <use apendices/suporteTecnologico.pdf, page 3>
@@ -4051,13 +4030,13 @@ File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/suporteTecnologico.pdf, page2 used on input 
 line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [111 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
+ [113 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
 teTecnologico.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/suporteTecnologico.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/suporteTecnologico.pdf, id=2084, page=4, 614.295pt x 794.97pt>
+>] <apendices/suporteTecnologico.pdf, id=2096, page=4, 614.295pt x 794.97pt>
 File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 
 <use apendices/suporteTecnologico.pdf, page 4>
@@ -4076,13 +4055,13 @@ File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/suporteTecnologico.pdf, page3 used on input 
 line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [112 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
+ [114 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
 teTecnologico.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/suporteTecnologico.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/suporteTecnologico.pdf, id=2089, page=5, 614.295pt x 794.97pt>
+>] <apendices/suporteTecnologico.pdf, id=2101, page=5, 614.295pt x 794.97pt>
 File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 
 <use apendices/suporteTecnologico.pdf, page 5>
@@ -4101,7 +4080,7 @@ File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/suporteTecnologico.pdf, page4 used on input 
 line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [113 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
+ [115 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
 teTecnologico.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -4113,13 +4092,13 @@ File: apendices/suporteTecnologico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/suporteTecnologico.pdf, page5 used on input 
 line 12.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [114 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
+ [116 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/supor
 teTecnologico.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/suporteTecnologico.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2098, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2110, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf>
@@ -4130,7 +4109,7 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf used on input line 15.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/experimentos-mql.pdf, id=2101, page=1, 614.295pt x 794.97pt>
+<apendices/experimentos-mql.pdf, id=2113, page=1, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 1>
@@ -4155,10 +4134,10 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page1 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [115
+ [117
 
 ]
-<apendices/experimentos-mql.pdf, id=2106, page=2, 614.295pt x 794.97pt>
+<apendices/experimentos-mql.pdf, id=2119, page=2, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 2>
@@ -4177,13 +4156,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page1 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [116 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [118 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2132, page=3, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2145, page=3, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 3>
@@ -4202,13 +4181,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page2 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [117 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [119 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2138, page=4, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2150, page=4, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 4>
@@ -4227,13 +4206,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page3 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [118 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [120 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2143, page=5, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2155, page=5, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 5>
@@ -4252,13 +4231,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page4 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [119 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [121 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2148, page=6, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2160, page=6, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 6>
@@ -4277,13 +4256,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page5 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [120 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [122 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2153, page=7, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2165, page=7, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 7>
@@ -4302,13 +4281,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page6 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [121 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [123 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2158, page=8, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2171, page=8, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 8>
@@ -4327,13 +4306,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page7 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [122 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [124 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2163, page=9, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2176, page=9, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 9>
@@ -4352,13 +4331,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page8 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [123 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [125 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2169, page=10, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2181, page=10, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 10>
@@ -4377,13 +4356,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page9 used on input li
 ne 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [124 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [126 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2174, page=11, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2186, page=11, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 11>
@@ -4402,13 +4381,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page10 used on input l
 ine 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [125 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [127 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2179, page=12, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2191, page=12, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 12>
@@ -4427,13 +4406,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page11 used on input l
 ine 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [126 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [128 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2184, page=13, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2196, page=13, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 13>
@@ -4452,13 +4431,13 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page12 used on input l
 ine 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [127 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [129 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/experimentos-mql.pdf, id=2189, page=14, 614.295pt x 794.97pt>
+>] <apendices/experimentos-mql.pdf, id=2202, page=14, 614.295pt x 794.97pt>
 File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 
 <use apendices/experimentos-mql.pdf, page 14>
@@ -4477,7 +4456,7 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page13 used on input l
 ine 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [128 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [130 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -4489,15 +4468,15 @@ File: apendices/experimentos-mql.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/experimentos-mql.pdf, page14 used on input l
 ine 15.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [129 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
+ [131 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/exper
 imentos-mql.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/experimentos-mql.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] [130
+>] [132
 
-] <apendices/ComponenteOO.pdf, id=2203, 614.295pt x 794.97pt>
+] <apendices/ComponenteOO.pdf, id=2215, 614.295pt x 794.97pt>
 File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteOO.pdf>
@@ -4508,7 +4487,7 @@ File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/ComponenteOO.pdf used on input line 18.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/ComponenteOO.pdf, id=2206, page=1, 614.295pt x 794.97pt>
+<apendices/ComponenteOO.pdf, id=2218, page=1, 614.295pt x 794.97pt>
 File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteOO.pdf, page 1>
@@ -4533,8 +4512,8 @@ File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/ComponenteOO.pdf, page1 used on input line 1
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [131]
-<apendices/ComponenteOO.pdf, id=2211, page=2, 614.295pt x 794.97pt>
+ [133]
+<apendices/ComponenteOO.pdf, id=2223, page=2, 614.295pt x 794.97pt>
 File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteOO.pdf, page 2>
@@ -4553,7 +4532,7 @@ File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/ComponenteOO.pdf, page1 used on input line 1
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [132 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Compo
+ [134 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Compo
 nenteOO.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -4565,13 +4544,13 @@ File: apendices/ComponenteOO.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/ComponenteOO.pdf, page2 used on input line 1
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [133 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Compo
+ [135 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Compo
 nenteOO.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/ComponenteOO.pdf): PDF inclusion: invalid other resource
  which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/telasInvestMVC.pdf, id=2231, 614.295pt x 794.97pt>
+>] <apendices/telasInvestMVC.pdf, id=2244, 614.295pt x 794.97pt>
 File: apendices/telasInvestMVC.pdf Graphic file (type pdf)
 
 <use apendices/telasInvestMVC.pdf>
@@ -4582,7 +4561,7 @@ File: apendices/telasInvestMVC.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/telasInvestMVC.pdf used on input line 19.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/telasInvestMVC.pdf, id=2234, page=1, 614.295pt x 794.97pt>
+<apendices/telasInvestMVC.pdf, id=2247, page=1, 614.295pt x 794.97pt>
 File: apendices/telasInvestMVC.pdf Graphic file (type pdf)
 
 <use apendices/telasInvestMVC.pdf, page 1>
@@ -4613,13 +4592,13 @@ File: apendices/telasInvestMVC.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/telasInvestMVC.pdf, page1 used on input line
  19.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [134 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/telas
+ [136 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/telas
 InvestMVC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/telasInvestMVC.pdf): PDF inclusion: invalid other resour
 ce which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoHaskell.pdf, id=2247, 597.23125pt x 844.15375pt>
+>] <apendices/codigoHaskell.pdf, id=2260, 597.23125pt x 844.15375pt>
 File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 
 <use apendices/codigoHaskell.pdf>
@@ -4630,7 +4609,7 @@ File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/codigoHaskell.pdf used on input line 22.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<apendices/codigoHaskell.pdf, id=2250, page=1, 597.23125pt x 844.15375pt>
+<apendices/codigoHaskell.pdf, id=2263, page=1, 597.23125pt x 844.15375pt>
 File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 
 <use apendices/codigoHaskell.pdf, page 1>
@@ -4655,10 +4634,10 @@ File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/codigoHaskell.pdf, page1 used on input line 
 22.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [135
+ [137
 
 ]
-<apendices/codigoHaskell.pdf, id=2256, page=2, 597.23125pt x 844.15375pt>
+<apendices/codigoHaskell.pdf, id=2268, page=2, 597.23125pt x 844.15375pt>
 File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 
 <use apendices/codigoHaskell.pdf, page 2>
@@ -4677,13 +4656,13 @@ File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/codigoHaskell.pdf, page1 used on input line 
 22.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [136 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
+ [138 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oHaskell.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoHaskell.pdf): PDF inclusion: invalid other resourc
 e which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoHaskell.pdf, id=2278, page=3, 597.23125pt x 844.15375pt>
+>] <apendices/codigoHaskell.pdf, id=2290, page=3, 597.23125pt x 844.15375pt>
 File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 
 <use apendices/codigoHaskell.pdf, page 3>
@@ -4702,7 +4681,7 @@ File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/codigoHaskell.pdf, page2 used on input line 
 22.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [137 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
+ [139 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oHaskell.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -4714,13 +4693,13 @@ File: apendices/codigoHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/codigoHaskell.pdf, page3 used on input line 
 22.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [138 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
+ [140 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oHaskell.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoHaskell.pdf): PDF inclusion: invalid other resourc
 e which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/TesteHaskell.pdf, id=2287, 597.23125pt x 844.15375pt>
+>] <apendices/TesteHaskell.pdf, id=2299, 597.23125pt x 844.15375pt>
 File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 
 <use apendices/TesteHaskell.pdf>
@@ -4731,7 +4710,7 @@ File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/TesteHaskell.pdf used on input line 23.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<apendices/TesteHaskell.pdf, id=2290, page=1, 597.23125pt x 844.15375pt>
+<apendices/TesteHaskell.pdf, id=2302, page=1, 597.23125pt x 844.15375pt>
 File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 
 <use apendices/TesteHaskell.pdf, page 1>
@@ -4757,7 +4736,7 @@ Package pdftex.def Info: apendices/TesteHaskell.pdf, page1 used on input line 2
 3.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
 
-<apendices/TesteHaskell.pdf, id=2291, page=2, 597.23125pt x 844.15375pt>
+<apendices/TesteHaskell.pdf, id=2303, page=2, 597.23125pt x 844.15375pt>
 File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 
 <use apendices/TesteHaskell.pdf, page 2>
@@ -4776,13 +4755,13 @@ File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/TesteHaskell.pdf, page1 used on input line 2
 3.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [139 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Teste
+ [141 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Teste
 Haskell.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/TesteHaskell.pdf): PDF inclusion: invalid other resource
  which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/TesteHaskell.pdf, id=2313, page=3, 597.23125pt x 844.15375pt>
+>] <apendices/TesteHaskell.pdf, id=2326, page=3, 597.23125pt x 844.15375pt>
 File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 
 <use apendices/TesteHaskell.pdf, page 3>
@@ -4801,7 +4780,7 @@ File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/TesteHaskell.pdf, page2 used on input line 2
 3.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [140 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Teste
+ [142 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Teste
 Haskell.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -4813,271 +4792,250 @@ File: apendices/TesteHaskell.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/TesteHaskell.pdf, page3 used on input line 2
 3.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [141 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Teste
+ [143 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/Teste
 Haskell.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/TesteHaskell.pdf): PDF inclusion: invalid other resource
  which is no dict (key 'ProcSets', type <array>); ignored.
->] [142
+>] [144
 
-] <apendices/codigoC.pdf, id=2327, 597.23125pt x 844.15375pt>
+] <apendices/codigoC.pdf, id=2339, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
 <use apendices/codigoC.pdf>
 Package pdftex.def Info: apendices/codigoC.pdf used on input line 26.
-(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
  <use apendices/codigoC.pdf>
 Package pdftex.def Info: apendices/codigoC.pdf used on input line 26.
-(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/codigoC.pdf, id=2330, page=1, 597.23125pt x 844.15375pt>
+<apendices/codigoC.pdf, id=2342, page=1, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
 <use apendices/codigoC.pdf, page 1>
 Package pdftex.def Info: apendices/codigoC.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
  <use apendices/codigoC.pdf, page 1>
 Package pdftex.def Info: apendices/codigoC.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
 <use apendices/codigoC.pdf, page 1>
 Package pdftex.def Info: apendices/codigoC.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
  <use apendices/codigoC.pdf, page 1>
 Package pdftex.def Info: apendices/codigoC.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-[143] <apendices/codigoC.pdf, id=2335, page=2, 597.23125pt x 844.15375pt>
+[145] <apendices/codigoC.pdf, id=2347, page=2, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
 <use apendices/codigoC.pdf, page 2>
 Package pdftex.def Info: apendices/codigoC.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
  <use apendices/codigoC.pdf, page 2>
 Package pdftex.def Info: apendices/codigoC.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
 <use apendices/codigoC.pdf, page 1>
 Package pdftex.def Info: apendices/codigoC.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [144 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
-oC.pdf
-
-pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
-EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
-h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2362, page=3, 597.23125pt x 844.15375pt>
-File: apendices/codigoC.pdf Graphic file (type pdf)
-
-<use apendices/codigoC.pdf, page 3>
-Package pdftex.def Info: apendices/codigoC.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
-File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 3>
-Package pdftex.def Info: apendices/codigoC.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
-File: apendices/codigoC.pdf Graphic file (type pdf)
-
-<use apendices/codigoC.pdf, page 2>
-Package pdftex.def Info: apendices/codigoC.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [145 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
-oC.pdf
-
-pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
-EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
-h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2367, page=4, 597.23125pt x 844.15375pt>
-File: apendices/codigoC.pdf Graphic file (type pdf)
-
-<use apendices/codigoC.pdf, page 4>
-Package pdftex.def Info: apendices/codigoC.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
-File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 4>
-Package pdftex.def Info: apendices/codigoC.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
-File: apendices/codigoC.pdf Graphic file (type pdf)
-
-<use apendices/codigoC.pdf, page 3>
-Package pdftex.def Info: apendices/codigoC.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [146 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2372, page=5, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2374, page=3, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 5>
-Package pdftex.def Info: apendices/codigoC.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 3>
+Package pdftex.def Info: apendices/codigoC.pdf, page3 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 5>
-Package pdftex.def Info: apendices/codigoC.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 3>
+Package pdftex.def Info: apendices/codigoC.pdf, page3 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 4>
-Package pdftex.def Info: apendices/codigoC.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 2>
+Package pdftex.def Info: apendices/codigoC.pdf, page2 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [147 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2378, page=6, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2380, page=4, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 6>
-Package pdftex.def Info: apendices/codigoC.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 4>
+Package pdftex.def Info: apendices/codigoC.pdf, page4 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 6>
-Package pdftex.def Info: apendices/codigoC.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 4>
+Package pdftex.def Info: apendices/codigoC.pdf, page4 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 5>
-Package pdftex.def Info: apendices/codigoC.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 3>
+Package pdftex.def Info: apendices/codigoC.pdf, page3 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [148 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2383, page=7, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2390, page=5, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 7>
-Package pdftex.def Info: apendices/codigoC.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 5>
+Package pdftex.def Info: apendices/codigoC.pdf, page5 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 7>
-Package pdftex.def Info: apendices/codigoC.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 5>
+Package pdftex.def Info: apendices/codigoC.pdf, page5 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 6>
-Package pdftex.def Info: apendices/codigoC.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 4>
+Package pdftex.def Info: apendices/codigoC.pdf, page4 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [149 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2388, page=8, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2395, page=6, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 8>
-Package pdftex.def Info: apendices/codigoC.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 6>
+Package pdftex.def Info: apendices/codigoC.pdf, page6 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 8>
-Package pdftex.def Info: apendices/codigoC.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 6>
+Package pdftex.def Info: apendices/codigoC.pdf, page6 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 7>
-Package pdftex.def Info: apendices/codigoC.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 5>
+Package pdftex.def Info: apendices/codigoC.pdf, page5 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [150 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2393, page=9, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2400, page=7, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 9>
-Package pdftex.def Info: apendices/codigoC.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 7>
+Package pdftex.def Info: apendices/codigoC.pdf, page7 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 9>
-Package pdftex.def Info: apendices/codigoC.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 7>
+Package pdftex.def Info: apendices/codigoC.pdf, page7 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 8>
-Package pdftex.def Info: apendices/codigoC.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 6>
+Package pdftex.def Info: apendices/codigoC.pdf, page6 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [151 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2398, page=10, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2405, page=8, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 10>
-Package pdftex.def Info: apendices/codigoC.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 8>
+Package pdftex.def Info: apendices/codigoC.pdf, page8 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 10>
-Package pdftex.def Info: apendices/codigoC.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 8>
+Package pdftex.def Info: apendices/codigoC.pdf, page8 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 9>
-Package pdftex.def Info: apendices/codigoC.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 7>
+Package pdftex.def Info: apendices/codigoC.pdf, page7 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [152 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2403, page=11, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2410, page=9, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 11>
-Package pdftex.def Info: apendices/codigoC.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 9>
+Package pdftex.def Info: apendices/codigoC.pdf, page9 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 11>
-Package pdftex.def Info: apendices/codigoC.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 9>
+Package pdftex.def Info: apendices/codigoC.pdf, page9 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 10>
-Package pdftex.def Info: apendices/codigoC.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 8>
+Package pdftex.def Info: apendices/codigoC.pdf, page8 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [153 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/codigoC.pdf, id=2409, page=12, 597.23125pt x 844.15375pt>
+>] <apendices/codigoC.pdf, id=2416, page=10, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
-<use apendices/codigoC.pdf, page 12>
-Package pdftex.def Info: apendices/codigoC.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+<use apendices/codigoC.pdf, page 10>
+Package pdftex.def Info: apendices/codigoC.pdf, page10 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 12>
-Package pdftex.def Info: apendices/codigoC.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
+ <use apendices/codigoC.pdf, page 10>
+Package pdftex.def Info: apendices/codigoC.pdf, page10 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/codigoC.pdf Graphic file (type pdf)
+
+<use apendices/codigoC.pdf, page 9>
+Package pdftex.def Info: apendices/codigoC.pdf, page9 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [154 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
+oC.pdf
+
+pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
+EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
+h is no dict (key 'ProcSets', type <array>); ignored.
+>] <apendices/codigoC.pdf, id=2421, page=11, 614.295pt x 794.97pt>
 File: apendices/codigoC.pdf Graphic file (type pdf)
 
 <use apendices/codigoC.pdf, page 11>
 Package pdftex.def Info: apendices/codigoC.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [154 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/codigoC.pdf Graphic file (type pdf)
+ <use apendices/codigoC.pdf, page 11>
+Package pdftex.def Info: apendices/codigoC.pdf, page11 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: apendices/codigoC.pdf Graphic file (type pdf)
+
+<use apendices/codigoC.pdf, page 10>
+Package pdftex.def Info: apendices/codigoC.pdf, page10 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [155 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
@@ -5085,18 +5043,16 @@ EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
 >]
 File: apendices/codigoC.pdf Graphic file (type pdf)
- <use apendices/codigoC.pdf, page 12>
-Package pdftex.def Info: apendices/codigoC.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [155 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
+ <use apendices/codigoC.pdf, page 11>
+Package pdftex.def Info: apendices/codigoC.pdf, page11 used on input line 26.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [156 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/codig
 oC.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/codigoC.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
->] [156
-
-] <apendices/Prolog.pdf, id=2422, 614.295pt x 794.97pt>
+>] <apendices/Prolog.pdf, id=2435, 614.295pt x 794.97pt>
 File: apendices/Prolog.pdf Graphic file (type pdf)
 
 <use apendices/Prolog.pdf>
@@ -5107,7 +5063,7 @@ File: apendices/Prolog.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/Prolog.pdf used on input line 29.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/Prolog.pdf, id=2425, page=1, 614.295pt x 794.97pt>
+<apendices/Prolog.pdf, id=2438, page=1, 614.295pt x 794.97pt>
 File: apendices/Prolog.pdf Graphic file (type pdf)
 
 <use apendices/Prolog.pdf, page 1>
@@ -5126,8 +5082,10 @@ File: apendices/Prolog.pdf Graphic file (type pdf)
  <use apendices/Prolog.pdf, page 1>
 Package pdftex.def Info: apendices/Prolog.pdf, page1 used on input line 29.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [157]
-<apendices/Prolog.pdf, id=2430, page=2, 614.295pt x 794.97pt>
+ [157
+
+]
+<apendices/Prolog.pdf, id=2443, page=2, 614.295pt x 794.97pt>
 File: apendices/Prolog.pdf Graphic file (type pdf)
 
 <use apendices/Prolog.pdf, page 2>
@@ -5159,7 +5117,7 @@ g.pdf
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/Prolog.pdf): PDF inclusion: invalid other resource which
  is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/testeProlog.pdf, id=2462, 614.295pt x 794.97pt>
+>] <apendices/testeProlog.pdf, id=2475, 614.295pt x 794.97pt>
 File: apendices/testeProlog.pdf Graphic file (type pdf)
 
 <use apendices/testeProlog.pdf>
@@ -5170,7 +5128,7 @@ File: apendices/testeProlog.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/testeProlog.pdf used on input line 30.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/testeProlog.pdf, id=2465, page=1, 614.295pt x 794.97pt>
+<apendices/testeProlog.pdf, id=2478, page=1, 614.295pt x 794.97pt>
 File: apendices/testeProlog.pdf Graphic file (type pdf)
 
 <use apendices/testeProlog.pdf, page 1>
@@ -5196,7 +5154,7 @@ Package pdftex.def Info: apendices/testeProlog.pdf, page1 used on input line 30
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-<apendices/testeProlog.pdf, id=2466, page=2, 614.295pt x 794.97pt>
+<apendices/testeProlog.pdf, id=2479, page=2, 614.295pt x 794.97pt>
 File: apendices/testeProlog.pdf Graphic file (type pdf)
 
 <use apendices/testeProlog.pdf, page 2>
@@ -5235,7 +5193,7 @@ EscritaLatex/apendices/testeProlog.pdf): PDF inclusion: invalid other resource
 which is no dict (key 'ProcSets', type <array>); ignored.
 >] [162
 
-] <apendices/multiAgente.pdf, id=2500, 614.295pt x 794.97pt>
+] <apendices/multiAgente.pdf, id=2513, 614.295pt x 794.97pt>
 File: apendices/multiAgente.pdf Graphic file (type pdf)
 
 <use apendices/multiAgente.pdf>
@@ -5246,7 +5204,7 @@ File: apendices/multiAgente.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/multiAgente.pdf used on input line 33.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/multiAgente.pdf, id=2503, page=1, 614.295pt x 794.97pt>
+<apendices/multiAgente.pdf, id=2516, page=1, 614.295pt x 794.97pt>
 File: apendices/multiAgente.pdf Graphic file (type pdf)
 
 <use apendices/multiAgente.pdf, page 1>
@@ -5272,7 +5230,7 @@ Package pdftex.def Info: apendices/multiAgente.pdf, page1 used on input line 33
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [163]
-<apendices/multiAgente.pdf, id=2508, page=2, 614.295pt x 794.97pt>
+<apendices/multiAgente.pdf, id=2521, page=2, 614.295pt x 794.97pt>
 File: apendices/multiAgente.pdf Graphic file (type pdf)
 
 <use apendices/multiAgente.pdf, page 2>
@@ -5297,7 +5255,7 @@ Agente.pdf
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/multiAgente.pdf): PDF inclusion: invalid other resource 
 which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/multiAgente.pdf, id=2535, page=3, 614.295pt x 794.97pt>
+>] <apendices/multiAgente.pdf, id=2548, page=3, 614.295pt x 794.97pt>
 File: apendices/multiAgente.pdf Graphic file (type pdf)
 
 <use apendices/multiAgente.pdf, page 3>
@@ -5322,7 +5280,7 @@ Agente.pdf
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/multiAgente.pdf): PDF inclusion: invalid other resource 
 which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/multiAgente.pdf, id=2541, page=4, 614.295pt x 794.97pt>
+>] <apendices/multiAgente.pdf, id=2554, page=4, 614.295pt x 794.97pt>
 File: apendices/multiAgente.pdf Graphic file (type pdf)
 
 <use apendices/multiAgente.pdf, page 4>
@@ -5347,7 +5305,7 @@ Agente.pdf
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/multiAgente.pdf): PDF inclusion: invalid other resource 
 which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/multiAgente.pdf, id=2546, page=5, 614.295pt x 794.97pt>
+>] <apendices/multiAgente.pdf, id=2559, page=5, 614.295pt x 794.97pt>
 File: apendices/multiAgente.pdf Graphic file (type pdf)
 
 <use apendices/multiAgente.pdf, page 5>
@@ -5384,7 +5342,7 @@ Agente.pdf
 pdfTeX warning: pdflatex.EXE (file C:/Users/Vanessa/Documents/GitHub/investMVC/
 EscritaLatex/apendices/multiAgente.pdf): PDF inclusion: invalid other resource 
 which is no dict (key 'ProcSets', type <array>); ignored.
->] <apendices/ComponenteMQL.pdf, id=2555, 614.295pt x 794.97pt>
+>] <apendices/ComponenteMQL.pdf, id=2568, 614.295pt x 794.97pt>
 File: apendices/ComponenteMQL.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteMQL.pdf>
@@ -5395,7 +5353,7 @@ File: apendices/ComponenteMQL.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/ComponenteMQL.pdf used on input line 36.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/ComponenteMQL.pdf, id=2558, page=1, 614.295pt x 794.97pt>
+<apendices/ComponenteMQL.pdf, id=2571, page=1, 614.295pt x 794.97pt>
 File: apendices/ComponenteMQL.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteMQL.pdf, page 1>
@@ -5423,7 +5381,7 @@ Package pdftex.def Info: apendices/ComponenteMQL.pdf, page1 used on input line
  [169
 
 ]
-<apendices/ComponenteMQL.pdf, id=2563, page=2, 614.295pt x 794.97pt>
+<apendices/ComponenteMQL.pdf, id=2576, page=2, 614.295pt x 794.97pt>
 File: apendices/ComponenteMQL.pdf Graphic file (type pdf)
 
 <use apendices/ComponenteMQL.pdf, page 2>
@@ -5462,7 +5420,7 @@ EscritaLatex/apendices/ComponenteMQL.pdf): PDF inclusion: invalid other resourc
 e which is no dict (key 'ProcSets', type <array>); ignored.
 >] [172
 
-] <apendices/analise.pdf, id=2593, 845.1575pt x 597.23125pt>
+] <apendices/analise.pdf, id=2606, 845.1575pt x 597.23125pt>
 File: apendices/analise.pdf Graphic file (type pdf)
 
 <use apendices/analise.pdf>
@@ -5473,7 +5431,7 @@ File: apendices/analise.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/analise.pdf used on input line 39.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-<apendices/analise.pdf, id=2596, page=1, 845.1575pt x 597.23125pt>
+<apendices/analise.pdf, id=2609, page=1, 845.1575pt x 597.23125pt>
 File: apendices/analise.pdf Graphic file (type pdf)
 
 <use apendices/analise.pdf, page 1>
@@ -5493,7 +5451,7 @@ File: apendices/analise.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/analise.pdf, page1 used on input line 39.
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
 
-[173] <apendices/analise.pdf, id=2601, page=2, 845.1575pt x 597.23125pt>
+[173] <apendices/analise.pdf, id=2614, page=2, 845.1575pt x 597.23125pt>
 File: apendices/analise.pdf Graphic file (type pdf)
 
 <use apendices/analise.pdf, page 2>
@@ -5510,7 +5468,7 @@ Package pdftex.def Info: apendices/analise.pdf, page1 used on input line 39.
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
  [174 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/anali
 se.pdf>]
-<apendices/analise.pdf, id=2617, page=3, 845.1575pt x 597.23125pt>
+<apendices/analise.pdf, id=2630, page=3, 845.1575pt x 597.23125pt>
 File: apendices/analise.pdf Graphic file (type pdf)
 
 <use apendices/analise.pdf, page 3>
@@ -5527,7 +5485,7 @@ Package pdftex.def Info: apendices/analise.pdf, page2 used on input line 39.
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
  [175 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/anali
 se.pdf>]
-<apendices/analise.pdf, id=2622, page=4, 845.1575pt x 597.23125pt>
+<apendices/analise.pdf, id=2635, page=4, 845.1575pt x 597.23125pt>
 File: apendices/analise.pdf Graphic file (type pdf)
 
 <use apendices/analise.pdf, page 4>
@@ -5544,7 +5502,7 @@ Package pdftex.def Info: apendices/analise.pdf, page3 used on input line 39.
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
  [176 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/anali
 se.pdf>]
-<apendices/analise.pdf, id=2627, page=5, 845.1575pt x 597.23125pt>
+<apendices/analise.pdf, id=2640, page=5, 845.1575pt x 597.23125pt>
 File: apendices/analise.pdf Graphic file (type pdf)
 
 <use apendices/analise.pdf, page 5>
@@ -5561,7 +5519,7 @@ Package pdftex.def Info: apendices/analise.pdf, page4 used on input line 39.
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
  [177 <C:/Users/Vanessa/Documents/GitHub/investMVC/EscritaLatex/apendices/anali
 se.pdf>]
-<apendices/analise.pdf, id=2633, page=6, 845.1575pt x 597.23125pt>
+<apendices/analise.pdf, id=2646, page=6, 845.1575pt x 597.23125pt>
 File: apendices/analise.pdf Graphic file (type pdf)
 
 <use apendices/analise.pdf, page 6>
@@ -5587,7 +5545,7 @@ Package pdftex.def Info: apendices/analise.pdf, page6 used on input line 39.
 se.pdf>] [180
 
 ]
-<apendices/historico.pdf, id=2646, 614.295pt x 794.97pt>
+<apendices/historico.pdf, id=2659, 614.295pt x 794.97pt>
 File: apendices/historico.pdf Graphic file (type pdf)
 
 <use apendices/historico.pdf>
@@ -5598,7 +5556,7 @@ File: apendices/historico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historico.pdf used on input line 42.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<apendices/historico.pdf, id=2649, page=1, 614.295pt x 794.97pt>
+<apendices/historico.pdf, id=2662, page=1, 614.295pt x 794.97pt>
 File: apendices/historico.pdf Graphic file (type pdf)
 
 <use apendices/historico.pdf, page 1>
@@ -5618,7 +5576,7 @@ File: apendices/historico.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/historico.pdf, page1 used on input line 42.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-[181] <apendices/historico.pdf, id=2654, page=2, 614.295pt x 794.97pt>
+[181] <apendices/historico.pdf, id=2667, page=2, 614.295pt x 794.97pt>
 File: apendices/historico.pdf Graphic file (type pdf)
 
 <use apendices/historico.pdf, page 2>
@@ -5660,7 +5618,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [185
 
-] [186] <ProtocoloEstudoCaso.pdf, id=2684, 597.23125pt x 844.15375pt>
+] [186] <ProtocoloEstudoCaso.pdf, id=2697, 597.23125pt x 844.15375pt>
 File: ProtocoloEstudoCaso.pdf Graphic file (type pdf)
 
 <use ProtocoloEstudoCaso.pdf>
@@ -5671,7 +5629,7 @@ File: ProtocoloEstudoCaso.pdf Graphic file (type pdf)
 Package pdftex.def Info: ProtocoloEstudoCaso.pdf used on input line 6.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<ProtocoloEstudoCaso.pdf, id=2687, page=1, 597.23125pt x 844.15375pt>
+<ProtocoloEstudoCaso.pdf, id=2700, page=1, 597.23125pt x 844.15375pt>
 File: ProtocoloEstudoCaso.pdf Graphic file (type pdf)
 
 <use ProtocoloEstudoCaso.pdf, page 1>
@@ -5693,7 +5651,7 @@ Package pdftex.def Info: ProtocoloEstudoCaso.pdf, page1 used on input line 6.
 
 [187
 
-] <ProtocoloEstudoCaso.pdf, id=2692, page=2, 597.23125pt x 844.15375pt>
+] <ProtocoloEstudoCaso.pdf, id=2705, page=2, 597.23125pt x 844.15375pt>
 File: ProtocoloEstudoCaso.pdf Graphic file (type pdf)
 
 <use ProtocoloEstudoCaso.pdf, page 2>
@@ -5738,24 +5696,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: A29347C6D3BF37B83BB5012FAD2F08C4;8038.
+(rerunfilecheck)             Checksum: 1AAD50ADD7217EDBAF65F8D9B0F8BDB6;8017.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 15001 strings out of 493921
- 235557 string characters out of 3147276
- 376788 words of memory out of 3000000
- 17263 multiletter control sequences out of 15000+200000
- 97797 words of font info for 61 fonts, out of 3000000 for 9000
+ 15007 strings out of 493921
+ 235532 string characters out of 3147276
+ 376553 words of memory out of 3000000
+ 17264 multiletter control sequences out of 15000+200000
+ 103414 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,18n,46p,1238b,684s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,18n,46p,1881b,682s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
@@ -5772,11 +5727,13 @@ nts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-msso12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (217 pages, 5968454 bytes).
+pe1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (217 pages, 5955304 bytes).
 PDF statistics:
- 3233 PDF objects out of 3580 (max. 8388607)
- 563 named destinations out of 1000 (max. 500000)
- 1874 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3252 PDF objects out of 3580 (max. 8388607)
+ 564 named destinations out of 1000 (max. 500000)
+ 1869 words of extra memory for PDF output out of 10000 (max. 10000000)
 
