@@ -1,11 +1,10 @@
 \chapter{Resultados}
-Este tópico evidencia os resultados deste trabalho. Os resultados estão guiados pelos objetivos específicos (produtos de trabalho).
 
-Encontra-se no Apêndice C - Suporte Tecnológico todas as ferramentas utilizadas como auxílio no desenvolvimento dos resultados.
+Os resultados deste trabalho foram guiados pelos objetivos específicos do mesmo. São evidenciados os resultados da seleção dos Métodos Matemáticos, caracterização das estruturas e componentes do software InvestMVC, obtenção da cobertura de código-fonte dos componentes, análise estática de código-fonte e resultados monetários do software InvestMVC e do \textit{expert} implementado em linguagem MQL. Para alcançar os resultados, foi necessário utilizar ferramentas de auxílio como, por exemplo, o \textit{framework} CUnit  para realização de teste unitário em linguagem C. As mesmas encontram-se no Apêndice C - Suporte Tecnológico.
 
 \section{Seleção dos Métodos Matemáticos}
 
-Nesta seção é evidenciado os resultados  das simulações dos \textit{experts} em linguagem MQL4 (produto da implementação dos Métodos Matemáticos), através de relatórios e gráficos gerados pela plataforma MetaTrader.
+Nesta seção é evidenciado os resultados  das simulações dos \textit{experts} em linguagem MQL4 (produto da implementação dos Métodos Matemáticos), através de relatórios e gráficos gerados pela plataforma MetaTrader. Conforme estabelecido na metodologia de pesquisa, os Métodos Matemáticos que obtiveram 10\% de rendimento sob o capital inicial, foram selecionados para serem implementados no software InvestMVC. Este resultado atende o objetivo específico 1 (um) deste trabalho.
 
 \subsection{Implementação dos Métodos Matemáticos}
 
@@ -197,10 +196,10 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 
 \subsection{Definição dos métodos de operação software InvestMVC}
 
-Os Métodos Matemáticos de Correlação Linear, Fibonacci e Mínimos Quadrados tiveram êxito nos dois anos de simulação (agosto 2012 a agosto de 2014). Os métodos de Estocástico e Média Móvel tiveram prejuízo nos dois anos de simulação. Portanto, foram escolhidos os métodos de Correlação Linear, Fibonacci e Mínimos Quadrados como métodos de estratégia financeira do software InvestMVC.
+Os Métodos Matemáticos de Correlação Linear, Fibonacci e Mínimos Quadrados tiveram êxito nos dois anos de simulação (Agosto 2012 a Agosto de 2014) e obtiveram lucro superior a 10\%  sob o capital inicial. Os métodos de Estocástico e Média Móvel tiveram prejuízo nos dois anos de simulação. Portanto, foram escolhidos os métodos de Correlação Linear, Fibonacci e Mínimos Quadrados como métodos de estratégia financeira do software InvestMVC.
 
-\section{Arquitetura InvestMVC}
-
+\section{Estruturas e Componentes do software InvestMVC}
+Esta seção evidencia as estruturas e componentes do software InvestMVC. Este resultado atende o objetivo específico 2 (dois) deste trabalho.
 Arquitetura Orientada a Componentes possui o propósito de dividir para conquistar. Um grande problema é subdividido em partes menores e em seguida se desenvolve soluções mais elaboradas \cite{john}.
 
 Por usar vários paradigmas, o software InvestMVC tem vários componentes, sendo cada qual implementado em um paradigma de programação mais adequado às necessidades do componente bem como contendo responsabilidades bem definidas. A Figura \ref{componente} procura ilustrar esses componentes usando a representação de digrama de classes.
@@ -349,8 +348,8 @@ O componente Multiagentes vai verificar a tendência do Mercado de Moedas, por m
 \label{sequencia}
 \end{figure}
 
-\section{Testes unitários}
-Esta seção evidencia os resultados dos testes unitários dos componentes Estruturado, Lógico, Funcional e Multiagente.
+\section{Testes unitários e cobertura de código-fonte}
+Esta seção evidencia o resultado dos testes unitários dos componentes Estruturado, Lógico, Funcional e Multiagente. Este resultado atende o objetivo específico 3 (três) deste trabalho.
 \subsection{Componente Funcional}
 
 Foram realizados os testes unitários na linguagem haskell utilizando o \textit{framework} HUnit. O \textit{framework} não fornece a cobertura de código-fonte, mas é possível visualizar a quantidade de casos de teste, quantidade de testes realizados, quantidade de erros e quantidade de falhas. Os resultados dos testes unitários dos métodos de Correlação de Pearson, Fibonacci e Mínimos Quadrados podem ser visualizados na Figura \ref{testeCorrelacaoHaskell}, \ref{testeFibonacciHaskell} e \ref{TesteMinimosHaskell}.
@@ -432,11 +431,14 @@ O comportamento dos agentes são executados através dos métodos \textit{action
 As classes de teste mais significativas encontram-se no Apêndice I - Componente Multiagente.
 
 \section{Análise estática de código-fonte}
+Esta seção evidencia o resultado da qualidade de código-fonte  do componente Multiagente, através da realização de análise estática e interpretação de métricas de qualidade de código-fonte. O resultado atende o objetivo específico 4 (quatro) deste trabalho.
+\subsection{Definição das métricas de qualidade de código-fonte}
 Para realizar a interpretação das métricas de qualidade de código-fonte, escolheu-se os valores de referência de acordo com a dissetarção de \cite{filho}. Segundo ele, os valores foram obtidos baseando-se nos resultados da análise de um ou mais "projetos
-modelo", analisados no Capítulo 4 da tese de \cite{meirelles2013}.
+modelo", analisados no Capítulo 4 da tese de \citeonline{meirelles2013}.
 
-Segundo \cite{braga2012}, métricas estruturais de tamanho e profundidade são boas referências para saber se um código está com uma qualidade aceitável. Diante disso, foram escolhidas de forma empírica as métricas estruturais de coesão, acoplamento e complexidade ciclomática. As métricas de tamanho escolhidas foram número de parâmetros públicos e número de parâmetros por método. Por fim, escolheu-se a métrica de profundidade herança.
+Segundo \citeonline{braga2012}, métricas estruturais de tamanho e profundidade são boas referências para saber se um código está com uma qualidade aceitável. Diante disso, foram escolhidas de forma empírica as métricas estruturais de coesão, acoplamento e complexidade ciclomática. As métricas de tamanho escolhidas foram número de parâmetros públicos e número de parâmetros por método. Por fim, escolheu-se a métrica de profundidade herança.
 
+\subsection{Qualidade de código-fonte do software InvestMVC}
 Foi realizada a análise estática de código-fonte no intuito de obter a qualidade de código-fonte do componente Multiagente. A Figura \ref{analiseinicial} revela o resultado da primeira análise estática. Percebe-se que número de parâmetros públicos (NPA) ficou com nível regular no pacote investidores. Com esse resultado, o código foi refatorado e o pacote investidores saiu do nível regular para o nível bom, conforme consta na Figura \ref{analisefinal}. Além disso, foi atribuida uma menor responsabilidade para o agente tendência no pacote comportamentosComuns e com isso, a complexidade ciclomática (ACCM) nesse pacote evoluiu de um nível bom para excelente. No Apêndice K - Análise estática de código-gonte, é possível visualizar os resultados da análise estática de código-fonte de forma mais detalhada, pois os resultados de cada classe são evidenciados.
 
 \begin{figure}[H]
@@ -454,7 +456,7 @@ Foi realizada a análise estática de código-fonte no intuito de obter a qualid
 \end{figure}
 
 \section{Comparação entre resultados monetários}
-Esta seção evidencia os resultados dos rendimentos monetários do software InvestMVC e do \textit{expert} implementado em MQL. Os parâmetros (projeto, coleta dos dados, interpretação, validação) para comparar os valores monetários em dólares americanos dos produtos de software, foram definidos na metodologia. O período de coleta dos resultados monetários foi de 18 de maio de 2015 à 12 de junho de 2015 (20 dias de negociações, 24 horas por dia, sem contar sábados e domingos).
+Esta seção evidencia o resultado dos rendimentos monetários do software InvestMVC e do \textit{expert} implementado em MQL. Os parâmetros (projeto, coleta dos dados, interpretação, validação) para comparar os valores monetários em dólares americanos dos produtos de software, foram definidos na metodologia. O período de coleta dos resultados monetários foi de 18 de Maio de 2015 à 12 de Junho de 2015 (20 dias de negociações, 24 horas por dia, sem contar sábados e domingos). O resultado atende o objetivo específico 5 (cinco) deste trabalho.
 
 Utilizou-se o gráfico de linhas e de barras para evidenciar os resultados monetários, bem como o desvio padrão amostral e o método de Correlação Linear para evidenciar o resultados do tempo de entrada das operações. O relatório completo das negociações, encontra-se no Apêndice L - Histórico de Resultados.
 
