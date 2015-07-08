@@ -198,6 +198,32 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 
 Os Métodos Matemáticos de Correlação Linear, Fibonacci e Mínimos Quadrados tiveram êxito nos dois anos de simulação (Agosto 2012 a Agosto de 2014) e obtiveram lucro superior a 10\%  sob o capital inicial. Os métodos de Estocástico e Média Móvel tiveram prejuízo nos dois anos de simulação. Portanto, foram escolhidos os métodos de Correlação Linear, Fibonacci e Mínimos Quadrados como métodos de estratégia financeira do software InvestMVC.
 
+A Tabela \ref{resultadoMetodos} evidencia os resultados financeiros de cada Método Matemático em percentual de negociações com lucro. Isso acaba reforçando o motivo da escolha dos métodos Correlação Linear, Fibonacci e Mínimos Quadrados.
+
+\begin{center}
+\begin{longtable}{ | p{6cm} | p{3cm}| p{3cm} |}
+\caption{Percentual de negociações com lucro dos Métodos Matemáticos} \\
+\hline
+\textbf{Método Matemático} & \textbf{Percentual de lucro em 2012 – 2013} & \textbf{ Percentual de lucro em 2013 – 2014}\\ \hline
+\endfirsthead
+\multicolumn{3}{c}%
+{\tablename\ \thetable\ -- \textit{Continuação da página anterior}} \\
+\hline
+\textbf{Método Matemático} & \textbf{Percentual de lucro em 2012 – 2013} & \textbf{Percentual de lucro em 2013 – 2014}\\
+\endhead
+\hline \multicolumn{3}{c}{\textit{Continuação na próxima página}} \\
+\endfoot
+\hline
+\endlastfoot
+Mínimos Quadrados& 77.88\%  & 85.71\%  \\
+Fibonacci& 72.73\%& 56.00\% \\
+Correlação Linear& 56.86\%& 55.56\%  \\
+Média Móvel& 43.48\%& 48.48\%\\
+Estocástico& 47.47\% & 47.70\%
+\label{resultadoMetodos}
+\end{longtable}
+\end{center}
+
 \section{Estruturas e Componentes do software InvestMVC}
 Esta seção evidencia as estruturas e componentes do software InvestMVC. Este resultado atende o objetivo específico 2 (dois) deste trabalho.
 Arquitetura Orientada a Componentes possui o propósito de dividir para conquistar. Um grande problema é subdividido em partes menores e em seguida se desenvolve soluções mais elaboradas \cite{john}.

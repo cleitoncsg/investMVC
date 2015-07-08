@@ -168,6 +168,12 @@ Dispon{\'\i}vel em: \url{http://www.scielo.br/pdf/rcf/v17n41/v17n41a06.pdf}.}
 {DIAS, M. A.~P. \emph{Administração de materiais: uma abordagem logística}.
 2. ed. [S.l.], 1985.}
 
+\bibitem[Doets e Eijck 2004]{piponi2006}
+\abntrefinfo{Doets e Eijck}{DOETS; EIJCK}{2004}
+{DOETS, K.; EIJCK, J. van. \emph{The Haskell Road to Logic, Maths and
+  Programming}.
+[S.l.], 2004.}
+
 \bibitem[EasyForex 2014]{easyforex2014}
 \abntrefinfo{EasyForex}{EASYFOREX}{2014}
 {EASYFOREX. Leveraged forex trading: What is leverage in forex trading?
@@ -387,13 +393,6 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Paquet e MOKHOV}{PAQUET; MOKHOV}{2010}
 {PAQUET, J.; MOKHOV, S. \emph{Comparative Studies of Programming Languages}.
 [S.l.], 2010.}
-
-\bibitem[Piponi 2006]{piponi2006}
-\abntrefinfo{Piponi}{PIPONI}{2006}
-{PIPONI, D. Eleven reasons to use haskell as a mathematician.
-2006.
-Dispon{\'\i}vel em:
-  \url{http://blog.sigfpe.com/2006/01/eleven-reasons-to-use-haskell-as.html}.}
 
 \bibitem[Regra 2010]{regra2010}
 \abntrefinfo{Regra}{REGRA}{2010}
