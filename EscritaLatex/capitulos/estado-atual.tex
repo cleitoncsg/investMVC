@@ -1,20 +1,22 @@
 \chapter{Resultados}
+\label{sec:resultados}
 
-Os resultados deste trabalho foram guiados pelos objetivos específicos do mesmo. São evidenciados os resultados da seleção dos Métodos Matemáticos, caracterização das estruturas e componentes do software InvestMVC, obtenção da cobertura de código-fonte dos componentes, análise estática de código-fonte e resultados monetários do software InvestMVC e do \textit{expert} implementado em linguagem MQL. Para alcançar os resultados, foi necessário utilizar ferramentas de auxílio como, por exemplo, o \textit{framework} CUnit  para realização de teste unitário em linguagem C. As mesmas encontram-se no Apêndice C - Suporte Tecnológico.
+Este capítulo irá apresentar os resultados obtidos com a execução deste trabalho. Para tanto, optou-se mostrá-los considerando os objetivos mostrados na Seção\ref{sec:objetivos}. Observe, portanto , que cada uma das seções deste capítulo corresponde a um objetivo específico definido para esta pesquisa. Para alcançar os resultados, foi necessário utilizar ferramentas de auxílio, elas encontram-se no Apêndice \ref{ap:suporte}.
 
 \section{Seleção dos Métodos Matemáticos}
 
-Nesta seção é evidenciado os resultados  das simulações dos \textit{experts} em linguagem MQL4 (produto da implementação dos Métodos Matemáticos), através de relatórios e gráficos gerados pela plataforma MetaTrader. Conforme estabelecido na metodologia de pesquisa, os Métodos Matemáticos que obtiveram 10\% de rendimento sob o capital inicial, foram selecionados para serem implementados no software InvestMVC. Este resultado atende o objetivo específico 1 (um) deste trabalho.
+Nesta seção é evidenciado os resultados  das simulações dos \textit{experts} em linguagem MQL4 (produto da implementação dos Métodos Matemáticos), através de relatórios e gráficos gerados pela plataforma MetaTrader. Conforme estabelecido na metodologia de pesquisa, os Métodos Matemáticos que obtiveram 10\% de rendimento sob o capital inicial, foram selecionados para serem implementados no software InvestMVC. Este resultado atende o objetivo específico 1 (selecionar Métodos Matemáticos a serem implementados) deste trabalho.
 
 \subsection{Implementação dos Métodos Matemáticos}
 
-Os métodos de Correlação Linear, Média Móvel, Mínimos Quadrados, Estocástico e Fibonacci foram implementados em linguagem MQL4 e assim foi construído um \textit{expert} para cada método. Esses produtos de software receberam os nomes, respectivamente, CorrelacaoPearson.mql, MediaMovel.mql, MinimosQuadrados.mql, Estocastico.mql e Fibonacci.mql. Cada \textit{expert} encontra-se no Apêndice D - \textit{Experts} para Estudo de Caso.
+Os métodos de Correlação Linear, Média Móvel, Mínimos Quadrados, Estocástico e Fibonacci foram implementados em linguagem MQL4 e assim foi construído um \textit{expert} para cada método. Esses produtos de software receberam os nomes, respectivamente, CorrelacaoPearson.mql, MediaMovel.mql, MinimosQuadrados.mql, Estocastico.mql e Fibonacci.mql. Cada \textit{expert} encontra-se no Apêndice \ref{ap:experts}.
 
-\subsection{Simulação do método de Correlação Linear}
+\subsection{Simulação do Método de Correlação Linear}
 
 O \textit{expert} CorrelacaoPearson.mql obteve o percentual de negociações com lucros de 56.86\% no período de Agosto de 2012 a Agosto de 2013. Nesse período, o \textit{expert} teve um lucro de 1981.60 USD. No período de Agosto de 2013 a Agosto de 2014, o percentual de negociações com lucros foi de 55.56\%  e obteve-se o lucro de 1119.05 USD. 
 Os relatórios completos das simulações podem ser visualizados nas Figuras \ref{protocoloCorrelacao} e \ref{protocoloCorrelacao2}.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloCorrelacao}
@@ -32,6 +34,7 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 
 Foram gerados os gráficos de simulação de 2012 a 2013 e de 2013 a 2014, conforme ilustrado nas Figuras \ref{protocoloCorrelacao3} e \ref{protocoloCorrelacao4}. É possível perceber que o método de Correlação de Pearson perde dinheiro em alguns períodos, mas os ganhos são superiores às perdas.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloCorrelacao3}
@@ -51,6 +54,7 @@ Foram gerados os gráficos de simulação de 2012 a 2013 e de 2013 a 2014, confo
 O \textit{expert} MinimosQuadrados.mql obteve o percentual de negociações com lucros de 77.88\% no período de Agosto de 2012 a Agosto de 2013, e o  lucro nesse período foi de 1341.88 USD. No período de Agosto de 2013 a Agosto de 2014, o percentual de negociações com lucros foi de 85.71\%,  e obteve-se o lucro de 1026 USD. 
 Os relatórios completos das simulações podem ser visualizados nas Figuras \ref{protocoloMinimos} e \ref{protocoloMinimos2}.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMinimos}
@@ -65,8 +69,9 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 \label{protocoloMinimos2}
 \end{figure}
 
-O \textit{expert} MinimosQuadrados.mql, teve altos e baixos nas simulações durante os dois anos (2012 a 2013 e 2013 a 2014). Mas, no desempenho geral, conforme é evidenciado nos gráficos das Figuras \ref{protocoloMinimos3} e \ref{protocoloMinimos4}, o \textit{expert} teve um desempenho satisfatório.
+O \textit{expert} MinimosQuadrados.mql, teve altos e baixos nas simulações durante os dois anos (2012 a 2013 e 2013 a 2014). Mas, no desempenho geral, conforme é evidenciado nos gráficos das Figuras \ref{protocoloMinimos3} e \ref{protocoloMinimos4}, o \textit{expert} teve um lucro acima de 10\% do capital inicial.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMinimos3}
@@ -132,6 +137,7 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 \label{protocoloEst}
 \end{figure}
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloEst2}
@@ -148,6 +154,7 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 \label{protocoloEst3}
 \end{figure}
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloEst4}
@@ -170,6 +177,7 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 \label{protocoloMedia}
 \end{figure}
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/protocoloMedia2}
@@ -198,7 +206,8 @@ Os relatórios completos das simulações podem ser visualizados nas Figuras \re
 
 Os Métodos Matemáticos de Correlação Linear, Fibonacci e Mínimos Quadrados tiveram êxito nos dois anos de simulação (Agosto 2012 a Agosto de 2014) e obtiveram lucro superior a 10\%  sob o capital inicial. Os métodos de Estocástico e Média Móvel tiveram prejuízo nos dois anos de simulação. Portanto, foram escolhidos os métodos de Correlação Linear, Fibonacci e Mínimos Quadrados como métodos de estratégia financeira do software InvestMVC.
 
-A Tabela \ref{resultadoMetodos} evidencia os resultados financeiros de cada Método Matemático em percentual de negociações com lucro. Isso acaba reforçando o motivo da escolha dos métodos Correlação Linear, Fibonacci e Mínimos Quadrados.
+A Tabela \ref{resultadoMetodos} evidencia os resultados financeiros de cada Método Matemático em percentual de negociações com lucro. Isso reforça o motivo da escolha dos métodos Correlação Linear, Fibonacci e Mínimos Quadrados.
+
 
 \begin{center}
 \begin{longtable}{ | p{6cm} | p{3cm}| p{3cm} |}
@@ -225,11 +234,12 @@ Estocástico& 47.47\% & 47.70\%
 \end{center}
 
 \section{Estruturas e Componentes do software InvestMVC}
-Esta seção evidencia as estruturas e componentes do software InvestMVC. Este resultado atende o objetivo específico 2 (dois) deste trabalho.
-Arquitetura Orientada a Componentes possui o propósito de dividir para conquistar. Um grande problema é subdividido em partes menores e em seguida se desenvolve soluções mais elaboradas \cite{john}.
+Esta seção evidencia as estruturas e componentes do software InvestMVC. Este resultado atende o Objetivo Específico 2 (caracterizar as estruturas e componentes) deste trabalho.
+Uma arquitetura Orientada a Componentes possui o propósito de dividir para conquistar. Um grande problema é subdividido em partes menores e em seguida se desenvolve soluções mais elaboradas \cite{john}.
 
 Por usar vários paradigmas, o software InvestMVC tem vários componentes, sendo cada qual implementado em um paradigma de programação mais adequado às necessidades do componente bem como contendo responsabilidades bem definidas. A Figura \ref{componente} procura ilustrar esses componentes usando a representação de digrama de classes.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/componente}
@@ -239,8 +249,9 @@ Por usar vários paradigmas, o software InvestMVC tem vários componentes, sendo
 
 \subsection{Componente Orientado a Objetos}
 
-Este componente faz a interação com o usuário e foi implementado em linguagem Groovy. A escolha dessa linguagem, se deu porque esta é voltada para aplicações web e juntamente com  o framework grails, fornece a criação de um projeto com uma arquitetura MVC definida, como demonstra a Figura \ref{classeOO}.
+Este componente é o responsável pela interação com o usuário e foi implementado em linguagem Groovy. A escolha dessa linguagem, se deu porque esta é voltada para aplicações web e juntamente com  o framework grails, fornece a criação de um projeto com uma arquitetura MVC definida, como demonstra a Figura \ref{classeOO}.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/classeOO}
@@ -252,12 +263,13 @@ Segundo \citeonline{lamin} na arquitetura MVC, o controle de fluxo de dados ocor
 
 \begin{enumerate}
 \item O usuário, neste caso o investidor, interage com a Visão.
-\item A Controladora manipula o evento da interface do usuário através de uma rotina.
+\item A Controladora manipula o evento da interface do usuário por meio de uma rotina.
 \item A Controladora acessa a camada de Modelo, atualizando-a com base nas interações do usuário.
 \end{enumerate}
 
 O diagrama de sequência do componente Orientado a Objetos é evidenciado na Figura \ref{sequenciaOO}.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/sequenciaOO}
@@ -265,20 +277,20 @@ O diagrama de sequência do componente Orientado a Objetos é evidenciado na Fig
 \label{sequenciaOO}
 \end{figure}
 
-As classe mais relevantes do componente Orientado a Objetos encontram-se no Apêndice E - Componente OO.
+As classes mais relevantes do componente Orientado a Objetos encontram-se no Apêndice \ref{ap:oo}.
 
 \subsection{Componente Cálculos Numéricos}
 
-O componente Cálculos Numéricos é responsável por calcular os Métodos Matemáticos presentes no software InvestMVC. Este módulo é composto por dois outros módulos: módulo Estruturado e módulo Funcional.
+O componente Cálculos Numéricos é responsável por calcular os Métodos Matemáticos presentes no software InvestMVC. Este módulo é composto por dois outros componentes: componente Estruturado e componente Funcional.
 
 O componente Estruturado do software InvestMVC foi programado em linguagem C e o módulo Funcional em linguagem Haskell. Ambos os componentes realizam os mesmos cálculos. Isso aumenta a probabilidade de não ocorrer erros nos cálculos dos Métodos Matemáticos. Caso um dos componentes, por algum motivo, não seja executado no momento correto, a tendência é que o outro módulo realize os cálculos.
 
 \subsection{Componente Funcional}
-Na linguagem Haskell, por ser uma linguagem de programação funcional, sua "gramática" está próxima das funções matemáticas, logo a implementação dos métodos algébricos e numéricos se torna muito intuitiva. \cite{hoogle2013}.
+Na linguagem Haskell, por ser uma linguagem de programação funcional, sua "gramática" está próxima das funções matemáticas, logo a implementação dos métodos algébricos e numéricos se torna muito intuitiva \cite{hoogle2013}.
 
-O paradigma funcional é declarativo. Por limitar o uso de atribuições às variáveis, evitando a noção de estados (comum no paradigma  estruturado bem como na Orientação a Objetos), os resultados das funções em HAskell são mais precisos do que em outros paradigmas \cite{piponi2006}.
+O paradigma funcional é declarativo. Por limitar o uso de atribuições às variáveis, evitando a noção de estados (comum no paradigma  estruturado bem como na Orientação a Objetos), os resultados das funções em Haskell são mais precisos do que em outros paradigmas \cite{piponi2006}.
 
-Devido aos fatos externalizados, o paradigma funcional foi utilizado para implementar os Métodos Matemáticos de Correlação Linear, Mínimos Quadrados e Fibonacci. Por ser simples, este componente será formado apenas por quatro arquivos em Haskell, cada arquivo realiza o cálculo de um método matemático, com exceção do arquivo  Arquivos.hs, que faz a leitura de arquivos.
+Devido estes fatos , o paradigma funcional foi utilizado para implementar os Métodos Matemáticos de Correlação Linear, Mínimos Quadrados e Fibonacci. Por ser simples, este componente será formado apenas por quatro arquivos em Haskell, cada arquivo realiza o cálculo de um método matemático.
 
 \begin{figure}[H]
 \centering
@@ -317,7 +329,7 @@ A arquitetura bem como a sequência do fluxo de dados do Componente Estruturado 
 O componente Multiagente foi implementado usando o paradigma Multiagente com a linguagem Java e o apoio da Plataforma JADE.
 
 \begin{citacao}
-O JADE se trata de um \textit{framework} de software, independente de aplicação específica, capaz de prover funcionalidades de camada de\textit{middleware}. Ele possui uma infraestrutura bastante flexível para o desenvolvimento de aplicações onde o elemento de abstração é um agente de  software. Para isso ele oferece suporte ao ciclo de vida e a lógica do núcleo de agentes em si, além de oferecer uma variedade de ferramentas gráficas que favorecem o desenvolvimento. A tecnologia é totalmente escrita em Java, o que traz benefícios a partir do enorme conjunto de recursos e bibliotecas oferecidas pela linguagem, que por sua vez oferece um vasto conjunto de abstrações de programação e possibilita a construção de sistemas baseados em agentes com competências relativamente mínimas em relação à teoria de agentes. Com isso, o programador pode economizar o tempo com o trabalho inicial necessário para construir uma infraestrutura baseada em agentes, e dedicar seus esforços para o negócio da aplicação propriamente dito \cite{teixeira2010}. 
+O JADE se trata de um \textit{framework} de software, independente de aplicação específica, capaz de prover funcionalidades de camada \textit{middleware}. Ele possui uma infraestrutura bastante flexível para o desenvolvimento de aplicações onde o elemento de abstração é um agente de  software. Para isso ele oferece suporte ao ciclo de vida e a lógica do núcleo de agentes em si, além de oferecer uma variedade de ferramentas gráficas que favorecem o desenvolvimento. A tecnologia é totalmente escrita em Java, o que traz benefícios a partir do enorme conjunto de recursos e bibliotecas oferecidas pela linguagem, que por sua vez oferece um vasto conjunto de abstrações de programação e possibilita a construção de sistemas baseados em agentes com competências relativamente mínimas em relação à teoria de agentes. Com isso, o programador pode economizar o tempo com o trabalho inicial necessário para construir uma infraestrutura baseada em agentes, e dedicar seus esforços para o negócio da aplicação propriamente dito \cite{teixeira2010}. 
 \end{citacao}
 
 Agentes de software são entidades autônomas e com capacidades sociais. O uso deste paradigma foi justificado dada as colocações realizadas na etapa de tomada de decisões desse trabalho \cite{agentBuilderWhy}. 
@@ -326,6 +338,7 @@ Os agentes do software  InvestMVC possuem uma arquitetura reativa, pois suas aç
 
 A arquitetura do Componente Multiagente está modularizada por pacotes: o pacote comportamentos é formado por compormentos que são usados pelos Agentes de Software; o pacote metodosMatemáticos é formado por Agentes que acessam o componente Cálculos matemáticos; o pacote investidores é composto por agentes que interagem com o Componente MQL, e o pacote execucao inicia a execução do SMA.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/diagramaClassesSMA}
@@ -341,6 +354,7 @@ O paradigma Lógico facilita a representação, inserção e recuperação de co
 
 A interação do Componente Lógico com o Componente Multiagentes é evidenciada na Figura \ref{sequenciaLogico}.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{figuras/sequenciaLogico}
@@ -350,7 +364,7 @@ A interação do Componente Lógico com o Componente Multiagentes é evidenciada
 
 \subsection{Componente MQL}
 
-O componente MQL é responsável por receber a resposta do Componente Multiagente para realizar uma compra ou venda. Adicionalmente, são recebidos outros atributos relacionados à compra ou venda, como alavancagem, \textit{stop loss} e \textit{take profit}, a implementação deste componente encontra-se no Apêndice J - Componente MQL.
+O componente MQL é responsável por receber a resposta do Componente Multiagente para realizar uma compra ou venda. Adicionalmente, são recebidos outros atributos relacionados à compra ou venda, como alavancagem, \textit{stop loss} e \textit{take profit}, a implementação deste componente encontra-se no Apêndice \ref{ap:mql}.
 
 A interação do Componente MQL com o Componente Multiagente é evidenciada na Figura \ref{sequenciaMQL}.
 
@@ -365,7 +379,7 @@ A interação do Componente MQL com o Componente Multiagente é evidenciada na F
 \subsection{Fluxo de atividades}
 O investidor interage apenas com o componente Orientado a Objetos, criando seu usuário e \textit{experts}, no qual serão persistidos. Além disso, o investidor também poderá ativar um \textit{expert}.
 
-O componente Multiagentes vai verificar a tendência do Mercado de Moedas, por meio da plataforma MetaTrader. Sendo assim, o componente Multiagentes buscará na persistência o \textit{expert} que está ativo. Sabendo qual o \textit{expert} que foi ativado, o componente Multiagente faz a requisição de cálculos para os módulos C e Haskell. A partir desse resultado, o componente Multiagente procurará no Módulo Base de Conhecimento, a alavancagem (quanto deve arriscar) e os valores de entrada para o método de Correlação de Pearson, Fibonacci e Mínimos Quadrados. Caso todas as especificações para o componente Multiagente sejam obedecidas, ele informa ao componente MQL para realizar uma compra ou venda.
+O componente Multiagentes vai verificar a tendência do Mercado de Moedas por meio da plataforma MetaTrader. Sendo assim, o componente Multiagentes buscará na persistência o \textit{expert} que está ativo. Sabendo qual o \textit{expert} que foi ativado, o componente Multiagente faz a requisição de cálculos para os módulos C e Haskell. A partir desse resultado, o componente Multiagente procurará no Módulo Base de Conhecimento, a alavancagem (quanto deve arriscar) e os valores de entrada para o método de Correlação de Pearson, Fibonacci e Mínimos Quadrados. Caso todas as especificações para o componente Multiagente sejam obedecidas, ele informa ao componente MQL para realizar uma compra ou venda. Esta interação é evidenciada na Figura \ref{sequencia}.
 
 \begin{figure}[H]
 \centering
@@ -375,7 +389,7 @@ O componente Multiagentes vai verificar a tendência do Mercado de Moedas, por m
 \end{figure}
 
 \section{Testes unitários e cobertura de código-fonte}
-Esta seção evidencia o resultado dos testes unitários dos componentes Estruturado, Lógico, Funcional e Multiagente. Este resultado atende o objetivo específico 3 (três) deste trabalho.
+Esta seção evidencia o resultado dos testes unitários dos componentes Estruturado, Lógico, Funcional e Multiagente. Este resultado atende o objetivo específico 3 (apurar a cobertura de código por meio de ferramentas que implementam testes unitários) deste trabalho.
 \subsection{Componente Funcional}
 
 Foram realizados os testes unitários na linguagem haskell utilizando o \textit{framework} HUnit. O \textit{framework} não fornece a cobertura de código-fonte, mas é possível visualizar a quantidade de casos de teste, quantidade de testes realizados, quantidade de erros e quantidade de falhas. Os resultados dos testes unitários dos métodos de Correlação de Pearson, Fibonacci e Mínimos Quadrados podem ser visualizados na Figura \ref{testeCorrelacaoHaskell}, \ref{testeFibonacciHaskell} e \ref{TesteMinimosHaskell}.
@@ -401,14 +415,15 @@ Foram realizados os testes unitários na linguagem haskell utilizando o \textit{
 \label{TesteMinimosHaskell}
 \end{figure}
 
-Os códigos referentes aos testes unitários em linguagem Haskell, encontram-se no Apêndice F - Componente Funcional.
+Os códigos referentes aos testes unitários em linguagem Haskell, encontram-se no Apêndice \ref{ap:funcional}.
 
 \subsection{Componente Estruturado}
-Encontra-se no Apêndice G - Componente Estruturado , o código-fonte das Histórias de Usuário 13 (Método de Correlação Linear em linguagem C), 14 (Método de Fibonacci em linguagem C) e 15 (Método de Mínimos Quadrados em linguagem C). No mesmo apêndice, segue o teste
+Encontra-se no Apêndice \ref{ap:estruturado} , o código-fonte das Histórias de Usuário 13 (Método de Correlação Linear em linguagem C), 14 (Método de Fibonacci em linguagem C) e 15 (Método de Mínimos Quadrados em linguagem C). No mesmo apêndice, segue o teste
 unitário de cada História de Usuário.
 
-Na Figura \ref{testeC}, é possível ver o resultado da suite de teste do Componente Estruturado. A cobertura de código encontra-se em 100\%.
+Na Figura \ref{testeC}, é possível ver o resultado da suite de teste do Componente Estruturado. A cobertura de código foi de 100\%.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/testeC}
@@ -417,7 +432,7 @@ Na Figura \ref{testeC}, é possível ver o resultado da suite de teste do Compon
 \end{figure}
 
 \subsection{Componente Lógico}
-Foi utilizada a ferramenta Swi-prolog para realização dos testes unitários na linguagem prolog. Não foi possível obter a cobertura de código-fonte da linguagem prolog utilizando a ferramenta Swi-prolog (os testes ficaram com cobertura fixa em 4.5). Entretanto, os testes foram realizados com sucesso, conforme pode ser visualizado nas Figuras \ref{prologTeste1} e \ref{prologTeste2}. 
+Foi utilizada a ferramenta Swi-prolog para realização dos testes unitários na linguagem Prolog. Não foi possível obter a cobertura de código-fonte da linguagem prolog utilizando a ferramenta Swi-prolog (os testes ficaram com cobertura fixa em 4.5). Entretanto, os testes foram realizados com sucesso, conforme pode ser visualizado nas Figuras \ref{prologTeste1} e \ref{prologTeste2}. 
 
 \begin{figure}[H]
 \centering
@@ -433,7 +448,7 @@ Foi utilizada a ferramenta Swi-prolog para realização dos testes unitários na
 \label{prologTeste2}
 \end{figure}
 
-Os códigos referentes aos testes unitários em linguagem Prolog, bem como a implementação da base de conhecimento, encontram-se no Apêndice H - Componente Lógico.
+Os códigos referentes aos testes unitários em linguagem Prolog, bem como a implementação da base de conhecimento, encontram-se no Apêndice \ref{ap:logico}.
 
 \subsection{Componente Multiagente}
 Foram utilizados os frameworks Junit e Easy-mock para realização dos testes unitários na linguagem Java. Para obter a cobertura de código-fonte, foi utilizada a ferramenta Eclemma. Obteve-se uma cobertura de código-fonte de 84.8\% nos testes unitários, conforme pode ser visualizado na Figura \ref{eclemmaSMA}. 
@@ -445,8 +460,9 @@ Foram utilizados os frameworks Junit e Easy-mock para realização dos testes un
 \label{eclemmaSMA}
 \end{figure}
 
-O comportamento dos agentes são executados através dos métodos \textit{actions} e muitos  comportamentos precisavam de um tempo de até 6 (seis) segundos para serem executados. Devido a isso, os testes unitários quebraram, pois nenhum comportamento era executado a tempo. Para tentar solucionar esse problema, foram colocados \textit{delays} para que o tempo fosse ajustado, viabilizando a comunicação entre os agentes. A execução dos testes demorou mais de 18 (dezoito) segundos conforme pode ser visualizado no  canto superior esquerdo da Figura \ref{eclemmaTodasClasses}. Apesar de todos os testes passarem pelo Junit e o Easy-mock com os \textit{delays}, a ferramenta Eclemma não registrava a cobertura de código dos métodos \textit{actions}. Assim, esses métodos foram desconsiderados no percentual de cobertura de código-fonte.
+O comportamento dos agentes são executados por meio dos métodos \textit{actions} e muitos  comportamentos precisavam de um tempo de até 6 segundos para serem executados. Devido a isso, os testes unitários quebraram, pois nenhum comportamento era executado a tempo. Para tentar solucionar esse problema, foram colocados \textit{delays} para que o tempo fosse ajustado, viabilizando a comunicação entre os agentes. A execução dos testes demorou mais de 18 (dezoito) segundos conforme pode ser visualizado no  canto superior esquerdo da Figura \ref{eclemmaTodasClasses}. Apesar de todos os testes passarem pelo Junit e o Easy-mock com os \textit{delays}, a ferramenta Eclemma não registrava a cobertura de código dos métodos \textit{actions}. Assim, esses métodos foram desconsiderados no percentual de cobertura de código-fonte.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/eclemmaTodasClasses}
@@ -454,18 +470,19 @@ O comportamento dos agentes são executados através dos métodos \textit{action
 \label{eclemmaTodasClasses}
 \end{figure}
 
-As classes de teste mais significativas encontram-se no Apêndice I - Componente Multiagente.
+As classes de teste mais significativas encontram-se no Apêndice \ref{ap:sma}.
 
-\section{Análise estática de código-fonte}
-Esta seção evidencia o resultado da qualidade de código-fonte  do componente Multiagente, através da realização de análise estática e interpretação de métricas de qualidade de código-fonte. O resultado atende o objetivo específico 4 (quatro) deste trabalho.
-\subsection{Definição das métricas de qualidade de código-fonte}
-Para realizar a interpretação das métricas de qualidade de código-fonte, escolheu-se os valores de referência de acordo com a dissetarção de \cite{filho}. Segundo ele, os valores foram obtidos baseando-se nos resultados da análise de um ou mais "projetos
+\section{Análise Estática de Código-fonte}
+Esta seção apresenta o resultado da qualidade de código-fonte  do componente Multiagente, através da realização de análise estática e interpretação de métricas de qualidade de código-fonte. O resultado atende o objetivo específico 4 (realizar análise estática do código-fonte do componente Multiagente) deste trabalho. Não é objetivo deste trabalho evidenciar as relações entre as métricas como, por exemplo, a alta coesão tender a gerar um baixo acoplamento.
+
+\subsection{Definição das Métricas de Qualidade de Código-fonte}
+Para realizar a interpretação das métricas de qualidade de código-fonte, escolheu-se os valores de referência de acordo com a dissertação de \cite{filho}. Segundo ele, os valores foram obtidos baseando-se nos resultados da análise de um ou mais "projetos
 modelo", analisados no Capítulo 4 da tese de \citeonline{meirelles2013}.
 
 Segundo \citeonline{braga2012}, métricas estruturais de tamanho e profundidade são boas referências para saber se um código está com uma qualidade aceitável. Diante disso, foram escolhidas de forma empírica as métricas estruturais de coesão, acoplamento e complexidade ciclomática. As métricas de tamanho escolhidas foram número de parâmetros públicos e número de parâmetros por método. Por fim, escolheu-se a métrica de profundidade herança.
 
 \subsection{Qualidade de código-fonte do software InvestMVC}
-Foi realizada a análise estática de código-fonte no intuito de obter a qualidade de código-fonte do componente Multiagente. A Figura \ref{analiseinicial} revela o resultado da primeira análise estática. Percebe-se que número de parâmetros públicos (NPA) ficou com nível regular no pacote investidores. Com esse resultado, o código foi refatorado e o pacote investidores saiu do nível regular para o nível bom, conforme consta na Figura \ref{analisefinal}. Além disso, foi atribuida uma menor responsabilidade para o agente tendência no pacote comportamentosComuns e com isso, a complexidade ciclomática (ACCM) nesse pacote evoluiu de um nível bom para excelente. No Apêndice K - Análise estática de código-gonte, é possível visualizar os resultados da análise estática de código-fonte de forma mais detalhada, pois os resultados de cada classe são evidenciados.
+Foi realizada a análise estática de código-fonte no intuito de obter a qualidade de código-fonte do componente Multiagente. A Figura \ref{analiseinicial} revela o resultado da primeira análise estática. Percebe-se que a métrica número de parâmetros públicos (NPA) ficou com nível regular no pacote investidores. Com esse resultado, o código foi refatorado e o pacote investidores saiu do nível regular para o nível bom, conforme consta na Figura \ref{analisefinal}. Além disso, foi atribuida uma menor responsabilidade para o agente tendência no pacote comportamentosComuns e com isso, a complexidade ciclomática (ACCM) nesse pacote evoluiu de um nível bom para excelente. No Apêndice \ref{ap:analise}, é possível visualizar os resultados da análise estática de código-fonte de forma mais detalhada, pois os resultados de cada classe são evidenciados.
 
 \begin{figure}[H]
 \centering
@@ -482,13 +499,13 @@ Foi realizada a análise estática de código-fonte no intuito de obter a qualid
 \end{figure}
 
 \section{Comparação entre resultados monetários}
-Esta seção evidencia o resultado dos rendimentos monetários do software InvestMVC e do \textit{expert} implementado em MQL. Os parâmetros (projeto, coleta dos dados, interpretação, validação) para comparar os valores monetários em dólares americanos dos produtos de software, foram definidos na metodologia. O período de coleta dos resultados monetários foi de 18 de Maio de 2015 à 12 de Junho de 2015 (20 dias de negociações, 24 horas por dia, sem contar sábados e domingos). O resultado atende o objetivo específico 5 (cinco) deste trabalho.
+Esta seção evidencia o resultado dos rendimentos monetários do software InvestMVC e do \textit{expert} implementado em MQL. Os parâmetros (projeto, coleta dos dados, interpretação, validação) para comparar os valores monetários em dólares americanos dos produtos de software, foram definidos na metodologia. O período de coleta dos resultados monetários foi de 18 de Maio de 2015 à 12 de Junho de 2015 (20 dias de negociações, 24 horas por dia, sem contar sábados e domingos). O resultado atende o objetivo específico 5 (comparar resultados financeiros obtidos pelo software InvestMVC com os \textit{experts} tradicionais implementados em linguagem MQL) deste trabalho.
 
-Utilizou-se o gráfico de linhas e de barras para evidenciar os resultados monetários, bem como o desvio padrão amostral e o método de Correlação Linear para evidenciar o resultados do tempo de entrada das operações. O relatório completo das negociações, encontra-se no Apêndice L - Histórico de Resultados.
+Utilizou-se o gráfico de linhas e de barras para evidenciar os resultados monetários, bem como o desvio padrão amostral e o método de Correlação Linear para evidenciar o resultados do tempo de entrada das operações. O relatório completo das negociações, encontra-se no Apêndice \ref{ap:historico}.
 
 
 \subsection{Resultados monetários InvestMVC}
-O software InvestMVC ficou rodando no Mercado de Moedas durante 20 (vinte) dias de negociações e fez 19 operações. Dessas 19 operações, 8 (oito) operações tiveram lucro, o que evidencia um índice de acerto de 42.10\%. Apesar do índice de acerto ter sido inferior a 50\%, o software InvestMVC obteve um lucro de 120.58 USD (cento e vinte dólares e cinquenta e oito centavos de dólares). Sendo assim, obteve-se um lucro de 12,58\% durante as operações.
+O software InvestMVC ficou rodando no Mercado de Moedas durante 20 dias de negociações e fez 19 operações. Dessas 19 operações, 8 (oito) operações tiveram lucro, o que evidencia um índice de acerto de 42.10\%. Apesar do índice de acerto ter sido inferior a 50\%, o software InvestMVC obteve um lucro de 120.58 USD (cento e vinte dólares e cinquenta e oito centavos de dólares). Sendo assim, obteve-se um lucro de 12,58\% durante as operações.
 
 A Figura \ref{rendimentoInvestMVC}, evidencia o resultado do gráfico das operações em função do rendimento do software InvestMVC.
 
@@ -500,7 +517,7 @@ A Figura \ref{rendimentoInvestMVC}, evidencia o resultado do gráfico das opera�
 \end{figure}
 
 \subsection{Resultados monetários do \textit{expert} MQL}
-Da mesma forma que o software InvestMVC, o \textit{expert} implementado em linguagem MQL também ficou rodando no Mercado de Moedas durante 20 (vinte) e fez 19 operações. Dessas 19 operações, 8 (oito) negociações tiveram lucro, o que evidencia um índice de acerto de 42.10\%.
+Da mesma forma que o software InvestMVC, o \textit{expert} implementado em linguagem MQL também foi executado no Mercado de Moedas durante 20 dias e fez 19 operações. Dessas 19 operações, 8 (oito) negociações tiveram lucro, o que evidencia um índice de acerto de 42.10\%.
 
 Foi obtido um lucro de 114.86 USD (cento e quatorze dólares e oitenta e seis centavos de dólares). Portanto, foi gerado um lucro de 11,48\% durante as operações. 
 
@@ -514,14 +531,15 @@ A Figura \ref{rendimentoInvestMQL}, evidencia o resultado do gráfico das opera�
 \end{figure}
 
 \subsection{Resultados monetários obtidos em MQL \textit{versus} InvestMVC}
-O tempo das operações (20 dias, 24 horas por dia), a quantidade de negociações (19) e indíce de acerto nas operações (42.10\%) do \textit{expert} implementado em linguagem MQL, foram iguais ao software InvestMVC.
+O tempo das operações (20 dias, 24 horas por dia), a quantidade de negociações (19) e índice de acerto nas operações (42.10\%) do \textit{expert} implementado em linguagem MQL foram iguais ao software InvestMVC.
 
 O software InvestMVC obteve um lucro 5.72\% a mais que \textit{expert} implementado em MQL nos resultados monetários. 
 
 A Figura \ref{rendimentoVersus} evidencia o gráfico de rendimento do \textit{expert} implementado em MQL (linha vermelha) e do software InvestMVC (linha azul). A linha vermelha e azul ficam juntas na maior parte do gráfico, o que evidencia que os resultados monetários foram semelhantes na maior parte do tempo.
 
-É possível que ambos produtos de software, obteveramm lucros e perdas, mas o somatório dos lucros foi maior que o somatório das perdas.
+É possível que ambos produtos de software, obteveram lucros e perdas, mas o somatório dos lucros foi maior que o somatório das perdas.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figuras/rendimentoVersus}
@@ -529,7 +547,7 @@ A Figura \ref{rendimentoVersus} evidencia o gráfico de rendimento do \textit{ex
 \label{rendimentoVersus}
 \end{figure}
 
-A Figura \ref{graficoBarras}, representa o gráfico da comparação dos resultados financeiros do \textit{expert} MQL e do software InvestMVC. As barras em vermelho e em azul representam, respectivamente, os rendimentos do \textit{expert} MQL e do software InvestMVC, onde o eixo das abcissas representa as operações feitas pelos  \textit{experts} implementados. Da mesma forma que no gráfico de linhas, é possível observar que os resultados monetários de ambos produtos de software ficaram bem próximos.
+A Figura \ref{graficoBarras} representa o gráfico da comparação dos resultados financeiros do \textit{expert} MQL e do software InvestMVC. As barras em vermelho e em azul representam, respectivamente, os rendimentos do \textit{expert} MQL e do software InvestMVC, no qual o eixo das abscissas representa as operações feitas pelos \textit{experts} implementados. Da mesma forma que no gráfico de linhas, é possível observar que os resultados monetários de ambos produtos de software ficaram bem próximos.
 
 
 \begin{figure}[H]

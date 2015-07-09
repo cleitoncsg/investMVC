@@ -1,14 +1,15 @@
 \chapter{Referencial teórico}
+\label{sec:referencial}
 
-O referencial teórico revela o momento de levantar o embasamento teórico sobre o tema de pesquisa. No contexto deste trabalho, faz-se necessário, dentros outros aspectos pesquisar sobre os entendimentos existentes do problema de pesquisa e analisar quais mecanismos devem ser adotados para se propor uma solução \cite{belchior2012}.
+O referencial teóricoapresenta o embasamento teórico sobre o tema de pesquisa. No contexto deste trabalho, faz-se necessário, dentre outros aspectos, pesquisar sobre os entendimentos existentes sobre o problema de pesquisa e analisar quais mecanismos devem ser adotados para se propor uma solução \cite{belchior2012}.
 
-O referencial teórico deste trabalho irá levantar o embasamento teórico sobre Contexto Financeiro, Métodos Matemáticos, Paradigmas de Programação e Testes estáticos/dinâmicos para que seja possível propor uma solução para o problema de pesquisa.
+O referencial teórico deste trabalho irá apresentar conceitos relacionados ao Contexto Financeiro, Métodos Matemáticos, Paradigmas de Programação e Testes estáticos/dinâmicos para que seja possível propor uma solução para o problema desta pesquisa.
 
 \section{Contexto Financeiro}
 Esta seção irá tratar os atributos aliados ao contexto financeiro como Alavancagem, Suporte e Resistência. Esses atributos são insumos para que se possa compreender melhor a dinâmica das estratégias para negociação no Mercado de Moedas.
 
 \subsection{Mercado de Moedas}
-Mercado de Moedas ou FOREX (abreviatura de Foreign Exchange) é um mercado interbancário onde as várias moedas do mundo são negociadas. O FOREX foi criado em 1971, quando a negociação internacional transitou de taxas de câmbio fixas para flutuantes. Com o resultado do seu alto volume de negociações, o Mercado de Moedas tornou-se o principal mercado financeiro do mundo \cite{market2011}.
+Mercado de Moedas ou FOREX (abreviatura de \textit{Foreign Exchange}) é um mercado interbancário onde as várias moedas do mundo são negociadas. O FOREX foi criado em 1971, quando a negociação internacional transitou de taxas de câmbio fixas para flutuantes. Com o resultado do seu alto volume de negociações, o Mercado de Moedas tornou-se o principal mercado financeiro do mundo \cite{market2011}.
 
 A operação no Mercado de Moedas envolve a compra de uma moeda e a simultânea venda de outra. As moedas são negociadas em pares, por exemplo: euro e dólar (EUR-USD). O investidor não compra ou vende euro e dólares fisicamente, mas existe uma relação monetária de troca entre eles. O FOREX é um mercado em que são negociados, portanto, derivativos de moedas. O investidor é remunerado pelas diferenças entre a valorização (se tiver comprado) ou desvalorização (se tiver vendido) destas moedas \cite[pág.~3]{cvm2009}.
 
@@ -31,9 +32,10 @@ No mercado FOREX, o investidor pode negociar contratos de taxas de câmbio e usa
 
 Segundo \citeonline[pág.~22]{matsura2006},  Suporte é o nível de preço no qual a pressão compradora supera a vendedora e interrompe o movimento de baixa. Pode-se identificar o Suporte por uma linha reta horizontal conforme a Figura \ref{retaSuporte}.
 
+\newpage
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{figuras/retaSuporte}
+\includegraphics[width=0.7\textwidth]{figuras/retaSuporte}
 \caption{Reta de Suporte.}{Fonte: \citeonline[pág.~22]{matsura2006}.}
 \label{retaSuporte}
 \end{figure}
@@ -48,6 +50,7 @@ Resistência é a região do gráfico em que após um movimento de alta, os pre�
 
 Segundo \citeonline[pág.~23]{matsura2006}, Resistência representa o nível de preço no qual a pressão vendedora supera a compradora e interrompe o movimento de alta. A Resistência é identificada por uma linha reta horizontal, conforme a Figura \ref{retaResistencia}.
 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{figuras/retaResistencia}
@@ -59,7 +62,7 @@ A Resistência indica os níveis das cotações em que os investidores acreditam
 
 \section{Métodos Matemáticos}
 
-Métodos Matemáticos é qualquer método que se utiliza da matemática para resolver um problema. É possível citar alguns exemplos desses métodos como equações polinomiais, identidades trigonométricas, geometria coordenada, frações parciais, expansões binomiais, entre outros \cite{riley2011}.
+Método Matemático é qualquer método que se utiliza da matemática para resolver um problema. É possível citar alguns exemplos desses métodos como equações polinomiais, identidades trigonométricas, geometria coordenada, frações parciais, expansões binomiais, entre outros \cite{riley2011}.
 
 Métodos Matemáticos são aplicados a área de finanças. Cálculo e álgebra linear são fundamentais para o estudo de matemática financeira e ajuda a compreender a dinâmica de mercado \cite{konis2014}.
 
@@ -70,7 +73,7 @@ O método de Mínimos Quadrados determina o valor mais provável de quantidades 
 
 Usa-se o método de Mínimos Quadrados para determinar a melhor linha de ajuste que passa mais perto de todos os dados coletados, no intuito de obter a melhor linha de ajuste, de forma que minimize as distâncias entre cada ponto de consumo \cite[pág.~46]{dias1985}.
 
-A aplicação do método de Mínimos Quadrados visa deduzir a melhor estimativa de mensurações de n medições idênticas (em condições de “repetitividade”) e não idênticas (em condições de “reprodutividade”). Dessa forma o peso estatístico de um resultado é definido \cite[pág.~149]{vuolo1996}.
+A aplicação do método de Mínimos Quadrados visa deduzir a melhor estimativa de mensurações de n medições idênticas (em condições de “repetitividade”) e não idênticas (em condições de “reprodutividade”). Dessa forma, o peso estatístico de um resultado é definido \cite[pág.~149]{vuolo1996}.
 
 O desvio vertical do ponto:
 \begin{equation}
@@ -103,6 +106,7 @@ Y = K0 + K1X
 \end{equation}
 Como mostrado na Figura \ref{equacaoMinimos} \cite[pág.~441]{devore2006}.
 
+\newpage
 \graphicspath{{figuras/}}
 \begin{figure}[H]
 \centering
@@ -137,8 +141,8 @@ Segundo \citeonline[pág.~47]{regra2010} a Correlação Linear revela o grau de 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{figuras/determinacaoCorrelacao1}
-\includegraphics[width=0.9\textwidth]{figuras/determinacaoCorrelacao2}
+\includegraphics[width=0.3\textwidth]{figuras/determinacaoCorrelacao1}
+\includegraphics[width=0.5\textwidth]{figuras/determinacaoCorrelacao2}
 \caption{Determinação da Correlação Linear.}{Fonte: \citeonline{regra2010}.}
 \label{determinacaoCorrelacao}
 \end{figure}
@@ -165,13 +169,13 @@ Segundo \citeonline[pág.~32]{rocha2008}, a fórmula de Fibonacci, sem uso da re
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{figuras/formulaFibonacci}
+\includegraphics[width=0.6\textwidth]{figuras/formulaFibonacci}
 \caption{Fórmula de Fibonacci sem uso de recorrência.}{Fonte: \citeonline[pág.~32]{rocha2008}.} 
 \label{formulaFibonacci}
 \end{figure}
 
 \subsection{Estocástico}
-O estocástico é um Método Matemático que gera um tipo de oscilador de momento muito utilizado na análise técnica, principalmente para análises de curto prazo. Dois osciladores estocásticos são geralmente calculados para estimar variações futuras nos preços, o rápido (\%K) e o devagar (\%D) \cite{advfn}.
+O método de Estocástico é um Método Matemático que gera um tipo de oscilador de momento muito utilizado na análise técnica, principalmente para análises de curto prazo. Dois osciladores estocásticos são geralmente calculados para estimar variações futuras nos preços, o rápido (\%K) e o devagar (\%D) \cite{advfn}.
 
 Segundo \citeonline{advfn}, o oscilador estocástico rápido e devagar variam entre 0 e 100 e são calculados como:
 
@@ -194,11 +198,12 @@ Sendo que:
 \item $\sum_1^3$ = Somatório das 3 últimas barras
 \end{itemize}
 
-As linhas estocásticas seguem uma escala de 0 a 100 e indicam situações de compra ou venda. Conforme a imagem \ref{estocastico}, quando as linhas estocásticas estão acima do nível 80 (linha pontilhada em vermelho), então o mercado está em situação de venda. Quando as linhas estocásticas estão abaixo de 20 (linha pontilhada em azul), então o mercado está numa situação de compra \cite{investforex}.
+As linhas estocásticas seguem uma escala de 0 a 100 e indicam situações de compra ou venda. Conforme a Figura \ref{estocastico}, quando as linhas estocásticas estão acima do nível 80 (linha pontilhada em vermelho), então o mercado está em situação de venda. Quando as linhas estocásticas estão abaixo de 20 (linha pontilhada em azul), então o mercado está numa situação de compra \cite{investforex}.
 
+\newpage
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{figuras/estocastico}
+\includegraphics[width=0.7\textwidth]{figuras/estocastico}
 \caption{Indicador Estocástico.}{Fonte: \citeonline{investforex}} 
 \label{estocastico}
 \end{figure}
@@ -216,7 +221,7 @@ Dada uma sequência de valores, a soma dos mesmos dividido pelo total de termos 
 
 A Média Móvel (Moving Average) pertence a classe de Métodos Matemáticos que acompanham a tendência. Graças à média móvel é possível encontrar o início e o fim da tendência e, através do ângulo da sua inclinação, determinar a aceleração do movimento \cite{roboforex}.
 
-A média móvel é uma forma de analisar a evolução do preço ao longo do tempo. A média móvel é construída a partir do preço médio de fechamento de cotações para os últimos períodos \cite{investforex}.
+A média móvel é uma forma de analisar a evolução do preço ao longo do tempo. A média móvel é construída a partir do preço médio de fechamento de cotações para os últimos períodos, conforme evindencia a linha azul da Figura \ref{mediamovel} \cite{investforex}.
 
 \begin{figure}[H]
 \centering
@@ -254,7 +259,7 @@ Linguagens imperativas contêm variáveis e valores inteiros, operações aritim
 
 Fortran (FORmula TRANslation) foi a primeira linguagem de alto nível a ganhar ampla aceitação, sendo esta uma linguagem imperativa. Projetada para aplicações científicas, essa linguagem conta com notação algébrica, tipos, subprogramas e entrada/saída formatada. Foi implementada em 1956 por John Backus na IBM especificamente para a máquina IBM 704. A execução eficiente foi uma grande preocupação, consequentemente, sua estrutura e comandos têm muito em comum com linguagens de montagem \cite[pág.~458]{brookshear}.
 
-Outra linguagem de programação é o C \citeonline{ritchie1996}, um dos criadores da linguagem, ela se tornou uma linguagem dominante na década de 90. Seu sucesso deve-se ao sucesso do Unix, um sistema operacional implementado em C.
+Outra linguagem de programação é o C, uma linguagem dominante na década de 90. Seu grande uso deve-se ao sucesso do Unix, um sistema operacional implementado em C \cite{ritchie1996}.
 
 \begin{citacao}
 Apesar de alguns aspectos misteriosos para o iniciante e ocasionalmente até mesmo para o adepto, a linguagem C permanece uma simples e pequena linguagem, traduzível com simples e pequenos compiladores. Seus tipos e operações são bem fundamentados naquelas fornecidas por máquinas reais, e para pessoas que usam o OO computador para trabalhar, aprender a linguagem para gerar programas em tempo – e espaço – eficientes não é difícil. Ao mesmo tempo a linguagem é suficientemente abstrata dos detalhes da máquina de modo que a portabilidade de programa pode ser alcançada \cite{ritchie1996}.
@@ -262,7 +267,7 @@ Apesar de alguns aspectos misteriosos para o iniciante e ocasionalmente até mes
 
 \subsection{Paradigma Orientado a Objetos}
 
-Um objeto é a abstração de uma "coisa" (alguém ou algo), e esta abstração é expressa com a ajuda de uma linguagem de programação. A coisa pode ser um objeto real, ou algum conceito mais complicado. Tomando um objeto comum, como um gato, por exemplo, você pode ver que ele tem certas características (cor, nome, peso) e pode executar algumas ações (miar, dormir, esconder, fugir). As características do objeto são chamados de propriedades em Orientação a Objetos (OO) e as ações são chamadas de métodos \cite[pág.~13]{stefanov2008}.
+Um objeto é a abstração de uma "coisa" (alguém ou algo), e esta abstração é expressa com a ajuda de uma linguagem de programação. Tomando um objeto comum, como um gato, por exemplo, você pode ver que ele tem certas características (cor, nome, peso) e pode executar algumas ações (miar, dormir, esconder, fugir). As características do objeto são chamados de propriedades em Orientação a Objetos (OO) e as ações são chamadas de métodos \cite[pág.~13]{stefanov2008}.
 
 O conceito de objeto não surgiu do paradigma orientado a objetos. Pode-se dizer ainda que OO foi uma evolução das práticas já existentes da época. O termo objetos surgiu quase simultaneamente em 1970 em vários ramos da ciência da computação, algumas áreas que influenciaram o paradigma OO foram: sistemas de simulação, sistemas operacionais, abstração de dados e inteligência artificial, como ilustra a Figura \ref{essenciaOO} \cite[pág.~1]{capretz2003}.
 
@@ -275,15 +280,15 @@ O conceito de objeto não surgiu do paradigma orientado a objetos. Pode-se dizer
 
 A programação orientada a objetos fornece um modelo no qual um programa é uma coleção de objetos que interagem entre si, passando mensagens que transformam seu estado. Neste sentido, a passagem de mensagens permite que os objetos dados se tornem ativos em vez de passivos \cite[pág.~310]{tucker2009}.
 
-Classes servem como modelos a partir dos quais objetos podem ser criados. Elas tem precisamente as mesmas variáveise operações de instâncias dos objetos, mas sua interpretação é diferente: onde um objeto representa variáveis reais, variáveis de classe são, em potencial, instanciadas apenas quando um objeto é criado  \cite[pág.~10]{wegner1990}.
+Classes servem como modelos a partir dos quais objetos podem ser criados. Elas tem precisamente as mesmas variáveis e operações de instâncias dos objetos, mas sua interpretação é diferente: onde um objeto representa variáveis reais, variáveis de classe são, em potencial, instanciadas apenas quando um objeto é criado  \cite[pág.~10]{wegner1990}.
 
 Uma das principais vantagens do uso de orientação a objetos é que o objeto não precisa revelar todos os seus atributos e comportamentos (métodos). Em um bom design OO um objeto só deve revelar as interfaces necessárias para interagir com outros objetos. Os detalhes não pertinentes para a utilização do objeto deve ser ocultado de todos os outros objetos. Por exemplo, um objeto que calcula o quadrado de um número deve fornecer uma interface para obter o resultado. No entanto, as propriedades internas e algoritmos utilizados para calcular o quadrado não têm de ser disponibilizados ao objeto solicitante. O encapsulamento  é definido pelo fato de que os objetos envolvem (quase que como uma cápsula) atributos e métodos, e a ocultação de dados é uma das partes mais importantes do encapsulamento \cite[pág.~19]{weisfeld2009}.
 
-Uma nova classe (designada por subclasse derivada) pode ser derivada de outra classe (designada por superclasse) por um mecanismo chamado de herança. A classe derivada herda todas as características da classe base: a sua estrutura e comportamento (resposta a mensagens). Além disso, o mecanismo de herança é permitido mesmo sem acesso ao código-fonte da classe base. Herança dá a OO seu benefício chefe sobre outros paradigmas de programação - a reutilização de código relativamente fácil sem a necessidade de alterar o código-fonte existente \cite{leavens2014}.
+Uma nova classe (designada por subclasse derivada) pode ser derivada de outra classe (designada por superclasse) por um mecanismo chamado de herança. A classe derivada herda todas as características da classe base: a sua estrutura e comportamento (resposta a mensagens). Além disso, o mecanismo de herança é permitido mesmo sem acesso ao código-fonte da classe base. Herança dá a OO seu benefício chefe sobre outros paradigmas de programação: a reutilização de código relativamente fácil sem a necessidade de alterar o código-fonte existente \cite{leavens2014}.
 
 Tendo em vista o conceito de Herança, é possível entender o Polimorfismo , que etimologicamente significa "muitas formas", sendo a capacidade de tratar um objeto de qualquer subclasse de uma classe base, como se fosse um objeto da própria classe base. A classe base, portanto, tem muitas formas: a própria classe base, e qualquer uma de suas subclasses. Se você precisa escrever um código que lida com uma família de tipos, o código pode ignorar detalhes específicos do tipo e apenas interagir com o tipo base da família. Mesmo que o código esteja estruturado para enviar mensagens para um objeto da classe base, a classe do objeto poderia realmente ser a classe base ou qualquer uma de suas subclasses. Isso torna o  código extensível, porque outras subclasses podem ser adicionadas mais tarde para a hierarquias de classes \cite{venners1996}.
 
-Se tratando de métodos polimórficos pode-se ter sobrecarga e a sobrescrita.Sobrecarga de método é um recurso que permite que uma classe tem dois ou mais métodos com mesmo nome, se suas listas de parâmetros se diferem com: números de parâmetros passados, tipo de dados dos parâmetros e sequência dos dados passados como parâmetro. Já a sobrescrita é a declaração de um método na subclasse, que já está na classe mãe \cite{singhOverload}.
+Tratando-se de métodos polimórficos pode-se ter sobrecarga e a sobrescrita.Sobrecarga de método é um recurso que permite que uma classe tem dois ou mais métodos com mesmo nome, se suas listas de parâmetros se diferem com: números de parâmetros passados, tipo de dados dos parâmetros e sequência dos dados passados como parâmetro. Já a sobrescrita é a declaração de um método na subclasse, que já está na classe mãe \cite{singhOverload}.
 
 Os conceitos de sobrecarga e sobrescrita são constantemente confundidos. A sobrecarga acontece em tempo de compilação, enquanto a sobrescrita  ocorre em tempo de execução. A sobrecarga  feita na mesma classe, enquanto são necessárias classes mães e suas filhas para o uso sobrescrita, métodos privados sobrecarregados, mas eles não podem ser sobrescritos. Isso significa que uma classe pode ter mais de um método privado mesmo nome, mas uma classe filha não pode substituir os métodos privados sua classe mãe \cite{singhDifference}.
 
@@ -291,9 +296,9 @@ Reusabilidade é uma das grandes promessas da tecnologia orientada a objetos. Re
 
 \subsection{Paradigma Orientado a Agentes}
 
-Um agente é qualquer coisa que pode perceber seu ambiente através de sensores e agir sobre esse ambiente através de atuadores. Um agente humano tem olhos, ouvidos e outros órgãos para sensores e como atuadores possui mãos, pernas, tato, voz, e assim por diante. Um agente robótico pode ter câmeras e localizadores, faixa do infravermelho como sensores e vários motores para atuadores. Um agente de software recebe as teclas digitadas, conteúdo de arquivos e pacotes de rede como entradas sensoriais e age sobre o ambiente por meio de exibição na tela, gravação de arquivos e envio de pacotes de rede \cite[pág.~34]{russel1995}.
+Um agente é qualquer coisa que pode perceber seu ambiente através de sensores e agir sobre esse ambiente através de atuadores. Um agente humano tem olhos, ouvidos e outros órgãos para sensores e como atuadores possui mãos, pernas, tato, voz, e assim por diante. Um agente robótico pode ter câmeras e localizadores, faixa do infravermelho como sensores e vários motores para atuadores. Um agente de software recebe os dados digitados, conteúdo de arquivos e pacotes de rede como entradas sensoriais e age sobre o ambiente por meio de exibição na tela, gravação de arquivos e envio de pacotes de rede \cite[pág.~34]{russel1995}.
 
-A exigência de continuidade e autonomia deriva nosso desejo de que um agente seja capaz de realizar atividades de uma forma flexível e inteligente, que é sensível a alterações no ambiente sem a necessidade de orientação constante humana ou de intervenção. Idealmente, um agente que funciona de forma contínua, num ambiente, ao longo de um período de tempo seria capaz de aprender com sua experiência. Além  disso, espera-se um agente que habita um ambiente com outros agentes e processos pode ser capaz de se comunicar e cooperar com eles \cite[pág.~8]{bradshaw1997}.
+A exigência de continuidade e autonomia deriva nosso desejo de que um agente seja capaz de realizar atividades de uma forma flexível e inteligente, que é sensível a alterações no ambiente sem a necessidade de orientação constante humana ou de intervenção. Idealmente, um agente que funciona de forma contínua, num ambiente, ao longo de um período de tempo, seria capaz de aprender com sua experiência. Além  disso, espera-se que um agente que habita um ambiente com outros agentes e processos, seja capaz de se comunicar e cooperar com eles \cite[pág.~8]{bradshaw1997}.
 
 O autor \citeonline[pág.~42]{woodridge2010} considera quatro tipos de arquitetura de  agentes: baseados em lógica, reativos, em camadas e de crença-desejo-intenção.
 
@@ -303,23 +308,23 @@ Nas arquiteturas baseadas em lógica os agentes contêm um modelo simbólico do 
 
 Arquiteturas reativas deixam o raciocínio abstrato de lado e destinam-se a lidar com comportamentos básicos. Os agentes reagem às mudanças no ambiente como uma forma de resposta ao estímulo, executando as rotinas simples que corresponde a um estímulo específico \cite[pág.~13]{schumacher2001}.
 
-A arquiteturas em camadas, também conhecido como arquitetura híbrida, combina componentes da arquitetura baseada em lógica e da reativa. Esta arquitetura propõe um subsistema deliberativo que planeja e toma decisões da maneira proposta pela Inteligência Artificial Simbólica e um reativo capaz de reagir a eventos que ocorrem no ambiente sem se ocupar de raciocínios complexos \cite[pág.~44]{ferreira2004}.
+A arquitetura em camadas, também conhecida como arquitetura híbrida, combina componentes da arquitetura baseada em lógica e da reativa. Esta arquitetura propõe um subsistema deliberativo que planeja e toma decisões da maneira proposta pela Inteligência Artificial Simbólica e um reativo capaz de reagir a eventos que ocorrem no ambiente sem se ocupar de raciocínios complexos \cite[pág.~44]{ferreira2004}.
 
-Na arquitetura BDI o esta do agente é representado por três estruturas: suas crenças (beliefs), que são o conhecimento do agente sobre seu ambiente; seus desejos (desires), representam objetivos ou situações que o agente gostaria de realizar ou trazer; por fim tem-se suas intenções (intentions), são suas ações que têm decidido realizar\cite[pág.~3]{girardi2004}.
+Na arquitetura BDI o estado agente é representado por três estruturas: suas crenças (\textit{beliefs}), que são o conhecimento do agente sobre seu ambiente; seus desejos (\textit{desires}), representam objetivos ou situações que o agente gostaria de realizar ou trazer e por fim, tem-se suas intenções (\textit{intentions}), que são suas ações que o agente têm decidido realizar\cite[pág.~3]{girardi2004}.
 
 Um sistema multiagente (SMA) pode ser caracterizado como um grupo de agentes que atuam em conjunto no sentido de resolver problemas que estão além das suas habilidades individuais. Os agentes realizam interações entre eles de modo cooperativo para atingir uma meta \cite[pág.~6]{girardi2004}. 
 
-Para \citeonline[pág.~3]{woodridge2010} o uso de SMA se justifica uma vez que muitas tarefas não podem ser feitas por um único agente, e há ainda tarefas que são feitas de forma mais eficaz quando realizada por vários agentes. Para tal é essencial que o SMA seja capaz de:  trabalhar em conjunto para alcançar um objetivo comum, monitorar constantemente o progresso do esforço da equipe como um todo, ajudar um ao outro quando necessário, coordenação das ações individuais de modo que eles não interfiram um com o outro, comunicar sucessos e fracassos, se necessário para a equipe para ter sucesso parcial. 
+Para \citeonline[pág.~3]{woodridge2010} o uso de SMA se justifica uma vez que muitas tarefas não podem ser feitas por um único agente, e há ainda tarefas que são feitas de forma mais eficaz quando realizada por vários agentes. Para tal é essencial que o SMA seja capaz de:  trabalhar em conjunto para alcançar um objetivo comum, monitorar constantemente o progresso do esforço da equipe como um todo, ajudar um ao outro quando necessário, coordenar as ações individuais de modo que eles não interfiram um com o outro, comunicar sucessos e fracassos, se necessário para a equipe para ter sucesso parcial. 
 
-SMA muitas vezes baseia-se em conceitos de outras disciplinas, como a psicologia, a ciência econômica, cognitiva, lingüística, inteligência artificial, etc. Por exemplo, analisar protocolos de interação e ações de comunicação entre os agentes com base na teoria dos atos de fala, vem da filosofia e da lingüística. A abstração da postura intencional foi emprestado da ciência cognitiva para analisar e raciocinar sobre os comportamentos autônomos de agentes. Recentemente, muitas metodologias e modelos de abstrações e conceitos de organização e sociologia foram propostas para modelar, analisar e projetar SMA \cite[pág.~1]{odell2005}.
+SMA muitas vezes baseia-se em conceitos de outras disciplinas, como a psicologia, a ciência econômica, cognitiva, linguística, inteligência artificial, etc. Por exemplo, analisar protocolos de interação e ações de comunicação entre os agentes com base na teoria dos atos de fala, vem da filosofia e da linguística. A abstração da postura intencional foi emprestado da ciência cognitiva para analisar e raciocinar sobre os comportamentos autônomos de agentes. Recentemente, muitas metodologias e modelos de abstrações e conceitos de organização e sociologia foram propostas para modelar, analisar e projetar SMA \cite[pág.~1]{odell2005}.
 
-Agentes autônomos e SMA representam uma nova forma de analisar, projetar e implementar sistemas de software complexos. A visão orientada a agentes oferece um repertório poderoso de ferramentas, técnicas e metáforas que têm o potencial de melhorar consideravelmente a maneira como as pessoas conceituam e implementam muitos tipos de software. Agentes estão sendo usados em uma ampla variedade de aplicações, desde de pequenos sistemas, tais como filtrados de de e-mail personalizados, a sistemas grandes e complexos de missão crítica, como controle de tráfego aéreo. À primeira vista, pode parecer que tais tipos de sistema tem pouco em comum. E, no entanto este não é o caso: em ambos, a abstração chave usada é a de um agente \cite{jennings1998}.
+Agentes autônomos e SMA representam uma nova forma de analisar, projetar e implementar sistemas de software complexos. A visão orientada a agentes oferece um repertório poderoso de ferramentas, técnicas e metáforas que têm o potencial de melhorar consideravelmente a maneira como as pessoas conceituam e implementam muitos tipos de software. Agentes estão sendo usados em uma ampla variedade de aplicações, desde pequenos sistemas, tais como filtrados de de e-mail personalizados, a sistemas grandes e complexos de missão crítica, como controle de tráfego aéreo. À primeira vista, pode parecer que tais tipos de sistema têm pouco em comum. No entanto este não é o caso: em ambos, a abstração chave usada é a de um agente \cite{jennings1998}.
 
-Segundo \citeonline{jennings1995} os agentes de software tem as seguintes propriedades: autonomia, competência social, reatividade e  pró-atividade.
+Segundo \citeonline{jennings1995}, os agentes de software têm as seguintes propriedades: autonomia, competência social, reatividade e  pró-atividade.
 
-Os agentes mantêm uma descrição do seu próprio estado de processamento e o estado do mundo em torno deles, logo eles são ideais para aplicações de automação. Agentes autônomos são capazes de operar sem entrada ou intervenção do usuário. Podendo ser utilizados em como instalações e automação de processos \cite{agentBuilderWhy}.
+Os agentes mantêm uma descrição do seu próprio estado de processamento e o estado do mundo em torno deles, logo eles são ideais para aplicações de automação. Agentes autônomos são capazes de operar sem entrada ou intervenção do usuário, podendo ser utilizados em instalações e automação de processos \cite{agentBuilderWhy}.
 
-A empresa Acronymics e a Alternative Energy Systems Consultants (AESC) realizaram uma pesquisa afim de criar agentes de softwares capazes de comprar e vender energia eletricidade participando do mercado eletrônico. Cada agente apresentavam um comportamento único e individual determinado pelo seu próprio modelo econômico, esta pesquisa mostrou que os agentes podem ser usados para implementar mercados e leilões eletrônicos, e que um agente pode adotar os objetivos e intenções de seu stakeholder \cite{agentBuilder}.
+A empresa Acronymics e a Alternative Energy Systems Consultants (AESC) realizaram uma pesquisa afim de criar agentes de softwares capazes de comprar e vender eletricidade participando do mercado eletrônico. Cada agente apresentava um comportamento único e individual determinado pelo seu próprio modelo econômico. Esta pesquisa mostrou que os agentes podem ser usados para implementar mercados e leilões eletrônicos, e que um agente pode adotar os objetivos e intenções de seu stakeholder \cite{agentBuilder}.
 
 \subsection{Programação Declarativa}
 
@@ -328,11 +333,11 @@ Linguagens declarativas permitem ao programador se concentrar na lógica de um a
 De fato, em algumas situações, a especificação de um problema no formato adequado já constitui a solução para o problema algorítmico. Em outras palavras, a programação declarativa torna possível escrever especificações executáveis \cite[pág.~2]{apt1996}.
 
 \subsubsection{Paradigma Funcional}
-O centro da programação funcional é a idéia de uma função. A linguagem de programação funcional dá um modelo simples de programação: dado um valor, o resultado é calculado com base em outros valores, as entradas da função. Devido à fundação simples, uma linguagem funcional dá uma visão mais clara das idéias centrais da computação moderna, incluindo abstração, polimorfismo e sobrecarga \cite[pág.~16]{thompson1999}.
+O centro da programação funcional é a ideia de uma função. A linguagem de programação funcional fornece um modelo simples de programação: dado um valor, o resultado é calculado com base em outros valores, as entradas da função. Devido à fundação simples, uma linguagem funcional dá uma visão mais clara das ideias centrais da computação moderna, incluindo abstração, polimorfismo e sobrecarga \cite[pág.~16]{thompson1999}.
 
 A primeira linguagem de programação funcional foi inventada para oferecer recursos de linguagem para processamento de listas, cuja necessidade surgiu a partir das primeiras aplicações na área da inteligência artificial \cite[pág.~361]{tucker2009}.
 
-A programação funcional exige que as funções sejam cidadãos de primeira classe, oque significa que elas são tratadas como quaisquer outros valores e podem ser passadas como argumentos para outras funções ou serem retornadas como um resultado de uma função. Sendo cidadãos de primeira classe também significa que é possível definir e manipular funções dentro de outras funções \cite{hoogle2013}.
+A programação funcional exige que as funções sejam cidadãos de primeira classe, o que significa que elas são tratadas como quaisquer outros valores e podem ser passadas como argumentos para outras funções ou serem retornadas como um resultado de uma função. Sendo cidadãos de primeira classe também significa que é possível definir e manipular funções dentro de outras funções \cite{hoogle2013}.
 	
 Uma linguagem de programação puramente funcional não usa variáveis ou instruções de atribuição. Isso libera o programador de preocupar-se com as células da memória do compilador no qual o programa é executado. Sem variáveis, construções interativas não são possíveis, porque elas são controladas por variáveis. A repetição deve ser feita por meio de recursão, não por meio de laços \cite[pág.~555]{sebesta2012}.
 
@@ -342,9 +347,9 @@ Por ser programação declarativa o paradigma funcional não tem efeitos colater
 
 Na programação lógica, um programa consiste de uma coleção de declarações expressas como fórmulas da lógica simbólica. Existem regras de inferência da lógica que permitem uma nova fórmula derivada das antigas, com a garantia de que se as últimas fórmulas são verdadeiras, então a nova regra também será \cite[pág.~2]{spivey1996}. 
 
-Em outros paradigmas como o imperativo, uma pergunta terá sempre uma única resposta. A programação lógica é baseada na noção de que um programa implementa uma relação ao invés de um mapeamento. Desta forma, podemos fazer pedidos como: Dado A e B, determinar se a Relação(A, B) é verdadeira; dado A, encontrar todos os Bs tal que a Relação(A, B) é verdadeira; dado B, encontrar todos os As, tal que a Relação(A, B) é verdadeira; pesquisar os As e Bs para o qual a Relação(A, B) é verdadeira \cite[pág.~33]{paquet2010}.
+Em outros paradigmas como o imperativo, uma pergunta terá sempre uma única resposta. A programação lógica é baseada na noção de que um programa implementa uma relação ao invés de um mapeamento. Desta forma, pode-se fazer pedidos como: dado A e B, determinar se a Relação (A, B) é verdadeira; dado A, encontrar todos os Bs tal que a Relação (A, B) é verdadeira; dado B, encontrar todos os As, tal que a Relação (A, B) é verdadeira; pesquisar os As e Bs para o qual a Relação (A, B) é verdadeira \cite[pág.~33]{paquet2010}.
 
-Para garantir que o programa dará respostas corretas, o programador deve verificar se o programa contém apenas declarações verdadeiras, e em número suficiente para garantir que as soluções a serem derivadas resolvem todos os  problemas que são de interesse. O programador também pode garantir que as derivações que a máquina realizará são bastante curtas, de modo que a máquina pode encontrar respostas rapidamente. No entanto, cada fórmula pode ser entendida no isolamento como uma verdadeira declaração sobre o problema a ser resolvido \cite[pág.~2]{spivey1996}.
+Para garantir que o programa dará respostas corretas, o programador deve verificar se o programa contém apenas declarações verdadeiras, e em número suficiente para garantir que as soluções a serem derivadas resolvem todos os  problemas que são de interesse. O programador também pode garantir que as derivações que a máquina realizará sejam bastante curtas, de modo que a máquina possa encontrar respostas rapidamente. No entanto, cada fórmula pode ser entendida no isolamento como uma verdadeira declaração sobre o problema a ser resolvido \cite[pág.~2]{spivey1996}.
 
 A programação lógica surgiu como um paradigma distinto nos anos 70. Ela é diferente dos outros paradigmas porque requer que o programador declare os objetivos da computação, em vez dos algoritmos detalhados por meio dos quais esses objetivos podem ser alcançados \cite[pág.~412]{tucker2009}.
 
@@ -352,7 +357,7 @@ O paradigma lógico também tem como característica a facilidade de representar
 
 \section{Teste de Software}
 
-Teste de Software é um processo de execução de um programa elaborado para garantir que código-fonte faz o que foi projetado para fazer e que não faz nada de maneira não intencional, desta forma, seu objetivo encontrar erros \cite[pág.~8]{myers2004} (MYERS, 2004, pág. 8).
+Teste de Software é um processo de execução de um programa elaborado para garantir que código-fonte faz o que foi projetado para fazer e que não faz nada de maneira não intencional. Desta forma, o principal objetivo é encontrar erros \cite[pág.~8]{myers2004}.
 
 Para entender testes de software  é fundamental que se conheça a diferença entre defeito, erro e falha. Segundo as definições estabelecidas pelo Institute of Electrical and Electronics Engineers (IEEE), defeito é uma instrução ou definição de dados incorretos; já o erro é qualquer estado intermediário incorreto ou resultado inesperado, ou seja,  uma manifestação concreta de um defeito e por fim a definição de falha, é o comportamento operacional do software diferente do esperado pelo usuário \cite{ieee}.
 
@@ -367,17 +372,17 @@ Para entender testes de software  é fundamental que se conheça a diferença en
 \label{defeitoErroFalha}
 \end{figure}
 
-Teste e depuração são frequentemente confundidos. Alguns acreditam até que são sinônimos, como foi mostrado anteriormente. A finalidade dos testes é mostrar que o programa tem erros, já o objetivo da depuração é encontrar o erro ou equívoco que levou ao fracasso do programa. Teste começa com condições conhecidas, utiliza procedimentos pré-definidos, e tem resultados previsíveis. A depuração começa a partir de condições iniciais, possivelmente desconhecidas \cite{beizer1990}.
+Teste e depuração são frequentemente confundidos. A finalidade dos testes é mostrar que o programa tem erros, já o objetivo da depuração é encontrar o erro ou equívoco que levou ao fracasso do programa. Teste começa com condições conhecidas, utiliza procedimentos pré-definidos, e tem resultados previsíveis. A depuração começa a partir de condições iniciais, possivelmente desconhecidas \cite{beizer1990}.
 
 Os testes podem ser projetados a partir de um ponto de vista funcional ou de um ponto de vista estrutural. Os testes funcionais são sujeitos a entradas, e suas saídas são verificadas afim de encontrar, ou não, conformidades com o comportamento especificado. O usuário do software deve se preocupar apenas com as funcionalidade e características \cite{beizer1990}.
 
 Caixa-preta ou teste funcional:  “Teste de que ignora o mecanismo interno de um sistema ou componente e se concentra exclusivamente nas saídas geradas em resposta a entradas selecionadas e condições de execução” \cite{ieee}.
 
-No método caixa-preta,como o próprio nome revela, vemos o programa como uma caixa preta. Seu objetivo é ser completamente indiferente sobre o comportamento interno e estrutura do programa. Em vez disso, se concentra em encontrar circunstâncias em que o programa não se comportam de acordo com as suas especificações\cite[pág.~13]{myers2004}.
+No método caixa-preta, como o próprio nome revela, o programa é visto como uma caixa preta. Seu objetivo é ser completamente indiferente sobre o comportamento interno e estrutura do programa. Em vez disso, concentra-se em encontrar circunstâncias em que o programa não se comportam de acordo com as suas especificações\cite[pág.~13]{myers2004}.
 
 Caixa-branca ou teste estrutural: “Testes que leva em conta o mecanismo interno de um sistema ou componente” \cite{ieee}.
 
- As conotações indicam adequadamente que você tem total visibilidade do funcionamento interno do produto de software, especificamente, a lógica e a estrutura do código \cite[pág.~1]{williams2006}.
+ As conotações indicam adequadamente que se tem total visibilidade do funcionamento interno do produto de software, especificamente, a lógica e a estrutura do código \cite[pág.~1]{williams2006}.
 
 Os testes são realizados em diferentes níveis, envolvendo todo o sistema ou parte dele. São quatro níveis de teste: os teste de unidade, de integração, de sistema e de aceitação, como mostrado na Figura \ref{nivelTeste} \cite[pág.~18]{naik2008}.
 
@@ -410,11 +415,11 @@ Os casos de teste são escritos para examinar explicitamente as interfaces entre
 
 \subsection{Teste de Aceitação}
 
-Teste de Aceitação é um teste formal realizado para permitir que um usuário, cliente ou outra entidade autorizada, para determinar se a aceita um sistema ou componente \cite{ieee}.
+Teste de Aceitação é um tipo de teste realizado para permitir que um usuário, cliente ou outra entidade autorizada, para determinar se a aceita um sistema ou componente \cite{ieee}.
 
-Antes de instalar e utilizar o software na vida real outro último nível de teste deve ser executado: o teste de aceitação. Aqui, o foco está no cliente de e na ótica do usuário. O teste de aceitação pode ser a única prova de que os clientes estão efetivamente envolvidos \cite[pág.~61]{spillner2014}.
+Antes de instalar e utilizar o software na vida rea,l outro último nível de teste deve ser executado: o teste de aceitação. Aqui, o foco está no cliente e na ótica do usuário. O teste de aceitação pode ser a única prova de que os clientes estão efetivamente envolvidos \cite[pág.~61]{spillner2014}.
 
-Geralmente, é realizada por um cliente ou usuário final do programa e, normalmente, não é considerada a responsabilidade da organização de desenvolvimento. No caso de um programa contratado, a organização contratante (usuário) realiza o teste de aceitação, comparando a operação do programa com o contrato original. Como é o caso de outros tipos de testes, a melhor maneira de fazer isso é criar casos de teste que tentam mostrar que o programa não atende o contrato, se esses casos de teste não forem bem sucedidos, o programa é aceito \cite[pág.~104]{myers2004}.  
+Geralmente, testes de aceitação são realizados por um cliente ou usuário final do programa e, normalmente, não é considerada a responsabilidade da organização de desenvolvimento. No caso de um programa contratado, a organização contratante (usuário) realiza o teste de aceitação, comparando a operação do programa com o contrato original. Como é o caso de outros tipos de testes, a melhor maneira de fazer isso é criar casos de teste que tentam mostrar que o programa não atende o contrato, se esses casos de teste não forem bem sucedidos, o programa é aceito \cite[pág.~104]{myers2004}.  
 
 \section{Qualidade de Software}
 
@@ -422,7 +427,7 @@ Geralmente, é realizada por um cliente ou usuário final do programa e, normalm
 “Qualidade é um termo que pode ter diferentes interpretações e para se estudar a qualidade de software de maneira efetiva é necessário, inicialmente, obter um consenso em relação à definição de qualidade de software que está sendo abordada” \cite[pág.~11]{braga2012}.
 \end{citacao}
 
-A qualidade de software é classificada em fatores internos e externos. Fatores externos são aqueles em que usuários comuns conseguem detectar, como por exemplo, a velocidade do software ou a facilidade de uso. Os fatores externos agregam bastante valor ao usuário final, mas um bom caminho para assegurar que os fatores externos terão qualidade é caprichar na construção dos fatores internos. Portanto, técnicas de qualidade interna, como análise de qualidade de código-fonte, são meios para atingir a qualidade externa \cite[pág.~4]{bueno2011}.
+A qualidade de software é classificada em fatores internos e externos. Fatores externos são aqueles em que usuários comuns conseguem detectar, como por exemplo, a velocidade do software ou a facilidade de uso. Fatores internos não são facilmente detectados por usuários, pois estão ligados a qualidade do código-fonte \cite[pág.~4]{bueno2011}.
 
 \subsection{Métricas de Qualidade de código-fonte}
 
@@ -442,7 +447,7 @@ A análise estática de código é um processo automatizado realizado por uma fe
 
 Na utilização da análise estática de código-fonte, falhas são descobertas mais cedo no desenvolvimento, antes do programa ser executado, ainda em versões de testes. A real causa dos defeitos é revelada e não apenas suas consequências \cite[pág.~19]{melo2011}.
 
-\citeonline{filho}, define um intervalo de interpretação das métricas de qualidade de código-fonte para se saber se a qualidade do código está preocupante, regular, boa ou excelente conforme a Figura \ref{intervalosMetricas}.
+\citeonline{filho} define um intervalo qualitativo para interpretação das métricas de qualidade de código-fonte para se saber se a qualidade do código está preocupante, regular, boa ou excelente conforme a Figura \ref{intervalosMetricas}.
 
 \begin{figure}[H]
 \centering
@@ -453,8 +458,8 @@ Na utilização da análise estática de código-fonte, falhas são descobertas 
 
 \subsection{Ferramentas de Análise Estática}
 
-Ferramentas de análise estática de código-fonte varrem o código-fonte e detectam possíveis anomalias. Também pode ser usados como parte de um processo de inspeção \cite[pág.~345]{sommerville}.
+Ferramentas de análise estática de código-fonte varrem o código-fonte e detectam possíveis anomalias. Também podem ser usados como parte de um processo de inspeção \cite[pág.~345]{sommerville}.
 
 Obter os dados e extraí-los para análise estática de código-fonte, não é uma tarefa trivial e requer a utilização de ferramentas automatizadas \cite[pág.~2]{meirelles2013}
 
-As métricas de qualidade de código-fonte podem ser obtidas através do uso de uma ou mais ferramentas de extração de métricas. Existem diversas ferramentas para realização dessa atividade, mas não é possível afirmar que uma ferramenta é melhor que outras. Todas possuem pontos fortes e fracos. Para se escolher uma ferramenta de análise estática, deve-se analisar o contexto em que as mesmas estão inseridas como, por exemplo, a linguagem do projeto a ser analisado \cite{millani2013}.
+As métricas de qualidade de código-fonte podem ser obtidas através do uso de uma ou mais ferramentas de extração de métricas. Existem diversas ferramentas para realização dessa atividade, mas não é possível afirmar que uma ferramenta é melhor que outras. Todas possuem pontos fortes e fracos. Para se escolher uma ferramenta de análise estática, deve-se analisar o contexto em que elas estão inseridas como, a linguagem do projeto a ser analisado \cite{millani2013}.
