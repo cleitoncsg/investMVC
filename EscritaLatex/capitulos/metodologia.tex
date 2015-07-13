@@ -354,9 +354,8 @@ Mínimos Quadrados & 0.912778 & 0.912779 & 0.0100 & SIM
 Como os resultados dos Métodos Matemáticos possuem uma validade do plano, não é necessário validar os resultados dos valores monetários, pois os mesmos são originados através das operações de compra ou venda que, por sua vez, são realizadas por meio dos cálculos matemáticos.
 
 \subsection{Limitações do Estudo}
-
-A linguagem MQL4 não possui suporte para teste unitário. Portanto, os \textit{experts} tradicionais programados para este Estudo de Caso, não possuem testes automatizados. A linguagem MQL4 também não possui nenhuma ferramenta para realizar uma análise estática de código. Logo, não é possível determinar o nível de qualidade de código-fonte dos códigos desenvolvidos.
-
 O software InvestMVC só executa no sistema operacional Linux e utiliza o Wine para rodar o MetaTrader, pois o MetaTrader só roda no sistema operacional Windows. Portanto, nada garante que o Wine não trave em algum momento e faça com que o software InvestMVC deixe de realizar uma operação de compra ou venda.
+
+Os agentes de software possuem um método indispensável chamado \textit{action}, é um método sem retorno que ocorre logo que o agente de software é instanciado. Não foi possível realizar testes unitários para este tipo de método usando a ferramenta JUnit mesmo com o uso de \textit{Mock Objects}.
 
 O simulador do MetaTrader possui código- fonte fechado. Portanto, não foi possível realizar nenhuma adaptação da ferramenta para auxilar no desenvolvimento do software InvestMVC. Por exemplo, a ferramenta MetaTrader fornece ao usuário o histórico de operações, mas não é possível o software InvestMVC utilizar esse histórico. Nesse caso, tem que ser implementado o código para calcular o histórico dos resultados monetários.
